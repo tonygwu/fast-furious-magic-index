@@ -1,0 +1,174 @@
+film: ff10
+events:
+  - id: ev-ff10-01
+    title: Steering a rolling bomb through Rome into the Tiber
+    sequence: Rome
+    depicted: >-
+      Dante releases a giant spherical bomb that rolls through Rome, crushing cars and bouncing down the Spanish
+      Steps. Dom uses his Charger to push it through the streets and into the Tiber, limiting the damage when it
+      detonates.
+    inferred: The bomb's in-story mass is unclear (the prop was one ton; one article calls it ten).
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [how far Dom is from the blast]
+    confidence: medium
+    participants: [dom, dante, roman, tej, han, ramsey, letty]
+    plot_sources: [ff10-wiki, ff10-fandom, ff10-highonfilms]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: A car steers a free-rolling multi-ton sphere along chosen city streets by pushing it
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Pushing a sphere with a flat bumper is unstable; the ball deflects sideways at every contact, and the Charger
+          weighs the same as the ball or much less. Steering it over a planned route is judged about 1 in 100.
+        dependence: First component.
+        references: [fastx-bomb-mass]
+        credits: [{character: dom, role: performer}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.fuze
+        claim: The armed bomb survives impacts, stairs and car strikes without detonating early
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: An armed device taking repeated heavy shocks. Judgment prior about 1 in 10.
+        dependence: Independent of c1.
+        references: []
+        credits: [{character: dom, role: beneficiary}]
+      - id: c3
+        category: survival
+        subtype: survival.explosion
+        claim: Dom survives a city-scale blast at the river's edge
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          He pushes the bomb in and drives away; a blast wave travels at the speed of sound or faster, far faster than a
+          car, so survival depends only on the distance he reached. Judgment prior about 1 in 10.
+        dependence: Conditional on c1 (he is at the river when it goes in).
+        references: []
+        credits: [{character: dom, role: survivor}]
+  - id: ev-ff10-02
+    title: Charger dropped from a cargo plane onto the highway
+    sequence: Portugal highway chase
+    depicted: >-
+      Dom arrives with Aimes aboard a plane and drops his Charger out of it onto the highway below, landing and
+      driving straight into the chase.
+    inferred: One review puts the drop at "200+ feet"; the plane must fly at least around 60 m/s to stay airborne.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [drop height, whether it lands on another car]
+    confidence: medium
+    participants: [dom, aimes]
+    plot_sources: [ff10-fandom, ff10-screenrant-ridiculous]
+    components:
+      - id: c1
+        category: survival
+        subtype: survival.crash
+        claim: Dom walks away from a car landing after a 15-60 m drop at aircraft speed
+        evidence: E1
+        mu: {low: 0.5, central: 1.5, high: 3}
+        capped: false
+        reasoning: >-
+          A 15 m drop lands at 17 m/s vertical (38 mph), walk-away 0.4 MU on the NHTSA curve; a 60 m drop lands at 34 m/s
+          (76 mph), 2.7 MU (extrapolated above the curve's 60 mph fit). The range covers the height uncertainty.
+        dependence: First component.
+        references: [nhtsa-mais2-all]
+        credits: [{character: dom, role: survivor}]
+      - id: c2
+        category: physics
+        subtype: physics.mechanical
+        claim: The car is still drivable after landing at 17-34 m/s vertical plus aircraft ground speed
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Production jump cars break suspension at a fraction of this landing speed; a car that lands at highway
+          speed from this height and keeps driving is judged about 1 in 100.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: controller}]
+  - id: ev-ff10-03
+    title: Driving down the face of a 460 ft dam
+    sequence: Dam finale
+    depicted: >-
+      Boxed in between two drone-driven tanker trucks on top of a dam, Dom drives off the edge with his son Little B,
+      down the dam's face, and lands in the water below. Both are shown alive before Dante blows up the dam.
+    inferred: The real Aldeadávila Dam is 460 ft; the director described it as a "vertical quarter mile".
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [slope of the face as depicted]
+    confidence: medium
+    participants: [dom, little_b, dante]
+    plot_sources: [ff10-wiki, ff10-fandom, ff10-ringer-dam]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: The car stays wheels-down on a near-vertical 140 m face instead of tumbling
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: On a near-vertical face the tyres barely load, so steering is almost useless; judged about 1 in 10.
+        dependence: First component.
+        references: [aldeadavila-height]
+        credits: [{character: dom, role: performer}]
+      - id: c2
+        category: survival
+        subtype: survival.fall
+        claim: Father and child survive a 140 m descent ending in water at about 50 m/s, and are functional
+        evidence: E1
+        mu: {low: 2.5, central: 3.5, high: 5}
+        capped: false
+        reasoning: >-
+          If braking fails on a face this steep (friction would need to exceed tan(slope)), the car reaches roughly
+          sqrt(2gh) = 52 m/s at the bottom. Golden Gate data: a 75 m fall into water is survived about 2% of the time,
+          with major injuries. A 140 m descent is worse (about 0.1-0.5% survival), and both are shown alive and alert.
+          The car's frame and belts help somewhat.
+        dependence: Conditional on c1; one component for both occupants.
+        references: [golden-gate-survival, aldeadavila-height, friction-steep-face]
+        credits: [{character: dom, role: survivor}, {character: little_b, role: survivor}]
+  - id: ev-ff10-04
+    title: Cipher rides a free-falling elevator down on a human cushion
+    sequence: Cipher's escape from Dante's henchmen
+    depicted: >-
+      Trapped in an elevator with a henchman Dante has turned against her, Cipher shoots out the car's cable. The car
+      free-falls to the bottom of the shaft; she positions the henchman beneath her as a crash cushion. He dies; she
+      survives and reaches Dom's house, wounded, that night.
+    inferred: The shaft height is not given.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [shaft height]
+    confidence: medium
+    participants: [cipher]
+    plot_sources: [owner-ff10-elevator, ff10-screenrant-ridiculous]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.fighting
+        claim: Mid-fall, in a few seconds, she forces a grown man underneath her and stays on top at impact
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: Everyone in a falling car is weightless, so nobody has footing; winning the positioning struggle in the seconds available is judged about 1 in 10.
+        dependence: First component.
+        references: []
+        credits: [{character: cipher, role: performer}]
+      - id: c2
+        category: survival
+        subtype: survival.fall
+        claim: A body under her turns a free-fall elevator impact into a survivable one
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Inside a falling car she hits the floor at the car's own impact speed. A body beneath adds only about 20-30 cm
+          of stopping distance, a modest cut in peak deceleration. Real elevator free-fall survivors exist (shaft buffers
+          and air cushioning help), so this is not impossible. Held at the judgment cap because the height is unknown.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: cipher, role: survivor}]

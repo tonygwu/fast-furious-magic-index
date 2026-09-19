@@ -1,0 +1,212 @@
+# GENERATED from research/ff10.md by scripts/import_presence.py
+film: ff10
+anchors:
+- research/ff10.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 1.0
+  title: Studio logos / title card
+  characters: []
+- n: 2
+  start: 1.0
+  end: 8.0
+  title: 'Opening flashback: 2011 Rio vault-heist aftermath, Dante watches his father''s death and is caught in the vault-drag''s aftermath (ff10-c01)'
+  characters:
+  - dante
+  - hernan_reyes
+  - dom
+  - brian
+- n: 3
+  start: 8.0
+  end: 9.0
+  title: '"Fast X" title card / present-day transition'
+  characters: []
+- n: 4
+  start: 9.0
+  end: 14.0
+  title: LA barbecue at Dom's house; Dom teaches Little B to drive; Rome mission discussed
+  characters:
+  - dom
+  - letty
+  - little_b
+  - mia
+  - roman
+  - tej
+  - han
+  - ramsey
+- n: 5
+  start: 14.0
+  end: 18.0
+  title: Cipher arrives wounded at night, warns of Dante (leads into ff10-c02)
+  characters:
+  - dom
+  - letty
+  - cipher
+- n: 6
+  start: 18.0
+  end: 20.0
+  title: 'Next morning: Little Nobody reveals the Rome mission is a trap; Dom, Letty, Little Nobody depart'
+  characters:
+  - dom
+  - letty
+  - little_nobody
+- n: 7
+  start: 20.0
+  end: 22.0
+  title: Trucks hacked, veer into Rome traffic (ff10-c03)
+  characters:
+  - tej
+  - han
+  - ramsey
+- n: 8
+  start: 22.0
+  end: 33.0
+  title: Giant bomb released, rolls through Rome, Spanish Steps, city-wide chase (ff10-c04)
+  characters:
+  - dom
+  - roman
+  - tej
+  - han
+  - ramsey
+  - dante
+- n: 9
+  start: 33.0
+  end: 34.0
+  title: Dom pushes bomb into the Tiber, outruns shockwave; Letty arrested (ff10-c05)
+  characters:
+  - dom
+  - letty
+- n: 10
+  start: 34.0
+  end: 39.0
+  title: 'Agency HQ: Aimes takes charge, brands crew as terrorists, Tess objects'
+  characters:
+  - aimes
+  - tess
+  - little_nobody
+- n: 11
+  start: 39.0
+  end: 46.0
+  title: 'LA safehouse raid: Jakob rescues Mia and Little B (ff10-c06, ff10-c07)'
+  characters:
+  - jakob
+  - mia
+  - little_b
+- n: 12
+  start: 46.0
+  end: 51.0
+  title: 'Airport escape: Jakob and Little B leave via hidden aircraft in cargo hold (ff10-c08)'
+  characters:
+  - jakob
+  - little_b
+- n: 13
+  start: 51.0
+  end: 54.0
+  title: 'Naples: Tess finds Dom, tells him Dante is in Rio'
+  characters:
+  - dom
+  - tess
+- n: 14
+  start: 54.0
+  end: 68.0
+  title: 'Rio street race: Diogo and Isabel bombed, Diogo dies, Isabel saved (ff10-c09)'
+  characters:
+  - dom
+  - dante
+  - isabel
+- n: 15
+  start: 68.0
+  end: 74.0
+  title: Team regroups, meets Bowie, learns of God's Eye misuse, decides to find Deckard Shaw
+  characters:
+  - roman
+  - tej
+  - han
+  - ramsey
+- n: 16
+  start: 74.0
+  end: 76.0
+  title: 'Antarctica intercut: Tess visits/wounds Letty at black site; Letty and Cipher agree to escape'
+  characters:
+  - tess
+  - letty
+  - cipher
+- n: 17
+  start: 76.0
+  end: 88.0
+  title: 'London: team recruits Deckard Shaw; fight with Shaw and Agency troops; Shaw leaves to protect Queenie'
+  characters:
+  - han
+  - roman
+  - tej
+  - ramsey
+  - deckard
+- n: 18
+  start: 88.0
+  end: 90.0
+  title: Isabel reveals she is Elena's sister; Dom reviews Elena's files (single-sourced, see Rejected)
+  characters:
+  - dom
+  - isabel
+- n: 19
+  start: 90.0
+  end: 98.0
+  title: 'Rio bridge confrontation: Aimes captures Dom, Dante intercepts, Tess shot, God''s Eye stolen'
+  characters:
+  - dom
+  - aimes
+  - dante
+  - tess
+- n: 20
+  start: 98.0
+  end: 108.0
+  title: 'Portugal highway chase pt.1: Little B in cannon-car firefight (ff10-c10), Dom''s car dropped from plane onto highway (ff10-c11), helicopter collision claim (ff10-c12)'
+  characters:
+  - jakob
+  - little_b
+  - dom
+  - aimes
+  - dante
+- n: 21
+  start: 108.0
+  end: 112.0
+  title: 'Portugal highway chase pt.2: Little B kidnapped, Jakob''s suicide ram (ff10-c13), Dom rescues Little B'
+  characters:
+  - jakob
+  - little_b
+  - dante
+  - dom
+- n: 22
+  start: 112.0
+  end: 116.0
+  title: Aimes revealed as Dante's mole; plane carrying Roman, Tej, Ramsey, Han shot down (ff10-c14)
+  characters:
+  - aimes
+  - dante
+  - roman
+  - tej
+  - ramsey
+  - han
+- n: 23
+  start: 116.0
+  end: 128.0
+  title: 'Dam sequence: Dom and Little B trapped, drive off the dam, dam detonated, cut to black (ff10-c15)'
+  characters:
+  - dom
+  - little_b
+  - dante
+- n: 24
+  start: 128.0
+  end: 137.0
+  title: 'Final scene: Antarctica escape, fall/fight (ff10-c16), ice trek, Gisele''s submarine reveal (ff10-c17)'
+  characters:
+  - letty
+  - cipher
+  - gisele
+- n: 25
+  start: 137.0
+  end: 141.0
+  title: 'End credits roll; mid-credits scene: Luke Hobbs receives Dante''s call in an abandoned theatre, crushes the phone'
+  characters:
+  - hobbs

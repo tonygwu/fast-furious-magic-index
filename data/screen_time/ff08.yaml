@@ -1,0 +1,332 @@
+# GENERATED from research/ff08.md by scripts/import_presence.py
+film: ff08
+anchors:
+- research/ff08.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 1.0
+  title: Studio logos / opening
+  characters: []
+- n: 2
+  start: 1.0
+  end: 7.0
+  title: Havana street, Dom & Letty walking/talking (long take)
+  characters:
+  - dom
+  - letty
+- n: 3
+  start: 7.0
+  end: 10.0
+  title: Fernando reveals debt to Raldo; Dom agrees to race
+  characters:
+  - dom
+  - letty
+- n: 4
+  start: 10.0
+  end: 16.0
+  title: Havana street race (ff08-c01, c02)
+  characters:
+  - dom
+  - letty
+- n: 5
+  start: 16.0
+  end: 18.0
+  title: Dom wins, gives Impala to Fernando; harbor plunge (ff08-c03)
+  characters:
+  - dom
+  - letty
+- n: 6
+  start: 18.0
+  end: 20.0
+  title: Cipher approaches Dom alone, shows him something on her phone (plot armor p01)
+  characters:
+  - dom
+  - cipher
+- n: 7
+  start: 20.0
+  end: 21.0
+  title: Main title card
+  characters: []
+- n: 8
+  start: 21.0
+  end: 23.0
+  title: 'NYC: Hobbs coaches daughter''s soccer game'
+  characters:
+  - hobbs
+- n: 9
+  start: 23.0
+  end: 26.0
+  title: 'DSS office: Little Nobody briefs Hobbs on the Berlin EMP mission'
+  characters:
+  - hobbs
+  - little_nobody
+- n: 10
+  start: 26.0
+  end: 29.0
+  title: Hobbs recruits Dom's team for the mission
+  characters:
+  - hobbs
+  - dom
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 11
+  start: 29.0
+  end: 34.0
+  title: Team travels to Berlin, plans heist
+  characters:
+  - dom
+  - letty
+  - hobbs
+  - roman
+  - tej
+  - ramsey
+- n: 12
+  start: 34.0
+  end: 42.0
+  title: 'Berlin heist: convoy chase, EMP device retrieved (ff08-c04)'
+  characters:
+  - dom
+  - letty
+  - hobbs
+  - roman
+  - tej
+  - ramsey
+- n: 13
+  start: 42.0
+  end: 45.0
+  title: Dom betrays team, steals EMP, rams Hobbs's car, flees (ff08-c05)
+  characters:
+  - dom
+  - hobbs
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 14
+  start: 45.0
+  end: 48.0
+  title: 'Aftermath: team stunned; Hobbs arrested'
+  characters:
+  - hobbs
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 15
+  start: 48.0
+  end: 50.0
+  title: 'Cipher''s plane: Cipher and Rhodes discuss the plan; Dom held'
+  characters:
+  - cipher
+  - rhodes
+  - dom
+- n: 16
+  start: 50.0
+  end: 54.0
+  title: Mr. Nobody & Little Nobody propose freeing Hobbs & Shaw
+  characters:
+  - mr_nobody
+  - little_nobody
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 17
+  start: 54.0
+  end: 58.0
+  title: 'Prison: Hobbs vs. Deckard Shaw fight, then breakout (ff08-c06)'
+  characters:
+  - hobbs
+  - deckard
+- n: 18
+  start: 58.0
+  end: 62.0
+  title: Team + Hobbs + Deckard assemble; Deckard explains Cipher's ties to Owen/Jakande
+  characters:
+  - hobbs
+  - deckard
+  - letty
+  - roman
+  - tej
+  - ramsey
+  - mr_nobody
+- n: 19
+  start: 62.0
+  end: 66.0
+  title: Dom & Cipher raid the team's base, steal God's Eye; Dom confronted with Elena and the infant son held hostage (ff08-c07) — **ordering uncertain, see note below**
+  characters:
+  - dom
+  - cipher
+  - rhodes
+  - elena
+- n: 20
+  start: 66.0
+  end: 70.0
+  title: Team gears up (cars/weapons) at garage
+  characters:
+  - letty
+  - roman
+  - tej
+  - ramsey
+  - hobbs
+  - deckard
+- n: 21
+  start: 70.0
+  end: 74.0
+  title: Tej & Ramsey track Dom to NYC
+  characters:
+  - tej
+  - ramsey
+  - hobbs
+  - deckard
+  - letty
+  - roman
+- n: 22
+  start: 74.0
+  end: 78.0
+  title: 'NYC: Dom intercepts Russian Defense Minister''s convoy, steals nuclear football (ff08-c08)'
+  characters:
+  - dom
+- n: 23
+  start: 78.0
+  end: 86.0
+  title: '"Zero Day" hack: Cipher hijacks NYC cars (ff08-c09); raining cars (ff08-c10)'
+  characters:
+  - dom
+  - cipher
+  - hobbs
+  - deckard
+  - letty
+  - roman
+  - tej
+- n: 24
+  start: 86.0
+  end: 90.0
+  title: Letty intercepts Dom, standoff/fight with Rhodes over the football (ff08-c11)
+  characters:
+  - dom
+  - letty
+  - rhodes
+- n: 25
+  start: 90.0
+  end: 94.0
+  title: Team regroups; Cipher has Rhodes kill Elena in front of Dom
+  characters:
+  - dom
+  - cipher
+  - rhodes
+  - elena
+- n: 26
+  start: 94.0
+  end: 98.0
+  title: Team grieves Elena, regroups
+  characters:
+  - letty
+  - hobbs
+  - deckard
+  - roman
+  - tej
+  - ramsey
+  - mr_nobody
+- n: 27
+  start: 98.0
+  end: 102.0
+  title: Dom travels to Russian arctic submarine base
+  characters:
+  - dom
+- n: 28
+  start: 102.0
+  end: 108.0
+  title: Dom infiltrates base, activates sub via EMP (ff08-c13); Cipher seizes control
+  characters:
+  - dom
+  - cipher
+  - rhodes
+- n: 29
+  start: 108.0
+  end: 114.0
+  title: 'Ice chase: team drives across frozen sea to intercept sub (ff08-c14, c16, c17)'
+  characters:
+  - hobbs
+  - letty
+  - roman
+  - tej
+  - ramsey
+  - deckard
+- n: 30
+  start: 114.0
+  end: 120.0
+  title: Submarine breaches ice (ff08-c15), torpedo blasts (ff08-c18, c19)
+  characters:
+  - hobbs
+  - letty
+  - roman
+  - tej
+  - ramsey
+  - deckard
+  - dom
+- n: 31
+  start: 120.0
+  end: 124.0
+  title: (parallel) Deckard (faked death) & Owen Shaw infiltrate Cipher's plane, rescue baby (ff08-c22, c23)
+  characters:
+  - deckard
+  - owen
+- n: 32
+  start: 124.0
+  end: 128.0
+  title: Dom turns on Cipher, kills Rhodes, redirects missile onto sub (ff08-c20); team blockade (ff08-c21)
+  characters:
+  - dom
+  - cipher
+  - rhodes
+  - hobbs
+  - letty
+- n: 33
+  start: 128.0
+  end: 130.0
+  title: Deckard confronts Cipher; she escapes by parachute (ff08-c24)
+  characters:
+  - deckard
+  - cipher
+- n: 34
+  start: 130.0
+  end: 132.0
+  title: Team returns to NYC
+  characters:
+  - dom
+  - letty
+  - hobbs
+  - roman
+  - tej
+  - ramsey
+  - deckard
+- n: 35
+  start: 132.0
+  end: 134.0
+  title: Hobbs offered DSS reinstatement, declines for his daughter
+  characters:
+  - hobbs
+  - little_nobody
+- n: 36
+  start: 134.0
+  end: 134.5
+  title: 'Rooftop family dinner: Deckard delivers baby, Dom names him Brian'
+  characters:
+  - dom
+  - letty
+  - deckard
+  - hobbs
+  - roman
+  - tej
+  - ramsey
+  - mr_nobody
+  - little_nobody
+- n: 37
+  start: 134.5
+  end: 136.0
+  title: End credits roll (no post-credits scene)
+  characters: []

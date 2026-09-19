@@ -1,0 +1,236 @@
+film: ff08
+events:
+  - id: ev-ff08-01
+    title: Havana race won on fire and in reverse
+    sequence: Havana street race
+    depicted: >-
+      Dom races his cousin's stripped 1949 Chevrolet with "Cuban nitrous". A thug's motorcycle crashes into it; Dom rips
+      off the throttle cable, the engine overheats and catches fire, the windshield breaks, and Dom turns the car around
+      and crosses the line backwards to win.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [whether the car crosses by momentum or under reverse power]
+    confidence: medium
+    participants: [dom, letty]
+    plot_sources: [ff08-wiki, ff08-fandom]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.mechanical
+        claim: A burning, overheating 1949 engine with a ripped throttle cable keeps making full power to the line
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: An engine fire from leaking fuel usually ends a run within seconds. Judgment prior about 1 in 10.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: controller}]
+      - id: c2
+        category: skill
+        subtype: skill.driving
+        claim: Dom spins the car 180 degrees at speed and still beats a healthy car across the line
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          A spin keeps the car's momentum, so crossing backwards is possible; keeping the lead through the spin with a
+          dying engine against a car at full speed is judged about 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: performer}]
+  - id: ev-ff08-02
+    title: Zero Day hack of a thousand cars and the raining cars
+    sequence: New York nuclear-football heist
+    depicted: >-
+      Cipher remotely takes over "over a thousand" cars across Manhattan, drives them into the Russian minister's
+      motorcade, and sends cars off the upper floors of a parking garage onto the street.
+    inferred: The production dropped seven real cars from a garage; the pile-up was 35-40 cars.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: high
+    participants: [cipher, dom]
+    plot_sources: [ff08-wiki, ff08-fandom, ff08-denofgeek, ff08-transcript]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.hacking
+        claim: One crew gains full drive control of over a thousand mixed cars at once
+        evidence: E4
+        mu: {low: 2, central: 3, high: 3}
+        capped: false
+        reasoning: >-
+          Real remote exploits are specific to one make and model (the 2015 Jeep hack took two researchers years).
+          Experts called the scene "not a realistic representation of anything" and said this scale would need
+          "Manhattan Project-style" effort. A stronger probability would be invented, so this is held at the 3 MU
+          judgment cap.
+        dependence: First component.
+        references: [zero-day-count]
+        credits: [{character: cipher, role: performer}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.landing
+        claim: Cars driven off a garage land on the moving motorcade
+        evidence: E3
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          A car rolling off a ledge travels only a few metres out; hitting moving vehicles below needs the release timed
+          to the motorcade's position. With the hack granted, this is timing, judged about 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: cipher, role: controller}]
+  - id: ev-ff08-03
+    title: A nuclear submarine chases cars through the ice
+    sequence: Arctic finale
+    depicted: >-
+      Cipher's hijacked Akula-class submarine pursues the team's cars across a frozen sea, breaking up through the ice
+      beneath and around the moving cars.
+    inferred: The submarine is CGI; the ice at the shoot was about 25 in thick.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: medium
+    participants: [letty, roman, tej, ramsey, hobbs, cipher]
+    plot_sources: [ff08-wiki, ff08-fandom, ff08-artofvfx, ff08-vfxblog]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.structural
+        claim: A 13,000 t submarine breaks up through sea ice while moving at speed, repeatedly, without disabling itself
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Submarines surface through ice by rising almost vertically at low speed; ramming ice while moving damages the
+          sail and planes. No source rates an Akula for this. Judgment prior about 1 in 100.
+        dependence: First component.
+        references: [akula-spec, ice-thickness-f8]
+        credits: [{character: cipher, role: controller}]
+      - id: c2
+        category: physics
+        subtype: physics.vehicle_dynamics
+        claim: The submarine keeps pace with cars driving on the ice
+        evidence: E2
+        mu: {low: 0, central: 0.5, high: 1}
+        capped: false
+        reasoning: An Akula's 28-35 knots is 32-40 mph, close to the cars' speed on ice, so this is only mildly unlikely.
+        dependence: Independent of c1.
+        references: [akula-spec]
+        credits: [{character: cipher, role: controller}]
+  - id: ev-ff08-04
+    title: Hobbs redirects a torpedo by hand
+    sequence: Arctic finale
+    depicted: >-
+      Leaning out of his vehicle at speed on the frozen lake, Hobbs grabs a live torpedo skidding across the ice and
+      shoves it into another vehicle.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [deflection angle, whether Hobbs's vehicle matches the torpedo's speed]
+    confidence: medium
+    participants: [hobbs]
+    plot_sources: [ff08-stunts, ff08-wrap-factcheck]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: One arm, from a moving vehicle, turns a 2 t torpedo moving at about 50 mph
+        evidence: E2
+        mu: {low: 3, central: 6, high: 12}
+        capped: false
+        reasoning: >-
+          Turning a 2 t torpedo at 22 m/s by 3-10 degrees within 0.5-1 s needs 2-9 kN of sideways force. The heaviest
+          deadlift ever is about 5 kN with both legs and ideal footing; a one-arm pull while leaning from a moving
+          vehicle is perhaps 1-1.5 kN. The requirement is 1.5-6x the plausible force: marginal at the low end, a hard
+          limit at the high end. The wide range is deliberate.
+        dependence: First component.
+        references: [type53-torpedo, deadlift-record]
+        credits: [{character: hobbs, role: controller}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.fuze
+        claim: Grabbing the torpedo does not set it off, but hitting the target vehicle does
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: Contact fuzes are built to fire on impacts far softer than a car collision; the ice skid, the grab and the hit form a narrow sequence. Judgment prior about 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: hobbs, role: beneficiary}]
+  - id: ev-ff08-05
+    title: Cars thrown 60 ft by torpedo blasts, everyone lives
+    sequence: Arctic finale
+    depicted: >-
+      Torpedo strikes on the ice throw four cars and ice about 60 ft into the air; the occupants are shown surviving.
+    inferred: Which characters were in the four cars is not specified by the stunt description.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [which team cars were thrown]
+    confidence: low
+    participants: [letty, roman, tej, ramsey]
+    plot_sources: [ff08-stunts, ff08-vfxblog]
+    components:
+      - id: c1
+        category: survival
+        subtype: survival.explosion
+        claim: Occupants survive a heavyweight warhead close enough to throw their car 18 m up, and the landing
+        evidence: E4
+        mu: {low: 1.5, central: 2.5, high: 3}
+        capped: false
+        reasoning: >-
+          A 300 kg warhead that throws a car 18 m must detonate within about 10 m, where overpressure alone causes lung
+          injury; the car then lands from 18 m (about a 42 mph impact). Held near the 3 MU judgment cap.
+        dependence: Single component for the four cars (one blast pattern).
+        references: [type53-torpedo]
+        credits: [{character: letty, role: survivor}, {character: roman, role: survivor}, {character: tej, role: survivor}, {character: ramsey, role: survivor}]
+  - id: ev-ff08-06
+    title: Dom leads a homing missile into the submarine
+    sequence: Arctic finale
+    depicted: >-
+      Cipher fires an infrared homing missile at Dom's Charger. Dom manoeuvres so it strikes the trailing submarine
+      instead, destroying it; the team forms a wall of cars around him to shield him from the explosion.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: medium
+    participants: [dom, letty, roman, tej, ramsey, hobbs, cipher]
+    plot_sources: [ff08-wiki, ff08-fandom, ff08-clip-torpedo]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: A car out-turns an infrared homing missile so it misses
+        evidence: E2
+        mu: {low: 1.5, central: 2.5, high: 3.5}
+        capped: false
+        reasoning: >-
+          Guided missiles pull 20-40 g against a car's roughly 1 g, and a car engine is a strong infrared target. A miss
+          without flares or decoys needs the missile to fail. Judged 1 in 30 to 1 in 3,000.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: performer}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.intercept
+        claim: The missile, having missed, flies on into the submarine
+        evidence: E3
+        mu: {low: 0, central: 0.5, high: 1}
+        capped: false
+        reasoning: The submarine is large and directly behind, so given a miss this is likely (about 1 in 3).
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: beneficiary}]
+      - id: c3
+        category: survival
+        subtype: survival.explosion
+        claim: A wall of cars shields Dom from a submarine exploding at close range
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: Cars stop fragments but not overpressure at close range. Judgment prior about 1 in 10 for everyone to survive.
+        dependence: Conditional on c2; one component for the group.
+        references: []
+        credits: [{character: dom, role: survivor}, {character: letty, role: survivor}, {character: roman, role: survivor}, {character: tej, role: survivor}, {character: ramsey, role: survivor}, {character: hobbs, role: survivor}]

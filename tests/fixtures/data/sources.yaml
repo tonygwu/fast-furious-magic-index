@@ -1,0 +1,3 @@
+- {id: s1, kind: plot, title: Plot source one, url: "https://example.org/1"}
+- {id: s2, kind: plot, title: Plot source two, url: "https://example.org/2"}
+- {id: s3, kind: literature, title: Tolerance paper, url: "https://example.org/3"}

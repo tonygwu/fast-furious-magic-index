@@ -1,0 +1,5 @@
+film: fa
+anchors: [test]
+scenes:
+  - {n: 1, start: 0, end: 60, title: act one, characters: [dom, brian]}
+  - {n: 2, start: 60, end: 100, title: act two, characters: [dom]}

@@ -1,0 +1,758 @@
+[
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 34.0,
+   "physics": 44.0,
+   "skill": 8.5,
+   "survival": 22.5
+  },
+  "by_mode": {
+   "caused": 51.0,
+   "endured": 24.0,
+   "luck": 34.0
+  },
+  "central": 109.0,
+  "high": 149.5,
+  "id": "dom",
+  "ineligible_reason": "",
+  "low": 78.0,
+  "lower_bound": true,
+  "minutes": {
+   "central": 590.664,
+   "films": 9,
+   "high": 738.33,
+   "low": 442.998
+  },
+  "n_events": 23,
+  "n_films": 8,
+  "name": "Dominic Toretto",
+  "plot_armor": 20,
+  "rate_per_100": {
+   "central": 18.4538079178687,
+   "high": 33.7473306877232,
+   "low": 10.564381780504652
+  },
+  "signature_event": "ev-ff06-04"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 34.0,
+   "physics": 35.0,
+   "skill": 0.0,
+   "survival": 9.0
+  },
+  "by_mode": {
+   "caused": 17.5,
+   "endured": 26.5,
+   "luck": 34.0
+  },
+  "central": 78.0,
+  "high": 93.5,
+  "id": "roman",
+  "ineligible_reason": "",
+  "low": 67.5,
+  "lower_bound": true,
+  "minutes": {
+   "central": 320.4,
+   "films": 7,
+   "high": 400.5,
+   "low": 240.3
+  },
+  "n_events": 8,
+  "n_films": 5,
+  "name": "Roman Pearce",
+  "plot_armor": 3,
+  "rate_per_100": {
+   "central": 24.344569288389515,
+   "high": 38.909696213066994,
+   "low": 16.853932584269664
+  },
+  "signature_event": "ev-ff09-06"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 24.5,
+   "physics": 36.5,
+   "skill": 2.0,
+   "survival": 5.5
+  },
+  "by_mode": {
+   "caused": 35.0,
+   "endured": 9.0,
+   "luck": 24.5
+  },
+  "central": 68.5,
+  "high": 85.5,
+  "id": "brian",
+  "ineligible_reason": "",
+  "low": 54.5,
+  "lower_bound": true,
+  "minutes": {
+   "central": 419.16,
+   "films": 7,
+   "high": 523.95,
+   "low": 314.37
+  },
+  "n_events": 12,
+  "n_films": 5,
+  "name": "Brian O'Conner",
+  "plot_armor": 11,
+  "rate_per_100": {
+   "central": 16.34220822597576,
+   "high": 27.19725164614944,
+   "low": 10.401755892737857
+  },
+  "signature_event": "ev-ff06-04"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 32.5,
+   "physics": 19.5,
+   "skill": 0.0,
+   "survival": 7.5
+  },
+  "by_mode": {
+   "caused": 18.0,
+   "endured": 9.0,
+   "luck": 32.5
+  },
+  "central": 59.5,
+  "high": 71.5,
+  "id": "tej",
+  "ineligible_reason": "",
+  "low": 52.0,
+  "lower_bound": true,
+  "minutes": {
+   "central": 266.0,
+   "films": 7,
+   "high": 332.5,
+   "low": 199.5
+  },
+  "n_events": 6,
+  "n_films": 4,
+  "name": "Tej Parker",
+  "plot_armor": 2,
+  "rate_per_100": {
+   "central": 22.36842105263158,
+   "high": 35.83959899749373,
+   "low": 15.639097744360903
+  },
+  "signature_event": "ev-ff09-06"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 24.0,
+   "physics": 26.0,
+   "skill": 2.0,
+   "survival": 6.5
+  },
+  "by_mode": {
+   "caused": 16.5,
+   "endured": 18.0,
+   "luck": 24.0
+  },
+  "central": 58.5,
+  "high": 74.0,
+  "id": "letty",
+  "ineligible_reason": "",
+  "low": 45.0,
+  "lower_bound": true,
+  "minutes": {
+   "central": 306.0,
+   "films": 8,
+   "high": 382.5,
+   "low": 229.5
+  },
+  "n_events": 11,
+  "n_films": 5,
+  "name": "Letty Ortiz",
+  "plot_armor": 10,
+  "rate_per_100": {
+   "central": 19.11764705882353,
+   "high": 32.24400871459695,
+   "low": 11.76470588235294
+  },
+  "signature_event": "ev-ff06-04"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 14.0,
+   "physics": 21.0,
+   "skill": 3.0,
+   "survival": 2.0
+  },
+  "by_mode": {
+   "caused": 24.0,
+   "endured": 2.0,
+   "luck": 14.0
+  },
+  "central": 40.0,
+  "high": 53.5,
+  "id": "hobbs",
+  "ineligible_reason": "",
+  "low": 32.0,
+  "lower_bound": true,
+  "minutes": {
+   "central": 253.2,
+   "films": 6,
+   "high": 316.5,
+   "low": 189.9
+  },
+  "n_events": 8,
+  "n_films": 4,
+  "name": "Luke Hobbs",
+  "plot_armor": 13,
+  "rate_per_100": {
+   "central": 15.797788309636651,
+   "high": 28.17272248551869,
+   "low": 10.110584518167457
+  },
+  "signature_event": "ev-hs-05"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 14.0,
+   "physics": 1.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 1.5,
+   "endured": 0.0,
+   "luck": 14.0
+  },
+  "central": 15.5,
+  "high": 17.0,
+  "id": "gisele",
+  "ineligible_reason": "2 events < 3",
+  "low": 14.0,
+  "lower_bound": true,
+  "minutes": {
+   "central": 116.8,
+   "films": 4,
+   "high": 146.0,
+   "low": 87.6
+  },
+  "n_events": 2,
+  "n_films": 2,
+  "name": "Gisele Yashar",
+  "plot_armor": 8,
+  "rate_per_100": {
+   "central": 13.270547945205479,
+   "high": 19.40639269406393,
+   "low": 9.58904109589041
+  },
+  "signature_event": "ev-ff06-04"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 12.0,
+   "physics": 2.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 2.5,
+   "endured": 0.0,
+   "luck": 12.0
+  },
+  "central": 14.5,
+  "high": 15.0,
+  "id": "han",
+  "ineligible_reason": "2 events < 3",
+  "low": 13.5,
+  "lower_bound": true,
+  "minutes": {
+   "central": 192.0,
+   "films": 6,
+   "high": 240.0,
+   "low": 144.0
+  },
+  "n_events": 2,
+  "n_films": 2,
+  "name": "Han Lue",
+  "plot_armor": 10,
+  "rate_per_100": {
+   "central": 7.552083333333333,
+   "high": 10.416666666666668,
+   "low": 5.625
+  },
+  "signature_event": "ev-ff06-04"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 12.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 14.0,
+   "endured": 0.0,
+   "luck": 0.0
+  },
+  "central": 14.0,
+  "high": 15.0,
+  "id": "brixton",
+  "ineligible_reason": "2 events < 3",
+  "low": 13.0,
+  "lower_bound": true,
+  "minutes": {
+   "central": 52.8,
+   "films": 1,
+   "high": 66.0,
+   "low": 39.6
+  },
+  "n_events": 2,
+  "n_films": 1,
+  "name": "Brixton Lore",
+  "plot_armor": 1,
+  "rate_per_100": {
+   "central": 26.515151515151516,
+   "high": 37.878787878787875,
+   "low": 19.696969696969695
+  },
+  "signature_event": "ev-hs-02"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 12.0,
+   "physics": 2.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 2.0,
+   "endured": 0.0,
+   "luck": 12.0
+  },
+  "central": 14.0,
+  "high": 15.0,
+  "id": "owen",
+  "ineligible_reason": "2 events < 3",
+  "low": 13.0,
+  "lower_bound": true,
+  "minutes": {
+   "central": 42.4,
+   "films": 3,
+   "high": 53.0,
+   "low": 31.8
+  },
+  "n_events": 2,
+  "n_films": 1,
+  "name": "Owen Shaw",
+  "plot_armor": 0,
+  "rate_per_100": {
+   "central": 33.01886792452831,
+   "high": 47.16981132075472,
+   "low": 24.528301886792452
+  },
+  "signature_event": "ev-ff06-04"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 12.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 0.0,
+   "endured": 12.0,
+   "luck": 1.0
+  },
+  "central": 13.0,
+  "high": 14.0,
+  "id": "hattie",
+  "ineligible_reason": "2 events < 3",
+  "low": 12.5,
+  "lower_bound": true,
+  "minutes": {
+   "central": 78.4,
+   "films": 1,
+   "high": 98.0,
+   "low": 58.8
+  },
+  "n_events": 2,
+  "n_films": 1,
+  "name": "Hattie Shaw",
+  "plot_armor": 4,
+  "rate_per_100": {
+   "central": 16.581632653061224,
+   "high": 23.80952380952381,
+   "low": 12.755102040816327
+  },
+  "signature_event": "ev-hs-02"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 7.5,
+   "skill": 0.0,
+   "survival": 5.5
+  },
+  "by_mode": {
+   "caused": 4.5,
+   "endured": 8.5,
+   "luck": 0.0
+  },
+  "central": 13.0,
+  "high": 19.0,
+  "id": "ramsey",
+  "ineligible_reason": "",
+  "low": 7.5,
+  "lower_bound": false,
+  "minutes": {
+   "central": 169.2,
+   "films": 4,
+   "high": 211.5,
+   "low": 126.9
+  },
+  "n_events": 6,
+  "n_films": 3,
+  "name": "Ramsey",
+  "plot_armor": 3,
+  "rate_per_100": {
+   "central": 7.68321513002364,
+   "high": 14.972419227738376,
+   "low": 3.546099290780142
+  },
+  "signature_event": "ev-ff09-01"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 2.5,
+   "skill": 4.0,
+   "survival": 2.0
+  },
+  "by_mode": {
+   "caused": 6.5,
+   "endured": 2.0,
+   "luck": 1.0
+  },
+  "central": 9.5,
+  "high": 13.5,
+  "id": "cipher",
+  "ineligible_reason": "",
+  "low": 5.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 53.6,
+   "films": 3,
+   "high": 67.0,
+   "low": 40.2
+  },
+  "n_events": 3,
+  "n_films": 2,
+  "name": "Cipher",
+  "plot_armor": 2,
+  "rate_per_100": {
+   "central": 17.723880597014922,
+   "high": 33.582089552238806,
+   "low": 7.462686567164178
+  },
+  "signature_event": "ev-ff08-02"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 4.5,
+   "skill": 0.0,
+   "survival": 0.5
+  },
+  "by_mode": {
+   "caused": 2.5,
+   "endured": 2.5,
+   "luck": 0.0
+  },
+  "central": 5.0,
+  "high": 7.5,
+  "id": "jakob",
+  "ineligible_reason": "2 events < 3",
+  "low": 2.5,
+  "lower_bound": false,
+  "minutes": {
+   "central": 80.8,
+   "films": 2,
+   "high": 101.0,
+   "low": 60.6
+  },
+  "n_events": 2,
+  "n_films": 1,
+  "name": "Jakob Toretto",
+  "plot_armor": 2,
+  "rate_per_100": {
+   "central": 6.188118811881188,
+   "high": 12.376237623762377,
+   "low": 2.4752475247524752
+  },
+  "signature_event": "ev-ff09-05"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 4.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 4.0,
+   "endured": 0.0,
+   "luck": 0.0
+  },
+  "central": 4.0,
+  "high": 5.0,
+  "id": "mia",
+  "ineligible_reason": "2 events < 3",
+  "low": 2.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 210.4,
+   "films": 7,
+   "high": 263.0,
+   "low": 157.8
+  },
+  "n_events": 2,
+  "n_films": 2,
+  "name": "Mia Toretto",
+  "plot_armor": 1,
+  "rate_per_100": {
+   "central": 1.9011406844106464,
+   "high": 3.168567807351077,
+   "low": 0.7604562737642585
+  },
+  "signature_event": "ev-ff09-05"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 2.0,
+   "physics": 1.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 1.5,
+   "endured": 0.0,
+   "luck": 2.0
+  },
+  "central": 3.5,
+  "high": 5.0,
+  "id": "leo",
+  "ineligible_reason": "1 events < 3; 26 min < 30",
+  "low": 2.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 25.6,
+   "films": 2,
+   "high": 32.0,
+   "low": 19.2
+  },
+  "n_events": 1,
+  "n_films": 1,
+  "name": "Leo",
+  "plot_armor": 0,
+  "rate_per_100": {
+   "central": 13.671875,
+   "high": 26.041666666666668,
+   "low": 6.25
+  },
+  "signature_event": "ev-ff05-04"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 3.5
+  },
+  "by_mode": {
+   "caused": 0.0,
+   "endured": 3.5,
+   "luck": 0.0
+  },
+  "central": 3.5,
+  "high": 5.0,
+  "id": "little_b",
+  "ineligible_reason": "1 events < 3",
+  "low": 2.5,
+  "lower_bound": false,
+  "minutes": {
+   "central": 34.4,
+   "films": 1,
+   "high": 43.0,
+   "low": 25.8
+  },
+  "n_events": 1,
+  "n_films": 1,
+  "name": "Brian Marcos (Little B)",
+  "plot_armor": 0,
+  "rate_per_100": {
+   "central": 10.174418604651162,
+   "high": 19.37984496124031,
+   "low": 5.813953488372093
+  },
+  "signature_event": "ev-ff10-03"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 2.0,
+   "physics": 1.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 1.5,
+   "endured": 0.0,
+   "luck": 2.0
+  },
+  "central": 3.5,
+  "high": 5.0,
+  "id": "santos",
+  "ineligible_reason": "1 events < 3; 26 min < 30",
+  "low": 2.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 25.6,
+   "films": 2,
+   "high": 32.0,
+   "low": 19.2
+  },
+  "n_events": 1,
+  "n_films": 1,
+  "name": "Santos",
+  "plot_armor": 0,
+  "rate_per_100": {
+   "central": 13.671875,
+   "high": 26.041666666666668,
+   "low": 6.25
+  },
+  "signature_event": "ev-ff05-04"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 1.0,
+   "skill": 1.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 2.0,
+   "endured": 0.0,
+   "luck": 1.0
+  },
+  "central": 3.0,
+  "high": 5.5,
+  "id": "deckard",
+  "ineligible_reason": "2 events < 3",
+  "low": 1.5,
+  "lower_bound": false,
+  "minutes": {
+   "central": 170.8,
+   "films": 5,
+   "high": 213.5,
+   "low": 128.1
+  },
+  "n_events": 2,
+  "n_films": 1,
+  "name": "Deckard Shaw",
+  "plot_armor": 15,
+  "rate_per_100": {
+   "central": 1.756440281030445,
+   "high": 4.29352068696331,
+   "low": 0.702576112412178
+  },
+  "signature_event": "ev-hs-04"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 2.0,
+   "endured": 0.0,
+   "luck": 0.0
+  },
+  "central": 2.0,
+  "high": 3.0,
+  "id": "sean",
+  "ineligible_reason": "1 events < 3",
+  "low": 1.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 91.2,
+   "films": 2,
+   "high": 114.0,
+   "low": 68.4
+  },
+  "n_events": 1,
+  "n_films": 1,
+  "name": "Sean Boswell",
+  "plot_armor": 3,
+  "rate_per_100": {
+   "central": 2.1929824561403506,
+   "high": 4.385964912280701,
+   "low": 0.8771929824561403
+  },
+  "signature_event": "ev-ff03-01"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "by_mode": {
+   "caused": 2.0,
+   "endured": 0.0,
+   "luck": 0.0
+  },
+  "central": 2.0,
+  "high": 3.5,
+  "id": "vince",
+  "ineligible_reason": "1 events < 3",
+  "low": 1.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 58.4,
+   "films": 2,
+   "high": 73.0,
+   "low": 43.8
+  },
+  "n_events": 1,
+  "n_films": 1,
+  "name": "Vince",
+  "plot_armor": 0,
+  "rate_per_100": {
+   "central": 3.4246575342465753,
+   "high": 7.990867579908676,
+   "low": 1.36986301369863
+  },
+  "signature_event": "ev-ff01-01"
+ }
+]

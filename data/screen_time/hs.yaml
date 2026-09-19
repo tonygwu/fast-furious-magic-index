@@ -1,0 +1,193 @@
+# GENERATED from research/hs.md by scripts/import_presence.py
+film: hs
+anchors:
+- research/hs.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 2.0
+  title: Studio/distributor logos, opening titles
+  characters: []
+- n: 2
+  start: 2.0
+  end: 9.0
+  title: MI6 mission to retrieve "Snowflake"; Brixton ambushes and defeats the team (hs-c01)
+  characters:
+  - hattie
+  - brixton
+- n: 3
+  start: 9.0
+  end: 12.0
+  title: Hattie self-injects and escapes across London incl. Millennium Bridge (hs-c02)
+  characters:
+  - hattie
+- n: 4
+  start: 12.0
+  end: 16.0
+  title: Main titles; Hobbs morning routine (LA/Samoa-set home)
+  characters:
+  - hobbs
+- n: 5
+  start: 16.0
+  end: 19.0
+  title: Shaw morning routine (London)
+  characters:
+  - deckard
+- n: 6
+  start: 19.0
+  end: 23.0
+  title: Hobbs meets daughter Sam at diner; Locke recruits him
+  characters:
+  - hobbs
+- n: 7
+  start: 23.0
+  end: 27.0
+  title: Shaw visits mother Queenie in prison; Loeb recruits him
+  characters:
+  - deckard
+  - queenie
+- n: 8
+  start: 27.0
+  end: 32.0
+  title: Hobbs interrogation at LA tattoo parlor/nightclub (hs-c03)
+  characters:
+  - hobbs
+- n: 9
+  start: 32.0
+  end: 37.0
+  title: Shaw interrogation at London nightclub (hs-c04)
+  characters:
+  - deckard
+- n: 10
+  start: 37.0
+  end: 44.0
+  title: 'Hattie''s flat: fight, capture, battery-catch (hs-c05)'
+  characters:
+  - deckard
+  - hattie
+  - hobbs
+- n: 11
+  start: 44.0
+  end: 53.0
+  title: CIA Black Site attack; skyscraper descent/chase (hs-c06, hs-c07)
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+  - brixton
+- n: 12
+  start: 53.0
+  end: 60.0
+  title: 'London street chase: McLaren, motorcycles (hs-c08, hs-c09, hs-c10)'
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+  - brixton
+- n: 13
+  start: 60.0
+  end: 65.0
+  title: Find Professor Andreiko; exposition on Snowflake/extraction device
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+- n: 14
+  start: 65.0
+  end: 69.0
+  title: Flight to Moscow; fake identities; Air Marshal Dinkley
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+- n: 15
+  start: 69.0
+  end: 74.0
+  title: 'Moscow: Madam M meeting, gear-up, plan'
+  characters:
+  - deckard
+  - hobbs
+  - hattie
+- n: 16
+  start: 74.0
+  end: 86.0
+  title: Eteon facility infiltration; hallway fights; capture/torture (hs-c11, hs-c12)
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+  - brixton
+- n: 17
+  start: 86.0
+  end: 93.0
+  title: Facility collapse escape/chase; Andreiko killed, device damaged (hs-c13)
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+  - brixton
+- n: 18
+  start: 93.0
+  end: 98.0
+  title: Travel to and arrival in Samoa
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+- n: 19
+  start: 98.0
+  end: 107.0
+  title: Family reunion; weapons removed; prep; device repair
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+- n: 20
+  start: 107.0
+  end: 117.0
+  title: Eteon arrival; hand-to-hand battle; guns disabled 6 min (hs-c15)
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+  - brixton
+- n: 21
+  start: 117.0
+  end: 121.0
+  title: Extraction procedure; Brixton recaptures Hattie via helicopter (hs-c14)
+  characters:
+  - hattie
+  - brixton
+  - hobbs
+  - deckard
+- n: 22
+  start: 121.0
+  end: 128.0
+  title: Helicopter/truck chain tug-of-war on cliffside (hs-c16, hs-c17)
+  characters:
+  - hobbs
+  - deckard
+  - brixton
+- n: 23
+  start: 128.0
+  end: 131.0
+  title: Final tandem fistfight; Brixton deactivated and falls (hs-c18, hs-c19)
+  characters:
+  - hobbs
+  - deckard
+  - brixton
+- n: 24
+  start: 131.0
+  end: 133.0
+  title: 'Resolution: Hobbs decides to keep daughter Sam in Samoa'
+  characters:
+  - hobbs
+- n: 25
+  start: 133.0
+  end: 137.0
+  title: End credits with embedded mid/post-credit scenes (hs-c20 + family-reunion/prison-break and Shaw-arrest beats)
+  characters:
+  - hobbs
+  - deckard
+  - hattie
+  - queenie

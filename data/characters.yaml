@@ -1,0 +1,57 @@
+# Tracked characters. aliases are the exact strings used in research presence logs and recaps.
+- {id: dom, name: Dominic Toretto, aliases: [Dom, Dom Toretto, Dominic Toretto, Dom only]}
+- {id: brian, name: "Brian O'Conner", aliases: [Brian, "Brian O'Conner"]}
+- {id: letty, name: Letty Ortiz, aliases: [Letty, Letty Ortiz]}
+- {id: mia, name: Mia Toretto, aliases: [Mia, Mia Toretto]}
+- {id: roman, name: Roman Pearce, aliases: [Roman, Roman Pearce]}
+- {id: tej, name: Tej Parker, aliases: [Tej, Tej Parker]}
+- {id: han, name: Han Lue, aliases: [Han, Han Lue]}
+- {id: gisele, name: Gisele Yashar, aliases: [Gisele, Gisele Yashar]}
+- {id: hobbs, name: Luke Hobbs, aliases: [Hobbs, Luke Hobbs]}
+- {id: deckard, name: Deckard Shaw, aliases: [Deckard Shaw, Deckard]}
+- {id: owen, name: Owen Shaw, aliases: [Owen Shaw, Owen]}
+- {id: elena, name: Elena Neves, aliases: [Elena, Elena Neves]}
+- {id: riley, name: Riley Hicks, aliases: [Riley, Riley Hicks]}
+- {id: ramsey, name: Ramsey, aliases: [Ramsey]}
+- {id: mr_nobody, name: Mr. Nobody, aliases: [Mr. Nobody]}
+- {id: little_nobody, name: Little Nobody, aliases: [Little Nobody]}
+- {id: cipher, name: Cipher, aliases: [Cipher]}
+- {id: jakob, name: Jakob Toretto, aliases: [Jakob, Jakob Toretto]}
+- {id: queenie, name: Magdalene Shaw, aliases: [Queenie, "Magdalene \"Queenie\" Shaw", Magdalene Shaw]}
+- {id: hattie, name: Hattie Shaw, aliases: [Hattie, Hattie Shaw]}
+- {id: brixton, name: Brixton Lore, aliases: [Brixton, Brixton Lore]}
+- {id: dante, name: Dante Reyes, aliases: [Dante, Dante Reyes]}
+- {id: tess, name: Tess, aliases: [Tess]}
+- {id: aimes, name: Aimes, aliases: [Aimes]}
+- {id: isabel, name: Isabel Neves, aliases: [Isabel, Isabel Neves]}
+- {id: little_b, name: Brian Marcos (Little B), aliases: [Little B]}
+- {id: sean, name: Sean Boswell, aliases: [Sean, Sean Boswell]}
+- {id: twinkie, name: Twinkie, aliases: [Twinkie]}
+- {id: earl, name: Earl Hu, aliases: [Earl, Earl Hu]}
+- {id: neela, name: Neela, aliases: [Neela, Neela Ezar]}
+- {id: takashi, name: Takashi (D.K.), aliases: [Takashi]}
+- {id: vince, name: Vince, aliases: [Vince]}
+- {id: leon, name: Leon, aliases: [Leon]}
+- {id: jesse, name: Jesse, aliases: [Jesse]}
+- {id: johnny_tran, name: Johnny Tran, aliases: [Johnny Tran]}
+- {id: lance, name: Lance Nguyen, aliases: [Lance]}
+- {id: monica, name: Monica Fuentes, aliases: [Monica, Monica Fuentes]}
+- {id: verone, name: Carter Verone, aliases: [Carter Verone, Verone]}
+- {id: suki, name: Suki, aliases: [Suki]}
+- {id: fenix, name: Fenix Calderon, aliases: [Fenix]}
+- {id: braga, name: Arturo Braga, aliases: [Braga, Braga/Campos]}
+- {id: hernan_reyes, name: Hernan Reyes, aliases: [Hernan Reyes]}
+- {id: leo, name: Leo, aliases: [Leo]}
+- {id: santos, name: Santos, aliases: [Santos]}
+- {id: otto, name: Otto, aliases: [Otto]}
+- {id: elle, name: Elle Lue, aliases: [Elle, Elle Lue]}
+- {id: leysa, name: Leysa, aliases: [Leysa]}
+- {id: jakande, name: Mose Jakande, aliases: [Mose Jakande, Jakande]}
+- {id: kiet, name: Kiet, aliases: [Kiet]}
+- {id: klaus, name: Klaus, aliases: [Klaus]}
+- {id: jah, name: Jah, aliases: [Jah]}
+- {id: rhodes, name: Connor Rhodes, aliases: [Rhodes, Connor Rhodes]}
+- {id: rasputin, name: Rasputin, aliases: [Rasputin]}
+- {id: jack_toretto, name: Jack Toretto (father), aliases: [Jack Toretto]}
+- {id: slap_jack, name: Slap-Jack, aliases: [Slap-Jack]}
+- {id: roberto, name: Roberto, aliases: [Roberto]}

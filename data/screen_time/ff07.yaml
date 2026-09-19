@@ -1,0 +1,256 @@
+# GENERATED from research/ff07.md by scripts/import_presence.py
+film: ff07
+anchors:
+- research/ff07.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 1.0
+  title: Studio logos / cold open title
+  characters: []
+- n: 2
+  start: 1.0
+  end: 6.0
+  title: 'Hospital: Deckard visits comatose Owen, hospital destroyed (ff07-c01)'
+  characters:
+  - deckard
+  - owen
+- n: 3
+  start: 6.0
+  end: 11.0
+  title: DSS field office break-in and bomb (ff07-c02)
+  characters:
+  - hobbs
+  - deckard
+- n: 4
+  start: 11.0
+  end: 14.0
+  title: Race Wars desert street-race meet
+  characters:
+  - letty
+- n: 5
+  start: 14.0
+  end: 17.0
+  title: Brian's minivan school drop-off
+  characters:
+  - brian
+  - mia
+- n: 6
+  start: 17.0
+  end: 20.0
+  title: Dom and Letty at home, memory conversation
+  characters:
+  - dom
+  - letty
+- n: 7
+  start: 20.0
+  end: 24.0
+  title: Package bomb destroys the house (ff07-c04)
+  characters:
+  - dom
+  - brian
+  - mia
+- n: 8
+  start: 24.0
+  end: 27.0
+  title: Hobbs in hospital, learns of Han's death
+  characters:
+  - hobbs
+- n: 9
+  start: 27.0
+  end: 30.0
+  title: Dom travels to Tokyo for Han's body
+  characters:
+  - dom
+- n: 10
+  start: 30.0
+  end: 34.0
+  title: Han's funeral, LA
+  characters:
+  - dom
+  - brian
+  - mia
+  - letty
+  - roman
+  - tej
+  - deckard
+- n: 11
+  start: 34.0
+  end: 40.0
+  title: Post-funeral chase and crash (ff07-c05)
+  characters:
+  - dom
+  - deckard
+  - mr_nobody
+- n: 12
+  start: 40.0
+  end: 46.0
+  title: Mr. Nobody's briefing / recruitment
+  characters:
+  - dom
+  - brian
+  - letty
+  - roman
+  - tej
+  - mr_nobody
+- n: 13
+  start: 46.0
+  end: 52.0
+  title: Prep and C-130 parachute drop (ff07-c06)
+  characters:
+  - dom
+  - brian
+  - letty
+  - roman
+  - tej
+- n: 14
+  start: 52.0
+  end: 56.0
+  title: Convoy ambush firefight (ff07-c07)
+  characters:
+  - dom
+  - brian
+  - letty
+  - roman
+  - tej
+  - kiet
+- n: 15
+  start: 56.0
+  end: 60.0
+  title: Brian vs. Kiet on the bus, Ramsey extracted (ff07-c08)
+  characters:
+  - brian
+  - kiet
+  - ramsey
+- n: 16
+  start: 60.0
+  end: 63.0
+  title: Bus off the cliff, Brian jumps, Letty catches him (ff07-c09, ff07-c10)
+  characters:
+  - brian
+  - letty
+- n: 17
+  start: 63.0
+  end: 66.0
+  title: Dom rolls car down hill with Ramsey (ff07-c11)
+  characters:
+  - dom
+  - ramsey
+  - deckard
+- n: 18
+  start: 66.0
+  end: 69.0
+  title: Team arrives at Emirates Palace Hotel, Abu Dhabi
+  characters:
+  - dom
+  - brian
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 19
+  start: 69.0
+  end: 74.0
+  title: Party infiltration, Kara vs. Letty fight (ff07-c12)
+  characters:
+  - letty
+  - dom
+  - brian
+- n: 20
+  start: 74.0
+  end: 80.0
+  title: Etihad Towers car heist and three-tower jump (ff07-c13)
+  characters:
+  - dom
+  - brian
+- n: 21
+  start: 80.0
+  end: 86.0
+  title: Jakande's ambush, God's Eye lost, team flees (ff07-c14)
+  characters:
+  - dom
+  - brian
+  - letty
+  - roman
+  - tej
+  - ramsey
+  - mr_nobody
+  - deckard
+  - jakande
+- n: 22
+  start: 86.0
+  end: 90.0
+  title: Team returns to LA, splits up
+  characters:
+  - dom
+  - brian
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 23
+  start: 90.0
+  end: 98.0
+  title: Drone + helicopter chase through downtown LA (ff07-c15)
+  characters:
+  - brian
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 24
+  start: 98.0
+  end: 102.0
+  title: Hobbs leaves hospital, destroys drone with ambulance, breaks cast (ff07-c03, ff07-c16)
+  characters:
+  - hobbs
+- n: 25
+  start: 102.0
+  end: 108.0
+  title: Brian vs. Kiet again, signal-tower hijack (ff07-c18)
+  characters:
+  - brian
+  - kiet
+  - ramsey
+- n: 26
+  start: 108.0
+  end: 116.0
+  title: Dom vs. Deckard on collapsing parking garage, Jakande intervenes (ff07-c19)
+  characters:
+  - dom
+  - deckard
+  - jakande
+- n: 27
+  start: 116.0
+  end: 120.0
+  title: Hobbs destroys helicopter with minigun; Dom crashes Charger onto it (ff07-c17, ff07-c20)
+  characters:
+  - hobbs
+  - dom
+  - jakande
+- n: 28
+  start: 120.0
+  end: 124.0
+  title: 'Aftermath: Letty at Dom''s side, memory returns; Deckard arrested'
+  characters:
+  - dom
+  - letty
+  - hobbs
+  - deckard
+- n: 29
+  start: 124.0
+  end: 133.0
+  title: Beach reunion, Brian's farewell, final driving scene
+  characters:
+  - dom
+  - brian
+  - mia
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 30
+  start: 133.0
+  end: 137.3
+  title: Paul Walker tribute montage into end credits ("See You Again")
+  characters: []

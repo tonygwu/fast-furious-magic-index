@@ -1,0 +1,16 @@
+# Every key is required. The loader raises on a missing or unknown key; nothing defaults.
+record_horizon_mu: 12        # per-component cap; a capped component is a lower bound (see docs/methodology.md)
+judgment_cap_mu: 3           # E4 (judgment prior) components may not exceed this
+event_threshold_mu: 2        # an event qualifies when its central MU >= this
+mu_step: 0.5                 # MU values are stored on this grid (no false precision)
+min_plot_sources_ranked: 2   # events need this many independent plot sources to be ranked
+board_min_events: 3          # character board inclusion
+board_min_minutes: 30        # character board inclusion (central screen-time estimate)
+presence_low_factor: 0.6     # scene-presence minutes overstate on-screen time; low bound multiplier
+presence_high_factor: 1.0    # high bound multiplier
+presence_central_factor: 0.8  # central estimate multiplier
+runtime_tolerance: 0.05      # presence log must sum to runtime within this fraction
+presence_char_error: 0.3    # independent per-character screen-time error (uniform +/-) used in rate-rank simulation
+mc_draws: 10000
+mc_seed: 20260918
+tier_break_prob: 0.9         # adjacent items split into separate tiers when upper beats lower in >= this share of draws

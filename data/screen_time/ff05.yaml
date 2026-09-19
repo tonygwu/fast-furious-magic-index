@@ -1,0 +1,204 @@
+# GENERATED from research/ff05.md by scripts/import_presence.py
+film: ff05
+anchors:
+- research/ff05.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 3.0
+  title: 'Cold open: recap/flashback tied to Dom''s sentencing at the end of Fast & Furious (2009)'
+  characters:
+  - dom
+- n: 2
+  start: 3.0
+  end: 8.0
+  title: Prison bus rescue (ff05-c01)
+  characters:
+  - dom
+  - brian
+  - mia
+- n: 3
+  start: 8.0
+  end: 9.0
+  title: Main title card
+  characters: []
+- n: 4
+  start: 9.0
+  end: 20.0
+  title: Rio arrival; safehouse setup; reunion with Vince; scene-setting/recon for the train job
+  characters:
+  - brian
+  - mia
+  - vince
+  - dom
+- n: 5
+  start: 20.0
+  end: 27.0
+  title: 'Train heist: boarding and extraction (ff05-c02)'
+  characters:
+  - dom
+  - brian
+  - mia
+  - vince
+- n: 6
+  start: 27.0
+  end: 29.0
+  title: Corvette canyon dive (ff05-c03)
+  characters:
+  - dom
+  - brian
+- n: 7
+  start: 29.0
+  end: 34.0
+  title: Capture and interrogation by Reyes's men; escape to the safehouse (mechanism not detailed in sources found)
+  characters:
+  - dom
+  - brian
+  - hernan_reyes
+- n: 8
+  start: 34.0
+  end: 38.0
+  title: Vince caught removing the chip; Brian discovers the ledger data; Mia's pregnancy reveal
+  characters:
+  - brian
+  - mia
+  - dom
+  - vince
+- n: 9
+  start: 38.0
+  end: 46.0
+  title: Safehouse assault and favela rooftop chase (ff05-c04)
+  characters:
+  - dom
+  - brian
+  - mia
+  - hobbs
+  - elena
+- n: 10
+  start: 46.0
+  end: 56.0
+  title: Team recruitment montage (Han, Gisele, Leo, Santos, Roman, Tej); Diogo street race
+  characters:
+  - dom
+  - han
+  - gisele
+  - leo
+  - santos
+  - roman
+  - tej
+- n: 11
+  start: 56.0
+  end: 66.0
+  title: Robbery/arson of a Reyes cash front; Reyes consolidates money into the police-station vault
+  characters:
+  - dom
+  - brian
+  - roman
+  - tej
+  - han
+  - gisele
+- n: 12
+  start: 66.0
+  end: 78.0
+  title: Surveillance, equipment, handprint acquisition (Gisele/Reyes), acquiring the Charger disguises; DSS car-meet standoff (ff05-p07)
+  characters:
+  - gisele
+  - han
+  - hernan_reyes
+  - hobbs
+- n: 13
+  start: 78.0
+  end: 88.0
+  title: Vince rejoins after saving Mia; Hobbs's team arrests Dom, Mia, Brian, and Vince
+  characters:
+  - dom
+  - brian
+  - mia
+  - vince
+  - hobbs
+  - elena
+- n: 14
+  start: 88.0
+  end: 95.0
+  title: Convoy ambush ("Ambush in Rocinha") (ff05-c05)
+  characters:
+  - dom
+  - brian
+  - mia
+  - vince
+  - hobbs
+  - elena
+- n: 15
+  start: 95.0
+  end: 100.0
+  title: Vince dies of his wound; Hobbs and Elena agree to join the heist; final planning
+  characters:
+  - dom
+  - brian
+  - mia
+  - hobbs
+  - elena
+- n: 16
+  start: 100.0
+  end: 104.0
+  title: Vault extraction from the police station (ff05-c06)
+  characters:
+  - hobbs
+  - elena
+  - dom
+  - brian
+- n: 17
+  start: 104.0
+  end: 112.0
+  title: Vault drag chase through the city (ff05-c07); vault swap into the garbage truck (ff05-c09)
+  characters:
+  - dom
+  - brian
+  - mia
+  - roman
+  - han
+  - gisele
+  - santos
+  - leo
+- n: 18
+  start: 112.0
+  end: 118.0
+  title: 'Bridge finale: Zizi and Reyes killed (ff05-c08)'
+  characters:
+  - dom
+  - brian
+  - hernan_reyes
+  - hobbs
+- n: 19
+  start: 118.0
+  end: 122.0
+  title: Money split; Vince's share given to his family; the crew scatters (Monaco, the Autobahn, new cars)
+  characters:
+  - dom
+  - brian
+  - mia
+  - han
+  - gisele
+  - roman
+  - tej
+  - leo
+  - santos
+- n: 20
+  start: 122.0
+  end: 124.0
+  title: Beach epilogue; Brian challenges Dom to a final race
+  characters:
+  - brian
+  - mia
+  - dom
+  - elena
+- n: 21
+  start: 124.0
+  end: 130.0
+  title: End credits, intercut with the Dom-vs-Brian race; mid-credits Letty/Hobbs scene (ff05-p01), "shortly into" the credits per aftercredits.com
+  characters:
+  - dom
+  - brian
+  - hobbs
+  - monica
+  - letty

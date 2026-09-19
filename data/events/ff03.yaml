@@ -1,0 +1,31 @@
+film: ff03
+events:
+  - id: ev-ff03-01
+    title: Novice beats the Drift King on his own mountain
+    sequence: Final mountain race
+    depicted: >-
+      Weeks after first learning to drift (he wrecked a borrowed car on his first attempt), Sean beats Takashi, the
+      local Drift King, in a downhill duel on a mountain road that only Takashi has completed. Takashi crashes off
+      the road trying to force Sean off.
+    inferred: The training period is compressed into a montage; the film implies weeks, not years.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: low
+    participants: [sean, takashi]
+    plot_sources: [ff03-wiki, ff03-looper, ff03-plotexplained]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: A driver with weeks of drift experience beats the best local drifter on the rival's home course
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Head-to-head results in motorsport track experience closely; a first-season driver beating a dominant
+          veteran on the veteran's home course is rare but not unheard of. Judgment prior around 1 in 100, capped
+          at the 3 MU judgment limit because no race-result dataset fits this case.
+        dependence: Single component. Takashi's crash is part of how Sean wins, not a separate miracle.
+        references: []
+        credits: [{character: sean, role: performer}]

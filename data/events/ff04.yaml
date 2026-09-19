@@ -1,0 +1,82 @@
+film: ff04
+events:
+  - id: ev-ff04-01
+    title: Letty pulled off a runaway burning tanker
+    sequence: Opening fuel-tanker heist
+    depicted: >-
+      After the crew uncouples a fuel trailer on a mountain road, Letty is left on the runaway trailer as it catches
+      fire. Dom drives in reverse to match it and pulls her clear before it goes over the edge and explodes.
+    inferred: How Letty came to be stranded is not described. Speeds are not given.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [trailer speed, whether the tanker tumbles over Dom's car]
+    confidence: medium
+    participants: [dom, letty]
+    plot_sources: [ff04-hotcars, ff04-drivingline, ff04-screenrant-ridiculous]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: Dom reverses at speed on a mountain road and holds position against an unsteered trailer
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          Reversing at speed is unstable (the steered wheels trail), and the trailer's path is not controlled.
+          Rodriguez did a real version of the swing with the towing vehicle in reverse, so it is possible with rigging.
+          Judgment prior around 1 in 10 without rigging.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: performer}]
+      - id: c2
+        category: skill
+        subtype: skill.precision
+        claim: Letty transfers from a burning, moving trailer to the car without falling under either
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: Vehicle-to-vehicle transfer with an active fire and an unsteered trailer. Judgment prior around 1 in 10.
+        dependence: Conditional on c1 (the car is alongside).
+        references: []
+        credits: [{character: letty, role: performer}]
+  - id: ev-ff04-02
+    title: Outrun the tunnel collapse, arrive in time to save Brian
+    sequence: Escape through the border tunnels
+    depicted: >-
+      Dom speeds out of the smuggling tunnel as it collapses behind him in an explosion, and reaches the exit just as
+      Fenix, standing over the crashed Brian, is about to shoot him. Dom rams Fenix's car and kills him.
+    inferred: No timing or distance figures are given.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [distance between Dom and the collapse front]
+    confidence: low
+    participants: [dom, brian, fenix]
+    plot_sources: [ff04-wiki, ff04-screenrant-ridiculous]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.timing
+        claim: The car stays ahead of a collapse and explosion front in a confined tunnel
+        evidence: E3
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          Deflagration and collapse fronts in tunnels can move at tens of metres per second, similar to a car. Escaping
+          depends on how close the car was when the collapse started, and the film puts it just behind. Roughly 1 in 3
+          to 1 in 30.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: controller}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.timing
+        claim: Dom arrives within the few seconds between Fenix raising his gun and firing
+        evidence: E3
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          If Fenix spends about 30 s over Brian and Dom's arrival time is uncertain across about 5 minutes, the chance
+          of arriving inside the window is about 1 in 10.
+        dependence: Independent of c1 given that Dom escapes; the collapse sets his exit time only loosely.
+        references: []
+        credits: [{character: dom, role: controller}, {character: brian, role: beneficiary}]

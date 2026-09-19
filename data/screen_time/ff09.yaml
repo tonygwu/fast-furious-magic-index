@@ -1,0 +1,198 @@
+# GENERATED from research/ff09.md by scripts/import_presence.py
+film: ff09
+anchors:
+- research/ff09.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 7.0
+  title: '1989 flashback: racetrack, Jack Toretto''s fatal crash'
+  characters:
+  - jack_toretto
+- n: 2
+  start: 7.0
+  end: 10.0
+  title: Dom's imprisonment and exile race against teenage Jakob
+  characters:
+  - dom
+  - jakob
+- n: 3
+  start: 10.0
+  end: 16.0
+  title: 'Present day: Dom and Letty''s rural life with son Brian; Roman/Tej/Ramsey arrive with news'
+  characters:
+  - dom
+  - letty
+  - roman
+  - tej
+  - ramsey
+- n: 4
+  start: 16.0
+  end: 30.0
+  title: 'Montequinto: plane wreckage recovery, ambush, minefield chase, rope swing, Jakob steals Aries half'
+  characters:
+  - dom
+  - letty
+  - roman
+  - tej
+  - ramsey
+  - jakob
+- n: 5
+  start: 30.0
+  end: 34.0
+  title: Escape to Caspian Sea safehouse (aided by Michael Stasiak); Mia arrives
+  characters:
+  - dom
+  - letty
+  - roman
+  - tej
+  - ramsey
+  - mia
+- n: 6
+  start: 34.0
+  end: 38.0
+  title: Team links Han to Project Aries; splits up (Letty/Mia to Tokyo)
+  characters:
+  - dom
+  - letty
+  - mia
+  - ramsey
+  - tej
+  - roman
+- n: 7
+  start: 38.0
+  end: 44.0
+  title: Jakob and Otto meet; captive Cipher gives intel
+  characters:
+  - jakob
+  - otto
+  - cipher
+- n: 8
+  start: 44.0
+  end: 50.0
+  title: Dom meets Buddy in Los Angeles; learns Jakob is in London
+  characters:
+  - dom
+- n: 9
+  start: 50.0
+  end: 58.0
+  title: 'Tokyo: Letty and Mia find Han alive with Elle; gunfight'
+  characters:
+  - letty
+  - mia
+  - han
+  - elle
+- n: 10
+  start: 58.0
+  end: 64.0
+  title: 'Germany: Roman and Tej recruit Sean/Twinkie/Earl; rocket car test explosion'
+  characters:
+  - roman
+  - tej
+  - sean
+  - twinkie
+  - earl
+- n: 11
+  start: 64.0
+  end: 72.0
+  title: 'London: Queenie Shaw tip, mansion party confrontation, Dom arrested, Leysa rescue'
+  characters:
+  - dom
+  - queenie
+  - jakob
+  - otto
+  - leysa
+- n: 12
+  start: 72.0
+  end: 84.0
+  title: 'Edinburgh: electromagnet truck chase; Ramsey commandeers truck; Dom vs. Jakob; Jakob captured'
+  characters:
+  - dom
+  - jakob
+  - tej
+  - roman
+  - ramsey
+- n: 13
+  start: 84.0
+  end: 90.0
+  title: 'Safehouse: Han reveals Elle/Aries backstory to the team'
+  characters:
+  - han
+  - elle
+  - dom
+  - letty
+  - mia
+  - ramsey
+  - tej
+  - roman
+  - jakob
+- n: 14
+  start: 90.0
+  end: 98.0
+  title: Otto's forces attack safehouse; Dom nearly drowns; Jack/Jakob backstory reveal; Elle and Aries half taken
+  characters:
+  - dom
+  - letty
+  - jakob
+  - otto
+  - elle
+- n: 15
+  start: 98.0
+  end: 104.0
+  title: Otto launches satellite; team regroups and heads to Tbilisi
+  characters:
+  - dom
+  - letty
+  - mia
+  - ramsey
+  - han
+  - tej
+  - roman
+- n: 16
+  start: 104
+  end: 118
+  title: 'Tbilisi finale (ground): armored truck chase, magnet-flip, Jakob thrown/rescued, drone bomb kills Otto, Dom destroys Cipher''s drone'
+  characters:
+  - dom
+  - letty
+  - mia
+  - ramsey
+  - han
+  - jakob
+  - otto
+  - cipher
+- n: 17
+  start: 118
+  end: 130
+  title: 'Space sequence (likely cross-cut with row 16, not strictly sequential — see notes on ff09-c14): Fiero launch, satellite destroyed, ISS, return'
+  characters:
+  - tej
+  - roman
+  - sean
+  - earl
+- n: 18
+  start: 130.0
+  end: 134.0
+  title: Dom forgives and releases Jakob; teenage-years flashback
+  characters:
+  - dom
+  - jakob
+  - mia
+- n: 19
+  start: 134.0
+  end: 140.0
+  title: Barbecue celebration; Brian's car arrives
+  characters:
+  - dom
+  - letty
+  - mia
+  - roman
+  - tej
+  - ramsey
+  - han
+  - elle
+- n: 20
+  start: 140.0
+  end: 143.0
+  title: End credits roll (exact start unknown)
+  characters: []

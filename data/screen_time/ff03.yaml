@@ -1,0 +1,144 @@
+# GENERATED from research/ff03.md by scripts/import_presence.py
+film: ff03
+anchors:
+- research/ff03.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 2.0
+  title: Studio card / main titles
+  characters: []
+- n: 2
+  start: 2.0
+  end: 10.0
+  title: Opening street race (Arizona/Victorville)
+  characters:
+  - sean
+- n: 3
+  start: 10.0
+  end: 13.0
+  title: Arrest/aftermath, decision to send Sean away
+  characters:
+  - sean
+- n: 4
+  start: 13.0
+  end: 17.0
+  title: Sean arrives in Tokyo, meets his father
+  characters:
+  - sean
+- n: 5
+  start: 17.0
+  end: 22.0
+  title: First day at school
+  characters:
+  - sean
+  - twinkie
+  - neela
+- n: 6
+  start: 22.0
+  end: 28.0
+  title: Underground car meet; DK challenge issued
+  characters:
+  - sean
+  - twinkie
+  - neela
+  - takashi
+  - han
+- n: 7
+  start: 28.0
+  end: 34.0
+  title: Parking-garage race vs. Takashi; Sean crashes
+  characters:
+  - sean
+  - takashi
+  - han
+  - neela
+- n: 8
+  start: 34.0
+  end: 40.0
+  title: Working off the debt for Han
+  characters:
+  - sean
+  - han
+- n: 9
+  start: 40.0
+  end: 48.0
+  title: Drift-training montage
+  characters:
+  - sean
+  - han
+- n: 10
+  start: 48.0
+  end: 54.0
+  title: Sean and Neela grow closer
+  characters:
+  - sean
+  - neela
+- n: 11
+  start: 54.0
+  end: 60.0
+  title: Sean beats Morimoto in a race
+  characters:
+  - sean
+  - takashi
+  - neela
+- n: 12
+  start: 60.0
+  end: 66.0
+  title: Takashi assaults Sean; Neela leaves Takashi
+  characters:
+  - sean
+  - takashi
+  - neela
+- n: 13
+  start: 66.0
+  end: 72.0
+  title: Kamata confronts Takashi over Han
+  characters:
+  - takashi
+- n: 14
+  start: 72.0
+  end: 80.0
+  title: 'Chase: Morimoto''s pileup, Han''s death, Sean/Neela crash'
+  characters:
+  - sean
+  - neela
+  - han
+  - takashi
+- n: 15
+  start: 80.0
+  end: 84.0
+  title: Gunpoint standoff
+  characters:
+  - sean
+  - takashi
+  - neela
+- n: 16
+  start: 84.0
+  end: 90.0
+  title: Sean challenges Takashi; Mustang restored
+  characters:
+  - sean
+  - twinkie
+- n: 17
+  start: 90.0
+  end: 100.0
+  title: Final mountain race
+  characters:
+  - sean
+  - takashi
+- n: 18
+  start: 100.0
+  end: 102.0
+  title: Aftermath; Sean crowned new Drift King
+  characters:
+  - sean
+  - neela
+  - twinkie
+- n: 19
+  start: 102.0
+  end: 104.0
+  title: Dom Toretto's cameo/challenge (final scene, not post-credits)
+  characters:
+  - sean
+  - dom

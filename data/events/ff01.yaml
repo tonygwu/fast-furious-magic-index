@@ -1,0 +1,70 @@
+film: ff01
+events:
+  - id: ev-ff01-01
+    title: Cable boarding of a moving semi
+    sequence: Opening truck hijacking
+    depicted: >-
+      Three black Honda Civics chase a semi at night. Vince fires a grappling hook through the windshield, fires a
+      second line into the cab, and pulls himself from his moving Civic into the moving cab at highway speed.
+    inferred: The identities of the other drivers (Dom, Leon, Letty) are established later in the film.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [exact speed of both vehicles]
+    confidence: medium
+    participants: [vince, dom, letty, leon]
+    plot_sources: [ff01-wiki, ff01-fandom-truck]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.shooting
+        claim: Both grapple shots from a moving car hit and hold in the truck's windshield frame and cab
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          A hand-fired grapple from one moving vehicle into another at close range is aimable; the uncertain part is
+          that the hook both penetrates and anchors. Judgment prior: roughly 1 in 3 to 1 in 30 per attempt.
+        dependence: First component.
+        references: []
+        credits: [{character: vince, role: performer}]
+      - id: c2
+        category: skill
+        subtype: skill.precision
+        claim: Vince crosses the gap along an improvised cable into the cab without falling under the wheels
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          Professional vehicle-to-vehicle transfers are routine stunts with rigging and matched speeds; here the line is
+          improvised and the trucker is actively resisting. Judgment prior around 1 in 10.
+        dependence: Conditional on c1 (the line holds). Independent of the drivers' pace matching, which is ordinary.
+        references: []
+        credits: [{character: vince, role: performer}]
+  - id: ev-ff01-02
+    title: Dom T-boned by a truck after the quarter mile
+    sequence: Final race
+    depicted: >-
+      Straight after the drag race over the rail crossing, Dom's 1970 Charger is T-boned by a passing truck, goes
+      airborne and flips. Brian pulls him out; Dom then drives away in Brian's Supra before the police arrive.
+    inferred: Impact speed is not stated; a ten-second car finishes a quarter mile near 130 mph and brakes after.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [impact speed, visible injuries]
+    confidence: medium
+    participants: [dom, brian]
+    plot_sources: [ff01-wiki, ff01-wiki-brian]
+    components:
+      - id: c1
+        category: survival
+        subtype: survival.crash
+        claim: Dom survives a broadside truck impact and rollover in a 1970 car and can still drive away
+        evidence: E1
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          NHTSA all-crash curves at an assumed 60-80 mph delta-V: survive 0.46-1.68 MU, walk away 1.63-2.91 MU. Dom is
+          hurt but functional, so the central sits between the two curves at 70 mph (1.0 and 2.3), then +0.5 because the
+          curves describe 2010-2015 cars with airbags and the Charger (1970) has neither airbags nor crumple zones.
+        dependence: Single component. The production used a ramp rig; the depicted outcome is scored, not the stunt.
+        references: [nhtsa-fatal-frontal, nhtsa-mais2-all]
+        credits: [{character: dom, role: survivor}]

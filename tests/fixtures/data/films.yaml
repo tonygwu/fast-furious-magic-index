@@ -1,0 +1,2 @@
+- {id: fa, title: Film A, year: 2001, runtime_min: 100, release_order: 1, spinoff: false}
+- {id: fb, title: Film B, year: 2002, runtime_min: 100, release_order: 2, spinoff: true}

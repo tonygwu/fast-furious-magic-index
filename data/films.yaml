@@ -1,0 +1,12 @@
+# runtime_min = theatrical runtime including credits (sources in research/<id>.md headers)
+- {id: ff01, title: The Fast and the Furious, year: 2001, runtime_min: 106.83, release_order: 1, spinoff: false}
+- {id: ff02, title: 2 Fast 2 Furious, year: 2003, runtime_min: 107, release_order: 2, spinoff: false}
+- {id: ff03, title: "The Fast and the Furious: Tokyo Drift", year: 2006, runtime_min: 104, release_order: 3, spinoff: false}
+- {id: ff04, title: Fast & Furious, year: 2009, runtime_min: 107, release_order: 4, spinoff: false}
+- {id: ff05, title: Fast Five, year: 2011, runtime_min: 130, release_order: 5, spinoff: false}
+- {id: ff06, title: Fast & Furious 6, year: 2013, runtime_min: 130, release_order: 6, spinoff: false}
+- {id: ff07, title: Furious 7, year: 2015, runtime_min: 137.3, release_order: 7, spinoff: false}
+- {id: ff08, title: The Fate of the Furious, year: 2017, runtime_min: 136, release_order: 8, spinoff: false}
+- {id: hs, title: "Hobbs & Shaw", year: 2019, runtime_min: 137, release_order: 9, spinoff: true}
+- {id: ff09, title: F9, year: 2021, runtime_min: 143, release_order: 10, spinoff: false}
+- {id: ff10, title: Fast X, year: 2023, runtime_min: 141, release_order: 11, spinoff: false}

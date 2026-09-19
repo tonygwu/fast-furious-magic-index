@@ -1,0 +1,1068 @@
+[
+ {
+  "by_category": {
+   "coincidence": 16.0,
+   "physics": 15.0,
+   "skill": 0.0,
+   "survival": 4.0
+  },
+  "central": 35.0,
+  "characters": [
+   "roman",
+   "tej"
+  ],
+  "film": "ff09",
+  "high": 41.0,
+  "id": "ev-ff09-06",
+  "low": 32.0,
+  "lower_bound": true,
+  "n_capped": 2,
+  "odds": "< 1 in 10^35",
+  "odds_high": "< 1 in 10^41",
+  "odds_low": "< 1 in 10^32",
+  "primary_category": "coincidence",
+  "title": "Pontiac Fiero goes to space"
+ },
+ {
+  "by_category": {
+   "coincidence": 12.0,
+   "physics": 12.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 24.0,
+  "characters": [
+   "brian",
+   "dom",
+   "gisele",
+   "han",
+   "hobbs",
+   "letty",
+   "owen",
+   "roman",
+   "tej"
+  ],
+  "film": "ff06",
+  "high": 24.0,
+  "id": "ev-ff06-04",
+  "low": 24.0,
+  "lower_bound": true,
+  "n_capped": 2,
+  "odds": "< 1 in 10^24",
+  "odds_high": "< 1 in 10^24",
+  "odds_low": "< 1 in 10^24",
+  "primary_category": "physics",
+  "title": "The endless runway"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 15.0,
+   "skill": 1.0,
+   "survival": 0.0
+  },
+  "central": 16.0,
+  "characters": [
+   "brian",
+   "dom"
+  ],
+  "film": "ff05",
+  "high": 19.0,
+  "id": "ev-ff05-03",
+  "low": 14.5,
+  "lower_bound": true,
+  "n_capped": 1,
+  "odds": "< 1 in 10^16",
+  "odds_high": "< 1 in 10^19",
+  "odds_low": "< 1 in 3×10^14",
+  "primary_category": "physics",
+  "title": "Two Chargers drag a bank vault through Rio"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 13.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 13.0,
+  "characters": [
+   "deckard",
+   "hobbs"
+  ],
+  "film": "hs",
+  "high": 14.0,
+  "id": "ev-hs-05",
+  "low": 12.5,
+  "lower_bound": true,
+  "n_capped": 1,
+  "odds": "< 1 in 10^13",
+  "odds_high": "< 1 in 10^14",
+  "odds_low": "< 1 in 3×10^12",
+  "primary_category": "physics",
+  "title": "Hobbs holds a Black Hawk by its chain"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 12.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 12.0,
+  "characters": [
+   "brixton",
+   "hattie"
+  ],
+  "film": "hs",
+  "high": 12.0,
+  "id": "ev-hs-02",
+  "low": 12.0,
+  "lower_bound": true,
+  "n_capped": 1,
+  "odds": "< 1 in 10^12",
+  "odds_high": "< 1 in 10^12",
+  "odds_low": "< 1 in 10^12",
+  "primary_category": "physics",
+  "title": "Brixton runs down a skyscraper's slanted face carrying Hattie"
+ },
+ {
+  "by_category": {
+   "coincidence": 2.5,
+   "physics": 5.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 7.5,
+  "characters": [
+   "dom",
+   "letty"
+  ],
+  "film": "ff09",
+  "high": 12.5,
+  "id": "ev-ff09-02",
+  "low": 4.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 3×10^7",
+  "odds_high": "1 in 3×10^12",
+  "odds_low": "1 in 30,000",
+  "primary_category": "physics",
+  "title": "Charger swings across the gorge on the bridge's rope"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 6.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 7.0,
+  "characters": [
+   "hobbs"
+  ],
+  "film": "ff08",
+  "high": 14.0,
+  "id": "ev-ff08-04",
+  "low": 3.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10^7",
+  "odds_high": "1 in 10^14",
+  "odds_low": "1 in 3,000",
+  "primary_category": "physics",
+  "title": "Hobbs redirects a torpedo by hand"
+ },
+ {
+  "by_category": {
+   "coincidence": 4.5,
+   "physics": 1.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 6.0,
+  "characters": [
+   "brian",
+   "dom",
+   "letty",
+   "roman",
+   "tej"
+  ],
+  "film": "ff07",
+  "high": 8.5,
+  "id": "ev-ff07-01",
+  "low": 4.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10^6",
+  "odds_high": "1 in 3×10^8",
+  "odds_low": "1 in 10,000",
+  "primary_category": "coincidence",
+  "title": "Five cars parachuted onto a mountain road"
+ },
+ {
+  "by_category": {
+   "coincidence": 3.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 3.0
+  },
+  "central": 6.0,
+  "characters": [
+   "dom",
+   "letty"
+  ],
+  "film": "ff06",
+  "high": 7.0,
+  "id": "ev-ff06-03",
+  "low": 4.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10^6",
+  "odds_high": "1 in 10^7",
+  "odds_low": "1 in 10,000",
+  "primary_category": "survival",
+  "title": "Dom catches Letty in mid-air over the highway"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.5,
+   "physics": 2.0,
+   "skill": 0.0,
+   "survival": 2.0
+  },
+  "central": 5.5,
+  "characters": [
+   "brian",
+   "dom"
+  ],
+  "film": "ff07",
+  "high": 9.5,
+  "id": "ev-ff07-04",
+  "low": 3.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300,000",
+  "odds_high": "1 in 3×10^9",
+  "odds_low": "1 in 1,000",
+  "primary_category": "physics",
+  "title": "Lykan HyperSport jumps between the Etihad Towers"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 1.0,
+   "survival": 3.5
+  },
+  "central": 4.5,
+  "characters": [
+   "dom",
+   "little_b"
+  ],
+  "film": "ff10",
+  "high": 7.0,
+  "id": "ev-ff10-03",
+  "low": 3.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 30,000",
+  "odds_high": "1 in 10^7",
+  "odds_low": "1 in 1,000",
+  "primary_category": "survival",
+  "title": "Driving down the face of a 460 ft dam"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 3.0,
+   "skill": 0.0,
+   "survival": 1.0
+  },
+  "central": 4.0,
+  "characters": [
+   "dom",
+   "letty",
+   "ramsey",
+   "roman",
+   "tej"
+  ],
+  "film": "ff09",
+  "high": 7.0,
+  "id": "ev-ff09-01",
+  "low": 2.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10,000",
+  "odds_high": "1 in 10^7",
+  "odds_low": "1 in 300",
+  "primary_category": "physics",
+  "title": "Outrunning landmines at 80 mph"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.5,
+   "physics": 0.0,
+   "skill": 2.5,
+   "survival": 1.0
+  },
+  "central": 4.0,
+  "characters": [
+   "dom",
+   "hobbs",
+   "letty",
+   "ramsey",
+   "roman",
+   "tej"
+  ],
+  "film": "ff08",
+  "high": 6.5,
+  "id": "ev-ff08-06",
+  "low": 2.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10,000",
+  "odds_high": "1 in 3×10^6",
+  "odds_low": "1 in 100",
+  "primary_category": "skill",
+  "title": "Dom leads a homing missile into the submarine"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 1.0
+  },
+  "central": 4.0,
+  "characters": [
+   "dom"
+  ],
+  "film": "ff10",
+  "high": 6.5,
+  "id": "ev-ff10-01",
+  "low": 2.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10,000",
+  "odds_high": "1 in 3×10^6",
+  "odds_low": "1 in 100",
+  "primary_category": "skill",
+  "title": "Steering a rolling bomb through Rome into the Tiber"
+ },
+ {
+  "by_category": {
+   "coincidence": 2.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "central": 4.0,
+  "characters": [
+   "brian",
+   "letty"
+  ],
+  "film": "ff07",
+  "high": 6.0,
+  "id": "ev-ff07-03",
+  "low": 2.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10,000",
+  "odds_high": "1 in 10^6",
+  "odds_low": "1 in 100",
+  "primary_category": "skill",
+  "title": "Brian runs off a bus falling off a cliff, Letty drifts in to catch him"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 0.0,
+   "skill": 3.0,
+   "survival": 0.0
+  },
+  "central": 4.0,
+  "characters": [
+   "cipher"
+  ],
+  "film": "ff08",
+  "high": 5.0,
+  "id": "ev-ff08-02",
+  "low": 2.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10,000",
+  "odds_high": "1 in 100,000",
+  "odds_low": "1 in 300",
+  "primary_category": "skill",
+  "title": "Zero Day hack of a thousand cars and the raining cars"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.5,
+   "physics": 0.0,
+   "skill": 1.0,
+   "survival": 1.0
+  },
+  "central": 3.5,
+  "characters": [
+   "dom",
+   "hobbs"
+  ],
+  "film": "ff07",
+  "high": 6.0,
+  "id": "ev-ff07-05",
+  "low": 2.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 3,000",
+  "odds_high": "1 in 10^6",
+  "odds_low": "1 in 100",
+  "primary_category": "coincidence",
+  "title": "Charger launched off a collapsing garage at a helicopter"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.0,
+   "skill": 0.0,
+   "survival": 1.5
+  },
+  "central": 3.5,
+  "characters": [
+   "dom"
+  ],
+  "film": "ff10",
+  "high": 6.0,
+  "id": "ev-ff10-02",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 3,000",
+  "odds_high": "1 in 10^6",
+  "odds_low": "1 in 30",
+  "primary_category": "physics",
+  "title": "Charger dropped from a cargo plane onto the highway"
+ },
+ {
+  "by_category": {
+   "coincidence": 2.0,
+   "physics": 1.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 3.5,
+  "characters": [
+   "brian",
+   "dom",
+   "gisele",
+   "leo",
+   "santos"
+  ],
+  "film": "ff05",
+  "high": 5.0,
+  "id": "ev-ff05-04",
+  "low": 2.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 3,000",
+  "odds_high": "1 in 100,000",
+  "odds_low": "1 in 100",
+  "primary_category": "coincidence",
+  "title": "Vault swapped into a garbage truck mid-chase, unseen"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.5,
+   "physics": 1.0,
+   "skill": 0.0,
+   "survival": 0.5
+  },
+  "central": 3.0,
+  "characters": [
+   "brian",
+   "roman"
+  ],
+  "film": "ff02",
+  "high": 5.0,
+  "id": "ev-ff02-02",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 1,000",
+  "odds_high": "1 in 100,000",
+  "odds_low": "1 in 30",
+  "primary_category": "coincidence",
+  "title": "Camaro ramp-jumps onto a moving yacht"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 1.0
+  },
+  "central": 3.0,
+  "characters": [
+   "hobbs"
+  ],
+  "film": "hs",
+  "high": 5.0,
+  "id": "ev-hs-03",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 1,000",
+  "odds_high": "1 in 100,000",
+  "odds_low": "1 in 30",
+  "primary_category": "skill",
+  "title": "Hobbs descends the tower by leaping onto people"
+ },
+ {
+  "by_category": {
+   "coincidence": 2.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 1.0
+  },
+  "central": 3.0,
+  "characters": [
+   "dom"
+  ],
+  "film": "ff09",
+  "high": 4.5,
+  "id": "ev-ff09-07",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 1,000",
+  "odds_high": "1 in 30,000",
+  "odds_low": "1 in 30",
+  "primary_category": "coincidence",
+  "title": "Blast-thrown truck swats Cipher's drone"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 1.0,
+   "survival": 2.0
+  },
+  "central": 3.0,
+  "characters": [
+   "cipher"
+  ],
+  "film": "ff10",
+  "high": 4.5,
+  "id": "ev-ff10-04",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 1,000",
+  "odds_high": "1 in 30,000",
+  "odds_low": "1 in 30",
+  "primary_category": "survival",
+  "title": "Cipher rides a free-falling elevator down on a human cushion"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 3.0
+  },
+  "central": 3.0,
+  "characters": [
+   "brian",
+   "dom"
+  ],
+  "film": "ff05",
+  "high": 4.0,
+  "id": "ev-ff05-02",
+  "low": 2.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 1,000",
+  "odds_high": "1 in 10,000",
+  "odds_low": "1 in 100",
+  "primary_category": "survival",
+  "title": "Corvette off a 300 ft canyon, both swim away"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.0,
+   "skill": 0.0,
+   "survival": 0.5
+  },
+  "central": 2.5,
+  "characters": [
+   "jakob"
+  ],
+  "film": "ff09",
+  "high": 4.5,
+  "id": "ev-ff09-03",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 30,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "Jakob and his car snatched by a magnet aircraft"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.5,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 1.0
+  },
+  "central": 2.5,
+  "characters": [
+   "dom"
+  ],
+  "film": "ff06",
+  "high": 4.0,
+  "id": "ev-ff06-05",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 10,000",
+  "odds_low": "1 in 30",
+  "primary_category": "coincidence",
+  "title": "Dom drives out through the exploding plane's nose"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 2.5,
+  "characters": [
+   "cipher"
+  ],
+  "film": "ff08",
+  "high": 4.0,
+  "id": "ev-ff08-03",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 10,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "A nuclear submarine chases cars through the ice"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 2.5,
+  "characters": [
+   "brian",
+   "roman"
+  ],
+  "film": "ff06",
+  "high": 3.0,
+  "id": "ev-ff06-02",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 30",
+  "primary_category": "physics",
+  "title": "Brian and Roman overturn the tank"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 2.5
+  },
+  "central": 2.5,
+  "characters": [
+   "letty",
+   "ramsey",
+   "roman",
+   "tej"
+  ],
+  "film": "ff08",
+  "high": 3.0,
+  "id": "ev-ff08-05",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 30",
+  "primary_category": "survival",
+  "title": "Cars thrown 60 ft by torpedo blasts, everyone lives"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.5,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 2.5,
+  "characters": [
+   "dom",
+   "han",
+   "jakob",
+   "letty",
+   "mia",
+   "ramsey"
+  ],
+  "film": "ff09",
+  "high": 3.0,
+  "id": "ev-ff09-05",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 30",
+  "primary_category": "physics",
+  "title": "Magnetised cars flip an armoured truck out of Tbilisi"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "vince"
+  ],
+  "film": "ff01",
+  "high": 3.5,
+  "id": "ev-ff01-01",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 3,000",
+  "odds_low": "1 in 10",
+  "primary_category": "skill",
+  "title": "Cable boarding of a moving semi"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 1.0,
+   "skill": 1.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "brian"
+  ],
+  "film": "ff02",
+  "high": 3.5,
+  "id": "ev-ff02-01",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 3,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "Skyline jumps a rising drawbridge"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 1.0,
+   "skill": 1.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "dom"
+  ],
+  "film": "ff08",
+  "high": 3.5,
+  "id": "ev-ff08-01",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 3,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "Havana race won on fire and in reverse"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 0.0,
+   "skill": 1.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "deckard",
+   "hattie",
+   "hobbs"
+  ],
+  "film": "hs",
+  "high": 3.5,
+  "id": "ev-hs-04",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 3,000",
+  "odds_low": "1 in 10",
+  "primary_category": "skill",
+  "title": "McLaren threads under two crossing lorries"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 2.0
+  },
+  "central": 2.0,
+  "characters": [
+   "dom"
+  ],
+  "film": "ff01",
+  "high": 3.0,
+  "id": "ev-ff01-02",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "survival",
+  "title": "Dom T-boned by a truck after the quarter mile"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "sean"
+  ],
+  "film": "ff03",
+  "high": 3.0,
+  "id": "ev-ff03-01",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "skill",
+  "title": "Novice beats the Drift King on his own mountain"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "dom",
+   "letty"
+  ],
+  "film": "ff04",
+  "high": 3.0,
+  "id": "ev-ff04-01",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "skill",
+  "title": "Letty pulled off a runaway burning tanker"
+ },
+ {
+  "by_category": {
+   "coincidence": 2.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "brian",
+   "dom"
+  ],
+  "film": "ff04",
+  "high": 3.0,
+  "id": "ev-ff04-02",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "coincidence",
+  "title": "Outrun the tunnel collapse, arrive in time to save Brian"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 1.5,
+   "skill": 0.0,
+   "survival": 0.5
+  },
+  "central": 2.0,
+  "characters": [
+   "brian",
+   "dom",
+   "mia"
+  ],
+  "film": "ff05",
+  "high": 3.0,
+  "id": "ev-ff05-01",
+  "low": 0.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 3",
+  "primary_category": "physics",
+  "title": "Prison bus flipped by a braking Charger"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "letty",
+   "owen"
+  ],
+  "film": "ff06",
+  "high": 3.0,
+  "id": "ev-ff06-01",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "A Chieftain tank chases sports cars down a highway"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 2.0
+  },
+  "central": 2.0,
+  "characters": [
+   "dom",
+   "ramsey"
+  ],
+  "film": "ff07",
+  "high": 3.0,
+  "id": "ev-ff07-02",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "survival",
+  "title": "Charger driven off a cliff, rolls down the mountain"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "hobbs"
+  ],
+  "film": "ff07",
+  "high": 3.0,
+  "id": "ev-ff07-06",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "Hobbs flexes his arm cast off"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 2.0,
+   "skill": 0.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "ramsey"
+  ],
+  "film": "ff09",
+  "high": 3.0,
+  "id": "ev-ff09-04",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "Truck electromagnet hauls in a car"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
+  },
+  "central": 2.0,
+  "characters": [
+   "brixton"
+  ],
+  "film": "hs",
+  "high": 3.0,
+  "id": "ev-hs-01",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 100",
+  "odds_high": "1 in 1,000",
+  "odds_low": "1 in 10",
+  "primary_category": "skill",
+  "title": "Brixton defeats an entire MI6 team alone"
+ }
+]

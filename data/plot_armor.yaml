@@ -1,0 +1,53 @@
+# Track B: Plot Armor Points (never converted to MU). level 1 = convenient but explained, 2 = unexplained, 3 = contradicts canon or reverses a death.
+# --- ff01
+- {id: pa-ff01-01, film: ff01, title: "Brian lets a hijacking suspect go and is never charged", characters: [brian], kind: institutional, level: 2, justification: "He aids the escape of the prime suspect in an armed hijacking; the film shows no consequence.", sources: [ff01-wiki, ff01-wiki-brian]}
+# --- ff02
+- {id: pa-ff02-01, film: ff02, title: Customs wipes both criminal records for one operation, characters: [brian, roman], kind: institutional, level: 1, justification: "Stated as the deal at the start and delivered at the end.", sources: [ff02-wiki, ff02-moviespoilers]}
+- {id: pa-ff02-02, film: ff02, title: "Dart gun that kills a moving car's electrics", characters: [], kind: institutional, level: 1, justification: "Shown and used without explanation; real GPS-dart and EMP stoppers exist only as prototypes.", sources: [ff02-slick, ff02-screenplay]}
+# --- ff03
+- {id: pa-ff03-01, film: ff03, title: No investigation after a fatal pileup and a public car fire in central Tokyo, characters: [sean, neela], kind: institutional, level: 2, justification: "Multiple public deaths and an armed standoff; the next scene is the final race.", sources: [ff03-wiki]}
+- {id: pa-ff03-02, film: ff03, title: "Sean escapes juvenile detention by moving to Tokyo", characters: [sean], kind: institutional, level: 1, justification: "Framed as a family deal; no court process shown.", sources: [ff03-wiki, ff03-plotexplained]}
+# --- ff04
+- {id: pa-ff04-01, film: ff04, title: A car-sized smuggling tunnel under the border, characters: [dom, brian], kind: other, level: 2, justification: "The largest real tunnels are about 5 ft high; the film's is lit and drivable, and nobody finds it.", sources: [ff04-wiki, ff04-drug-tunnel]}
+- {id: pa-ff04-02, film: ff04, title: Nitromethane residue identifies one specific car, characters: [dom], kind: information, level: 2, justification: "Dom goes from a fuel type to a named owner with no lab or database.", sources: [ff04-wiki, ff04-fandom]}
+- {id: pa-ff04-03, film: ff04, title: "Letty's secret FBI deal to clear Dom's record", characters: [letty, brian], kind: institutional, level: 1, justification: "Explained by Brian mid-film.", sources: [ff04-wiki, ff04-fandom]}
+# --- ff05
+- {id: pa-ff05-01, film: ff05, title: Letty is alive (mid-credits photo), characters: [letty], kind: resurrection, level: 3, justification: "Her death was the premise of the previous film; no explanation until F&F6.", sources: [ff05-wiki]}
+- {id: pa-ff05-02, film: ff05, title: One car chip holds the full map of a cartel's cash, characters: [brian, dom], kind: information, level: 1, justification: "Explained as DEA surveillance data, but conveniently complete.", sources: [ff05-wiki]}
+- {id: pa-ff05-03, film: ff05, title: A handprint lifted during a seduction beats a palm scanner, characters: [gisele], kind: information, level: 2, justification: "The mechanism from skin contact to working credential is not explained.", sources: [ff05-wiki]}
+- {id: pa-ff05-04, film: ff05, title: "Hobbs executes Reyes and lets the fugitives go, no consequences", characters: [hobbs, dom, brian], kind: institutional, level: 2, justification: "A federal agent kills a wounded prisoner in front of police; nothing follows.", sources: [ff05-wiki]}
+- {id: pa-ff05-05, film: ff05, title: US agents run an armed manhunt inside Brazil, characters: [hobbs], kind: institutional, level: 2, justification: "No Brazilian federal or diplomatic involvement is shown.", sources: [ff05-wiki]}
+# --- ff06
+- {id: pa-ff06-01, film: ff06, title: Letty survived the explosion and has amnesia, characters: [letty], kind: amnesia, level: 2, justification: "Braga asserts the survival; how she survived is never shown.", sources: [ff06-wiki, ff06-spoilertown]}
+- {id: pa-ff06-02, film: ff06, title: Hobbs has a current photo of Letty inside a secret mercenary crew, characters: [hobbs], kind: information, level: 2, justification: "No surveillance method shown.", sources: [ff06-wiki]}
+- {id: pa-ff06-03, film: ff06, title: One DSS agent's promise delivers full pardons, characters: [dom, brian, mia, roman, tej, han, gisele, letty], kind: institutional, level: 1, justification: "Stated as the deal; no mechanism shown.", sources: [ff06-wiki, ff06-spoilertown]}
+- {id: pa-ff06-04, film: ff06, title: A fugitive is placed in a US prison to interrogate Braga and extracted, characters: [brian], kind: institutional, level: 1, justification: "'FBI assistance' is named but not shown.", sources: [ff06-wiki, ff06-censorship]}
+- {id: pa-ff06-05, film: ff06, title: "Han's accidental death was a murder by a new character", characters: [deckard, han], kind: retcon, level: 3, justification: "Rewrites Tokyo Drift's crash as Deckard Shaw's killing.", sources: [ff06-wiki, ff06-spoilertown]}
+# --- ff07
+- {id: pa-ff07-01, film: ff07, title: "God's Eye: find anyone on Earth through any camera", characters: [ramsey, mr_nobody, dom], kind: information, level: 2, justification: "Presented as working instantly with no access limits.", sources: [ff07-wiki, ff07-fandom]}
+- {id: pa-ff07-02, film: ff07, title: "Letty's memory returns after a fight", characters: [letty], kind: amnesia, level: 2, justification: "No mechanism offered for recovery from traumatic amnesia.", sources: [ff07-wiki, ff07-fandom]}
+- {id: pa-ff07-03, film: ff07, title: Mr. Nobody knows the convoy's route and timing, characters: [mr_nobody], kind: information, level: 2, justification: "The ambush point is pre-planned with no stated intelligence source.", sources: [ff07-wiki]}
+- {id: pa-ff07-04, film: ff07, title: Dom revived after cardiac arrest, characters: [dom], kind: resurrection, level: 1, justification: "CPR is shown; revival is possible, but he is instantly fine.", sources: [ff07-fandom]}
+# --- hs
+- {id: pa-hs-01, film: hs, title: Brixton was shot in the head and rebuilt as a cyborg, characters: [brixton], kind: resurrection, level: 1, justification: "Explained in the film (Eteon rebuilt him).", sources: [hs-wiki, hs-cbr]}
+- {id: pa-hs-02, film: hs, title: Eteon instantly frames all three heroes worldwide, characters: [hattie, deckard, hobbs], kind: information, level: 2, justification: "Global media manipulation with no mechanism shown.", sources: [hs-wiki, hs-themoviespoiler]}
+- {id: pa-hs-03, film: hs, title: Ukraine to Samoa with time to spare on a two-day virus clock, characters: [hobbs, deckard, hattie], kind: other, level: 2, justification: "Contradictory countdowns (48 h, 42 h, 'more than a day') and ~10,000 miles of travel.", sources: [hs-wiki, hs-themoviespoiler]}
+# --- ff08
+- {id: pa-ff08-01, film: ff08, title: Cipher already holds Elena and the baby before she has God's Eye, characters: [cipher], kind: information, level: 2, justification: "No mechanism for finding them.", sources: [ff08-wiki, ff08-fandom]}
+- {id: pa-ff08-02, film: ff08, title: "Dom has a son nobody mentioned", characters: [dom, elena], kind: retcon, level: 2, justification: "No prior film references Elena's pregnancy.", sources: [ff08-wiki, ff08-fandom]}
+- {id: pa-ff08-03, film: ff08, title: "Deckard's point-blank execution was faked", characters: [deckard, dom], kind: resurrection, level: 2, justification: "Two chest shots in front of trained witnesses; the mechanism is never shown.", sources: [ff08-wiki, ff08-fandom]}
+- {id: pa-ff08-04, film: ff08, title: "Han's killer joins the family barbecue", characters: [deckard], kind: retcon, level: 2, justification: "Reverses Furious 7's premise with a single rescue.", sources: [ff08-wiki, ff08-fandom]}
+- {id: pa-ff08-05, film: ff08, title: Hobbs offered his job back after a prison break, characters: [hobbs], kind: institutional, level: 2, justification: "Stated as fact.", sources: [ff08-wiki, ff08-fandom]}
+- {id: pa-ff08-06, film: ff08, title: Mr. Nobody extracts two prisoners from a high-security prison, characters: [mr_nobody, hobbs, deckard], kind: institutional, level: 1, justification: "Explained by his black-ops role.", sources: [ff08-wiki, ff08-fandom]}
+- {id: pa-ff08-07, film: ff08, title: Dom walks into a Russian nuclear-submarine base alone, characters: [dom], kind: institutional, level: 2, justification: "No security response is depicted.", sources: [ff08-wiki, ff08-fandom]}
+# --- ff09
+- {id: pa-ff09-01, film: ff09, title: Han is alive, characters: [han, mr_nobody, deckard], kind: resurrection, level: 3, justification: "His death was depicted in Tokyo Drift and F&F6 and drove the plots of Furious 7 and Fate.", sources: [ff09-wiki, ff09-fandom]}
+- {id: pa-ff09-02, film: ff09, title: "Dom has a brother nobody mentioned in eight films", characters: [jakob, dom], kind: retcon, level: 2, justification: "Explained by flashbacks; never referenced before.", sources: [ff09-wiki, ff09-fandom]}
+- {id: pa-ff09-03, film: ff09, title: "Elle's DNA is the key to Project Aries", characters: [elle], kind: other, level: 1, justification: "Stated in the film.", sources: [ff09-wiki, ff09-fandom]}
+- {id: pa-ff09-04, film: ff09, title: Gisele was a former CIA operative, characters: [gisele, han], kind: retcon, level: 2, justification: "New backstory introduced to explain Han's recruitment.", sources: [ff09-fandom, ff09-wiki]}
+# --- ff10
+- {id: pa-ff10-01, film: ff10, title: Gisele is alive, characters: [gisele], kind: resurrection, level: 3, justification: "She fell to her death in F&F6; no explanation.", sources: [ff10-wiki, ff10-fandom]}
+- {id: pa-ff10-02, film: ff10, title: "Reyes's son was at the Fast Five heist all along", characters: [dante], kind: retcon, level: 2, justification: "Inserted into Fast Five footage; his survival is described three different ways.", sources: [ff10-wiki, ff10-screenrant-ridiculous]}
+- {id: pa-ff10-03, film: ff10, title: The head of the Agency is secretly working for Dante, characters: [aimes], kind: institutional, level: 2, justification: "No explanation of how or when.", sources: [ff10-wiki, ff10-fandom]}
+- {id: pa-ff10-04, film: ff10, title: The crew is branded terrorists and hunted worldwide within a day, characters: [dom, letty, roman, tej, han, ramsey], kind: institutional, level: 1, justification: "Shown being pushed by Aimes.", sources: [ff10-wiki, ff10-themoviespoiler]}
+- {id: pa-ff10-05, film: ff10, title: "Dante's wall tracks every ally the crew has ever had", characters: [dante], kind: information, level: 2, justification: "Sean, Monica, Suki, Elle and Queenie, all located.", sources: [ff10-fandom, ff10-wiki]}

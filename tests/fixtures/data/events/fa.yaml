@@ -1,0 +1,70 @@
+film: fa
+events:
+  - id: ev-fa-01
+    title: Jump
+    sequence: finale
+    depicted: Car jumps a gap.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: medium
+    participants: [dom, brian]
+    plot_sources: [s1, s2]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.trajectory
+        claim: Car clears gap
+        evidence: E2
+        mu: {low: 2, central: 3, high: 4}
+        capped: false
+        reasoning: ballistic
+        dependence: first component
+        references: [r-gap]
+        credits: [{character: dom, role: controller}, {character: brian, role: occupant}]
+      - id: c2
+        category: survival
+        subtype: survival.crash
+        claim: Both survive landing
+        evidence: E1
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: crash data
+        dependence: conditional on c1 success
+        references: []
+        credits: [{character: dom, role: survivor}, {character: brian, role: survivor}]
+  - id: ev-fa-02
+    title: Impossible thing
+    sequence: finale
+    depicted: Something impossible.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: low
+    participants: [dom]
+    plot_sources: [s1, s2]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: violates a hard limit
+        evidence: E2
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: hard limit
+        dependence: first component
+        references: []
+        credits: [{character: dom, role: controller}]
+      - id: c2
+        category: skill
+        subtype: skill.driving
+        claim: precise
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: judgment
+        dependence: independent of c1 (driver precision vs physics)
+        references: []
+        credits: [{character: dom, role: performer}]

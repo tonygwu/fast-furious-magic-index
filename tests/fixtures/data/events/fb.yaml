@@ -1,0 +1,25 @@
+film: fb
+events:
+  - id: ev-fb-01
+    title: Helicopter
+    sequence: finale
+    depicted: Holds helicopter.
+    inferred: ""
+    post_credit: true
+    in_universe_excuse: null
+    visually_unverified: [grip]
+    confidence: medium
+    participants: [hobbs]
+    plot_sources: [s1, s2]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: holds
+        evidence: E2
+        mu: {low: 4, central: 5, high: 6}
+        capped: false
+        reasoning: forces
+        dependence: first component
+        references: []
+        credits: [{character: hobbs, role: controller}]

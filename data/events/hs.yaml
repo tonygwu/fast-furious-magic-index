@@ -1,0 +1,169 @@
+film: hs
+events:
+  - id: ev-hs-01
+    title: Brixton defeats an entire MI6 team alone
+    sequence: London prologue
+    depicted: Brixton Lore, alone, kills or disables the whole armed MI6 extraction team; only Hattie escapes.
+    inferred: The team's size is not stated.
+    post_credit: false
+    in_universe_excuse: Cybernetically rebuilt by Eteon (new spine, ocular implants, bulletproof prosthetics).
+    visually_unverified: [team size]
+    confidence: low
+    participants: [brixton, hattie]
+    plot_sources: [hs-wiki, hs-themoviespoiler]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.fighting
+        claim: One man defeats a prepared armed team without being disabled
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Scored against real-world conditions; the cybernetic excuse is tagged, not credited. Small-unit engagements
+          where one attacker defeats a whole armed team are rare. Judgment prior around 1 in 100, at the judgment cap.
+        dependence: Single component.
+        references: []
+        credits: [{character: brixton, role: performer}]
+  - id: ev-hs-02
+    title: Brixton runs down a skyscraper's slanted face carrying Hattie
+    sequence: CIA black site
+    depicted: >-
+      Brixton grabs Hattie, exits a high window, and runs down the steeply slanted exterior face of the tower to
+      street level.
+    inferred: The filming reference is the 225 m Leadenhall Building, whose one face slants like a wedge.
+    post_credit: false
+    in_universe_excuse: Cybernetically rebuilt legs and grip.
+    visually_unverified: [slope angle of the face, height descended]
+    confidence: low
+    participants: [brixton, hattie]
+    plot_sources: [hs-cbr, hs-wiki]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: A runner controls his speed down a glass face far steeper than 45 degrees
+        evidence: E2
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: >-
+          To descend without accelerating, friction must exceed tan(slope): 1.0 at 45 degrees and 5.7 at 80 degrees.
+          Shoe rubber on glass gives about 0.5-1.0. Stronger legs do not change friction, so on any face steep enough to
+          look like a skyscraper he is sliding at close to free fall. Hard limit; capped. Low confidence because the
+          on-screen angle is not measured.
+        dependence: First component.
+        references: [friction-steep-face]
+        credits: [{character: brixton, role: controller}, {character: hattie, role: occupant}]
+  - id: ev-hs-03
+    title: Hobbs descends the tower by leaping onto people
+    sequence: CIA black site
+    depicted: >-
+      Hobbs jumps out of the same window after Brixton, descending the building by leaping from person to person, and
+      tackles Brixton through plate glass.
+    inferred: The people used as footholds are presumably on ropes or ledges; the number is not stated.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [how many people, their support]
+    confidence: low
+    participants: [hobbs, brixton]
+    plot_sources: [hs-cbr, hs-pluggedin]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.precision
+        claim: A 118 kg man descends a tower by jumping between moving human footholds
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: Each landing on a suspended person must hold a large man's impact load, several times in a row. Judgment prior around 1 in 100.
+        dependence: First component.
+        references: []
+        credits: [{character: hobbs, role: performer}]
+      - id: c2
+        category: survival
+        subtype: survival.fall
+        claim: Hobbs survives the descent and the crash through plate glass uninjured
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: Glass lacerations and uncontrolled drops between footholds. Judgment prior around 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: hobbs, role: survivor}]
+  - id: ev-hs-04
+    title: McLaren threads under two crossing lorries
+    sequence: London street chase
+    depicted: Chased by Brixton's motorcycles, Shaw drives the McLaren 720S under two crossing articulated lorries with minimal clearance.
+    inferred: The clearance is not measured.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [clearance, timing between the two lorries]
+    confidence: medium
+    participants: [deckard, hobbs, hattie]
+    plot_sources: [hs-awn, hs-bikebound]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: Shaw places a 1.2 m tall car under trailer decks of about the same height at speed
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          A 720S is 1.196 m tall. Standard trailer decks sit about 1.2-1.3 m up, so the car fits only between the
+          wheel sets and only if it stays centred. Judgment prior around 1 in 10.
+        dependence: First component.
+        references: []
+        credits: [{character: deckard, role: performer}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.timing
+        claim: The gap under both crossing trailers is open at the moment the car arrives
+        evidence: E3
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: Two moving trailers must both present their open span during the fraction of a second the car passes. About 1 in 10.
+        dependence: Independent of c1's lane placement.
+        references: []
+        credits: [{character: deckard, role: controller}, {character: hobbs, role: occupant}, {character: hattie, role: occupant}]
+  - id: ev-hs-05
+    title: Hobbs holds a Black Hawk by its chain
+    sequence: Samoa finale
+    depicted: >-
+      The Hobbs family chains a convoy of trucks to Brixton's UH-60 Black Hawk in a cliffside tug-of-war. When the chain
+      breaks, Hobbs grabs it and holds the helicopter back with his own strength.
+    inferred: The chain was CGI; the helicopter, trucks and cliff road were largely practical.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [whether Hobbs is braced or anchored]
+    confidence: medium
+    participants: [hobbs, deckard, brixton, hattie]
+    plot_sources: [hs-cbr, hs-ringer, hs-beforesafters, hs-syfy]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: A chained convoy of trucks holds a Black Hawk and the pilot keeps control with a tether attached
+        evidence: E2
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          This part is roughly plausible. The Black Hawk's excess lift is about 20-40 kN, and a 9 t truck resists about
+          90 kN. The real risk is dynamic rollover from a side-pulling tether, which pilots train to avoid. Judged
+          about 1 in 10.
+        dependence: First component.
+        references: [uh60-weights]
+        credits: [{character: hobbs, role: controller}, {character: deckard, role: controller}]
+      - id: c2
+        category: physics
+        subtype: physics.forces
+        claim: One man holds a helicopter that is pulling with 20-40 kN
+        evidence: E2
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: >-
+          The heaviest deadlift ever is 510 kg, about 5 kN, lifted with legs, a bar and ideal footing. The helicopter's
+          excess lift is 4-8x that, and friction under Hobbs's feet is only about 1 kN. Hard limit; capped.
+        dependence: Conditional on c1 (the helicopter is tethered and flyable when the chain breaks).
+        references: [deadlift-record, uh60-weights]
+        credits: [{character: hobbs, role: controller}]

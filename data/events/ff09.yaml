@@ -1,0 +1,310 @@
+film: ff09
+events:
+  - id: ev-ff09-01
+    title: Outrunning landmines at 80 mph
+    sequence: Montequinto escape
+    depicted: >-
+      Fleeing soldiers, the team drives into a minefield. Tej tells everyone to stay above 80 mph "to avoid being blown
+      up"; they race through as mines detonate around them. Roman's car is destroyed and he barely escapes the blast.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [whether mines detonate behind or under the cars]
+    confidence: medium
+    participants: [dom, letty, roman, tej, ramsey]
+    plot_sources: [ff09-fandom-montequinto, ff09-themoviespoiler]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: Driving fast enough to be clear of a pressure-triggered mine before it explodes
+        evidence: E2
+        mu: {low: 2, central: 3, high: 5}
+        capped: false
+        reasoning: >-
+          Anti-vehicle mines fire within milliseconds of pressure; at 80 mph (36 m/s) a car moves about 4 cm per
+          millisecond. Getting about 5 m clear needs a fuze delay of about 140 ms, which standard pressure fuzes do not
+          have. Speed only helps if every mine in the field has an unusual delay. Judged 1 in 100 to 1 in 100,000.
+        dependence: First component; one component for all cars (the mines are the same type).
+        references: []
+        credits: [{character: dom, role: controller}, {character: letty, role: occupant}, {character: roman, role: controller}, {character: tej, role: controller}, {character: ramsey, role: occupant}]
+      - id: c2
+        category: survival
+        subtype: survival.explosion
+        claim: Roman escapes a mine blast that destroys his car
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: Anti-vehicle mines are designed to kill a vehicle's occupants. Judgment prior about 1 in 10.
+        dependence: Conditional on c1 failing locally for Roman's car (the mine catches his car but not him).
+        references: []
+        credits: [{character: roman, role: survivor}]
+  - id: ev-ff09-02
+    title: Charger swings across the gorge on the bridge's rope
+    sequence: Montequinto escape
+    depicted: >-
+      With the rope bridge collapsed, Dom drives his Charger off the cliff toward its remains, snags a rope from the
+      bridge, swings across on it and lands on the far cliffside.
+    inferred: The bridge had just carried Tej's Jeep before collapsing.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [whether Letty is in the car, gap width]
+    confidence: medium
+    participants: [dom, letty]
+    plot_sources: [ff09-fandom-montequinto, ff09-themoviespoiler]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.snag
+        claim: A car driven off a cliff snags a dangling rope so that it is securely attached
+        evidence: E4
+        mu: {low: 1, central: 1.5, high: 2.5}
+        capped: false
+        reasoning: The rope must catch on a part of the car that holds (not slide off the bodywork). Judgment prior about 1 in 30.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: controller}, {character: letty, role: occupant}]
+      - id: c2
+        category: physics
+        subtype: physics.structural
+        claim: A single old bridge rope holds a 2 t car at the bottom of the swing
+        evidence: E2
+        mu: {low: 3, central: 5, high: 8}
+        capped: false
+        reasoning: >-
+          Tension at the bottom of the swing is m(g + v2/L): with v = 20-30 m/s and L = 30 m that is 2 t x 23-40 m/s2 =
+          46-80 kN, before the shock load of the catch. A weathered natural-fibre rope of this size breaks at roughly
+          10-40 kN. The requirement is 2-8x the rope's strength. Judged 1 in 1,000 to 1 in 100 million.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: controller}, {character: letty, role: occupant}]
+      - id: c3
+        category: coincidence
+        subtype: coincidence.landing
+        claim: The swing releases the car onto the far cliff rather than into its face
+        evidence: E3
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: A pendulum returns to its release height only at the same side unless the pivot and timing work out. Judged about 1 in 10.
+        dependence: Conditional on c2.
+        references: []
+        credits: [{character: dom, role: controller}, {character: letty, role: occupant}]
+  - id: ev-ff09-03
+    title: Jakob and his car snatched by a magnet aircraft
+    sequence: Montequinto escape
+    depicted: >-
+      Cornered at a cliff edge with the device, Jakob is picked up, car and all, by a large aircraft or drone with a
+      magnet underneath.
+    inferred: Sources disagree on drone vs plane and on whether he has already driven off the cliff.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [drone or plane, whether the car is already falling]
+    confidence: low
+    participants: [jakob]
+    plot_sources: [ff09-fandom-montequinto, ff09-themoviespoiler]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.mechanical
+        claim: An aircraft magnet catches and carries a 1.7 t car
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Industrial lifting magnets hold cars from above, but only when stationary and in contact. Catching a moving
+          car in flight adds a jolt several times the car's weight, and heavy-lift drones do not carry 1.7 t. Held at
+          the judgment cap because the vehicle type is disputed.
+        dependence: First component.
+        references: []
+        credits: [{character: jakob, role: occupant}]
+      - id: c2
+        category: survival
+        subtype: survival.crash
+        claim: Jakob survives the snatch jolt uninjured
+        evidence: E4
+        mu: {low: 0, central: 0.5, high: 1.5}
+        capped: false
+        reasoning: Depends on the relative speed at capture, which is unknown. Judgment prior about 1 in 3.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: jakob, role: survivor}]
+  - id: ev-ff09-04
+    title: Truck electromagnet hauls in a car
+    sequence: Edinburgh
+    depicted: >-
+      Ramsey, driving the villains' electromagnet truck, uses its magnet to pull Jakob's escaping car toward them.
+    inferred: Field strength and distance are not given.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [distance between truck and car]
+    confidence: medium
+    participants: [ramsey, tej, roman, jakob]
+    plot_sources: [ff09-fandom, ff09-themoviespoiler, ff09-moviemanifesto]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: A truck-mounted electromagnet pulls a driving car across a gap of metres
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Magnetic pull on steel falls off steeply with distance (roughly the fourth power for a dipole), which is why
+          scrapyard magnets work only at contact. Out-pulling a car's own traction (about 15 kN) from metres away would
+          need a magnet of MRI-plus scale on a truck. Judged at the judgment cap because the field is unspecified.
+        dependence: Single component.
+        references: []
+        credits: [{character: ramsey, role: controller}]
+  - id: ev-ff09-05
+    title: Magnetised cars flip an armoured truck out of Tbilisi
+    sequence: Tbilisi finale
+    depicted: >-
+      The team magnetises their cars to the front of Otto's armoured 16-wheeler, the "Armadillo", and with Jakob's help
+      sends it flipping upwards, end over end, out of the city.
+    inferred: The exact mechanism is not described in either source.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [mechanism of the flip]
+    confidence: low
+    participants: [dom, letty, mia, ramsey, han, jakob, otto]
+    plot_sources: [ff09-themoviespoiler, ff09-fandom]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: Cars of about 2 t each flip an armoured truck many times their mass
+        evidence: E4
+        mu: {low: 1.5, central: 2.5, high: 3}
+        capped: false
+        reasoning: >-
+          A magnet only pulls the car and the truck together; any upward force on the truck must be reacted by the car's
+          weight and traction, a small fraction of the truck's. A flip could only come from the truck's own momentum
+          being redirected. Without a known mechanism this is held at the judgment cap.
+        dependence: Single component.
+        references: []
+        credits: [{character: dom, role: controller}, {character: letty, role: controller}, {character: mia, role: controller}, {character: ramsey, role: controller}, {character: han, role: controller}, {character: jakob, role: controller}]
+  - id: ev-ff09-06
+    title: Pontiac Fiero goes to space
+    sequence: Tbilisi finale (space)
+    depicted: >-
+      Tej and Roman ride a rocket-powered Pontiac Fiero dropped from a carrier aircraft at 50,000 ft. They reach
+      orbit in duct-taped, wetsuit-like suits with scuba-style helmets. When the car's magnet fails, they ram the Aries
+      satellite and destroy it, then drift to the International Space Station, whose crew spots them and brings them
+      back to Earth.
+    inferred: One recap says the launch platform is a drone; three say a plane at 50,000 ft.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [re-entry is not depicted]
+    confidence: high
+    participants: [tej, roman, sean, earl]
+    plot_sources: [ff09-wiki, ff09-fandom, ff09-newsweek, ff09-screenrant-space, ff09-themoviespoiler]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.propulsion
+        claim: The rocket bolted to a Fiero delivers about 9 km/s of delta-v
+        evidence: E2
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: >-
+          Orbit needs 9.3-9.8 km/s from the ground; the 15 km air launch saves only a few hundred m/s. Even at a
+          generous 300 s specific impulse the rocket equation needs a mass ratio of about 21, i.e. about 30 t of
+          propellant for a 1.5 t vehicle. The tanks shown hold well under 1 t. The shortfall is more than 30x, a hard
+          limit; capped.
+        dependence: First component.
+        references: [dv-leo, fiero-mass-ratio]
+        credits: [{character: tej, role: controller}, {character: roman, role: occupant}]
+      - id: c2
+        category: physics
+        subtype: physics.structural
+        claim: A car body with bolted fins survives supersonic ascent without tumbling or breaking up
+        evidence: E2
+        mu: {low: 2, central: 3, high: 5}
+        capped: false
+        reasoning: >-
+          Given c1, a car is aerodynamically unstable (centre of pressure ahead of centre of mass) and not built for the
+          loads at maximum dynamic pressure. Real rockets need active guidance to stay pointed. Judged 1 in 100 to 1 in
+          100,000.
+        dependence: Conditional on c1. A separate failure mode (stability and structure, not propellant).
+        references: []
+        credits: [{character: tej, role: controller}, {character: roman, role: occupant}]
+      - id: c3
+        category: survival
+        subtype: survival.environment
+        claim: Two men survive vacuum in duct-taped wetsuits and scuba helmets
+        evidence: E2
+        mu: {low: 3, central: 4, high: 6}
+        capped: false
+        reasoning: >-
+          Above the Armstrong limit (19 km) a suit must hold a stable internal pressure over the whole body. A wetsuit
+          is not a pressure garment; one leak means ebullism and unconsciousness in seconds. Both suits must hold for
+          the whole flight. Judged 1 in 1,000 to 1 in 1,000,000.
+        dependence: Conditional on c2; one component for both men (same improvised design).
+        references: [suit-armstrong]
+        credits: [{character: tej, role: survivor}, {character: roman, role: survivor}]
+      - id: c4
+        category: coincidence
+        subtype: coincidence.intercept
+        claim: A hand-flown ascent intercepts one specific satellite on the first attempt
+        evidence: E3
+        mu: {low: 3, central: 4, high: 6}
+        capped: false
+        reasoning: >-
+          Orbital rendezvous needs matched plane, altitude, phase and velocity. Gemini-era crews did it with onboard
+          computers and ground tracking; a single launch window with manual control is judged 1 in 1,000 to 1 in
+          1,000,000.
+        dependence: Conditional on c1-c3.
+        references: []
+        credits: [{character: tej, role: controller}, {character: roman, role: occupant}]
+      - id: c5
+        category: coincidence
+        subtype: coincidence.rendezvous
+        claim: After ramming the satellite, the unpowered car drifts to the International Space Station
+        evidence: E3
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: >-
+          Reaching the ISS needs the same orbital plane (a plane change costs km/s) and a near match in altitude,
+          phase and velocity. The chance that an arbitrary orbit after a collision passes within reach of the ISS
+          with a matched velocity is far below one in a trillion (the orbital shell alone is ~2e10 km3). Capped.
+        dependence: Conditional on c4. Separate from c4 because the satellite's orbit is not the ISS's orbit.
+        references: [iss-orbit]
+        credits: [{character: tej, role: beneficiary}, {character: roman, role: beneficiary}]
+  - id: ev-ff09-07
+    title: Blast-thrown truck swats Cipher's drone
+    sequence: Tbilisi finale
+    depicted: >-
+      Cipher fires at the armoured truck from a drone jet. Dom jumps out at the last moment, Otto dies, and the blast
+      sends the truck into Cipher's drone, destroying it.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [height of the drone at impact]
+    confidence: medium
+    participants: [dom, otto, cipher]
+    plot_sources: [ff09-fandom, ff09-themoviespoiler, ff09-wiki]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.intercept
+        claim: A truck thrown by a missile blast hits the aircraft that fired it
+        evidence: E3
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          The blast throws the truck in a direction set by the blast geometry; the drone must be low and on that
+          line at that moment. Judged 1 in 10 to 1 in 1,000.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: beneficiary}]
+      - id: c2
+        category: survival
+        subtype: survival.explosion
+        claim: Dom leaps from the truck a moment before the missile hits and is unhurt
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: Jumping from a moving truck next to a missile strike. Judgment prior about 1 in 10.
+        dependence: Independent of c1.
+        references: []
+        credits: [{character: dom, role: survivor}]

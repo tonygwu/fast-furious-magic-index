@@ -1,0 +1,121 @@
+# id -> citation. Plot sources (kind: plot/screenplay/bts) count toward an event's independent-source requirement.
+# Shared literature and specs first; per-film plot sources are appended below by film.
+- {id: nhtsa-813219, kind: literature, title: "Wang (2022), MAIS(05/08) Injury Probability Curves as Functions of Delta V, NHTSA DOT HS 813 219", url: "https://crashstats.nhtsa.dot.gov/Api/Public/ViewPublication/813219"}
+- {id: nhts-2017, kind: empirical, title: "FHWA NHTS Travel Profile: United States 2017 (total vehicle trips)", url: "https://nhts.ornl.gov/assets/2017_USTravelProfile.pdf"}
+- {id: wiki-motor-vehicle, kind: empirical, title: "Wikipedia: Motor vehicle (1.55 billion vehicles in use worldwide, 2023)", url: "https://en.wikipedia.org/wiki/Motor_vehicle"}
+- {id: wiki-g-force, kind: literature, title: "Wikipedia: G-force, human tolerance and survival records", url: "https://en.wikipedia.org/wiki/G-force"}
+- {id: fall-ld50, kind: literature, title: "Smith et al. (2017), Some patients live after trauma: re-examining the lethality of vertical deceleration injuries, Trauma", url: "https://journals.sagepub.com/doi/abs/10.1177/1460408616689807"}
+# --- ff01 The Fast and the Furious (2001)
+- {id: ff01-wiki, kind: plot, title: "Wikipedia: The Fast and the Furious (2001 film), plot", url: "https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)"}
+- {id: ff01-wiki-brian, kind: plot, title: "Wikipedia: Brian O'Conner", url: "https://en.wikipedia.org/wiki/Brian_O%27Conner"}
+- {id: ff01-fandom-truck, kind: plot, title: "Fast & Furious Wiki: Assault on the Rodgers Truck (search snippet; page fetch blocked)", url: "https://fastandfurious.fandom.com/wiki/Assault_on_the_Rodgers_Truck"}
+- {id: ff01-mistakes, kind: plot, title: "MovieMistakes: The Fast and the Furious continuity (timestamped)", url: "https://www.moviemistakes.com/film459/continuity"}
+# --- ff02 2 Fast 2 Furious (2003)
+- {id: ff02-wiki, kind: plot, title: "Wikipedia: 2 Fast 2 Furious, plot", url: "https://en.wikipedia.org/wiki/2_Fast_2_Furious"}
+- {id: ff02-slick, kind: plot, title: "Slick Dungeon: 2 Fast 2 Furious review (scene detail)", url: "https://slickdungeon.blog/2023/05/11/2-fast-2-furious-movie-review/"}
+- {id: ff02-yahoo-bts, kind: bts, title: "Yahoo/Motorious: pulling off the crazy S2000 bridge jump (behind the scenes)", url: "https://finance.yahoo.com/news/pulling-off-crazy-s2000-bridge-142200761.html"}
+- {id: ff02-moviespoilers, kind: plot, title: "MovieSpoilers.io: 2 Fast 2 Furious", url: "https://www.moviespoilers.io/movie/2-fast-2-furious"}
+- {id: ff02-plotexplained, kind: plot, title: "PlotExplained: 2 Fast 2 Furious", url: "https://www.plotexplained.com/movie/2-fast-2-furious"}
+- {id: ff02-screenplay, kind: screenplay, title: "2 Fast 2 Furious draft screenplay (July 2002; final act differs from release)", url: "https://assets.scriptslug.com/live/pdf/scripts/2-fast-2-furious-2003.pdf"}
+# --- ff03 Tokyo Drift (2006)
+- {id: ff03-wiki, kind: plot, title: "Wikipedia: The Fast and the Furious: Tokyo Drift, plot", url: "https://en.wikipedia.org/wiki/The_Fast_and_the_Furious:_Tokyo_Drift"}
+- {id: ff03-looper, kind: plot, title: "Looper: The ending of Tokyo Drift explained", url: "https://www.looper.com/353393/the-ending-of-fast-and-the-furious-tokyo-drift-explained/"}
+- {id: ff03-plotexplained, kind: plot, title: "PlotExplained: Tokyo Drift", url: "https://www.plotexplained.com/movie/the-fast-and-the-furious-tokyo-drift"}
+- {id: ff03-wiki-han, kind: plot, title: "Wikipedia: Han Lue", url: "https://en.wikipedia.org/wiki/Han_Lue"}
+# --- ff04 Fast & Furious (2009)
+- {id: ff04-wiki, kind: plot, title: "Wikipedia: Fast & Furious (2009 film), plot", url: "https://en.wikipedia.org/wiki/Fast_%26_Furious_(2009_film)"}
+- {id: ff04-hotcars, kind: bts, title: "HotCars: 20 sick stunts in Fast and Furious that weren't CGI", url: "https://www.hotcars.com/20-sick-stunts-in-fast-and-furious-that-werent-cgi/"}
+- {id: ff04-drivingline, kind: plot, title: "Driving Line: 10 most unbelievable chase scenes from Fast and Furious", url: "https://www.drivingline.com/articles/10-most-unbelievable-chase-scenes-from-fast-and-furious/"}
+- {id: ff04-screenrant-ridiculous, kind: plot, title: "Screen Rant: most ridiculous scene in each Fast & Furious movie", url: "https://screenrant.com/fast-furious-most-ridiculous-scene-each-movie/"}
+- {id: ff04-fandom, kind: plot, title: "Fast & Furious Wiki: Fast & Furious (film)", url: "https://fastandfurious.fandom.com/wiki/Fast_%26_Furious_(film)"}
+- {id: ff04-drug-tunnel, kind: empirical, title: "Wikipedia: Drug tunnel (real US-Mexico tunnel dimensions)", url: "https://en.wikipedia.org/wiki/Drug_tunnel"}
+- {id: wiki-golden-gate, kind: empirical, title: "Wikipedia: Suicides at the Golden Gate Bridge (75 m fall, ~2% survival)", url: "https://en.wikipedia.org/wiki/Suicides_at_the_Golden_Gate_Bridge"}
+# --- ff05 Fast Five (2011)
+- {id: ff05-wiki, kind: plot, title: "Wikipedia: Fast Five, plot and production", url: "https://en.wikipedia.org/wiki/Fast_Five"}
+- {id: ff05-fandom-vault, kind: plot, title: "Fast & Furious Wiki: Vault Heist", url: "https://fastandfurious.fandom.com/wiki/Vault_Heist"}
+- {id: ff05-fandom-bus, kind: plot, title: "Fast & Furious Wiki: MCI MC-9", url: "https://fastandfurious.fandom.com/wiki/MCI_MC-9"}
+- {id: ff05-topspeed, kind: plot, title: "TopSpeed: Dom Toretto's Dodge Charger", url: "https://www.topspeed.com/fast-and-furious-dom-toretto-dodge-charger/"}
+- {id: ff05-screenrant-cliff, kind: bts, title: "Screen Rant: how the Fast Five cliff freefall was filmed", url: "https://screenrant.com/fast-5-dom-brian-cliff-freefall-filmed-how/"}
+- {id: ff05-inverse, kind: plot, title: "Inverse: Fast Five freefall retrospective", url: "https://www.inverse.com/article/28298-fast-furious-five-freefall-retrospective"}
+- {id: ff05-fxguide, kind: bts, title: "fxguide: MPC on track with Fast Five (VFX supervisor on cliff height)", url: "https://www.fxguide.com/fxfeatured/mpc-on-track-with-fast-five/"}
+- {id: ff05-nofilmschool, kind: bts, title: "No Film School: Justin Lin on the Fast Five vault stunts", url: "https://nofilmschool.com/fast-five-justin-lin-vault-stunts"}
+- {id: ff05-avclub, kind: bts, title: "AV Club: the work that went into the Fast Five vault chase", url: "https://www.avclub.com/take-a-moment-to-appreciate-all-the-work-that-went-into-1847026478"}
+- {id: wiki-charger-lx, kind: spec, title: "Wikipedia: Dodge Charger (LX)", url: "https://en.wikipedia.org/wiki/Dodge_Charger_(LX)"}
+# --- ff06 Fast & Furious 6 (2013)
+- {id: ff06-wiki, kind: plot, title: "Wikipedia: Fast & Furious 6, plot and production", url: "https://en.wikipedia.org/wiki/Fast_%26_Furious_6"}
+- {id: ff06-spoilertown, kind: plot, title: "Spoilertown: Fast & Furious 6 recap", url: "https://spoilertown.com/fast-furious-6-2013/"}
+- {id: ff06-slashfilm-tank, kind: bts, title: "SlashFilm: the Fast & Furious 6 tank attack", url: "https://www.slashfilm.com/1286125/tank-attack-fast-furious-6-best-action-scene-ever/"}
+- {id: ff06-supermarcey, kind: analysis, title: "Dan's Reality Check: Fast and Furious 6 (catch lethality, runway length)", url: "https://supermarcey.com/2013/06/26/dans-reality-check-fast-and-furious-6/"}
+- {id: ff06-screenrant-runway, kind: plot, title: "Screen Rant: how long the Fast & Furious 6 runway is (citing Vulture's breakdown)", url: "https://screenrant.com/fast-furious-6-runway-length/"}
+- {id: ff06-cbr-morgan, kind: bts, title: "CBR: screenwriter Chris Morgan says the runway would be 26 miles", url: "https://www.cbr.com/fast-6-chris-morgan-26-mile-runway/"}
+- {id: ff06-aviationpros, kind: analysis, title: "AviationPros: how long was the runway in Fast & Furious 6 (Empire/GJD Aerotech 28.8 mi)", url: "https://www.aviationpros.com/gse/baggage-cargo/blog/11281633/how-long-was-the-runway-in-fast-and-furious-6"}
+- {id: ff06-fxguide, kind: bts, title: "fxguide: Fast & Furious 6, just plane crazy", url: "https://www.fxguide.com/fxfeatured/fast-furious-6-just-plane-crazy/"}
+- {id: wiki-chieftain, kind: spec, title: "Wikipedia: Chieftain (tank)", url: "https://en.wikipedia.org/wiki/Chieftain_(tank)"}
+- {id: wiki-an124, kind: spec, title: "Wikipedia: Antonov An-124 Ruslan", url: "https://en.wikipedia.org/wiki/Antonov_An-124_Ruslan"}
+- {id: ff06-censorship, kind: plot, title: "Movie-Censorship.com: Fast & Furious 6 cut comparison (timecodes)", url: "https://www.movie-censorship.com/report.php?ID=795069"}
+# --- ff07 Furious 7 (2015)
+- {id: ff07-wiki, kind: plot, title: "Wikipedia: Furious 7, plot and production", url: "https://en.wikipedia.org/wiki/Furious_7"}
+- {id: ff07-fandom, kind: plot, title: "Fast & Furious Wiki: Furious 7 plot", url: "https://fastandfurious.fandom.com/wiki/Furious_7"}
+- {id: ff07-screenrant-c130, kind: bts, title: "Screen Rant: how the Furious 7 cargo-plane car drop was filmed", url: "https://screenrant.com/fast-furious-7-cargo-plane-cars-stunt-filmed/"}
+- {id: ff07-screenrant-bus, kind: bts, title: "Screen Rant: how the Furious 7 bus jump was filmed", url: "https://screenrant.com/fast-furious-7-brian-bus-jump-stunt-filmed-how/"}
+- {id: ff07-national-etihad, kind: analysis, title: "The National: Furious 7 Etihad Towers stunt, can it be done?", url: "https://www.thenationalnews.com/arts/furious-7-etihad-towers-stunt-can-it-be-done-1.53542"}
+- {id: ff07-slate-etihad, kind: analysis, title: "Slate: Furious 7 skyscraper jump, we asked a physicist (Prof. Lee Loveridge)", url: "https://slate.com/culture/2015/04/furious-7-skyscraper-jump-could-it-really-happen-we-asked-a-physicist.html"}
+- {id: wiki-etihad, kind: spec, title: "Wikipedia: Etihad Towers", url: "https://en.wikipedia.org/wiki/Etihad_Towers"}
+- {id: wiki-lykan, kind: spec, title: "Wikipedia: W Motors Lykan HyperSport", url: "https://en.wikipedia.org/wiki/W_Motors_Lykan_HyperSport"}
+- {id: ff07-andrewgats, kind: plot, title: "Andrew Gats: Furious 7 recap and review", url: "https://andrewgats.wordpress.com/2015/04/15/fast-furious-7-recap-review/"}
+- {id: ff07-movielocations, kind: plot, title: "Movie-locations.com: Furious 7 filming locations (scene list)", url: "https://movie-locations.com/movies/f/Fast-And-Furious-7.php"}
+- {id: lvad-accuracy, kind: literature, title: "Wikipedia: Joint Precision Airdrop System (GPS-guided cargo parachutes)", url: "https://en.wikipedia.org/wiki/Joint_Precision_Airdrop_System"}
+# --- hs Hobbs & Shaw (2019)
+- {id: hs-wiki, kind: plot, title: "Wikipedia: Hobbs & Shaw, plot and production", url: "https://en.wikipedia.org/wiki/Hobbs_%26_Shaw"}
+- {id: hs-themoviespoiler, kind: plot, title: "The Movie Spoiler: Hobbs & Shaw", url: "https://themoviespoiler.com/movies/hobbs-shaw/"}
+- {id: hs-cbr, kind: plot, title: "CBR: Hobbs & Shaw's most ridiculous action moments", url: "https://www.cbr.com/hobbs-shaw-most-ridiculous-action-moments/"}
+- {id: hs-pluggedin, kind: plot, title: "Plugged In: Hobbs & Shaw review", url: "https://www.pluggedin.com/movie-reviews/hobbs-and-shaw/"}
+- {id: hs-awn, kind: bts, title: "AWN: Rise FX Hobbs & Shaw motorcycle chase VFX breakdown", url: "https://www.awn.com/news/rise-fxs-hobbs-shaw-crazy-motorcycle-chase-vfx-breakdown-reel"}
+- {id: hs-bikebound, kind: bts, title: "BikeBound: the Hobbs & Shaw motorcycles", url: "https://www.bikebound.com/2021/01/21/hobbes-and-shaw-motorcycle/"}
+- {id: hs-ringer, kind: bts, title: "The Ringer: how Hobbs & Shaw's Samoa finale was made", url: "https://www.theringer.com/2019/08/06/movies/hobbs-and-shaw-final-scene-samoa-dwayne-johnson"}
+- {id: hs-beforesafters, kind: bts, title: "befores & afters: how to catch a helicopter with a chain", url: "https://beforesandafters.com/2019/09/19/how-to-catch-a-helicopter-with-a-chain-and-some-fast-and-furious-cars/"}
+- {id: hs-syfy, kind: bts, title: "SYFY Wire: the Hobbs & Shaw helicopter finale was more practical than you'd think", url: "https://www.syfy.com/syfy-wire/the-hobbs-shaw-helicopter-finale-was-more-real-and-practical-than-youd-think"}
+- {id: wiki-uh60, kind: spec, title: "Wikipedia: Sikorsky UH-60 Black Hawk (specifications)", url: "https://en.wikipedia.org/wiki/Sikorsky_UH-60_Black_Hawk"}
+- {id: wiki-deadlift, kind: literature, title: "Wikipedia: Deadlift (world record 510 kg, Björnsson 2025)", url: "https://en.wikipedia.org/wiki/Deadlift"}
+- {id: wiki-leadenhall, kind: spec, title: "Wikipedia: Leadenhall Building (225 m, slanted wedge facade)", url: "https://en.wikipedia.org/wiki/Leadenhall_Building"}
+# --- ff08 The Fate of the Furious (2017)
+- {id: ff08-wiki, kind: plot, title: "Wikipedia: The Fate of the Furious, plot and production", url: "https://en.wikipedia.org/wiki/The_Fate_of_the_Furious"}
+- {id: ff08-fandom, kind: plot, title: "Fast & Furious Wiki: The Fate of the Furious plot", url: "https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious"}
+- {id: ff08-transcript, kind: screenplay, title: "Springfield! Springfield!: The Fate of the Furious transcript", url: "https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-fate-of-the-furious"}
+- {id: ff08-ringer-hack, kind: analysis, title: "The Ringer: investigating the Fate of the Furious car-hacking scene (Valasek, Savage)", url: "https://www.theringer.com/2017/04/18/pop-culture/fate-of-the-furious-car-hacking-scene-investigation-12b10d825548"}
+- {id: ff08-wrap-hack, kind: analysis, title: "TheWrap: could the Zero Day car hack happen?", url: "https://www.thewrap.com/fate-of-the-furious-zero-day-car-hack/"}
+- {id: ff08-denofgeek, kind: plot, title: "Den of Geek: The Fate of the Furious review", url: "https://www.denofgeek.com/movies/the-fate-of-the-furious-review/"}
+- {id: ff08-screenrant-rain, kind: bts, title: "Screen Rant: how the raining-cars drop was shot", url: "https://screenrant.com/fast-furious-8-raining-cars-drop-stunt-shot/"}
+- {id: ff08-stunts, kind: bts, title: "Stunts Unlimited: F8 stunt reveal (ice, torpedo grab, car blasts)", url: "https://stuntsunlimited.com/f8_stunt_reveal/"}
+- {id: ff08-vfxblog, kind: bts, title: "vfxblog: ice, cars, fire and a submarine", url: "https://vfxblog.com/2017/04/24/ice-cars-fire-and-a-submarine-just-another-day-on-the-fate-of-the-furious/"}
+- {id: ff08-artofvfx, kind: bts, title: "Art of VFX: The Fate of the Furious (Digital Domain)", url: "https://www.artofvfx.com/the-fate-of-the-furious-jay-barton-vfx-supervisor-nikos-kalaitzidis-dfx-supervisor-digital-domain/"}
+- {id: ff08-wrap-factcheck, kind: analysis, title: "TheWrap: Fate of the Furious fact check (torpedo redirect)", url: "https://www.thewrap.com/fate-of-the-furious-fact-check-could-those-crazy-stunts-really-happen/"}
+- {id: ff08-clip-torpedo, kind: plot, title: "YouTube clip: The Fate of the Furious, Muscle Car vs. Nuclear Submarine", url: "https://www.youtube.com/watch?v=rMLG6BcAdK0"}
+- {id: wiki-akula, kind: spec, title: "Wikipedia: Akula-class submarine", url: "https://en.wikipedia.org/wiki/Akula-class_submarine"}
+- {id: wiki-type53, kind: spec, title: "Wikipedia: Type 53 torpedo", url: "https://en.wikipedia.org/wiki/Type_53_torpedo"}
+# --- ff09 F9 (2021)
+- {id: ff09-wiki, kind: plot, title: "Wikipedia: F9 (film), plot", url: "https://en.wikipedia.org/wiki/F9_(film)"}
+- {id: ff09-fandom, kind: plot, title: "Fast & Furious Wiki: F9 plot", url: "https://fastandfurious.fandom.com/wiki/F9"}
+- {id: ff09-fandom-montequinto, kind: plot, title: "Fast & Furious Wiki: Montequinto Recovery Mission", url: "https://fastandfurious.fandom.com/wiki/Montequinto_Recovery_Mission"}
+- {id: ff09-themoviespoiler, kind: plot, title: "The Movie Spoiler: F9", url: "https://themoviespoiler.com/movies/f9/"}
+- {id: ff09-slate, kind: analysis, title: "Slate: an astronaut on F9's space car", url: "https://slate.com/culture/2021/06/fast-furious-9-space-car-astronaut-interview.html"}
+- {id: ff09-newsweek, kind: plot, title: "Newsweek: does F9 really go to space? (50,000 ft plane launch, duct-taped suits)", url: "https://www.newsweek.com/fast-furious-9-plot-how-f9-takes-space-ludacris-tyrese-gibson-1604057"}
+- {id: ff09-screenrant-space, kind: plot, title: "Screen Rant: F9, why they go into space", url: "https://screenrant.com/f9-space-scene-science-why-how-realistic/"}
+- {id: ff09-moviemanifesto, kind: plot, title: "Movie Manifesto: F9 review (magnets, Roman's invincibility gag)", url: "https://moviemanifesto.com/2021/07/f9-the-fast-saga-love-motion-no-9-now-with-magnets.html"}
+- {id: ff09-avclub, kind: plot, title: "AV Club: F9 review (Roman's 'not a single scar' line)", url: "https://www.avclub.com/f9-got-audiences-back-to-theaters-by-giving-them-all-th-1848010309"}
+- {id: wiki-delta-v, kind: literature, title: "Wikipedia: Delta-v budget (launch to LEO)", url: "https://en.wikipedia.org/wiki/Delta-v_budget"}
+- {id: wiki-rocket-eq, kind: literature, title: "Wikipedia: Tsiolkovsky rocket equation", url: "https://en.wikipedia.org/wiki/Tsiolkovsky_rocket_equation"}
+- {id: wiki-space-suit, kind: literature, title: "Wikipedia: Space suit (pressure requirements, Armstrong limit)", url: "https://en.wikipedia.org/wiki/Space_suit"}
+- {id: wiki-iss, kind: spec, title: "Wikipedia: International Space Station (413-422 km, 7.67 km/s)", url: "https://en.wikipedia.org/wiki/International_Space_Station"}
+# --- ff10 Fast X (2023)
+- {id: ff10-wiki, kind: plot, title: "Wikipedia: Fast X, plot and production", url: "https://en.wikipedia.org/wiki/Fast_X"}
+- {id: ff10-fandom, kind: plot, title: "Fast & Furious Wiki: Fast X plot", url: "https://fastandfurious.fandom.com/wiki/Fast_X"}
+- {id: ff10-themoviespoiler, kind: plot, title: "The Movie Spoiler: Fast X", url: "https://themoviespoiler.com/movies/fast-x/"}
+- {id: ff10-highonfilms, kind: bts, title: "High On Films: how Fast X's giant rolling bomb was done (one-ton prop)", url: "https://www.highonfilms.com/fast-x-giant-bomb-rolling-scene/"}
+- {id: ff10-screenrant-ridiculous, kind: plot, title: "Screen Rant: Fast X's most ridiculous moments", url: "https://screenrant.com/fast-x-most-ridiculous-moments-stunts/"}
+- {id: ff10-ringer-dam, kind: bts, title: "The Ringer: the Fast X dam stunt (Jack Gill, 460 ft Aldeadávila Dam)", url: "https://www.theringer.com/2023/05/23/movies/fast-x-dam-stunt-dominic-toretto-louis-leterrier"}
+- {id: ff10-cbr-ending, kind: plot, title: "CBR: Fast X ending deaths explained", url: "https://www.cbr.com/fast-x-ending-deaths-explained/"}
+# --- viewer confirmations by the project owner (plot evidence for scenes no accessible text described)
+- {id: owner-ff07-cast, kind: plot, title: "Project owner's viewing confirmation (2026-09-18): in Furious 7, Hobbs breaks his arm cast by flexing", url: ""}
+- {id: ff07-national-stunts, kind: plot, title: "The National: the truth behind Furious 7's death-defying stunts", url: "https://www.thenationalnews.com/arts/the-truth-behind-furious-7s-death-defying-stunts-1.128554"}
+- {id: owner-ff10-elevator, kind: plot, title: "Project owner's viewing confirmation (2026-09-19): in Fast X, Cipher survives an elevator free fall by landing on a henchman as a human cushion", url: ""}

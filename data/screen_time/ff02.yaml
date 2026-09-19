@@ -1,0 +1,216 @@
+# GENERATED from research/ff02.md by scripts/import_presence.py
+film: ff02
+anchors:
+- research/ff02.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 1.0
+  title: Studio/opening titles
+  characters: []
+- n: 2
+  start: 1.0
+  end: 8.0
+  title: Street racers set up; Brian arrives
+  characters:
+  - tej
+  - slap_jack
+  - suki
+  - brian
+- n: 3
+  start: 8.0
+  end: 14.0
+  title: Four-car race incl. bridge jump
+  characters:
+  - brian
+  - slap_jack
+  - suki
+- n: 4
+  start: 14.0
+  end: 17.0
+  title: Post-race celebration; feds arrive; alley chase; capture
+  characters:
+  - brian
+  - tej
+- n: 5
+  start: 17.0
+  end: 20.0
+  title: Interrogation; Brian offered the deal
+  characters:
+  - brian
+- n: 6
+  start: 20.0
+  end: 27.0
+  title: Roman Pearce recruited (exact staging unconfirmed — see ff02-c10)
+  characters:
+  - roman
+  - brian
+- n: 7
+  start: 27.0
+  end: 30.0
+  title: Meeting Monica Fuentes; issued Evo/Spyder
+  characters:
+  - brian
+  - roman
+  - monica
+- n: 8
+  start: 30.0
+  end: 36.0
+  title: Drive to and arrival at Verone's mansion; audition announced
+  characters:
+  - brian
+  - roman
+  - monica
+  - verone
+  - roberto
+- n: 9
+  start: 36.0
+  end: 42.0
+  title: Ferrari-ring audition race and impound-lot heist
+  characters:
+  - brian
+  - roman
+- n: 10
+  start: 42.0
+  end: 44.0
+  title: Return to mansion; win the job
+  characters:
+  - brian
+  - roman
+  - verone
+  - monica
+- n: 11
+  start: 44.0
+  end: 47.0
+  title: Discover tracking wires; head to Tej's garage
+  characters:
+  - brian
+  - roman
+  - tej
+  - suki
+- n: 12
+  start: 47.0
+  end: 54.0
+  title: Pink-slip race for the Camaro/Challenger
+  characters:
+  - brian
+  - roman
+- n: 13
+  start: 54.0
+  end: 58.0
+  title: Opium nightclub; social tension over Monica
+  characters:
+  - brian
+  - roman
+  - monica
+  - verone
+  - roberto
+- n: 14
+  start: 58.0
+  end: 62.0
+  title: Verone assigns the money run; customs plans the sting
+  characters:
+  - brian
+  - roman
+  - monica
+- n: 15
+  start: 62.0
+  end: 65.0
+  title: Whitworth tortured (rat/bucket)
+  characters: []
+- n: 16
+  start: 65.0
+  end: 70.0
+  title: Money pickup begins, Enrique/Roberto ride along
+  characters:
+  - brian
+  - roman
+  - roberto
+- n: 17
+  start: 70.0
+  end: 72.0
+  title: Monica warns of the double-cross
+  characters:
+  - monica
+  - brian
+  - roman
+- n: 18
+  start: 72.0
+  end: 75.0
+  title: Sting starts to unravel; pursuit begins
+  characters:
+  - brian
+  - roman
+- n: 19
+  start: 75.0
+  end: 80.0
+  title: 'Highway chase: EMP dart-gun reuse, median jump, semi-trailer duck (c05/c06, unconfirmed)'
+  characters:
+  - brian
+  - roman
+  - roberto
+- n: 20
+  start: 80.0
+  end: 85.0
+  title: Decoy swarm of street racers; trucks ram cop cars
+  characters:
+  - brian
+  - roman
+  - tej
+  - suki
+- n: 21
+  start: 85.0
+  end: 88.0
+  title: Ejector-seat scene
+  characters:
+  - roman
+  - roberto
+- n: 22
+  start: 88.0
+  end: 92.0
+  title: Approach to the marina; confrontation begins
+  characters:
+  - brian
+  - roman
+  - verone
+  - monica
+- n: 23
+  start: 92.0
+  end: 93.0
+  title: Brian/Roman subdue Enrique (BBFC-anchored timecode 1:32:22)
+  characters:
+  - brian
+  - roman
+- n: 24
+  start: 93.0
+  end: 97.0
+  title: Verone flees by yacht; Camaro ramp-jumps onto the boat
+  characters:
+  - brian
+  - roman
+  - verone
+- n: 25
+  start: 97.0
+  end: 100.0
+  title: Monica reveals herself; Verone arrested; resolution
+  characters:
+  - brian
+  - roman
+  - monica
+- n: 26
+  start: 100.0
+  end: 101.0
+  title: 'Final scene: records cleared, garage partnership'
+  characters:
+  - brian
+  - roman
+- n: 27
+  start: 101.0
+  end: 104.0
+  title: 3D-animated end-credit sequence (cars only)
+  characters: []
+- n: 28
+  start: 104.0
+  end: 107.0
+  title: Plain text end credits
+  characters: []

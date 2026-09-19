@@ -1,0 +1,175 @@
+film: ff06
+events:
+  - id: ev-ff06-01
+    title: A Chieftain tank chases sports cars down a highway
+    sequence: Spanish highway tank sequence
+    depicted: >-
+      Shaw's crew takes a tank from a NATO convoy and drives it down a highway at the pace of the pursuing cars,
+      crushing about 250 vehicles.
+    inferred: The pursuing cars travel at highway speed, roughly 60 mph.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [tank speed]
+    confidence: medium
+    participants: [owen, letty, dom, brian, roman, tej, han, gisele, hobbs, riley]
+    plot_sources: [ff06-wiki, ff06-slashfilm-tank]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.mechanical
+        claim: A 56 t Chieftain sustains about 60 mph, over twice its rated 27 mph top speed
+        evidence: E2
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          A tracked vehicle's rolling resistance (about 0.04 x m x g = 22 kN) at 27 m/s needs about 600 kW, close to
+          the Chieftain's 560 kW, so the energy budget alone is near the limit. The rated top speed comes from gearing
+          and track wear, which a stolen tank cannot be modified to fix mid-heist. Judged 1 in 10 to 1 in 1,000.
+        dependence: Single component.
+        references: [chieftain-speed]
+        credits: [{character: owen, role: controller}, {character: letty, role: occupant}]
+  - id: ev-ff06-02
+    title: Brian and Roman overturn the tank
+    sequence: Spanish highway tank sequence
+    depicted: Brian and Roman overturn Owen Shaw's tank, which ejects Letty from it.
+    inferred: The mechanism is not described by any accessible source.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [mechanism used to overturn the tank]
+    confidence: low
+    participants: [brian, roman, owen, letty]
+    plot_sources: [ff06-wiki, ff06-spoilertown]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: Car-based action overturns a moving 56 t tank
+        evidence: E4
+        mu: {low: 1.5, central: 2.5, high: 3}
+        capped: false
+        reasoning: >-
+          A car weighs about 3% of the tank. Without a known mechanism a physics model would be invented, so this is a
+          judgment prior (about 1 in 300), held at the 3 MU judgment cap.
+        dependence: Single component.
+        references: [chieftain-speed]
+        credits: [{character: brian, role: controller}, {character: roman, role: controller}]
+  - id: ev-ff06-03
+    title: Dom catches Letty in mid-air over the highway
+    sequence: Spanish highway tank sequence
+    depicted: >-
+      Letty is thrown from the overturning tank off the elevated highway. Dom drives off the edge, intercepts her in
+      mid-air on his windshield, and the car lands on a parked vehicle below. Both survive and walk away.
+    inferred: The highway's height is a VFX exaggeration of a lower real road.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [drop height, relative speed at the catch]
+    confidence: medium
+    participants: [dom, letty]
+    plot_sources: [ff06-wiki, ff06-supermarcey, ff06-spoilertown]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.intercept
+        claim: The car's ballistic path intersects Letty's with the windshield arriving at the right place and moment
+        evidence: E3
+        mu: {low: 2, central: 3, high: 4}
+        capped: false
+        reasoning: >-
+          Two projectiles must meet within about 1 m in each of three dimensions. Dom commits before Letty's
+          trajectory is known; a timing error of +/-0.3 s at ~25 m/s is +/-7 m, against a catch zone of ~1 m, and
+          launch angle adds a similar error vertically. Joint success is roughly 1 in 100 to 1 in 10,000.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: controller}, {character: letty, role: beneficiary}]
+      - id: c2
+        category: survival
+        subtype: survival.crash
+        claim: Letty (outside the car, on the windshield) and Dom survive the catch and the landing on a parked car
+        evidence: E4
+        mu: {low: 2, central: 3, high: 3}
+        capped: false
+        reasoning: >-
+          Dan's Reality Check puts the catch impact alone as lethal at the implied 60 mph. Even at a lower relative speed,
+          Letty is unrestrained on the car's exterior when it lands on another vehicle. No pedestrian injury curve
+          could be sourced this research pass, so this is a judgment prior held at the 3 MU judgment cap.
+        dependence: Conditional on c1; one component for both (correlated landing).
+        references: []
+        credits: [{character: letty, role: survivor}, {character: dom, role: survivor}]
+  - id: ev-ff06-04
+    title: The endless runway
+    sequence: Airfield finale
+    depicted: >-
+      The team chases Shaw's accelerating Antonov cargo plane down the runway for roughly 13 minutes and anchors it
+      with cables from their cars to stop it taking off.
+    inferred: Several independent analyses (including the screenwriter's own) put the implied runway at 26-29 miles.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: high
+    participants: [dom, brian, roman, tej, han, gisele, letty, hobbs, owen, riley]
+    plot_sources: [ff06-wiki, ff06-screenrant-runway, ff06-cbr-morgan, ff06-spoilertown]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: Cars tethered by cables hold down a heavy cargo plane at takeoff power
+        evidence: E2
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: >-
+          An An-124 makes about 900 kN of thrust and, near rotation speed, about 4 MN of lift. A car's braking or anchoring
+          force is about 16 kN (0.9 x 1.8 t x g). Even several cars supply under 100 kN, one-ninth of the thrust and a
+          small fraction of the lift. This is a hard-limit violation, capped at the Record Horizon.
+        dependence: First component.
+        references: [an124-thrust]
+        credits: [{character: dom, role: controller}, {character: brian, role: controller}, {character: roman, role: controller}, {character: letty, role: controller}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.environment
+        claim: The runway keeps going for 26-29 miles
+        evidence: E1
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: >-
+          Given c1 (the plane is held down at speed), the chase needs 26-29 miles of runway. No runway on Earth exceeds
+          about 3.4 miles, so the frequency of such a runway is zero among all observed airfields; capped at the Record
+          Horizon.
+        dependence: Conditional on c1. Without c1 the plane lifts off within about 3 km and no long runway is needed, so the two failure modes are separate.
+        references: [ff06-runway-length]
+        credits: [{character: dom, role: beneficiary}, {character: brian, role: beneficiary}, {character: roman, role: beneficiary}, {character: tej, role: beneficiary}, {character: han, role: beneficiary}, {character: gisele, role: beneficiary}, {character: letty, role: beneficiary}, {character: hobbs, role: beneficiary}, {character: owen, role: beneficiary}]
+  - id: ev-ff06-05
+    title: Dom drives out through the exploding plane's nose
+    sequence: Airfield finale
+    depicted: >-
+      As the tethered plane breaks apart and burns, Dom drives his Charger out through the disintegrating nose section
+      and walks away largely unharmed.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [speed through the nose]
+    confidence: medium
+    participants: [dom, owen]
+    plot_sources: [ff06-fxguide, ff06-wiki]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.timing
+        claim: The nose breaks open into a drivable exit exactly as Dom reaches it
+        evidence: E4
+        mu: {low: 1, central: 1.5, high: 2}
+        capped: false
+        reasoning: A breaking airframe is equally likely to trap the car. Judgment prior around 1 in 30.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: controller}]
+      - id: c2
+        category: survival
+        subtype: survival.explosion
+        claim: Dom drives through burning fuel and structure and walks away
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: Brief exposure inside a closed car through a fuel fire and collapsing structure. Judgment prior around 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: survivor}]

@@ -1,0 +1,165 @@
+film: ff05
+events:
+  - id: ev-ff05-01
+    title: Prison bus flipped by a braking Charger
+    sequence: Opening prison-bus rescue
+    depicted: >-
+      Mia forces the prison bus to swerve and Brian brakes Dom's Charger in its path. The bus rear-ends the Charger,
+      flips and rolls several times. Dom, shackled inside, walks away with no depicted injury.
+    inferred: The fate of the guards and other prisoners is not described.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [number of rolls, whether Brian is still in the Charger at impact]
+    confidence: low
+    participants: [dom, brian, mia]
+    plot_sources: [ff05-wiki, ff05-fandom-bus, ff05-topspeed]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.vehicle_dynamics
+        claim: A 13-15 t motorcoach that rear-ends a car is launched into a multi-roll rollover
+        evidence: E4
+        mu: {low: 0.5, central: 1.5, high: 2}
+        capped: false
+        reasoning: >-
+          A coach hitting a car usually rides over it or pushes it; a roll needs the car to act as a ramp under one
+          side. Judgment prior around 1 in 30. (The production used a cannon ramp to achieve it.)
+        dependence: First component.
+        references: []
+        credits: [{character: brian, role: controller}, {character: mia, role: controller}]
+      - id: c2
+        category: survival
+        subtype: survival.crash
+        claim: A shackled, unbelted prisoner walks away from a multi-roll bus rollover
+        evidence: E4
+        mu: {low: 0, central: 0.5, high: 1}
+        capped: false
+        reasoning: >-
+          Most bus rollover occupants survive, but unrestrained occupants are thrown around the cabin. Walking away
+          uninjured is judged roughly 1 in 3.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: survivor}]
+  - id: ev-ff05-02
+    title: Corvette off a 300 ft canyon, both swim away
+    sequence: Train heist escape
+    depicted: >-
+      Cornered at a canyon edge, Dom drives the stolen Corvette off the cliff with Brian. The two separate from the
+      falling car, fall into the river below, and swim to shore with no depicted injury.
+    inferred: The finished shot depicts about 300 ft; the on-screen fall lasts about 15 s, which is editing (a 300 ft fall takes about 4.5 s).
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [how Brian gets into the car, whether they leave the car mid-air]
+    confidence: medium
+    participants: [dom, brian]
+    plot_sources: [ff05-screenrant-cliff, ff05-inverse, ff05-wiki]
+    components:
+      - id: c1
+        category: survival
+        subtype: survival.fall
+        claim: Both men survive a ~91 m fall into a river and swim to shore uninjured
+        evidence: E1
+        mu: {low: 2, central: 3, high: 4}
+        capped: false
+        reasoning: >-
+          Golden Gate data: a 75 m fall into water is survived about 2% of the time (1.7 MU), usually with broken
+          vertebrae or ribs. 91 m is higher (impact near 90 mph), so survival is about 1% (2 MU). Swimming off
+          uninjured is judged 1 in 3 to 1 in 100 of survivors. The record competitive high dive is under 60 m, so
+          even trained divers do not attempt this height.
+        dependence: Single survival component for both men (same height, same water).
+        references: [golden-gate-survival, ff05-cliff-height]
+        credits: [{character: dom, role: survivor}, {character: brian, role: survivor}]
+  - id: ev-ff05-03
+    title: Two Chargers drag a bank vault through Rio
+    sequence: Vault heist finale
+    depicted: >-
+      Dom and Brian chain two 2010 Dodge Chargers to Reyes's evidence vault, tear it out of the police station and drag
+      it at speed through the city, swinging it into pursuing cars and buildings.
+    inferred: The vault's mass is not stated; an 8 ft steel vault weighs roughly 20-40 t.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: []
+    confidence: medium
+    participants: [dom, brian, hobbs, elena, mia, roman, han]
+    plot_sources: [ff05-wiki, ff05-fandom-vault, ff05-nofilmschool, ff05-avclub]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.forces
+        claim: Two Chargers generate enough pulling force to drag a 20-40 t steel vault
+        evidence: E2
+        mu: {low: 12, central: 12, high: 12}
+        capped: true
+        reasoning: >-
+          Sliding steel on asphalt needs at least 0.3 x m x g: 59 kN for a 20 t vault. Two Chargers can push at most
+          about 17 kN before their tyres spin. The requirement exceeds tyre grip by 3-7x, so this is a hard-limit
+          violation, capped at the Record Horizon. The production confirms the limit: it cut a shot of the vault
+          hanging off the bridge because "even the powerful Chargers would not be able to support the vault's weight".
+        dependence: First component.
+        references: [ff05-vault-mass, ff05-vault-prop, charger-traction]
+        credits: [{character: dom, role: controller}, {character: brian, role: controller}]
+      - id: c2
+        category: physics
+        subtype: physics.vehicle_dynamics
+        claim: The cars stay controllable while a mass 10-20x heavier swings on 30 ft cables through corners
+        evidence: E2
+        mu: {low: 2, central: 3, high: 5}
+        capped: false
+        reasoning: >-
+          Granting c1, a swinging 20 t mass exerts lateral cable loads far above each car's lateral grip (about 17 kN).
+          Every wide swing should drag both cars sideways. Staying on course through a city chase needs the swing to
+          stay small at every corner; judged 1 in 100 to 1 in 100,000.
+        dependence: Conditional on c1. This is a separate failure mode (lateral control, not forward traction).
+        references: [charger-traction, ff05-vault-mass]
+        credits: [{character: dom, role: controller}, {character: brian, role: controller}]
+      - id: c3
+        category: skill
+        subtype: skill.driving
+        claim: Dom aims the swinging vault into specific targets
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: A pendulum on a cable steered by one of two independently driven cars. Judgment prior around 1 in 10 per aimed hit.
+        dependence: Conditional on c2 (the cars are controllable at all).
+        references: []
+        credits: [{character: dom, role: performer}]
+  - id: ev-ff05-04
+    title: Vault swapped into a garbage truck mid-chase, unseen
+    sequence: Vault heist finale
+    depicted: >-
+      During the chase the real vault is transferred into a disguised garbage truck and replaced by a decoy. Hobbs finds
+      the vault at the bridge empty.
+    inferred: The mechanism of the transfer is not shown.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [how and where the swap happens]
+    confidence: low
+    participants: [gisele, leo, santos, dom, brian, hobbs]
+    plot_sources: [ff05-wiki, ff05-fandom-vault]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.unobserved
+        claim: A heavy-load swap happens during a live police pursuit without any unit or camera seeing it
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Dozens of pursuing units and the police's own surveillance are watching the vault continuously. A window
+          for an unobserved swap is judged about 1 in 100. Capped at the judgment limit.
+        dependence: First component.
+        references: []
+        credits: [{character: gisele, role: beneficiary}, {character: leo, role: beneficiary}, {character: santos, role: beneficiary}, {character: dom, role: beneficiary}, {character: brian, role: beneficiary}]
+      - id: c2
+        category: physics
+        subtype: physics.mechanical
+        claim: A refuse truck carries a 20-40 t vault away
+        evidence: E2
+        mu: {low: 1, central: 1.5, high: 2}
+        capped: false
+        reasoning: >-
+          Refuse trucks carry roughly 10 t of payload; this load is 2-4x over. Axles and tyres can survive brief
+          overloads, so this is judged about 1 in 30, not a hard limit.
+        dependence: Conditional on c1.
+        references: [ff05-vault-mass]
+        credits: [{character: gisele, role: controller}, {character: leo, role: controller}, {character: santos, role: controller}]

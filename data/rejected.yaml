@@ -1,0 +1,117 @@
+# Candidates considered and not scored. reason: below_threshold | not_depicted | merged | plot_armor | ordinary | insufficient_sources
+# --- ff01
+- {id: rj-ff01-01, film: ff01, title: Post-race police evasion, reason: ordinary, merged_into: null, note: "Street racers scattering from police is common; no depicted stunt detail."}
+- {id: rj-ff01-02, film: ff01, title: "Dom's RX-7 race at Race Wars", reason: insufficient_sources, merged_into: null, note: "One source (a continuity goof list); opponent and outcome unknown."}
+- {id: rj-ff01-03, film: ff01, title: Vince shot and pinned on the truck, reason: below_threshold, merged_into: null, note: "Surviving a gunshot with a MEDEVAC is common (well under 1 MU)."}
+- {id: rj-ff01-04, film: ff01, title: "Brian's rescue of Vince from the moving truck", reason: insufficient_sources, merged_into: null, note: "Remembered as a vehicle-to-truck transfer, but no accessible source describes the mechanics; Wikipedia only says Brian and Mia catch up and call a MEDEVAC. Visual spot-check needed."}
+- {id: rj-ff01-05, film: ff01, title: Letty run off the road, reason: below_threshold, merged_into: null, note: "Severity unspecified; she is mobile at once. A run-off-road at highway speed is usually survivable (<1 MU)."}
+- {id: rj-ff01-06, film: ff01, title: Jesse's drive-by killing, reason: ordinary, merged_into: null, note: "Close-range shooting from motorcycles; not improbable."}
+- {id: rj-ff01-07, film: ff01, title: Dom forces Lance off his motorcycle, reason: insufficient_sources, merged_into: null, note: "Single source; Lance's fate ambiguous."}
+- {id: rj-ff01-08, film: ff01, title: Brian shoots Tran from a moving car, reason: below_threshold, merged_into: null, note: "Trained officer, short range, several shots available: roughly 1 in 3 to 1 in 10 (<2 MU)."}
+- {id: rj-ff01-09, film: ff01, title: Quarter-mile race clears the passing train, reason: below_threshold, merged_into: null, note: "Both drivers choose to go with the train in sight; a ten-second car's elapsed time is repeatable to about 0.1 s, so beating a visible train is a judgement call, not a miracle (~1 MU). The razor-thin margin is editing (shots were composited)."}
+- {id: rj-ff01-10, film: ff01, title: Eclipse nitrous failure in the first race, reason: ordinary, merged_into: null, note: "Over-boosted nitrous systems fail in real drag racing."}
+# --- ff02
+- {id: rj-ff02-01, film: ff02, title: "Slap-Jack's crash after the bridge jump", reason: insufficient_sources, merged_into: null, note: "Only in a July 2002 draft screenplay."}
+- {id: rj-ff02-02, film: ff02, title: Ferrari-ring audition race, reason: below_threshold, merged_into: null, note: "The race is fast driving through traffic; the two-trucks gap threading is screenplay-only."}
+- {id: rj-ff02-03, film: ff02, title: Pink-slip race, reason: below_threshold, merged_into: null, note: "Race confirmed; jump and tunnel routing only in the draft screenplay."}
+- {id: rj-ff02-04, film: ff02, title: Ducking under a jackknifing semi, reason: insufficient_sources, merged_into: null, note: "Draft screenplay only."}
+- {id: rj-ff02-05, film: ff02, title: Median jump into oncoming traffic, reason: insufficient_sources, merged_into: null, note: "Draft screenplay only."}
+- {id: rj-ff02-06, film: ff02, title: "Decoy 'scramble' of street racers", reason: ordinary, merged_into: null, note: "Planned in advance; pickup trucks ramming police cruisers is not improbable."}
+- {id: rj-ff02-07, film: ff02, title: Nitrous ejector seat, reason: below_threshold, merged_into: null, note: "A pneumatic ram driven by a 50-bar nitrous bottle can eject a seat; an improvised system working first time is roughly 1 in 10 (~1 MU). Roberto's landing is not described."}
+- {id: rj-ff02-08, film: ff02, title: "Roman's demolition-derby introduction", reason: insufficient_sources, merged_into: null, note: "Draft screenplay only; possibly not in the theatrical cut."}
+# --- ff03
+- {id: rj-ff03-01, film: ff03, title: "Sean's rollover in the opening race", reason: below_threshold, merged_into: null, note: "Rollovers at construction-site speeds are usually survivable; he is conscious and arrested at the scene (<1 MU)."}
+- {id: rj-ff03-02, film: ff03, title: "Clay's Viper hits a concrete pipe", reason: below_threshold, merged_into: null, note: "Impact speed unknown; a 2003 Viper has airbags; survival is the base case."}
+- {id: rj-ff03-03, film: ff03, title: Parking-garage crash into pillars, reason: below_threshold, merged_into: null, note: "Low-speed garage impacts; walking away is expected."}
+- {id: rj-ff03-04, film: ff03, title: Morimoto race win, reason: insufficient_sources, merged_into: null, note: "Outcome sourced; staging single-sourced. Covered by the final-race skill event in spirit."}
+- {id: rj-ff03-05, film: ff03, title: "Morimoto's fatal pileup", reason: insufficient_sources, merged_into: null, note: "One aggregated search result."}
+- {id: rj-ff03-06, film: ff03, title: "Han's RX-7 T-boned and explodes", reason: ordinary, merged_into: null, note: "Depicted as a death, which is the expected outcome. The survival retcon is scored where it is depicted (F9), and the killer reveal is plot armor (F&F6)."}
+- {id: rj-ff03-07, film: ff03, title: Sean and Neela crash, reason: insufficient_sources, merged_into: null, note: "One sentence in Wikipedia; nothing else."}
+# --- ff04
+- {id: rj-ff04-01, film: ff04, title: Tanker trailers uncoupled at speed, reason: below_threshold, merged_into: null, note: "Planned heist by experienced drivers; the hitch detail is a factual goof, not a miracle."}
+- {id: rj-ff04-02, film: ff04, title: Tanker goes over the cliff and explodes near the crew, reason: merged, merged_into: ev-ff04-01, note: "The same sequence; the crew is not shown in the blast."}
+- {id: rj-ff04-03, film: ff04, title: Downtown elimination race, reason: ordinary, merged_into: null, note: "Street racing; fatalities among rivals are the expected outcome."}
+- {id: rj-ff04-04, film: ff04, title: Nitrous bump in the final duel, reason: ordinary, merged_into: null, note: "Low relative speed."}
+- {id: rj-ff04-05, film: ff04, title: Shooting tyres flips pursuing cars, reason: below_threshold, merged_into: null, note: "A blow-out rarely flips a car, but the flipping car belongs to a henchman, and the beat is thinly sourced."}
+- {id: rj-ff04-06, film: ff04, title: Point-blank rammings cause rollovers, reason: insufficient_sources, merged_into: null, note: "One kill-count blog."}
+- {id: rj-ff04-07, film: ff04, title: Nitrous-rigged car detonated as a diversion, reason: below_threshold, merged_into: null, note: "N2O is an oxidiser, not a fuel, but a burning car with a nitrous bottle can rupture violently; standing nearby is survivable (~1 MU)."}
+- {id: rj-ff04-08, film: ff04, title: Brian steals the Hummer through gunfire unhit, reason: ordinary, merged_into: null, note: "Henchmen missing is scored nowhere (a genre-wide convention)."}
+- {id: rj-ff04-09, film: ff04, title: Dom pulls Gisele from a car's path, reason: below_threshold, merged_into: null, note: "Reflex rescue at close range."}
+- {id: rj-ff04-10, film: ff04, title: Church capture of Braga, reason: insufficient_sources, merged_into: null, note: "No source describes any physical feat."}
+- {id: rj-ff04-11, film: ff04, title: Brian T-boned by Fenix and fights on foot, reason: below_threshold, merged_into: null, note: "Unknown speed; walking away from a moderate T-bone is under 1 MU."}
+# --- ff05
+- {id: rj-ff05-01, film: ff05, title: Cars driven off a moving train, reason: below_threshold, merged_into: null, note: "Planned extraction with a ramp truck alongside; about 1 MU."}
+- {id: rj-ff05-02, film: ff05, title: Favela rooftop chase, reason: ordinary, merged_into: null, note: "Parkour-scale gaps; no specific jump distances."}
+- {id: rj-ff05-03, film: ff05, title: Convoy ambush with rockets, reason: ordinary, merged_into: null, note: "Most of the escort dies; the protagonists surviving an ambush in armoured vehicles is not improbable."}
+- {id: rj-ff05-04, film: ff05, title: "Bridge finale: airborne Charger, Brian shoots Zizi", reason: below_threshold, merged_into: null, note: "The Charger's collision is a moderate crash; Brian's shot is at close range. Together about 1-1.5 MU."}
+- {id: rj-ff05-05, film: ff05, title: Diogo pink-slip race, reason: ordinary, merged_into: null, note: "Uneventful race."}
+# --- ff06
+- {id: rj-ff06-01, film: ff06, title: Cold-open convoy wreck, reason: insufficient_sources, merged_into: null, note: "Possibly aftermath only."}
+- {id: rj-ff06-02, film: ff06, title: London flip-car chase and Letty shooting Dom, reason: below_threshold, merged_into: null, note: "The flip car is purpose-built, so launching cars is its design; surviving a shoulder wound is common."}
+- {id: rj-ff06-03, film: ff06, title: Letty vs Riley Underground fight, reason: ordinary, merged_into: null, note: "Hand-to-hand fight."}
+- {id: rj-ff06-04, film: ff06, title: Han vs Jah fight, reason: insufficient_sources, merged_into: null, note: "Single source; ordinary fight."}
+- {id: rj-ff06-05, film: ff06, title: Dom vs Letty street race, reason: ordinary, merged_into: null, note: "No crash depicted."}
+- {id: rj-ff06-06, film: ff06, title: Brian fights Braga in prison, reason: ordinary, merged_into: null, note: "Access is plot armor; the fight is ordinary."}
+- {id: rj-ff06-07, film: ff06, title: Brian boards the moving cargo plane, reason: insufficient_sources, merged_into: null, note: "One line in Wikipedia."}
+- {id: rj-ff06-08, film: ff06, title: Multi-way fights on the runway, reason: merged, merged_into: ev-ff06-04, note: "Fighting happens inside the runway sequence; no separate miracle."}
+- {id: rj-ff06-09, film: ff06, title: "Gisele's fall", reason: ordinary, merged_into: null, note: "A fatal fall is the expected outcome."}
+- {id: rj-ff06-10, film: ff06, title: Han broadsided in Tokyo (mid-credits), reason: ordinary, merged_into: null, note: "Same as Tokyo Drift's crash; the retcon is plot armor."}
+# --- ff07
+- {id: rj-ff07-01, film: ff07, title: Hospital demolished; Deckard walks away, reason: insufficient_sources, merged_into: null, note: "Details from one aggregating source."}
+- {id: rj-ff07-02, film: ff07, title: DSS office bomb; Hobbs survives, reason: below_threshold, merged_into: null, note: "Hobbs is badly hurt and hospitalised: the expected result of a close blast."}
+- {id: rj-ff07-04, film: ff07, title: Mail bomb destroys the house; family survives, reason: below_threshold, merged_into: null, note: "Dom sees the package and gets himself and Mia clear."}
+- {id: rj-ff07-05, film: ff07, title: "Dom vs Deckard game of chicken, both walk away", reason: below_threshold, merged_into: null, note: "Head-on crash between similar cars: each sees about half the closing speed; walking away at 40 mph delta-V is ~0.5 MU."}
+- {id: rj-ff07-06, film: ff07, title: Convoy firefight, reason: ordinary, merged_into: null, note: "Gunfight against mercenaries."}
+- {id: rj-ff07-07, film: ff07, title: Letty and Kara fall onto a stage, reason: below_threshold, merged_into: null, note: "Short fall onto a platform; ordinary."}
+- {id: rj-ff07-08, film: ff07, title: Factory ambush and loss of God's Eye, reason: insufficient_sources, merged_into: null, note: "Thinly documented."}
+- {id: rj-ff07-09, film: ff07, title: Hobbs destroys the drone with an ambulance, reason: insufficient_sources, merged_into: null, note: "Sources disagree: Wikipedia summary says he rams it; the Fandom plot says he shoots it."}
+- {id: rj-ff07-10, film: ff07, title: Brian vs Kiet and the signal tower, reason: ordinary, merged_into: null, note: "Fight; tower height unknown."}
+# --- hs
+- {id: rj-hs-01, film: hs, title: Hattie injects the virus and escapes, reason: ordinary, merged_into: null, note: "An escape on foot."}
+- {id: rj-hs-02, film: hs, title: Hobbs clears a tattoo parlour; Shaw clears a nightclub, reason: below_threshold, merged_into: null, note: "One-versus-many unarmed fights against unskilled opponents are a genre convention; about 1-1.5 MU each."}
+- {id: rj-hs-03, film: hs, title: Hobbs catches a thrown car battery, reason: insufficient_sources, merged_into: null, note: "One source, and another recap puts Hobbs elsewhere."}
+- {id: rj-hs-04, film: hs, title: Brixton thrown through a window from his motorcycle, reason: below_threshold, merged_into: null, note: "Moderate crash; sources disagree on bus vs bar window."}
+- {id: rj-hs-05, film: hs, title: No pedestrian casualties in the London chase, reason: ordinary, merged_into: null, note: "Not scored film-wide (applies to every chase)."}
+- {id: rj-hs-06, film: hs, title: Shaw fights ten armed men using them as shields, reason: insufficient_sources, merged_into: null, note: "The headcount and shield detail come from one source."}
+- {id: rj-hs-07, film: hs, title: Hobbs one-punch knockout, reason: insufficient_sources, merged_into: null, note: "One source."}
+- {id: rj-hs-08, film: hs, title: Escape from the collapsing power plant, reason: below_threshold, merged_into: null, note: "Falling-walls detail from one source; the escape itself is about 1-1.5 MU."}
+- {id: rj-hs-09, film: hs, title: Brixton pushes a pilot out of a helicopter, reason: insufficient_sources, merged_into: null, note: "One source; placement inferred."}
+- {id: rj-hs-10, film: hs, title: Samoan family beats mercenaries hand-to-hand, reason: ordinary, merged_into: null, note: "The mercenaries' guns are disabled for six minutes (a plot device, not a miracle of fighting)."}
+- {id: rj-hs-11, film: hs, title: Hobbs and Shaw defeat Brixton together, reason: ordinary, merged_into: null, note: "Two against one; Brixton is remotely shut down."}
+- {id: rj-hs-12, film: hs, title: Brixton falls from a cliff, reason: ordinary, merged_into: null, note: "Apparent death is the expected outcome."}
+- {id: rj-hs-13, film: hs, title: "Locke's hallway of defeated opponents (credits)", reason: ordinary, merged_into: null, note: "Aftermath only."}
+# --- ff08
+- {id: rj-ff08-01, film: ff08, title: Motorcycle crashes into Dom mid-race, reason: merged, merged_into: ev-ff08-01, note: "Part of the Havana race."}
+- {id: rj-ff08-02, film: ff08, title: Car plunges into Havana harbour, reason: insufficient_sources, merged_into: null, note: "Transcript only."}
+- {id: rj-ff08-03, film: ff08, title: Berlin EMP heist and wrecking ball, reason: insufficient_sources, merged_into: null, note: "Wrecking-ball details from a death-count wiki and a parody script."}
+- {id: rj-ff08-04, film: ff08, title: Dom forces Hobbs off the road, reason: below_threshold, merged_into: null, note: "Hobbs is uninjured and arrested: an ordinary crash outcome."}
+- {id: rj-ff08-05, film: ff08, title: Prison riot and breakout, reason: insufficient_sources, merged_into: null, note: "The commonly remembered 'Hobbs breaks his restraints' is unconfirmed."}
+- {id: rj-ff08-06, film: ff08, title: Raid on the base to take God's Eye, reason: insufficient_sources, merged_into: null, note: "One paragraph in Wikipedia."}
+- {id: rj-ff08-07, film: ff08, title: Letty nearly killed by Rhodes, reason: ordinary, merged_into: null, note: "Hand-to-hand threat."}
+- {id: rj-ff08-08, film: ff08, title: Dom solo-infiltrates a submarine base, reason: plot_armor, merged_into: null, note: "No depicted physical feat; scored as plot armor."}
+- {id: rj-ff08-09, film: ff08, title: Roman surfs a car door across the ice, reason: below_threshold, merged_into: null, note: "Towed at 35-40 mph under fire; about 1-1.5 MU."}
+- {id: rj-ff08-10, film: ff08, title: Tej drives a tank, reason: insufficient_sources, merged_into: null, note: "One source."}
+- {id: rj-ff08-11, film: ff08, title: Shaw brothers board the plane mid-battle, reason: insufficient_sources, merged_into: null, note: "Boarding method single-sourced."}
+- {id: rj-ff08-12, film: ff08, title: Baby unharmed through the battle, reason: ordinary, merged_into: null, note: "Held in a cabin away from the fighting."}
+- {id: rj-ff08-13, film: ff08, title: Cipher parachutes out, reason: ordinary, merged_into: null, note: "A parachute escape is routine."}
+# --- ff09
+- {id: rj-ff09-01, film: ff09, title: Roman crushed by a falling truck, reason: merged, merged_into: ev-ff09-01, note: "Recaps describe Roman barely escaping being crushed or blown up in the minefield."}
+- {id: rj-ff09-02, film: ff09, title: Rocket-car test explosion in Germany, reason: below_threshold, merged_into: null, note: "Test-stand explosions are expected; observers standing back survive."}
+- {id: rj-ff09-03, film: ff09, title: Han's Tokyo sniper rescue, reason: ordinary, merged_into: null, note: "A sniper hitting agents at an apartment."}
+- {id: rj-ff09-04, film: ff09, title: "Dom's London arrest and Leysa's escape", reason: ordinary, merged_into: null, note: "No physical feat described."}
+- {id: rj-ff09-05, film: ff09, title: Roman and Tej slammed into the magnet, reason: below_threshold, merged_into: null, note: "Blunt impact during a fight."}
+- {id: rj-ff09-06, film: ff09, title: Dom nearly drowns; Letty saves him, reason: ordinary, merged_into: null, note: "Rescue from water."}
+- {id: rj-ff09-07, film: ff09, title: Jakob thrown from the truck and caught, reason: below_threshold, merged_into: null, note: "Catch mechanism not described."}
+# --- ff10
+- {id: rj-ff10-01, film: ff10, title: "Dante's survival in the Fast Five flashback", reason: plot_armor, merged_into: null, note: "Three sources give three different mechanisms; scored as plot armor (retcon)."}
+- {id: rj-ff10-03, film: ff10, title: Dante hacks the convoy trucks, reason: insufficient_sources, merged_into: null, note: "One source."}
+- {id: rj-ff10-04, film: ff10, title: Jakob repels the Agency raid, reason: ordinary, merged_into: null, note: "Fight against a raid team; Mia also fights."}
+- {id: rj-ff10-05, film: ff10, title: Jakob slams a man through a floor, reason: insufficient_sources, merged_into: null, note: "One source."}
+- {id: rj-ff10-06, film: ff10, title: Escape from an airliner in a stowed mini-aircraft, reason: insufficient_sources, merged_into: null, note: "One readable source."}
+- {id: rj-ff10-07, film: ff10, title: "Dom flips Isabel's car to dislodge the bomb", reason: insufficient_sources, merged_into: null, note: "Outcome sourced; the flip mechanism is single-sourced."}
+- {id: rj-ff10-08, film: ff10, title: Little B unharmed in the cannon-car fight, reason: ordinary, merged_into: null, note: "Riding in a car during a chase."}
+- {id: rj-ff10-09, film: ff10, title: Two helicopters made to collide, reason: insufficient_sources, merged_into: null, note: "A search-engine paraphrase only."}
+- {id: rj-ff10-10, film: ff10, title: "Jakob's suicide ram", reason: ordinary, merged_into: null, note: "Presumed dead; fate deliberately ambiguous."}
+- {id: rj-ff10-11, film: ff10, title: Agency plane shot down, reason: not_depicted, merged_into: null, note: "Cliffhanger; outcome not shown."}
+- {id: rj-ff10-12, film: ff10, title: Letty and Cipher fall 15-20 ft and keep fighting, reason: insufficient_sources, merged_into: null, note: "One reviewer's estimate; below threshold anyway."}
+- {id: rj-ff10-13, film: ff10, title: Antarctic trek and submarine rescue, reason: plot_armor, merged_into: null, note: "Gisele's return is plot armor."}

@@ -1,0 +1,4 @@
+film: fb
+anchors: [test]
+scenes:
+  - {n: 1, start: 0, end: 100, title: all, characters: [hobbs]}

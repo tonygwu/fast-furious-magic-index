@@ -1,0 +1,183 @@
+# GENERATED from research/ff01.md by scripts/import_presence.py
+film: ff01
+anchors:
+- research/ff01.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 7.0
+  title: The Hijackers — opening truck hijacking
+  characters:
+  - dom
+  - vince
+  - leon
+  - letty
+- n: 2
+  start: 7.0
+  end: 12.0
+  title: Enter the Eclipse — Brian buys/tests his car, arrives in LA, meets Mia at the market
+  characters:
+  - brian
+  - mia
+- n: 3
+  start: 12.0
+  end: 14.0
+  title: The Snowman's Bet — night car meet, wager set up
+  characters:
+  - brian
+  - dom
+  - vince
+  - letty
+  - leon
+  - jesse
+- n: 4
+  start: 14.0
+  end: 20.0
+  title: NOS Fest — the first street race
+  characters:
+  - brian
+  - dom
+  - mia
+  - vince
+  - letty
+  - leon
+  - jesse
+- n: 5
+  start: 20.0
+  end: 25.0
+  title: Big Trouble in Little Saigon — police evasion, Tran destroys Brian's car
+  characters:
+  - brian
+  - dom
+  - johnny_tran
+  - lance
+- n: 6
+  start: 25.0
+  end: 30.0
+  title: Right to Party — crew gathering/dinner
+  characters:
+  - dom
+  - mia
+  - brian
+  - vince
+  - letty
+  - leon
+  - jesse
+- n: 7
+  start: 30.0
+  end: 38.0
+  title: A Double Life — Brian's investigation deepens
+  characters:
+  - brian
+  - mia
+- n: 8
+  start: 38.0
+  end: 47.0
+  title: A Ten-Second Car — Brian brings the wrecked Supra to Dom's garage
+  characters:
+  - brian
+  - dom
+  - jesse
+- n: 9
+  start: 47.0
+  end: 56.0
+  title: Undercover Blues — Brian's conflict, LAPD/FBI scenes
+  characters:
+  - brian
+  - mia
+- n: 10
+  start: 56.0
+  end: 60.0
+  title: A Quarter Mile at a Time — Dom's philosophy scene
+  characters:
+  - dom
+  - brian
+- n: 11
+  start: 60.0
+  end: 63.0
+  title: Undercover Love — Brian and Mia's relationship deepens
+  characters:
+  - brian
+  - mia
+- n: 12
+  start: 63.0
+  end: 65.0
+  title: The Takedown of Johnny Tran — arrest and release
+  characters:
+  - johnny_tran
+  - brian
+- n: 13
+  start: 65.0
+  end: 72.0
+  title: Race Wars — airstrip event begins, incl. Dom's RX-7 race (ff01-c03)
+  characters:
+  - dom
+  - brian
+  - mia
+  - letty
+  - vince
+  - leon
+  - jesse
+  - johnny_tran
+  - lance
+- n: 14
+  start: 72.0
+  end: 76.0
+  title: Jesse Throws Down the Pink — Jesse loses his Jetta to Tran
+  characters:
+  - jesse
+  - johnny_tran
+  - dom
+- n: 15
+  start: 76.0
+  end: 77.0
+  title: Mia's Choice — Brian reveals his identity to Mia
+  characters:
+  - brian
+  - mia
+- n: 16
+  start: 77.0
+  end: 84.0
+  title: Hijackers' Hell — final truck hijacking goes wrong (ff01-c04, ff01-c05)
+  characters:
+  - dom
+  - vince
+  - letty
+  - leon
+  - brian
+  - mia
+- n: 17
+  start: 84.0
+  end: 92.0
+  title: Fury in Echo Park — regroup, Jesse's death (ff01-c06)
+  characters:
+  - dom
+  - mia
+  - leon
+  - letty
+  - jesse
+  - johnny_tran
+  - lance
+  - brian
+- n: 18
+  start: 92.0
+  end: 99.7
+  title: Race Against the Train — chase and deaths of Tran/Lance (ff01-c07, c08), final race and crash (ff01-c09, c10)
+  characters:
+  - dom
+  - brian
+  - johnny_tran
+  - lance
+- n: 19
+  start: 99.7
+  end: 99.95
+  title: Honor — Brian gives Dom the Supra keys
+  characters:
+  - brian
+  - dom
+- n: 20
+  start: 99.95
+  end: 106.83
+  title: End Titles — end credits, with the post-credits scene (ff01-c11) at the very end
+  characters:
+  - dom

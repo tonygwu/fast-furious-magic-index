@@ -1,0 +1,96 @@
+film: ff02
+events:
+  - id: ev-ff02-01
+    title: Skyline jumps a rising drawbridge
+    sequence: Opening street race
+    depicted: >-
+      As a Miami drawbridge begins to open mid-race, Brian fires his nitrous, launches his R34 Skyline off the rising
+      leaf, lands cleanly on all four wheels on the far side and goes on to win the race.
+    inferred: The gap and leaf angle are not published; the draft screenplay puts the jump speed at "150".
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [gap width, leaf angle at take-off]
+    confidence: low
+    participants: [brian]
+    plot_sources: [ff02-wiki, ff02-yahoo-bts]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: Brian hits the moving leaf at a speed and line that clears the gap without a calibrated ramp
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          At 60+ m/s a short gap is cleared almost regardless of angle; the risk is the leaf angle changing during the
+          approach, which makes the take-off unrepeatable. Judgment prior around 1 in 10.
+        dependence: First component.
+        references: []
+        credits: [{character: brian, role: performer}]
+      - id: c2
+        category: physics
+        subtype: physics.mechanical
+        claim: An unprepared street car lands from an airborne jump with suspension, tyres and control intact
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          Production jump cars are reinforced; street cars typically break suspension or burst tyres on landing (the
+          film itself shows this happening to a rival car in the draft script). Judgment prior around 1 in 10.
+        dependence: Conditional on c1 (the car is airborne on a survivable line).
+        references: []
+        credits: [{character: brian, role: controller}]
+  - id: ev-ff02-02
+    title: Camaro ramp-jumps onto a moving yacht
+    sequence: Marina finale
+    depicted: >-
+      Verone flees by yacht. Brian drives the 1969 Camaro, with Roman aboard, off a ramp and lands it on the moving
+      boat. Roman breaks an arm and Brian is banged up, but both subdue Verone's men minutes later.
+    inferred: Ramp height, gap over water and boat speed are not given by any source.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [ramp height, boat speed, landing zone size]
+    confidence: medium
+    participants: [brian, roman, verone, monica]
+    plot_sources: [ff02-wiki, ff02-slick, ff02-moviespoilers, ff02-plotexplained]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.landing
+        claim: An uncalibrated ramp launch lands the car on a moving boat's deck (target roughly 8 m x 5 m)
+        evidence: E3
+        mu: {low: 1, central: 1.5, high: 2.5}
+        capped: false
+        reasoning: >-
+          Stunt ramp jumps hit a landing zone to within a few metres only with calibrated speed and a fixed target.
+          Here the boat moves at an unknown speed, so both range and timing errors apply. If the range error is about
+          +/-5 m and the timing error adds +/-5 m of boat travel, the chance of landing inside an 8 m x 5 m deck is
+          roughly 1 in 10 to 1 in 300.
+        dependence: First component.
+        references: []
+        credits: [{character: brian, role: controller}, {character: roman, role: occupant}]
+      - id: c2
+        category: physics
+        subtype: physics.structural
+        claim: The yacht's deck stops a 1.5 t car without the car punching through or tumbling into the water
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: Leisure-yacht decks are not rated for a vehicle landing. Judgment prior around 1 in 10.
+        dependence: Conditional on c1 (the car reaches the deck).
+        references: []
+        credits: [{character: brian, role: controller}, {character: roman, role: occupant}]
+      - id: c3
+        category: survival
+        subtype: survival.crash
+        claim: Both occupants survive the landing and fight within minutes (one broken arm)
+        evidence: E1
+        mu: {low: 0, central: 0.5, high: 1}
+        capped: false
+        reasoning: >-
+          A deck landing stops the car from perhaps 30-50 mph. NHTSA all-crash curve at 40 mph gives 0.03 MU for
+          survival, and walking away at 40 mph is 0.50 MU; a broken arm is MAIS 2, so the central is between the two.
+          No airbags in a 1969 car.
+        dependence: Conditional on c2; one component for both occupants (correlated outcomes).
+        references: [nhtsa-fatal-all, nhtsa-mais2-all]
+        credits: [{character: brian, role: survivor}, {character: roman, role: survivor}]

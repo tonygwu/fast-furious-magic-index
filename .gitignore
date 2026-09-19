@@ -1,0 +1,20 @@
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.DS_Store
+
+# local agent / editor state
+.claude/
+.idea/
+.vscode/
+.env
+.env.*
+
+# packaging
+dist/
+*.egg-info/
+
+# third-party copies kept locally only (URLs live in data/sources.yaml)
+research/fandom/
+research/refs/

@@ -1,0 +1,256 @@
+film: ff07
+events:
+  - id: ev-ff07-01
+    title: Five cars parachuted onto a mountain road
+    sequence: Caucasus convoy ambush
+    depicted: >-
+      The crew, sitting in their cars, are dropped from a C-130 over the Caucasus, parachute down, land on the
+      mountain road and immediately drive into the attack on Jakande's convoy.
+    inferred: Each named driver has a car (five cars); the production dropped four real cars from 12,000 ft.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [whether every car lands on the road surface itself]
+    confidence: medium
+    participants: [dom, brian, letty, roman, tej]
+    plot_sources: [ff07-wiki, ff07-fandom, ff07-screenrant-c130]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.landing
+        claim: All five cars land on (not merely near) a narrow mountain road
+        evidence: E3
+        mu: {low: 3, central: 4.5, high: 6}
+        capped: false
+        reasoning: >-
+          The best fielded guided airdrop system lands within 50-75 m. With about 50 m of error across the road, the
+          chance of landing within +/-4 m of the road's centre line is about 6% per car (1.2 MU). Five cars would give
+          6 MU if independent; wind errors are shared, so the central estimate credits partial correlation.
+        dependence: First component.
+        references: [jpads-accuracy, c130-drop]
+        credits: [{character: dom, role: controller}, {character: brian, role: controller}, {character: letty, role: controller}, {character: roman, role: controller}, {character: tej, role: controller}]
+      - id: c2
+        category: physics
+        subtype: physics.mechanical
+        claim: Each car lands on its tyres under a cargo parachute and drives off at once
+        evidence: E4
+        mu: {low: 1, central: 1.5, high: 2.5}
+        capped: false
+        reasoning: >-
+          Cargo parachutes land at 7-9 m/s, like dropping a car from 3-4 m. Military airdrops land vehicles on
+          crushable honeycomb platforms precisely because tyres and suspension fail. The production's own landing shots
+          used cars on wires dropped 6-10 ft onto moving wheels. Judged 1 in 3 per car, correlated.
+        dependence: Conditional on c1 (the car is over the road).
+        references: [c130-drop]
+        credits: [{character: dom, role: occupant}, {character: brian, role: occupant}, {character: letty, role: occupant}, {character: roman, role: occupant}, {character: tej, role: occupant}]
+  - id: ev-ff07-02
+    title: Charger driven off a cliff, rolls down the mountain
+    sequence: Caucasus convoy ambush
+    depicted: >-
+      Cornered by Jakande's second convoy, Dom drives his reinforced Charger off a cliff with Ramsey aboard; it tumbles
+      down the mountainside and both survive.
+    inferred: Drop height and number of rolls are not given.
+    post_credit: false
+    in_universe_excuse: The Charger is described as reinforced.
+    visually_unverified: [drop height, number of rolls]
+    confidence: low
+    participants: [dom, ramsey, deckard]
+    plot_sources: [ff07-fandom, ff07-wiki]
+    components:
+      - id: c1
+        category: survival
+        subtype: survival.crash
+        claim: Driver and passenger survive a cliff drive and a multi-roll tumble down a mountainside
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          A roll cage turns rollovers into survivable events, but a tumble down a mountainside involves repeated
+          impacts well above crash-test severity. Judgment prior around 1 in 100.
+        dependence: Single component for both occupants.
+        references: []
+        credits: [{character: dom, role: survivor}, {character: ramsey, role: survivor}]
+  - id: ev-ff07-03
+    title: Brian runs off a bus falling off a cliff, Letty drifts in to catch him
+    sequence: Caucasus convoy ambush
+    depicted: >-
+      After fighting Kiet, Brian is trapped on the bus as it slides off a cliff. He runs up the tilting bus and jumps off
+      the end; Letty drifts her car along the cliff edge at that moment and Brian grabs onto it.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [how long Letty's car is within reach]
+    confidence: medium
+    participants: [brian, letty, kiet]
+    plot_sources: [ff07-fandom, ff07-screenrant-bus, ff07-andrewgats]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.precision
+        claim: Brian climbs the length of a tipping bus and leaps clear as it drops
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: The stunt double did it on wires with the bus falling away. Unrigged, judged about 1 in 10.
+        dependence: First component.
+        references: []
+        credits: [{character: brian, role: performer}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.timing
+        claim: Letty's car passes the cliff edge within the ~0.5 s that Brian is airborne and within reach
+        evidence: E3
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Letty can see the bus sliding, so her arrival is not random, but she must commit seconds before Brian jumps.
+          If her arrival time is uncertain by about +/-3 s against a catch window of about 0.5 s, the chance is about
+          1 in 10; add the lateral placement of the car's tail against the edge and it is about 1 in 100.
+        dependence: Conditional on c1 (Brian is airborne near the edge).
+        references: []
+        credits: [{character: letty, role: controller}, {character: brian, role: beneficiary}]
+      - id: c3
+        category: skill
+        subtype: skill.driving
+        claim: Letty drifts the car's tail along the unguarded cliff edge without going over
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: Elite drifters place a car's tail within about half a metre, but not reliably at an unguarded drop. Judgment prior around 1 in 10.
+        dependence: Independent of c2's timing given the attempt.
+        references: []
+        credits: [{character: letty, role: performer}]
+  - id: ev-ff07-04
+    title: Lykan HyperSport jumps between the Etihad Towers
+    sequence: Abu Dhabi
+    depicted: >-
+      Dom and Brian drive the Lykan HyperSport out through the glass of one Etihad Tower around the 45th-50th floor,
+      across open air into a second tower, fail to stop, crash out the far side into a third tower, and bail out
+      before the car falls to the ground.
+    inferred: The gap is about 150 ft (physicist's estimate); drop between floors is 2-4 storeys.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [run-up length inside the first tower]
+    confidence: medium
+    participants: [dom, brian]
+    plot_sources: [ff07-fandom, ff07-national-etihad, ff07-wiki]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.trajectory
+        claim: The car reaches 70-100 mph within an apartment floor's run-up
+        evidence: E2
+        mu: {low: 1, central: 2, high: 4}
+        capped: false
+        reasoning: >-
+          Reaching 100 mph at the Lykan's claimed ~9 m/s2 takes about 110 m (the physicist says ~300 ft). A tower floor
+          plate offers perhaps 30-50 m, which gives about 25-30 m/s (55-65 mph), short of the 70 mph needed even for
+          the lowest target. It succeeds only if the run-up is longer than a floor plate normally allows. Judged 1 in 10
+          to 1 in 10,000.
+        dependence: First component.
+        references: [etihad-jump, lykan-spec]
+        credits: [{character: dom, role: controller}, {character: brian, role: occupant}]
+      - id: c2
+        category: survival
+        subtype: survival.crash
+        claim: Both occupants walk away from two crash landings through glass into building interiors
+        evidence: E1
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Each landing is a 2-4 storey drop plus a horizontal crash into furniture and walls; NHTSA walk-away at
+          40-50 mph gives 0.5-1.0 MU per impact. Two impacts, one survival component for both occupants.
+        dependence: Conditional on c1.
+        references: [nhtsa-mais2-all]
+        credits: [{character: dom, role: survivor}, {character: brian, role: survivor}]
+      - id: c3
+        category: coincidence
+        subtype: coincidence.landing
+        claim: With no brakes, the car exits the second tower on a line that lands it inside the third
+        evidence: E3
+        mu: {low: 1, central: 1.5, high: 2.5}
+        capped: false
+        reasoning: >-
+          The second exit is involuntary, so its direction and speed are not chosen. The chance that an uncontrolled
+          exit lines up with a neighbouring tower's glazed floor rather than open air is judged 1 in 10 to 1 in 300.
+        dependence: Conditional on c1 and c2.
+        references: []
+        credits: [{character: dom, role: occupant}, {character: brian, role: occupant}]
+  - id: ev-ff07-05
+    title: Charger launched off a collapsing garage at a helicopter
+    sequence: Los Angeles finale
+    depicted: >-
+      As the parking structure collapses, Dom drives his Charger off it at Jakande's helicopter. The car appears to miss
+      and crashes into the rubble, leaving a belt of grenades hanging from the helicopter, which Hobbs detonates by
+      gunfire. Dom is pulled from the wreck, revived by CPR, and wakes.
+    inferred: ""
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [how the grenades end up on the helicopter]
+    confidence: medium
+    participants: [dom, hobbs, jakande, brian, letty]
+    plot_sources: [ff07-fandom, ff07-wiki]
+    components:
+      - id: c1
+        category: coincidence
+        subtype: coincidence.intercept
+        claim: The launched car passes close enough to a moving helicopter to leave the grenades on it
+        evidence: E3
+        mu: {low: 1, central: 1.5, high: 2.5}
+        capped: false
+        reasoning: A car on a ballistic line must come within a few metres of a hovering, moving helicopter. Judged 1 in 10 to 1 in 300.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: controller}]
+      - id: c2
+        category: skill
+        subtype: skill.shooting
+        claim: Hobbs hits the grenade belt on a helicopter with a salvaged minigun
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: A minigun fires thousands of rounds a minute, so hitting the belt is likely once aimed; firing it without a mount is the hard part. Judged about 1 in 10.
+        dependence: Conditional on c1 (the grenades are on the helicopter).
+        references: []
+        credits: [{character: hobbs, role: performer}]
+      - id: c3
+        category: survival
+        subtype: survival.crash
+        claim: Dom survives a multi-storey car fall into a collapsing structure (revived by CPR)
+        evidence: E1
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          A 15-20 m fall is a 38-45 mph impact; NHTSA survival at that delta-V is under 0.1 MU, but the collapsing
+          structure and cardiac arrest make his survival far less likely than a plain crash. Judged about 1 in 10.
+        dependence: Independent of c2.
+        references: [nhtsa-fatal-all]
+        credits: [{character: dom, role: survivor}]
+  - id: ev-ff07-06
+    title: Hobbs flexes his arm cast off
+    sequence: Los Angeles finale
+    depicted: >-
+      In hospital with his arm in a full cast after the office bombing, Hobbs sees the attack on the city, flexes his
+      arm until the cast cracks open, and leaves to join the fight.
+    inferred: The cast material (plaster or fibreglass) is not stated.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [cast material]
+    confidence: medium
+    participants: [hobbs]
+    plot_sources: [owner-ff07-cast, ff07-wiki, ff07-national-stunts]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.structural
+        claim: A muscle contraction splits a full arm cast from the inside
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          A flexing muscle presses outward on the cast; with pressure inside a contracting muscle of tens of kPa, the hoop
+          stress on a 5-6 mm shell is under about 1 MPa. That is near the tensile strength of plaster (roughly 1-3 MPa)
+          but about a hundred times below fibreglass. Neither material property was sourced this research pass, so this is a
+          judgment prior (about 1 in 100), held at the judgment cap.
+        dependence: Single component.
+        references: []
+        credits: [{character: hobbs, role: controller}]

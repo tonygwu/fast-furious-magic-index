@@ -1,0 +1,248 @@
+# GENERATED from research/ff06.md by scripts/import_presence.py
+film: ff06
+anchors:
+- research/ff06.md presence log (proportional estimate unless the research file lists hard anchors)
+scenes:
+- n: 1
+  start: 0.0
+  end: 2.0
+  title: 'Cold open: Moscow, convoy wreckage investigation'
+  characters:
+  - hobbs
+  - riley
+- n: 2
+  start: 2.0
+  end: 8.0
+  title: 'Canary Islands: Dom/Elena, Brian/Mia/baby Jack living quietly'
+  characters:
+  - dom
+  - elena
+  - brian
+  - mia
+- n: 3
+  start: 8.0
+  end: 14.0
+  title: Hobbs arrives, recruits Dom, shows Letty photo
+  characters:
+  - dom
+  - hobbs
+  - elena
+- n: 4
+  start: 14.0
+  end: 18.0
+  title: 'Team reassembly: Roman & Tej (Hong Kong), Han & Gisele'
+  characters:
+  - roman
+  - tej
+  - han
+  - gisele
+- n: 5
+  start: 18.0
+  end: 22.0
+  title: London briefing with Hobbs's team incl. Riley
+  characters:
+  - dom
+  - brian
+  - mia
+  - roman
+  - tej
+  - han
+  - gisele
+  - hobbs
+  - riley
+- n: 6
+  start: 22.0
+  end: 39.0
+  title: 'First field op: flip-car chase; Letty appears, shoots Dom'
+  characters:
+  - dom
+  - brian
+  - roman
+  - tej
+  - han
+  - gisele
+  - letty
+  - owen
+- n: 7
+  start: 39.0
+  end: 44.0
+  title: Car-dealer/informant scene (timecode anchor 0:39:26)
+  characters:
+  - gisele
+  - riley
+- n: 8
+  start: 44.0
+  end: 49.0
+  title: Dom interrogates a pawnbroker/fence for a lead
+  characters:
+  - dom
+- n: 9
+  start: 49.0
+  end: 56.0
+  title: Jah/Han fight; Letty vs. Riley Underground fight & train escape
+  characters:
+  - han
+  - jah
+  - letty
+  - riley
+- n: 10
+  start: 56.0
+  end: 59.0
+  title: Hobbs/CCTV planning scene
+  characters:
+  - hobbs
+- n: 11
+  start: 59.0
+  end: 61.0
+  title: Han/Camaro dialogue (race prep, timecode anchor 0:59:51)
+  characters:
+  - han
+- n: 12
+  start: 61.0
+  end: 66.0
+  title: Brian's LA prison visit and fight with Braga
+  characters:
+  - brian
+  - braga
+- n: 13
+  start: 66.0
+  end: 72.0
+  title: Dom vs. Letty street race; necklace returned
+  characters:
+  - dom
+  - letty
+- n: 14
+  start: 72.0
+  end: 78.0
+  title: Team regroups; Tej identifies the NATO convoy target
+  characters:
+  - dom
+  - brian
+  - mia
+  - roman
+  - tej
+  - han
+  - gisele
+  - letty
+  - hobbs
+- n: 15
+  start: 78.0
+  end: 90.0
+  title: NATO convoy ambush and tank rampage
+  characters:
+  - dom
+  - brian
+  - roman
+  - tej
+  - han
+  - gisele
+  - letty
+  - hobbs
+  - riley
+  - owen
+- n: 16
+  start: 90.0
+  end: 92.0
+  title: Tank flip; Letty ejected; Dom's flying-car catch
+  characters:
+  - dom
+  - letty
+  - brian
+  - roman
+- n: 17
+  start: 92.0
+  end: 96.0
+  title: Shaw captured/released; Mia's kidnapping revealed; Riley's betrayal
+  characters:
+  - hobbs
+  - owen
+  - riley
+  - dom
+  - letty
+- n: 18
+  start: 96.0
+  end: 100.0
+  title: Team regroups; plan for the airfield; Letty stays with Dom
+  characters:
+  - dom
+  - letty
+  - brian
+  - roman
+  - tej
+  - han
+  - gisele
+- n: 19
+  start: 100.0
+  end: 104.0
+  title: Airfield infiltration; plane loading begins
+  characters:
+  - dom
+  - brian
+  - roman
+  - tej
+  - han
+  - gisele
+  - owen
+- n: 20
+  start: 104.0
+  end: 108.0
+  title: Brian boards the moving plane; rescues Mia
+  characters:
+  - brian
+  - mia
+- n: 21
+  start: 108.0
+  end: 112.0
+  title: Runway chase; multi-way fight (Dom/Shaw, Hobbs/Klaus, Letty/Riley)
+  characters:
+  - dom
+  - brian
+  - roman
+  - tej
+  - han
+  - gisele
+  - letty
+  - hobbs
+  - owen
+  - riley
+  - klaus
+- n: 22
+  start: 112.0
+  end: 115.0
+  title: Gisele's death
+  characters:
+  - gisele
+  - han
+- n: 23
+  start: 115.0
+  end: 118.0
+  title: Plane breaks apart; Dom drives through the nose; Shaw incapacitated
+  characters:
+  - dom
+  - owen
+- n: 24
+  start: 118.0
+  end: 123.0
+  title: 'Resolution: pardons; return to LA; family barbecue; Elena departs'
+  characters:
+  - dom
+  - brian
+  - mia
+  - roman
+  - tej
+  - han
+  - letty
+  - hobbs
+  - elena
+- n: 25
+  start: 123.0
+  end: 128.0
+  title: End credits roll
+  characters: []
+- n: 26
+  start: 128.0
+  end: 130.0
+  title: 'Mid-credits: Han broadsided in Tokyo by Deckard Shaw'
+  characters:
+  - han
+  - deckard
