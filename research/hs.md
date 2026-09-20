@@ -1,9 +1,13 @@
 # Fast & Furious Presents: Hobbs & Shaw (2019) — film_id hs
 
+> **Provenance.** Research notes for one film, compiled from public sources and written for the analyst who
+> assigned the Magic Unit scores. They record what each source says, where sources disagree, and what could not be
+> confirmed. They are kept unedited except for wording that described the research tooling rather than the films.
+
 Runtime: 137 minutes (2h17m). Sources: [Wikipedia](https://en.wikipedia.org/wiki/Hobbs_%26_Shaw), [TMDB](https://www.themoviedb.org/movie/384018-fast-furious-presents-hobbs-shaw), [Rotten Tomatoes](https://www.rottentomatoes.com/m/fast_and_furious_presents_hobbs_and_shaw) (lists "2h 18m", within rounding of the other two).
 Credits start approx **unknown / rough estimate ~129 min**. No source gave an exact "credits begin at" timestamp. Estimate is derived only by subtracting a typical tent-pole end-credit-roll length (~8 min, itself not verified for this specific release) from the 137-minute total. Flagged as low-confidence; see "Open questions."
 
-Note on method: searching search budget for this research pass was exhausted (200/200) partway through research (after the initial plot/production pass). Remaining research used direct page fetches only, targeted at URLs already surfaced. Several normally-useful anchor sources refused the fetch (an access error/402): `fastandfurious.fandom.com` (all pages, 402), `imdb.com` (trivia, plot summary, parental guide — all 403), `kids-in-mind.com` (403), `parentpreviews.com` (403), `tvtropes.org` (403), and DVD chapter-list site `dvdcompare.net` (403/404 on the guessed film IDs). This materially limited the presence-log precision (see Presence log section) and a few candidate detail checks (flagged per-candidate below).
+Note on method: search budget for this research pass was exhausted (200/200) partway through research (after the initial plot/production pass). Remaining research used direct page fetches only, targeted at URLs already surfaced. Several normally-useful anchor sources refused the fetch (an access error/402): `fastandfurious.fandom.com` (all pages, 402), `imdb.com` (trivia, plot summary, parental guide — all 403), `kids-in-mind.com` (403), `parentpreviews.com` (403), `tvtropes.org` (403), and DVD chapter-list site `dvdcompare.net` (403/404 on the guessed film IDs). This materially limited the presence-log precision (see Presence log section) and a few candidate detail checks (flagged per-candidate below).
 
 Sources consulted:
 - https://en.wikipedia.org/wiki/Hobbs_%26_Shaw — full plot synopsis, cast, production, runtime, release, reception
@@ -195,7 +199,7 @@ Sources consulted:
 - depicted: One review states Brixton "pushes the pilot out" of a helicopter when dissatisfied with him, implying the pilot falls from an airborne aircraft.
 - inferred: Which helicopter and which point in the film this occurs is not stated by the source; placed here in the Samoa finale by inference because that is where the film's helicopter appears in every other source, but this is an assumption, not a sourced fact.
 - real_world_params: unknown — no altitude given.
-- sources: https://www.pluggedin.com/movie-reviews/hobbs-and-shaw/ (only source found; attempted a second source via IMDb parental guide, kids-in-mind.com, and parentpreviews.com, all returned an access error)
+- sources: https://www.pluggedin.com/movie-reviews/hobbs-and-shaw/ (only source found; attempted a second source via IMDb parental guide, kids-in-mind.com, and parentpreviews.com, all was not reachable)
 - sources_ok: false (single source, and its placement in the timeline is an inference, not sourced)
 - post_credit: false
 - notes / disagreements: flagged as needing a direct-viewing check for both existence and placement.
@@ -290,7 +294,7 @@ Sources consulted:
 - what: resurrection / retcon
 - explained_in_film: yes — Brixton was an MI6 colleague of Deckard's; Deckard, under orders, shot him in the head believing him dead years earlier. Eteon secretly recovered his body and rebuilt him with cybernetic implants (new spine, ocular implants, bulletproof prosthetic limbs), which the film uses as the standing in-universe explanation for all of his superhuman feats (hs-c01, hs-c06, hs-c07 as antagonist, hs-c09, hs-c14, hs-c19).
 - contradicts_prior_canon: no — this is Brixton's introduction to the franchise; nothing prior is contradicted, but it is a textbook "presumed dead, secretly alive and rebuilt" resurrection trope.
-- sources: https://en.wikipedia.org/wiki/Hobbs_%26_Shaw, https://www.cbr.com/hobbs-shaw-most-ridiculous-action-moments/ (context), plus an aggregated multi-wiki search summary (villains/VS-battles style fan wikis) corroborating the backstory detail, though the individual fandom pages themselves returned an access error when fetched directly this research pass and could not be cited by primary URL.
+- sources: https://en.wikipedia.org/wiki/Hobbs_%26_Shaw, https://www.cbr.com/hobbs-shaw-most-ridiculous-action-moments/ (context), plus an aggregated multi-wiki search summary (villains/VS-battles style fan wikis) corroborating the backstory detail, though the individual fandom pages themselves was not reachable when fetched directly this research pass and could not be cited by primary URL.
 
 ### hs-p02 Eteon's instant global media frame-up
 - characters: Hattie Shaw, Deckard Shaw, Luke Hobbs, Brixton Lore
@@ -363,4 +367,4 @@ Published screen-time measurements found: none. Searched for a dedicated screen-
 - Car-battery mass for hs-c05 was not sourced this research pass (general knowledge suggests roughly 15-25 kg for typical automotive batteries, but this is not asserted as fact — no citation retrieved).
 - Real-world cliff height at the Samoa/Kauai finale location (hs-c19, hs-c16) was not found; the filming backdrop (Nā Pali Coast) is described only as having "sheer cliffs" without a number, and the depicted cliffside road itself does not exist at that real location (it is a constructed/composited set per atlasofwonders.com).
 - Exact number of MI6 agents killed in the cold open (hs-c01) and number of Eteon soldiers in the Samoa finale (hs-c15) are not quantified in any source found.
-- This research session's searching search budget (200/200) was exhausted roughly two-thirds of the way through; several planned confirmatory searches (chapter timestamps, a second source for hs-c14, exact clip-title identification for two Rotten-Tomatoes-listed clip names that could not be independently verified and were therefore excluded from the candidate list entirely — "Skyscraper Freefall" and "Demolition Drone Derby") could not be run. Those two unverified clip-title-derived scenes are deliberately NOT included as candidates because their content could not be confirmed by a second source and may be an artifact of the fetch-summarization tool rather than real clip titles.
+- This research session's search budget (200/200) was exhausted roughly two-thirds of the way through; several planned confirmatory searches (chapter timestamps, a second source for hs-c14, exact clip-title identification for two Rotten-Tomatoes-listed clip names that could not be independently verified and were therefore excluded from the candidate list entirely — "Skyscraper Freefall" and "Demolition Drone Derby") could not be run. Those two unverified clip-title-derived scenes are deliberately NOT included as candidates because their content could not be confirmed by a second source and may be an artifact of the fetch-summarization tool rather than real clip titles.

@@ -1,5 +1,9 @@
 # Research brief: per-film inventory for the Fast & Furious Magic Index
 
+> **Provenance.** The brief every per-film research pass followed. It sets the sourcing bar (two independent
+> sources per candidate), the separation of what is depicted from what is inferred, and the rule that researchers
+> gather facts while a single analyst assigns every score, so the scale stays consistent across films.
+
 You research ONE film. You gather facts and sources. You do NOT assign probabilities or Magic Units.
 One analyst scores all films later, so consistency depends on you not scoring.
 
@@ -81,5 +85,5 @@ Published screen-time measurements found: ...
 ```
 
 Keep descriptions concrete and short. Accuracy beats volume, but completeness of the walk-through
-matters. At the end, reply with a 5-line summary: number of candidates, number with sources_ok false,
+matters. Close with a five-line summary: number of candidates, number with sources_ok false,
 the 3 most extreme candidates, and anything you could not verify.
