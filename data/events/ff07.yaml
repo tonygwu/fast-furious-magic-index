@@ -97,14 +97,14 @@ events:
       - id: c2
         category: coincidence
         subtype: coincidence.timing
-        claim: Letty's car passes the cliff edge within the ~0.5 s that Brian is airborne and within reach
+        claim: Letty's car passes the cliff edge within the ~0.5 s that Brian is airborne
         evidence: E3
-        mu: {low: 1, central: 2, high: 3}
+        mu: {low: 0.5, central: 1, high: 2}
         capped: false
         reasoning: >-
           Letty can see the bus sliding, so her arrival is not random, but she must commit seconds before Brian jumps.
-          If her arrival time is uncertain by about +/-3 s against a catch window of about 0.5 s, the chance is about
-          1 in 10; add the lateral placement of the car's tail against the edge and it is about 1 in 100.
+          A catch window of about 0.5 s against an arrival uncertain by about +/-3 s is 0.5/6, or about 1 in 12.
+          Placing the car's tail at the edge is scored separately in c3, not folded in here.
         dependence: Conditional on c1 (Brian is airborne near the edge).
         references: []
         credits: [{character: letty, role: controller}, {character: brian, role: beneficiary}]
@@ -185,7 +185,7 @@ events:
     inferred: ""
     post_credit: false
     in_universe_excuse: null
-    visually_unverified: [how the grenades end up on the helicopter]
+    visually_unverified: [how the grenades end up on the helicopter, whether the car reaches the helicopter or misses it (the two sources disagree)]
     confidence: medium
     participants: [dom, hobbs, jakande, brian, letty]
     plot_sources: [ff07-fandom, ff07-wiki]

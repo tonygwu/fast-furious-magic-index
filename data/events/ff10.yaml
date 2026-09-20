@@ -154,7 +154,11 @@ events:
         evidence: E4
         mu: {low: 0.5, central: 1, high: 1.5}
         capped: false
-        reasoning: Everyone in a falling car is weightless, so nobody has footing; winning the positioning struggle in the seconds available is judged about 1 in 10.
+        reasoning: >-
+          Everyone in a falling car is weightless, so nobody has footing, and winning the positioning struggle in the
+          few seconds available is judged about 1 in 10. No written source describes her protecting herself; the
+          human-cushion mechanism rests on the owner's viewing confirmation, and one recap instead says the henchman
+          is impaled on a pipe at the bottom of the shaft.
         dependence: First component.
         references: []
         credits: [{character: cipher, role: performer}]

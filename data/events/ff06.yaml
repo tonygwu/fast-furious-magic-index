@@ -101,12 +101,15 @@ events:
     depicted: >-
       The team chases Shaw's accelerating Antonov cargo plane down the runway for roughly 13 minutes and anchors it
       with cables from their cars to stop it taking off.
-    inferred: Several independent analyses (including the screenwriter's own) put the implied runway at 26-29 miles.
+    inferred: >-
+      Several independent analyses (including the screenwriter's own) put the implied runway at 26-29 miles.
+      The Fandom account places Dom, Letty, Brian and Hobbs aboard the plane while Han, Gisele, Roman, Tej, Brian and
+      Mia tether it from their cars; the tether component is credited to the latter group.
     post_credit: false
     in_universe_excuse: null
     visually_unverified: []
     confidence: high
-    participants: [dom, brian, roman, tej, han, gisele, letty, hobbs, owen, riley]
+    participants: [dom, brian, roman, tej, han, gisele, letty, mia, hobbs, owen, riley]
     plot_sources: [ff06-wiki, ff06-screenrant-runway, ff06-cbr-morgan, ff06-spoilertown]
     components:
       - id: c1
@@ -122,7 +125,7 @@ events:
           small fraction of the lift. This is a hard-limit violation, capped at the Record Horizon.
         dependence: First component.
         references: [an124-thrust]
-        credits: [{character: dom, role: controller}, {character: brian, role: controller}, {character: roman, role: controller}, {character: letty, role: controller}]
+        credits: [{character: han, role: controller}, {character: gisele, role: controller}, {character: roman, role: controller}, {character: tej, role: controller}, {character: brian, role: controller}, {character: mia, role: controller}]
       - id: c2
         category: coincidence
         subtype: coincidence.environment
@@ -136,7 +139,7 @@ events:
           Horizon.
         dependence: Conditional on c1. Without c1 the plane lifts off within about 3 km and no long runway is needed, so the two failure modes are separate.
         references: [ff06-runway-length]
-        credits: [{character: dom, role: beneficiary}, {character: brian, role: beneficiary}, {character: roman, role: beneficiary}, {character: tej, role: beneficiary}, {character: han, role: beneficiary}, {character: gisele, role: beneficiary}, {character: letty, role: beneficiary}, {character: hobbs, role: beneficiary}, {character: owen, role: beneficiary}]
+        credits: [{character: dom, role: beneficiary}, {character: brian, role: beneficiary}, {character: roman, role: beneficiary}, {character: tej, role: beneficiary}, {character: han, role: beneficiary}, {character: gisele, role: beneficiary}, {character: letty, role: beneficiary}, {character: mia, role: beneficiary}, {character: hobbs, role: beneficiary}, {character: owen, role: beneficiary}]
   - id: ev-ff06-05
     title: Dom drives out through the exploding plane's nose
     sequence: Airfield finale

@@ -69,3 +69,18 @@ def test_presence_log_rejects_overlap(tmp_data):
     d, mutate = tmp_data
     mutate("screen_time/fa.yaml", lambda doc: doc["scenes"][1].update(start=50))
     assert "contiguous" in _fail_substrings(d)
+
+
+def test_capped_component_must_cite_a_grounding_reference(tmp_data):
+    """A cap asserts a measured hard limit, so it must point at the quantity it measured."""
+    d, mutate = tmp_data
+    mutate("events/fa.yaml", lambda doc: doc["events"][1]["components"][0].update(references=[]))
+    assert "capped component must cite" in _fail_substrings(d)
+
+
+def test_uncapped_component_may_not_claim_a_hard_limit(tmp_data):
+    """If the reasoning argues a hard limit, the component is capped or the wording is wrong."""
+    d, mutate = tmp_data
+    mutate("events/fa.yaml", lambda doc: doc["events"][0]["components"][0].update(
+        reasoning="the requirement exceeds what is possible: a hard limit"))
+    assert "hard limit" in _fail_substrings(d)

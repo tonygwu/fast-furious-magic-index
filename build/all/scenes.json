@@ -38,6 +38,7 @@
    "han",
    "hobbs",
    "letty",
+   "mia",
    "owen",
    "roman",
    "tej"
@@ -352,30 +353,6 @@
  },
  {
   "by_category": {
-   "coincidence": 2.0,
-   "physics": 0.0,
-   "skill": 2.0,
-   "survival": 0.0
-  },
-  "central": 4.0,
-  "characters": [
-   "brian",
-   "letty"
-  ],
-  "film": "ff07",
-  "high": 6.0,
-  "id": "ev-ff07-03",
-  "low": 2.0,
-  "lower_bound": false,
-  "n_capped": 0,
-  "odds": "1 in 10,000",
-  "odds_high": "1 in 10^6",
-  "odds_low": "1 in 100",
-  "primary_category": "skill",
-  "title": "Brian runs off a bus falling off a cliff, Letty drifts in to catch him"
- },
- {
-  "by_category": {
    "coincidence": 1.0,
    "physics": 0.0,
    "skill": 3.0,
@@ -473,27 +450,27 @@
  },
  {
   "by_category": {
-   "coincidence": 1.5,
-   "physics": 1.0,
-   "skill": 0.0,
-   "survival": 0.5
+   "coincidence": 1.0,
+   "physics": 0.0,
+   "skill": 2.0,
+   "survival": 0.0
   },
   "central": 3.0,
   "characters": [
    "brian",
-   "roman"
+   "letty"
   ],
-  "film": "ff02",
+  "film": "ff07",
   "high": 5.0,
-  "id": "ev-ff02-02",
+  "id": "ev-ff07-03",
   "low": 1.5,
   "lower_bound": false,
   "n_capped": 0,
   "odds": "1 in 1,000",
   "odds_high": "1 in 100,000",
   "odds_low": "1 in 30",
-  "primary_category": "coincidence",
-  "title": "Camaro ramp-jumps onto a moving yacht"
+  "primary_category": "skill",
+  "title": "Brian runs off a bus falling off a cliff, Letty drifts in to catch him"
  },
  {
   "by_category": {
@@ -587,6 +564,30 @@
   "odds_low": "1 in 100",
   "primary_category": "survival",
   "title": "Corvette off a 300 ft canyon, both swim away"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 1.0,
+   "skill": 0.0,
+   "survival": 0.5
+  },
+  "central": 2.5,
+  "characters": [
+   "brian",
+   "roman"
+  ],
+  "film": "ff02",
+  "high": 4.5,
+  "id": "ev-ff02-02",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 30,000",
+  "odds_low": "1 in 10",
+  "primary_category": "physics",
+  "title": "Camaro ramp-jumps onto a moving yacht"
  },
  {
   "by_category": {
@@ -690,6 +691,7 @@
   },
   "central": 2.5,
   "characters": [
+   "hobbs",
    "letty",
    "ramsey",
    "roman",
@@ -850,7 +852,7 @@
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
   "primary_category": "survival",
-  "title": "Dom T-boned by a truck after the quarter mile"
+  "title": "Dom's Charger hits a truck after the quarter mile"
  },
  {
   "by_category": {

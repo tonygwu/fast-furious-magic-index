@@ -128,7 +128,7 @@ events:
     inferred: ""
     post_credit: false
     in_universe_excuse: null
-    visually_unverified: [deflection angle, whether Hobbs's vehicle matches the torpedo's speed]
+    visually_unverified: [deflection angle, whether Hobbs's vehicle matches the torpedo's speed, whether this is the same on-screen beat as ev-ff08-06 (sources say torpedo and missile; unresolved)]
     confidence: medium
     participants: [hobbs]
     plot_sources: [ff08-stunts, ff08-wrap-factcheck]
@@ -141,10 +141,12 @@ events:
         mu: {low: 3, central: 6, high: 12}
         capped: false
         reasoning: >-
-          Turning a 2 t torpedo at 22 m/s by 3-10 degrees within 0.5-1 s needs 2-9 kN of sideways force. The heaviest
-          deadlift ever is about 5 kN with both legs and ideal footing; a one-arm pull while leaning from a moving
-          vehicle is perhaps 1-1.5 kN. The requirement is 1.5-6x the plausible force: marginal at the low end, a hard
-          limit at the high end. The wide range is deliberate.
+          Lateral impulse F = m x v x sin(theta) / t, with m = 2 t and v = 22 m/s. The four corners of 3-10 degrees
+          over 0.5-1 s give 2.3 kN, 4.6 kN, 7.6 kN and 15.3 kN. The heaviest deadlift ever is about 5 kN with both
+          legs and ideal footing; a one-arm pull while leaning from a moving vehicle is perhaps 1-1.5 kN. The
+          requirement is therefore 1.5x to 15x the plausible force: marginal at the gentlest corner, far beyond it at
+          the sharpest. It is not capped because the gentlest corner, which is the assumption most favourable to the
+          stunt, stays under 3x. The wide MU range is deliberate.
         dependence: First component.
         references: [type53-torpedo, deadlift-record]
         credits: [{character: hobbs, role: controller}]
@@ -169,7 +171,7 @@ events:
     in_universe_excuse: null
     visually_unverified: [which team cars were thrown]
     confidence: low
-    participants: [letty, roman, tej, ramsey]
+    participants: [letty, roman, tej, ramsey, hobbs]
     plot_sources: [ff08-stunts, ff08-vfxblog]
     components:
       - id: c1
@@ -184,7 +186,7 @@ events:
           injury; the car then lands from 18 m (about a 42 mph impact). Held near the 3 MU judgment cap.
         dependence: Single component for the four cars (one blast pattern).
         references: [type53-torpedo]
-        credits: [{character: letty, role: survivor}, {character: roman, role: survivor}, {character: tej, role: survivor}, {character: ramsey, role: survivor}]
+        credits: [{character: letty, role: survivor}, {character: roman, role: survivor}, {character: tej, role: survivor}, {character: ramsey, role: survivor}, {character: hobbs, role: survivor}]
   - id: ev-ff08-06
     title: Dom leads a homing missile into the submarine
     sequence: Arctic finale
@@ -194,7 +196,7 @@ events:
     inferred: ""
     post_credit: false
     in_universe_excuse: null
-    visually_unverified: []
+    visually_unverified: [whether this is the same on-screen beat as ev-ff08-04 (sources say missile and torpedo; unresolved)]
     confidence: medium
     participants: [dom, letty, roman, tej, ramsey, hobbs, cipher]
     plot_sources: [ff08-wiki, ff08-fandom, ff08-clip-torpedo]

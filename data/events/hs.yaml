@@ -132,7 +132,9 @@ events:
     depicted: >-
       The Hobbs family chains a convoy of trucks to Brixton's UH-60 Black Hawk in a cliffside tug-of-war. When the chain
       breaks, Hobbs grabs it and holds the helicopter back with his own strength.
-    inferred: The chain was CGI; the helicopter, trucks and cliff road were largely practical.
+    inferred: >-
+      The chain was CGI and the cliffside road is a constructed, composited set. The helicopter and the trucks were
+      largely practical (the director says about 95%).
     post_credit: false
     in_universe_excuse: null
     visually_unverified: [whether Hobbs is braced or anchored]

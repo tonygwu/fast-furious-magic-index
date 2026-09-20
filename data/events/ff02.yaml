@@ -35,8 +35,9 @@ events:
         mu: {low: 0.5, central: 1, high: 2}
         capped: false
         reasoning: >-
-          Production jump cars are reinforced; street cars typically break suspension or burst tyres on landing (the
-          film itself shows this happening to a rival car in the draft script). Judgment prior around 1 in 10.
+          Production jump cars are reinforced; street cars typically break suspension or burst tyres on landing. A
+          rival car does exactly that in the draft screenplay, which is not evidence about the released film.
+          Judgment prior around 1 in 10.
         dependence: Conditional on c1 (the car is airborne on a survivable line).
         references: []
         credits: [{character: brian, role: controller}]
@@ -58,14 +59,14 @@ events:
         category: coincidence
         subtype: coincidence.landing
         claim: An uncalibrated ramp launch lands the car on a moving boat's deck (target roughly 8 m x 5 m)
-        evidence: E3
-        mu: {low: 1, central: 1.5, high: 2.5}
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
         capped: false
         reasoning: >-
-          Stunt ramp jumps hit a landing zone to within a few metres only with calibrated speed and a fixed target.
-          Here the boat moves at an unknown speed, so both range and timing errors apply. If the range error is about
-          +/-5 m and the timing error adds +/-5 m of boat travel, the chance of landing inside an 8 m x 5 m deck is
-          roughly 1 in 10 to 1 in 300.
+          Worked as stated, this model is generous, not harsh: range and timing errors of about +/-5 m each sum to a
+          triangular spread on +/-10 m, and landing within +/-4 m of an 8 m deck is 1 - (6/10)^2 = 0.64, i.e. 0.2 MU.
+          The real uncertainty is the ramp itself, whose angle and the boat's speed no source gives, so the scatter
+          cannot be grounded. Held as a judgment prior of about 1 in 10.
         dependence: First component.
         references: []
         credits: [{character: brian, role: controller}, {character: roman, role: occupant}]

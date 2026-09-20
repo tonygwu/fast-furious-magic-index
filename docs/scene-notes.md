@@ -27,12 +27,12 @@ Sources: [Wikipedia: F9 (film), plot](https://en.wikipedia.org/wiki/F9_(film)), 
 `ev-ff06-04` · ≥ 24 MU (envelope 24–24) · < 1 in 10^24 · confidence high
 
 **Depicted.** The team chases Shaw's accelerating Antonov cargo plane down the runway for roughly 13 minutes and anchors it with cables from their cars to stop it taking off.
-**Inferred.** Several independent analyses (including the screenwriter's own) put the implied runway at 26-29 miles.
+**Inferred.** Several independent analyses (including the screenwriter's own) put the implied runway at 26-29 miles. The Fandom account places Dom, Letty, Brian and Hobbs aboard the plane while Han, Gisele, Roman, Tej, Brian and Mia tether it from their cars; the tether component is credited to the latter group.
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
-| c1 | physics | Cars tethered by cables hold down a heavy cargo plane at takeoff power | E2 | 12 / 12 / 12 (cap, lower bound) | dom (controller), brian (controller), roman (controller), letty (controller) |
-| c2 | coincidence | The runway keeps going for 26-29 miles | E1 | 12 / 12 / 12 (cap, lower bound) | dom (beneficiary), brian (beneficiary), roman (beneficiary), tej (beneficiary), han (beneficiary), gisele (beneficiary), letty (beneficiary), hobbs (beneficiary), owen (beneficiary) |
+| c1 | physics | Cars tethered by cables hold down a heavy cargo plane at takeoff power | E2 | 12 / 12 / 12 (cap, lower bound) | han (controller), gisele (controller), roman (controller), tej (controller), brian (controller), mia (controller) |
+| c2 | coincidence | The runway keeps going for 26-29 miles | E1 | 12 / 12 / 12 (cap, lower bound) | dom (beneficiary), brian (beneficiary), roman (beneficiary), tej (beneficiary), han (beneficiary), gisele (beneficiary), letty (beneficiary), mia (beneficiary), hobbs (beneficiary), owen (beneficiary) |
 
 - **c1** An An-124 makes about 900 kN of thrust and, near rotation speed, about 4 MN of lift. A car's braking or anchoring force is about 16 kN (0.9 x 1.8 t x g). Even several cars supply under 100 kN, one-ninth of the thrust and a small fraction of the lift. This is a hard-limit violation, capped at the Record Horizon. *Dependence:* First component.
 - **c2** Given c1 (the plane is held down at speed), the chase needs 26-29 miles of runway. No runway on Earth exceeds about 3.4 miles, so the frequency of such a runway is zero among all observed airfields; capped at the Record Horizon. *Dependence:* Conditional on c1. Without c1 the plane lifts off within about 3 km and no long runway is needed, so the two failure modes are separate.
@@ -61,7 +61,7 @@ Sources: [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wi
 `ev-hs-05` · ≥ 13 MU (envelope 12.5–14) · < 1 in 10^13 · confidence medium
 
 **Depicted.** The Hobbs family chains a convoy of trucks to Brixton's UH-60 Black Hawk in a cliffside tug-of-war. When the chain breaks, Hobbs grabs it and holds the helicopter back with his own strength.
-**Inferred.** The chain was CGI; the helicopter, trucks and cliff road were largely practical.
+**Inferred.** The chain was CGI and the cliffside road is a constructed, composited set. The helicopter and the trucks were largely practical (the director says about 95%).
 **Visually unverified:** whether Hobbs is braced or anchored
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
@@ -94,8 +94,8 @@ Sources: [CBR: Hobbs & Shaw's most ridiculous action moments](https://www.cbr.co
 `ev-ff09-02` · 7.5 MU (envelope 4.5–12.5) · 1 in 3×10^7 · confidence medium
 
 **Depicted.** With the rope bridge collapsed, Dom drives his Charger off the cliff toward its remains, snags a rope from the bridge, swings across on it and lands on the far cliffside.
-**Inferred.** The bridge had just carried Tej's Jeep before collapsing.
-**Visually unverified:** whether Letty is in the car; gap width
+**Inferred.** The bridge had just carried Tej's Jeep before collapsing. The Fandom sequence page puts Letty in Dom's Charger for this jump, after she is thrown from her motorcycle in the minefield.
+**Visually unverified:** gap width
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
@@ -113,14 +113,14 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 `ev-ff08-04` · 7 MU (envelope 3.5–14) · 1 in 10^7 · confidence medium
 
 **Depicted.** Leaning out of his vehicle at speed on the frozen lake, Hobbs grabs a live torpedo skidding across the ice and shoves it into another vehicle.
-**Visually unverified:** deflection angle; whether Hobbs's vehicle matches the torpedo's speed
+**Visually unverified:** deflection angle; whether Hobbs's vehicle matches the torpedo's speed; whether this is the same on-screen beat as ev-ff08-06 (sources say torpedo and missile; unresolved)
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
 | c1 | physics | One arm, from a moving vehicle, turns a 2 t torpedo moving at about 50 mph | E2 | 3 / 6 / 12 | hobbs (controller) |
 | c2 | coincidence | Grabbing the torpedo does not set it off, but hitting the target vehicle does | E4 | 0.5 / 1 / 2 | hobbs (beneficiary) |
 
-- **c1** Turning a 2 t torpedo at 22 m/s by 3-10 degrees within 0.5-1 s needs 2-9 kN of sideways force. The heaviest deadlift ever is about 5 kN with both legs and ideal footing; a one-arm pull while leaning from a moving vehicle is perhaps 1-1.5 kN. The requirement is 1.5-6x the plausible force: marginal at the low end, a hard limit at the high end. The wide range is deliberate. *Dependence:* First component.
+- **c1** Lateral impulse F = m x v x sin(theta) / t, with m = 2 t and v = 22 m/s. The four corners of 3-10 degrees over 0.5-1 s give 2.3 kN, 4.6 kN, 7.6 kN and 15.3 kN. The heaviest deadlift ever is about 5 kN with both legs and ideal footing; a one-arm pull while leaning from a moving vehicle is perhaps 1-1.5 kN. The requirement is therefore 1.5x to 15x the plausible force: marginal at the gentlest corner, far beyond it at the sharpest. It is not capped because the gentlest corner, which is the assumption most favourable to the stunt, stays under 3x. The wide MU range is deliberate. *Dependence:* First component.
 - **c2** Contact fuzes are built to fire on impacts far softer than a car collision; the ice skid, the grab and the hit form a narrow sequence. Judgment prior about 1 in 10. *Dependence:* Conditional on c1.
 
 Sources: [Stunts Unlimited: F8 stunt reveal (ice, torpedo grab, car blasts)](https://stuntsunlimited.com/f8_stunt_reveal/), [TheWrap: Fate of the Furious fact check (torpedo redirect)](https://www.thewrap.com/fate-of-the-furious-fact-check-could-those-crazy-stunts-really-happen/)
@@ -203,7 +203,7 @@ Sources: [Wikipedia: Fast X, plot and production](https://en.wikipedia.org/wiki/
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
-| c1 | physics | Driving fast enough to be clear of a pressure-triggered mine before it explodes | E2 | 2 / 3 / 5 | dom (controller), letty (occupant), roman (controller), tej (controller), ramsey (occupant) |
+| c1 | physics | Driving fast enough to be clear of a pressure-triggered mine before it explodes | E2 | 2 / 3 / 5 | dom (controller), letty (controller), roman (controller), tej (controller), ramsey (occupant) |
 | c2 | survival | Roman escapes a mine blast that destroys his car | E4 | 0.5 / 1 / 2 | roman (survivor) |
 
 - **c1** Anti-vehicle mines fire within milliseconds of pressure; at 80 mph (36 m/s) a car moves about 4 cm per millisecond. Getting about 5 m clear needs a fuze delay of about 140 ms, which standard pressure fuzes do not have. Speed only helps if every mine in the field has an unusual delay. Judged 1 in 100 to 1 in 100,000. *Dependence:* First component; one component for all cars (the mines are the same type).
@@ -215,6 +215,7 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 `ev-ff08-06` · 4 MU (envelope 2–6.5) · 1 in 10,000 · confidence medium
 
 **Depicted.** Cipher fires an infrared homing missile at Dom's Charger. Dom manoeuvres so it strikes the trailing submarine instead, destroying it; the team forms a wall of cars around him to shield him from the explosion.
+**Visually unverified:** whether this is the same on-screen beat as ev-ff08-04 (sources say missile and torpedo; unresolved)
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
@@ -247,25 +248,7 @@ Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wi
 
 Sources: [Wikipedia: Fast X, plot and production](https://en.wikipedia.org/wiki/Fast_X), [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wiki/Fast_X), [High On Films: how Fast X's giant rolling bomb was done (one-ton prop)](https://www.highonfilms.com/fast-x-giant-bomb-rolling-scene/)
 
-## 15. Brian runs off a bus falling off a cliff, Letty drifts in to catch him — Furious 7 (2015)
-`ev-ff07-03` · 4 MU (envelope 2–6) · 1 in 10,000 · confidence medium
-
-**Depicted.** After fighting Kiet, Brian is trapped on the bus as it slides off a cliff. He runs up the tilting bus and jumps off the end; Letty drifts her car along the cliff edge at that moment and Brian grabs onto it.
-**Visually unverified:** how long Letty's car is within reach
-
-| # | Category | Claim | Evidence | MU low / central / high | Credited |
-|---|---|---|---|---|---|
-| c1 | skill | Brian climbs the length of a tipping bus and leaps clear as it drops | E4 | 0.5 / 1 / 1.5 | brian (performer) |
-| c2 | coincidence | Letty's car passes the cliff edge within the ~0.5 s that Brian is airborne and within reach | E3 | 1 / 2 / 3 | letty (controller), brian (beneficiary) |
-| c3 | skill | Letty drifts the car's tail along the unguarded cliff edge without going over | E4 | 0.5 / 1 / 1.5 | letty (performer) |
-
-- **c1** The stunt double did it on wires with the bus falling away. Unrigged, judged about 1 in 10. *Dependence:* First component.
-- **c2** Letty can see the bus sliding, so her arrival is not random, but she must commit seconds before Brian jumps. If her arrival time is uncertain by about +/-3 s against a catch window of about 0.5 s, the chance is about 1 in 10; add the lateral placement of the car's tail against the edge and it is about 1 in 100. *Dependence:* Conditional on c1 (Brian is airborne near the edge).
-- **c3** Elite drifters place a car's tail within about half a metre, but not reliably at an unguarded drop. Judgment prior around 1 in 10. *Dependence:* Independent of c2's timing given the attempt.
-
-Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [Screen Rant: how the Furious 7 bus jump was filmed](https://screenrant.com/fast-furious-7-brian-bus-jump-stunt-filmed-how/), [Andrew Gats: Furious 7 recap and review](https://andrewgats.wordpress.com/2015/04/15/fast-furious-7-recap-review/)
-
-## 16. Zero Day hack of a thousand cars and the raining cars — The Fate of the Furious (2017)
+## 15. Zero Day hack of a thousand cars and the raining cars — The Fate of the Furious (2017)
 `ev-ff08-02` · 4 MU (envelope 2.5–5) · 1 in 10,000 · confidence high
 
 **Depicted.** Cipher remotely takes over "over a thousand" cars across Manhattan, drives them into the Russian minister's motorcade, and sends cars off the upper floors of a parking garage onto the street.
@@ -281,11 +264,11 @@ Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com
 
 Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wikipedia.org/wiki/The_Fate_of_the_Furious), [Fast & Furious Wiki: The Fate of the Furious plot](https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious), [Den of Geek: The Fate of the Furious review](https://www.denofgeek.com/movies/the-fate-of-the-furious-review/), [Springfield! Springfield!: The Fate of the Furious transcript](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-fate-of-the-furious)
 
-## 17. Charger launched off a collapsing garage at a helicopter — Furious 7 (2015)
+## 16. Charger launched off a collapsing garage at a helicopter — Furious 7 (2015)
 `ev-ff07-05` · 3.5 MU (envelope 2–6) · 1 in 3,000 · confidence medium
 
 **Depicted.** As the parking structure collapses, Dom drives his Charger off it at Jakande's helicopter. The car appears to miss and crashes into the rubble, leaving a belt of grenades hanging from the helicopter, which Hobbs detonates by gunfire. Dom is pulled from the wreck, revived by CPR, and wakes.
-**Visually unverified:** how the grenades end up on the helicopter
+**Visually unverified:** how the grenades end up on the helicopter; whether the car reaches the helicopter or misses it (the two sources disagree)
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
@@ -299,7 +282,7 @@ Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wi
 
 Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wiki/Furious_7)
 
-## 18. Charger dropped from a cargo plane onto the highway — Fast X (2023)
+## 17. Charger dropped from a cargo plane onto the highway — Fast X (2023)
 `ev-ff10-02` · 3.5 MU (envelope 1.5–6) · 1 in 3,000 · confidence medium
 
 **Depicted.** Dom arrives with Aimes aboard a plane and drops his Charger out of it onto the highway below, landing and driving straight into the chase.
@@ -316,7 +299,7 @@ Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com
 
 Sources: [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wiki/Fast_X), [Screen Rant: Fast X's most ridiculous moments](https://screenrant.com/fast-x-most-ridiculous-moments-stunts/)
 
-## 19. Vault swapped into a garbage truck mid-chase, unseen — Fast Five (2011)
+## 18. Vault swapped into a garbage truck mid-chase, unseen — Fast Five (2011)
 `ev-ff05-04` · 3.5 MU (envelope 2–5) · 1 in 3,000 · confidence low
 
 **Depicted.** During the chase the real vault is transferred into a disguised garbage truck and replaced by a decoy. Hobbs finds the vault at the bridge empty.
@@ -333,26 +316,25 @@ Sources: [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wi
 
 Sources: [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wiki/Fast_Five), [Fast & Furious Wiki: Vault Heist](https://fastandfurious.fandom.com/wiki/Vault_Heist)
 
-## 20. Camaro ramp-jumps onto a moving yacht — 2 Fast 2 Furious (2003)
-`ev-ff02-02` · 3 MU (envelope 1.5–5) · 1 in 1,000 · confidence medium
+## 19. Brian runs off a bus falling off a cliff, Letty drifts in to catch him — Furious 7 (2015)
+`ev-ff07-03` · 3 MU (envelope 1.5–5) · 1 in 1,000 · confidence medium
 
-**Depicted.** Verone flees by yacht. Brian drives the 1969 Camaro, with Roman aboard, off a ramp and lands it on the moving boat. Roman breaks an arm and Brian is banged up, but both subdue Verone's men minutes later.
-**Inferred.** Ramp height, gap over water and boat speed are not given by any source.
-**Visually unverified:** ramp height; boat speed; landing zone size
+**Depicted.** After fighting Kiet, Brian is trapped on the bus as it slides off a cliff. He runs up the tilting bus and jumps off the end; Letty drifts her car along the cliff edge at that moment and Brian grabs onto it.
+**Visually unverified:** how long Letty's car is within reach
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
-| c1 | coincidence | An uncalibrated ramp launch lands the car on a moving boat's deck (target roughly 8 m x 5 m) | E3 | 1 / 1.5 / 2.5 | brian (controller), roman (occupant) |
-| c2 | physics | The yacht's deck stops a 1.5 t car without the car punching through or tumbling into the water | E4 | 0.5 / 1 / 1.5 | brian (controller), roman (occupant) |
-| c3 | survival | Both occupants survive the landing and fight within minutes (one broken arm) | E1 | 0 / 0.5 / 1 | brian (survivor), roman (survivor) |
+| c1 | skill | Brian climbs the length of a tipping bus and leaps clear as it drops | E4 | 0.5 / 1 / 1.5 | brian (performer) |
+| c2 | coincidence | Letty's car passes the cliff edge within the ~0.5 s that Brian is airborne | E3 | 0.5 / 1 / 2 | letty (controller), brian (beneficiary) |
+| c3 | skill | Letty drifts the car's tail along the unguarded cliff edge without going over | E4 | 0.5 / 1 / 1.5 | letty (performer) |
 
-- **c1** Stunt ramp jumps hit a landing zone to within a few metres only with calibrated speed and a fixed target. Here the boat moves at an unknown speed, so both range and timing errors apply. If the range error is about +/-5 m and the timing error adds +/-5 m of boat travel, the chance of landing inside an 8 m x 5 m deck is roughly 1 in 10 to 1 in 300. *Dependence:* First component.
-- **c2** Leisure-yacht decks are not rated for a vehicle landing. Judgment prior around 1 in 10. *Dependence:* Conditional on c1 (the car reaches the deck).
-- **c3** A deck landing stops the car from perhaps 30-50 mph. NHTSA all-crash curve at 40 mph gives 0.03 MU for survival, and walking away at 40 mph is 0.50 MU; a broken arm is MAIS 2, so the central is between the two. No airbags in a 1969 car. *Dependence:* Conditional on c2; one component for both occupants (correlated outcomes).
+- **c1** The stunt double did it on wires with the bus falling away. Unrigged, judged about 1 in 10. *Dependence:* First component.
+- **c2** Letty can see the bus sliding, so her arrival is not random, but she must commit seconds before Brian jumps. A catch window of about 0.5 s against an arrival uncertain by about +/-3 s is 0.5/6, or about 1 in 12. Placing the car's tail at the edge is scored separately in c3, not folded in here. *Dependence:* Conditional on c1 (Brian is airborne near the edge).
+- **c3** Elite drifters place a car's tail within about half a metre, but not reliably at an unguarded drop. Judgment prior around 1 in 10. *Dependence:* Independent of c2's timing given the attempt.
 
-Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fast_2_Furious), [Slick Dungeon: 2 Fast 2 Furious review (scene detail)](https://slickdungeon.blog/2023/05/11/2-fast-2-furious-movie-review/), [MovieSpoilers.io: 2 Fast 2 Furious](https://www.moviespoilers.io/movie/2-fast-2-furious), [PlotExplained: 2 Fast 2 Furious](https://www.plotexplained.com/movie/2-fast-2-furious)
+Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [Screen Rant: how the Furious 7 bus jump was filmed](https://screenrant.com/fast-furious-7-brian-bus-jump-stunt-filmed-how/), [Andrew Gats: Furious 7 recap and review](https://andrewgats.wordpress.com/2015/04/15/fast-furious-7-recap-review/)
 
-## 21. Hobbs descends the tower by leaping onto people — Hobbs & Shaw (2019)
+## 20. Hobbs descends the tower by leaping onto people — Hobbs & Shaw (2019)
 `ev-hs-03` · 3 MU (envelope 1.5–5) · 1 in 1,000 · confidence low
 
 **Depicted.** Hobbs jumps out of the same window after Brixton, descending the building by leaping from person to person, and tackles Brixton through plate glass.
@@ -369,7 +351,7 @@ Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fas
 
 Sources: [CBR: Hobbs & Shaw's most ridiculous action moments](https://www.cbr.com/hobbs-shaw-most-ridiculous-action-moments/), [Plugged In: Hobbs & Shaw review](https://www.pluggedin.com/movie-reviews/hobbs-and-shaw/)
 
-## 22. Blast-thrown truck swats Cipher's drone — F9 (2021)
+## 21. Blast-thrown truck swats Cipher's drone — F9 (2021)
 `ev-ff09-07` · 3 MU (envelope 1.5–4.5) · 1 in 1,000 · confidence medium
 
 **Depicted.** Cipher fires at the armoured truck from a drone jet. Dom jumps out at the last moment, Otto dies, and the blast sends the truck into Cipher's drone, destroying it.
@@ -385,7 +367,7 @@ Sources: [CBR: Hobbs & Shaw's most ridiculous action moments](https://www.cbr.co
 
 Sources: [Fast & Furious Wiki: F9 plot](https://fastandfurious.fandom.com/wiki/F9), [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/), [Wikipedia: F9 (film), plot](https://en.wikipedia.org/wiki/F9_(film))
 
-## 23. Cipher rides a free-falling elevator down on a human cushion — Fast X (2023)
+## 22. Cipher rides a free-falling elevator down on a human cushion — Fast X (2023)
 `ev-ff10-04` · 3 MU (envelope 1.5–4.5) · 1 in 1,000 · confidence medium
 
 **Depicted.** Trapped in an elevator with a henchman Dante has turned against her, Cipher shoots out the car's cable. The car free-falls to the bottom of the shaft; she positions the henchman beneath her as a crash cushion. He dies; she survives and reaches Dom's house, wounded, that night.
@@ -397,12 +379,12 @@ Sources: [Fast & Furious Wiki: F9 plot](https://fastandfurious.fandom.com/wiki/F
 | c1 | skill | Mid-fall, in a few seconds, she forces a grown man underneath her and stays on top at impact | E4 | 0.5 / 1 / 1.5 | cipher (performer) |
 | c2 | survival | A body under her turns a free-fall elevator impact into a survivable one | E4 | 1 / 2 / 3 | cipher (survivor) |
 
-- **c1** Everyone in a falling car is weightless, so nobody has footing; winning the positioning struggle in the seconds available is judged about 1 in 10. *Dependence:* First component.
+- **c1** Everyone in a falling car is weightless, so nobody has footing, and winning the positioning struggle in the few seconds available is judged about 1 in 10. No written source describes her protecting herself; the human-cushion mechanism rests on the owner's viewing confirmation, and one recap instead says the henchman is impaled on a pipe at the bottom of the shaft. *Dependence:* First component.
 - **c2** Inside a falling car she hits the floor at the car's own impact speed. A body beneath adds only about 20-30 cm of stopping distance, a modest cut in peak deceleration. Real elevator free-fall survivors exist (shaft buffers and air cushioning help), so this is not impossible. Held at the judgment cap because the height is unknown. *Dependence:* Conditional on c1.
 
 Sources: [Project owner's viewing confirmation (2026-09-19): in Fast X, Cipher survives an elevator free fall by landing on a henchman as a human cushion](), [Screen Rant: Fast X's most ridiculous moments](https://screenrant.com/fast-x-most-ridiculous-moments-stunts/)
 
-## 24. Corvette off a 300 ft canyon, both swim away — Fast Five (2011)
+## 23. Corvette off a 300 ft canyon, both swim away — Fast Five (2011)
 `ev-ff05-02` · 3 MU (envelope 2–4) · 1 in 1,000 · confidence medium
 
 **Depicted.** Cornered at a canyon edge, Dom drives the stolen Corvette off the cliff with Brian. The two separate from the falling car, fall into the river below, and swim to shore with no depicted injury.
@@ -416,6 +398,25 @@ Sources: [Project owner's viewing confirmation (2026-09-19): in Fast X, Cipher s
 - **c1** Golden Gate data: a 75 m fall into water is survived about 2% of the time (1.7 MU), usually with broken vertebrae or ribs. 91 m is higher (impact near 90 mph), so survival is about 1% (2 MU). Swimming off uninjured is judged 1 in 3 to 1 in 100 of survivors. The record competitive high dive is under 60 m, so even trained divers do not attempt this height. *Dependence:* Single survival component for both men (same height, same water).
 
 Sources: [Screen Rant: how the Fast Five cliff freefall was filmed](https://screenrant.com/fast-5-dom-brian-cliff-freefall-filmed-how/), [Inverse: Fast Five freefall retrospective](https://www.inverse.com/article/28298-fast-furious-five-freefall-retrospective), [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wiki/Fast_Five)
+
+## 24. Camaro ramp-jumps onto a moving yacht — 2 Fast 2 Furious (2003)
+`ev-ff02-02` · 2.5 MU (envelope 1–4.5) · 1 in 300 · confidence medium
+
+**Depicted.** Verone flees by yacht. Brian drives the 1969 Camaro, with Roman aboard, off a ramp and lands it on the moving boat. Roman breaks an arm and Brian is banged up, but both subdue Verone's men minutes later.
+**Inferred.** Ramp height, gap over water and boat speed are not given by any source.
+**Visually unverified:** ramp height; boat speed; landing zone size
+
+| # | Category | Claim | Evidence | MU low / central / high | Credited |
+|---|---|---|---|---|---|
+| c1 | coincidence | An uncalibrated ramp launch lands the car on a moving boat's deck (target roughly 8 m x 5 m) | E4 | 0.5 / 1 / 2 | brian (controller), roman (occupant) |
+| c2 | physics | The yacht's deck stops a 1.5 t car without the car punching through or tumbling into the water | E4 | 0.5 / 1 / 1.5 | brian (controller), roman (occupant) |
+| c3 | survival | Both occupants survive the landing and fight within minutes (one broken arm) | E1 | 0 / 0.5 / 1 | brian (survivor), roman (survivor) |
+
+- **c1** Worked as stated, this model is generous, not harsh: range and timing errors of about +/-5 m each sum to a triangular spread on +/-10 m, and landing within +/-4 m of an 8 m deck is 1 - (6/10)^2 = 0.64, i.e. 0.2 MU. The real uncertainty is the ramp itself, whose angle and the boat's speed no source gives, so the scatter cannot be grounded. Held as a judgment prior of about 1 in 10. *Dependence:* First component.
+- **c2** Leisure-yacht decks are not rated for a vehicle landing. Judgment prior around 1 in 10. *Dependence:* Conditional on c1 (the car reaches the deck).
+- **c3** A deck landing stops the car from perhaps 30-50 mph. NHTSA all-crash curve at 40 mph gives 0.03 MU for survival, and walking away at 40 mph is 0.50 MU; a broken arm is MAIS 2, so the central is between the two. No airbags in a 1969 car. *Dependence:* Conditional on c2; one component for both occupants (correlated outcomes).
+
+Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fast_2_Furious), [Slick Dungeon: 2 Fast 2 Furious review (scene detail)](https://slickdungeon.blog/2023/05/11/2-fast-2-furious-movie-review/), [MovieSpoilers.io: 2 Fast 2 Furious](https://www.moviespoilers.io/movie/2-fast-2-furious), [PlotExplained: 2 Fast 2 Furious](https://www.plotexplained.com/movie/2-fast-2-furious)
 
 ## 25. Jakob and his car snatched by a magnet aircraft — F9 (2021)
 `ev-ff09-03` · 2.5 MU (envelope 1–4.5) · 1 in 300 · confidence low
@@ -490,7 +491,7 @@ Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
-| c1 | survival | Occupants survive a heavyweight warhead close enough to throw their car 18 m up, and the landing | E4 | 1.5 / 2.5 / 3 | letty (survivor), roman (survivor), tej (survivor), ramsey (survivor) |
+| c1 | survival | Occupants survive a heavyweight warhead close enough to throw their car 18 m up, and the landing | E4 | 1.5 / 2.5 / 3 | letty (survivor), roman (survivor), tej (survivor), ramsey (survivor), hobbs (survivor) |
 
 - **c1** A 300 kg warhead that throws a car 18 m must detonate within about 10 m, where overpressure alone causes lung injury; the car then lands from 18 m (about a 42 mph impact). Held near the 3 MU judgment cap. *Dependence:* Single component for the four cars (one blast pattern).
 
@@ -541,7 +542,7 @@ Sources: [Wikipedia: The Fast and the Furious (2001 film), plot](https://en.wiki
 | c2 | physics | An unprepared street car lands from an airborne jump with suspension, tyres and control intact | E4 | 0.5 / 1 / 2 | brian (controller) |
 
 - **c1** At 60+ m/s a short gap is cleared almost regardless of angle; the risk is the leaf angle changing during the approach, which makes the take-off unrepeatable. Judgment prior around 1 in 10. *Dependence:* First component.
-- **c2** Production jump cars are reinforced; street cars typically break suspension or burst tyres on landing (the film itself shows this happening to a rival car in the draft script). Judgment prior around 1 in 10. *Dependence:* Conditional on c1 (the car is airborne on a survivable line).
+- **c2** Production jump cars are reinforced; street cars typically break suspension or burst tyres on landing. A rival car does exactly that in the draft screenplay, which is not evidence about the released film. Judgment prior around 1 in 10. *Dependence:* Conditional on c1 (the car is airborne on a survivable line).
 
 Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fast_2_Furious), [Yahoo/Motorious: pulling off the crazy S2000 bridge jump (behind the scenes)](https://finance.yahoo.com/news/pulling-off-crazy-s2000-bridge-142200761.html)
 
@@ -578,16 +579,16 @@ Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wi
 
 Sources: [AWN: Rise FX Hobbs & Shaw motorcycle chase VFX breakdown](https://www.awn.com/news/rise-fxs-hobbs-shaw-crazy-motorcycle-chase-vfx-breakdown-reel), [BikeBound: the Hobbs & Shaw motorcycles](https://www.bikebound.com/2021/01/21/hobbes-and-shaw-motorcycle/)
 
-## 35. Dom T-boned by a truck after the quarter mile — The Fast and the Furious (2001)
+## 35. Dom's Charger hits a truck after the quarter mile — The Fast and the Furious (2001)
 `ev-ff01-02` · 2 MU (envelope 1–3) · 1 in 100 · confidence medium
 
-**Depicted.** Straight after the drag race over the rail crossing, Dom's 1970 Charger is T-boned by a passing truck, goes airborne and flips. Brian pulls him out; Dom then drives away in Brian's Supra before the police arrive.
+**Depicted.** Straight after the drag race over the rail crossing, Dom's 1970 Charger collides with a passing truck, goes airborne and flips. Brian pulls him out; Dom then drives away in Brian's Supra before the police arrive.
 **Inferred.** Impact speed is not stated; a ten-second car finishes a quarter mile near 130 mph and brakes after.
-**Visually unverified:** impact speed; visible injuries
+**Visually unverified:** impact speed; visible injuries; impact direction (no source states it)
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
-| c1 | survival | Dom survives a broadside truck impact and rollover in a 1970 car and can still drive away | E1 | 1 / 2 / 3 | dom (survivor) |
+| c1 | survival | Dom survives a truck impact and rollover in a 1970 car and can still drive away | E1 | 1 / 2 / 3 | dom (survivor) |
 
 - **c1** NHTSA all-crash curves at an assumed 60-80 mph delta-V: survive 0.46-1.68 MU, walk away 1.63-2.91 MU. Dom is hurt but functional, so the central sits between the two curves at 70 mph (1.0 and 2.3), then +0.5 because the curves describe 2010-2015 cars with airbags and the Charger (1970) has neither airbags nor crumple zones. *Dependence:* Single component. The production used a ramp rig; the depicted outcome is scored, not the stunt.
 
@@ -650,10 +651,10 @@ Sources: [Wikipedia: Fast & Furious (2009 film), plot](https://en.wikipedia.org/
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
-| c1 | physics | A 13-15 t motorcoach that rear-ends a car is launched into a multi-roll rollover | E4 | 0.5 / 1.5 / 2 | brian (controller), mia (controller) |
+| c1 | physics | A full-size motorcoach that rear-ends a car is launched into a multi-roll rollover | E4 | 0.5 / 1.5 / 2 | brian (controller), mia (controller) |
 | c2 | survival | A shackled, unbelted prisoner walks away from a multi-roll bus rollover | E4 | 0 / 0.5 / 1 | dom (survivor) |
 
-- **c1** A coach hitting a car usually rides over it or pushes it; a roll needs the car to act as a ramp under one side. Judgment prior around 1 in 30. (The production used a cannon ramp to achieve it.) *Dependence:* First component.
+- **c1** A coach hitting a car usually rides over it or pushes it; a roll needs the car to act as a ramp under one side. Judgment prior around 1 in 30. The bus's mass is not published for this model, so no force model is attempted here. *Dependence:* First component.
 - **c2** Most bus rollover occupants survive, but unrestrained occupants are thrown around the cabin. Walking away uninjured is judged roughly 1 in 3. *Dependence:* Conditional on c1.
 
 Sources: [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wiki/Fast_Five), [Fast & Furious Wiki: MCI MC-9](https://fastandfurious.fandom.com/wiki/MCI_MC-9), [TopSpeed: Dom Toretto's Dodge Charger](https://www.topspeed.com/fast-and-furious-dom-toretto-dodge-charger/)

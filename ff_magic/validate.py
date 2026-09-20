@@ -79,6 +79,14 @@ def validate(ds: Dataset) -> Report:
             if c.capped:
                 r.check(m.low == m.central == m.high == cfg.record_horizon_mu,
                         f"{cw}: capped components must sit exactly at the record horizon")
+                # A cap asserts a measured hard limit, so it must name the quantity it measured.
+                r.check(len(c.references) > 0, f"{cw}: capped component must cite at least one reference")
+            else:
+                # The cap, not the evidence label, is what claims impossibility. Uncapped reasoning
+                # may not argue a hard limit: either cap it, or state the margin as a judgment.
+                claim_text = c.reasoning.lower().replace("not a hard limit", "").replace("not hard-limited", "")
+                r.check("hard limit" not in claim_text,
+                        f"{cw}: uncapped component argues a hard limit; cap it or reword")
             if c.evidence == "E4":
                 r.check(m.high <= cfg.judgment_cap_mu, f"{cw}: E4 exceeds judgment cap {cfg.judgment_cap_mu}")
             r.check(bool(c.reasoning.strip()), f"{cw}: empty reasoning")

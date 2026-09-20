@@ -41,15 +41,15 @@ events:
         references: []
         credits: [{character: vince, role: performer}]
   - id: ev-ff01-02
-    title: Dom T-boned by a truck after the quarter mile
+    title: Dom's Charger hits a truck after the quarter mile
     sequence: Final race
     depicted: >-
-      Straight after the drag race over the rail crossing, Dom's 1970 Charger is T-boned by a passing truck, goes
+      Straight after the drag race over the rail crossing, Dom's 1970 Charger collides with a passing truck, goes
       airborne and flips. Brian pulls him out; Dom then drives away in Brian's Supra before the police arrive.
     inferred: Impact speed is not stated; a ten-second car finishes a quarter mile near 130 mph and brakes after.
     post_credit: false
     in_universe_excuse: null
-    visually_unverified: [impact speed, visible injuries]
+    visually_unverified: [impact speed, visible injuries, impact direction (no source states it)]
     confidence: medium
     participants: [dom, brian]
     plot_sources: [ff01-wiki, ff01-wiki-brian]
@@ -57,7 +57,7 @@ events:
       - id: c1
         category: survival
         subtype: survival.crash
-        claim: Dom survives a broadside truck impact and rollover in a 1970 car and can still drive away
+        claim: Dom survives a truck impact and rollover in a 1970 car and can still drive away
         evidence: E1
         mu: {low: 1, central: 2, high: 3}
         capped: false

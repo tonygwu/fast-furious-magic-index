@@ -17,13 +17,14 @@ events:
       - id: c1
         category: physics
         subtype: physics.vehicle_dynamics
-        claim: A 13-15 t motorcoach that rear-ends a car is launched into a multi-roll rollover
+        claim: A full-size motorcoach that rear-ends a car is launched into a multi-roll rollover
         evidence: E4
         mu: {low: 0.5, central: 1.5, high: 2}
         capped: false
         reasoning: >-
           A coach hitting a car usually rides over it or pushes it; a roll needs the car to act as a ramp under one
-          side. Judgment prior around 1 in 30. (The production used a cannon ramp to achieve it.)
+          side. Judgment prior around 1 in 30. The bus's mass is not published for this model, so no force model is
+          attempted here.
         dependence: First component.
         references: []
         credits: [{character: brian, role: controller}, {character: mia, role: controller}]

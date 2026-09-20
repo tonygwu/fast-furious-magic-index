@@ -27,7 +27,7 @@ events:
           have. Speed only helps if every mine in the field has an unusual delay. Judged 1 in 100 to 1 in 100,000.
         dependence: First component; one component for all cars (the mines are the same type).
         references: []
-        credits: [{character: dom, role: controller}, {character: letty, role: occupant}, {character: roman, role: controller}, {character: tej, role: controller}, {character: ramsey, role: occupant}]
+        credits: [{character: dom, role: controller}, {character: letty, role: controller}, {character: roman, role: controller}, {character: tej, role: controller}, {character: ramsey, role: occupant}]
       - id: c2
         category: survival
         subtype: survival.explosion
@@ -45,10 +45,12 @@ events:
     depicted: >-
       With the rope bridge collapsed, Dom drives his Charger off the cliff toward its remains, snags a rope from the
       bridge, swings across on it and lands on the far cliffside.
-    inferred: The bridge had just carried Tej's Jeep before collapsing.
+    inferred: >-
+      The bridge had just carried Tej's Jeep before collapsing. The Fandom sequence page puts Letty in Dom's Charger
+      for this jump, after she is thrown from her motorcycle in the minefield.
     post_credit: false
     in_universe_excuse: null
-    visually_unverified: [whether Letty is in the car, gap width]
+    visually_unverified: [gap width]
     confidence: medium
     participants: [dom, letty]
     plot_sources: [ff09-fandom-montequinto, ff09-themoviespoiler]
