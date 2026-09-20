@@ -1,5 +1,7 @@
 # The Fast & Furious Magic Index
 
+**Live: https://fast-furious.tonygwu.com**
+
 How impossible are the Fast & Furious movies? This project scores every major stunt in the franchise with an
 over-serious probability method.
 
@@ -26,6 +28,15 @@ Methodology details: `docs/scene-notes.md` (every worksheet, generated) and `doc
 | `scripts/` | `validate.py`, `build.py`, `import_presence.py` |
 | `build/`, `web/data.js`, `docs/scene-notes.md` | Generated from `data/`; a test fails if they are stale |
 | `research/*.md` | Raw per-film research notes written by AI research agents from `research/BRIEF.md`, addressed to a human analyst. Kept for provenance; the scores in `data/` were assigned separately. |
+
+## Deploy
+
+The site is a static page served from `web/` by Cloudflare (Workers static assets).
+
+```sh
+scripts/render_cards.sh      # regenerate the social cards from the page
+npx wrangler deploy          # publish web/ to fast-furious.tonygwu.com
+```
 
 ## Build and test
 

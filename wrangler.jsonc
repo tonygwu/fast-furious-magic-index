@@ -1,0 +1,8 @@
+{
+  "$schema": "node_modules/wrangler/config-schema.json",
+  "name": "fast-furious-magic-index",
+  "compatibility_date": "2026-09-18",
+  "observability": { "enabled": true },
+  "assets": { "directory": "web" },
+  "routes": [{ "pattern": "fast-furious.tonygwu.com", "custom_domain": true }]
+}
