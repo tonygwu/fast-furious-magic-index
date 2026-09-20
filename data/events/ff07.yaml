@@ -249,7 +249,7 @@ events:
         reasoning: >-
           A flexing muscle presses outward on the cast; with pressure inside a contracting muscle of tens of kPa, the hoop
           stress on a 5-6 mm shell is under about 1 MPa. That is near the tensile strength of plaster (roughly 1-3 MPa)
-          but about a hundred times below fibreglass. Neither material property was sourced this research pass, so this is a
+          but about a hundred times below fibreglass. Neither material property was found in the sources consulted, so this is a
           judgment prior (about 1 in 100), held at the judgment cap.
         dependence: Single component.
         references: []

@@ -17,7 +17,16 @@ depicted outcome happens if the best real-world professional attempts it with th
   additive absurdity index, not a joint probability.
 - Plot armor (resurrections, retcons, magic surveillance) is scored separately and never converted to MU.
 
-Methodology details: `docs/scene-notes.md` (every worksheet, generated) and `docs/DECISIONS.md`.
+Full method: **`docs/methodology.md`** — the reference class, the four evidence types, both caps and the limits.
+Every worksheet: `docs/scene-notes.md` (generated). Decisions log: `docs/DECISIONS.md`.
+
+## Limits
+
+- Screen time is estimated, not measured, so the per-minute board is a band rather than a ranking.
+- A scene with only one source is not scored at all, which holds some films below their true total.
+- Character totals give full credit to everyone present, so they do not sum to the scene totals.
+- Above the 12 MU cap, scores are lower bounds: a bigger gap between two capped scenes is not a real difference.
+- About half of all components rest on a stated judgment prior, which is capped at 3 MU for that reason.
 
 ## Layout
 
@@ -62,3 +71,5 @@ trademark of its owner. No film stills or studio artwork are included.
 - **Code** (`ff_magic/`, `scripts/`, `tests/`): MIT, see `LICENSE`.
 - **Data and write-ups** (`data/`, `docs/`, `research/`, `build/`, `web/data.js`): Creative Commons Attribution 4.0
   (CC BY 4.0), see `LICENSE-CONTENT`. Credit "The Fast & Furious Magic Index, Tony Wu".
+  This grant covers the project's own wording. Short quotations from third parties inside `research/` stay under
+  their own licences; Wikipedia material, for instance, is CC BY-SA.

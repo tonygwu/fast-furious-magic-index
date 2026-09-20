@@ -27,3 +27,5 @@ research/refs/
 
 .wrangler/
 node_modules/
+.app-ux-design/
+docs/design/

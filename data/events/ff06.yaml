@@ -91,7 +91,7 @@ events:
         reasoning: >-
           Dan's Reality Check puts the catch impact alone as lethal at the implied 60 mph. Even at a lower relative speed,
           Letty is unrestrained on the car's exterior when it lands on another vehicle. No pedestrian injury curve
-          could be sourced this research pass, so this is a judgment prior held at the 3 MU judgment cap.
+          was found in the sources consulted, so this is a judgment prior held at the 3 MU judgment cap.
         dependence: Conditional on c1; one component for both (correlated landing).
         references: []
         credits: [{character: letty, role: survivor}, {character: dom, role: survivor}]

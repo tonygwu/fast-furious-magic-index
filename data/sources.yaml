@@ -8,7 +8,7 @@
 # --- ff01 The Fast and the Furious (2001)
 - {id: ff01-wiki, kind: plot, title: "Wikipedia: The Fast and the Furious (2001 film), plot", url: "https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)"}
 - {id: ff01-wiki-brian, kind: plot, title: "Wikipedia: Brian O'Conner", url: "https://en.wikipedia.org/wiki/Brian_O%27Conner"}
-- {id: ff01-fandom-truck, kind: plot, title: "Fast & Furious Wiki: Assault on the Rodgers Truck (search snippet; page fetch blocked)", url: "https://fastandfurious.fandom.com/wiki/Assault_on_the_Rodgers_Truck"}
+- {id: ff01-fandom-truck, kind: plot, title: "Fast & Furious Wiki: Assault on the Rodgers Truck (summary only; full page unavailable)", url: "https://fastandfurious.fandom.com/wiki/Assault_on_the_Rodgers_Truck"}
 - {id: ff01-mistakes, kind: plot, title: "MovieMistakes: The Fast and the Furious continuity (timestamped)", url: "https://www.moviemistakes.com/film459/continuity"}
 # --- ff02 2 Fast 2 Furious (2003)
 - {id: ff02-wiki, kind: plot, title: "Wikipedia: 2 Fast 2 Furious, plot", url: "https://en.wikipedia.org/wiki/2_Fast_2_Furious"}

@@ -155,7 +155,7 @@ Sources: [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wi
 | c2 | survival | Letty (outside the car, on the windshield) and Dom survive the catch and the landing on a parked car | E4 | 2 / 3 / 3 | letty (survivor), dom (survivor) |
 
 - **c1** Two projectiles must meet within about 1 m in each of three dimensions. Dom commits before Letty's trajectory is known; a timing error of +/-0.3 s at ~25 m/s is +/-7 m, against a catch zone of ~1 m, and launch angle adds a similar error vertically. Joint success is roughly 1 in 100 to 1 in 10,000. *Dependence:* First component.
-- **c2** Dan's Reality Check puts the catch impact alone as lethal at the implied 60 mph. Even at a lower relative speed, Letty is unrestrained on the car's exterior when it lands on another vehicle. No pedestrian injury curve could be sourced this research pass, so this is a judgment prior held at the 3 MU judgment cap. *Dependence:* Conditional on c1; one component for both (correlated landing).
+- **c2** Dan's Reality Check puts the catch impact alone as lethal at the implied 60 mph. Even at a lower relative speed, Letty is unrestrained on the car's exterior when it lands on another vehicle. No pedestrian injury curve was found in the sources consulted, so this is a judgment prior held at the 3 MU judgment cap. *Dependence:* Conditional on c1; one component for both (correlated landing).
 
 Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia.org/wiki/Fast_%26_Furious_6), [Dan's Reality Check: Fast and Furious 6 (catch lethality, runway length)](https://supermarcey.com/2013/06/26/dans-reality-check-fast-and-furious-6/), [Spoilertown: Fast & Furious 6 recap](https://spoilertown.com/fast-furious-6-2013/)
 
@@ -527,7 +527,7 @@ Sources: [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/), [Fast 
 - **c1** A hand-fired grapple from one moving vehicle into another at close range is aimable; the uncertain part is that the hook both penetrates and anchors. Judgment prior: roughly 1 in 3 to 1 in 30 per attempt. *Dependence:* First component.
 - **c2** Professional vehicle-to-vehicle transfers are routine stunts with rigging and matched speeds; here the line is improvised and the trucker is actively resisting. Judgment prior around 1 in 10. *Dependence:* Conditional on c1 (the line holds). Independent of the drivers' pace matching, which is ordinary.
 
-Sources: [Wikipedia: The Fast and the Furious (2001 film), plot](https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)), [Fast & Furious Wiki: Assault on the Rodgers Truck (search snippet; page fetch blocked)](https://fastandfurious.fandom.com/wiki/Assault_on_the_Rodgers_Truck)
+Sources: [Wikipedia: The Fast and the Furious (2001 film), plot](https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)), [Fast & Furious Wiki: Assault on the Rodgers Truck (summary only; full page unavailable)](https://fastandfurious.fandom.com/wiki/Assault_on_the_Rodgers_Truck)
 
 ## 32. Skyline jumps a rising drawbridge — 2 Fast 2 Furious (2003)
 `ev-ff02-01` · 2 MU (envelope 1–3.5) · 1 in 100 · confidence low
@@ -701,7 +701,7 @@ Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com
 |---|---|---|---|---|---|
 | c1 | physics | A muscle contraction splits a full arm cast from the inside | E4 | 1 / 2 / 3 | hobbs (controller) |
 
-- **c1** A flexing muscle presses outward on the cast; with pressure inside a contracting muscle of tens of kPa, the hoop stress on a 5-6 mm shell is under about 1 MPa. That is near the tensile strength of plaster (roughly 1-3 MPa) but about a hundred times below fibreglass. Neither material property was sourced this research pass, so this is a judgment prior (about 1 in 100), held at the judgment cap. *Dependence:* Single component.
+- **c1** A flexing muscle presses outward on the cast; with pressure inside a contracting muscle of tens of kPa, the hoop stress on a 5-6 mm shell is under about 1 MPa. That is near the tensile strength of plaster (roughly 1-3 MPa) but about a hundred times below fibreglass. Neither material property was found in the sources consulted, so this is a judgment prior (about 1 in 100), held at the judgment cap. *Dependence:* Single component.
 
 Sources: [Project owner's viewing confirmation (2026-09-18): in Furious 7, Hobbs breaks his arm cast by flexing](), [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wiki/Furious_7), [The National: the truth behind Furious 7's death-defying stunts](https://www.thenationalnews.com/arts/the-truth-behind-furious-7s-death-defying-stunts-1.128554)
 
