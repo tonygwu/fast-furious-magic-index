@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en" data-theme="">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Fast &amp; Furious Magic Index</title>
+<meta name="description" content="Every major Fast &amp; Furious stunt scored in Magic Units: one Magic Unit is one order of magnitude of improbability. 44 events, sourced, with the physics shown.">
+<meta property="og:title" content="The Fast &amp; Furious Magic Index">
+<meta property="og:description" content="One Magic Unit = one order of magnitude of improbability. The Pontiac Fiero reaching orbit scores at least 35.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://fast-furious.tonygwu.com/">
+<meta property="og:image" content="https://fast-furious.tonygwu.com/social/og-card.png">
+<meta name="twitter:card" content="summary_large_image">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><text y='.9em' font-size='90'>📉</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Archivo:wght@600;900&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<main class="wrap">
+  <p class="doccode" id="doccode">FF-MU-1 · REV A</p>
+  <h1>The Fast &amp; Furious<br>Magic Index</h1>
+
+  <p class="lede">
+    <strong>One Magic Unit (MU) is one order of magnitude of improbability.</strong>
+    MU = −log10(P), where P is the chance a stunt ends the way the film shows it, if the best real-world
+    professional attempts it with the equipment on screen. 1 in 10 is 1 MU. 1 in a million is 6.
+  </p>
+  <p class="lede">
+    Every number here is built from named components with stated evidence, and the whole dataset, the scoring
+    engine and these worksheets are public on GitHub:
+    <a id="repo-top" href="https://github.com/tonygwu/fast-furious-magic-index">github.com/tonygwu/fast-furious-magic-index</a>.
+    Disagree with an assumption and you can change one line and rebuild.
+  </p>
+
+  <div class="controls">
+    <button id="scope-all" aria-pressed="true">Saga + Hobbs &amp; Shaw</button>
+    <button id="scope-saga" aria-pressed="false">Saga only</button>
+    <button id="theme" aria-pressed="false" title="Theme follows your system setting until you press this">Theme: auto</button>
+  </div>
+
+  <div class="ladder" id="ladder"></div>
+
+  <hr>
+
+  <h2>The most impossible scenes</h2>
+  <p class="note" id="scenes-note"></p>
+  <div class="rows" id="scenes"></div>
+  <p class="note">Tap any scene to open its worksheet: every component, its evidence type, the reasoning, and the sources.</p>
+
+  <h2>Who has logged the most impossibility</h2>
+  <p class="note" id="chars-note"></p>
+  <div class="legend" id="legend"></div>
+  <div id="chars"></div>
+  <p class="note" id="chars-small"></p>
+
+  <h2>Magic per 100 minutes of screen time</h2>
+  <p class="note" id="rate-note"></p>
+  <div id="rates"></div>
+
+  <h2>Reality inflation</h2>
+  <p class="note" id="films-note"></p>
+  <div class="films" id="films"></div>
+
+  <h2>Method, and what it cannot do</h2>
+  <div id="method"></div>
+
+  <footer>
+    <p id="foot-counts"></p>
+    <p>
+      Code, data and worksheets:
+      <a id="repo-foot" href="https://github.com/tonygwu/fast-furious-magic-index">github.com/tonygwu/fast-furious-magic-index</a>.
+      Code under MIT, data and write-ups under CC BY 4.0.
+    </p>
+    <p>Unofficial fan commentary and parody. Not affiliated with or endorsed by Universal Pictures. No film stills are used.</p>
+  </footer>
+</main>
+
+<section class="cardframe" id="cardframe" aria-hidden="true"></section>
+
+<script src="data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
