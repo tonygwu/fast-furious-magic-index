@@ -2498,15 +2498,15 @@
    ],
    "plot_sources": [
     "ff08-stunts",
-    "ff08-wrap-factcheck"
+    "ff08-wrap-factcheck",
+    "owner-ff08-arctic"
    ],
    "post_credit": false,
    "sequence": "Arctic finale",
    "title": "Hobbs redirects a torpedo by hand",
    "visually_unverified": [
     "deflection angle",
-    "whether Hobbs's vehicle matches the torpedo's speed",
-    "whether this is the same on-screen beat as ev-ff08-06 (sources say torpedo and missile; unresolved)"
+    "whether Hobbs's vehicle matches the torpedo's speed"
    ]
   },
   "ev-ff08-05": {
@@ -2687,14 +2687,13 @@
    "plot_sources": [
     "ff08-wiki",
     "ff08-fandom",
-    "ff08-clip-torpedo"
+    "ff08-clip-torpedo",
+    "owner-ff08-arctic"
    ],
    "post_credit": false,
    "sequence": "Arctic finale",
    "title": "Dom leads a homing missile into the submarine",
-   "visually_unverified": [
-    "whether this is the same on-screen beat as ev-ff08-04 (sources say missile and torpedo; unresolved)"
-   ]
+   "visually_unverified": []
   },
   "ev-ff09-01": {
    "components": [
@@ -13137,6 +13136,12 @@
    "id": "owner-ff07-cast",
    "kind": "plot",
    "title": "Project owner's viewing confirmation (2026-09-18): in Furious 7, Hobbs breaks his arm cast by flexing",
+   "url": ""
+  },
+  "owner-ff08-arctic": {
+   "id": "owner-ff08-arctic",
+   "kind": "plot",
+   "title": "Project owner's viewing confirmation (2026-09-25): in The Fate of the Furious, Hobbs redirecting the torpedo and Dom luring the missile into the submarine are two separate on-screen moments",
    "url": ""
   },
   "owner-ff10-elevator": {

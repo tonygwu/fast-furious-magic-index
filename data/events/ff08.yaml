@@ -128,10 +128,10 @@ events:
     inferred: ""
     post_credit: false
     in_universe_excuse: null
-    visually_unverified: [deflection angle, whether Hobbs's vehicle matches the torpedo's speed, whether this is the same on-screen beat as ev-ff08-06 (sources say torpedo and missile; unresolved)]
+    visually_unverified: [deflection angle, whether Hobbs's vehicle matches the torpedo's speed]
     confidence: medium
     participants: [hobbs]
-    plot_sources: [ff08-stunts, ff08-wrap-factcheck]
+    plot_sources: [ff08-stunts, ff08-wrap-factcheck, owner-ff08-arctic]
     components:
       - id: c1
         category: physics
@@ -196,10 +196,10 @@ events:
     inferred: ""
     post_credit: false
     in_universe_excuse: null
-    visually_unverified: [whether this is the same on-screen beat as ev-ff08-04 (sources say missile and torpedo; unresolved)]
+    visually_unverified: []
     confidence: medium
     participants: [dom, letty, roman, tej, ramsey, hobbs, cipher]
-    plot_sources: [ff08-wiki, ff08-fandom, ff08-clip-torpedo]
+    plot_sources: [ff08-wiki, ff08-fandom, ff08-clip-torpedo, owner-ff08-arctic]
     components:
       - id: c1
         category: skill

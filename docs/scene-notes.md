@@ -113,7 +113,7 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 `ev-ff08-04` · 7 MU (envelope 3.5–14) · 1 in 10^7 · confidence medium
 
 **Depicted.** Leaning out of his vehicle at speed on the frozen lake, Hobbs grabs a live torpedo skidding across the ice and shoves it into another vehicle.
-**Visually unverified:** deflection angle; whether Hobbs's vehicle matches the torpedo's speed; whether this is the same on-screen beat as ev-ff08-06 (sources say torpedo and missile; unresolved)
+**Visually unverified:** deflection angle; whether Hobbs's vehicle matches the torpedo's speed
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
@@ -123,7 +123,7 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 - **c1** Lateral impulse F = m x v x sin(theta) / t, with m = 2 t and v = 22 m/s. The four corners of 3-10 degrees over 0.5-1 s give 2.3 kN, 4.6 kN, 7.6 kN and 15.3 kN. The heaviest deadlift ever is about 5 kN with both legs and ideal footing; a one-arm pull while leaning from a moving vehicle is perhaps 1-1.5 kN. The requirement is therefore 1.5x to 15x the plausible force: marginal at the gentlest corner, far beyond it at the sharpest. It is not capped because the gentlest corner, which is the assumption most favourable to the stunt, stays under 3x. The wide MU range is deliberate. *Dependence:* First component.
 - **c2** Contact fuzes are built to fire on impacts far softer than a car collision; the ice skid, the grab and the hit form a narrow sequence. Judgment prior about 1 in 10. *Dependence:* Conditional on c1.
 
-Sources: [Stunts Unlimited: F8 stunt reveal (ice, torpedo grab, car blasts)](https://stuntsunlimited.com/f8_stunt_reveal/), [TheWrap: Fate of the Furious fact check (torpedo redirect)](https://www.thewrap.com/fate-of-the-furious-fact-check-could-those-crazy-stunts-really-happen/)
+Sources: [Stunts Unlimited: F8 stunt reveal (ice, torpedo grab, car blasts)](https://stuntsunlimited.com/f8_stunt_reveal/), [TheWrap: Fate of the Furious fact check (torpedo redirect)](https://www.thewrap.com/fate-of-the-furious-fact-check-could-those-crazy-stunts-really-happen/), [Project owner's viewing confirmation (2026-09-25): in The Fate of the Furious, Hobbs redirecting the torpedo and Dom luring the missile into the submarine are two separate on-screen moments]()
 
 ## 8. Five cars parachuted onto a mountain road — Furious 7 (2015)
 `ev-ff07-01` · 6 MU (envelope 4–8.5) · 1 in 10^6 · confidence medium
@@ -215,7 +215,6 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 `ev-ff08-06` · 4 MU (envelope 2–6.5) · 1 in 10,000 · confidence medium
 
 **Depicted.** Cipher fires an infrared homing missile at Dom's Charger. Dom manoeuvres so it strikes the trailing submarine instead, destroying it; the team forms a wall of cars around him to shield him from the explosion.
-**Visually unverified:** whether this is the same on-screen beat as ev-ff08-04 (sources say missile and torpedo; unresolved)
 
 | # | Category | Claim | Evidence | MU low / central / high | Credited |
 |---|---|---|---|---|---|
@@ -227,7 +226,7 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 - **c2** The submarine is large and directly behind, so given a miss this is likely (about 1 in 3). *Dependence:* Conditional on c1.
 - **c3** Cars stop fragments but not overpressure at close range. Judgment prior about 1 in 10 for everyone to survive. *Dependence:* Conditional on c2; one component for the group.
 
-Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wikipedia.org/wiki/The_Fate_of_the_Furious), [Fast & Furious Wiki: The Fate of the Furious plot](https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious), [YouTube clip: The Fate of the Furious, Muscle Car vs. Nuclear Submarine](https://www.youtube.com/watch?v=rMLG6BcAdK0)
+Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wikipedia.org/wiki/The_Fate_of_the_Furious), [Fast & Furious Wiki: The Fate of the Furious plot](https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious), [YouTube clip: The Fate of the Furious, Muscle Car vs. Nuclear Submarine](https://www.youtube.com/watch?v=rMLG6BcAdK0), [Project owner's viewing confirmation (2026-09-25): in The Fate of the Furious, Hobbs redirecting the torpedo and Dom luring the missile into the submarine are two separate on-screen moments]()
 
 ## 14. Steering a rolling bomb through Rome into the Tiber — Fast X (2023)
 `ev-ff10-01` · 4 MU (envelope 2–6.5) · 1 in 10,000 · confidence medium

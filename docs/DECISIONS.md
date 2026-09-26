@@ -17,3 +17,6 @@
   (Han, Gisele, Roman, Tej, Brian, Mia), not to Dom and Letty, who that source puts aboard the plane. This moved Dom
   from ≥109 to ≥97 MU. Letty rides her own motorcycle through the F9 minefield, so she is a controller there. The
   Furious 7 cliff catch no longer counts the car's lateral placement twice.
+- **2026-09-25 — The Fate torpedo and missile are two moments.** The owner confirmed on viewing that Hobbs
+  redirecting the torpedo (ev-ff08-04) and Dom luring the missile into the submarine (ev-ff08-06) are separate
+  on-screen moments (source `owner-ff08-arctic`). Both events stay scored; the "same beat" flags are removed.
