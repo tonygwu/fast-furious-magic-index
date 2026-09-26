@@ -203,6 +203,53 @@
  },
  {
   "by_category": {
+   "coincidence": 0.0,
+   "physics": 5.0,
+   "skill": 0.0,
+   "survival": 1.0
+  },
+  "central": 6.0,
+  "characters": [
+   "jakob",
+   "little_b"
+  ],
+  "film": "ff10",
+  "high": 8.0,
+  "id": "ev-ff10-05",
+  "low": 3.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10^6",
+  "odds_high": "1 in 10^8",
+  "odds_low": "1 in 3,000",
+  "primary_category": "physics",
+  "title": "Escaping an airliner mid-flight in a small aircraft from the cargo hold"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 3.0,
+   "skill": 2.0,
+   "survival": 1.0
+  },
+  "central": 6.0,
+  "characters": [
+   "dom"
+  ],
+  "film": "ff10",
+  "high": 7.5,
+  "id": "ev-ff10-06",
+  "low": 3.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 10^6",
+  "odds_high": "1 in 3×10^7",
+  "odds_low": "1 in 3,000",
+  "primary_category": "physics",
+  "title": "Two harpoon helicopters made to collide, then swung as flails"
+ },
+ {
+  "by_category": {
    "coincidence": 3.0,
    "physics": 0.0,
    "skill": 0.0,
@@ -657,6 +704,54 @@
   "odds_low": "1 in 10",
   "primary_category": "physics",
   "title": "A nuclear submarine chases cars through the ice"
+ },
+ {
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 0.0,
+   "skill": 1.0,
+   "survival": 0.5
+  },
+  "central": 2.5,
+  "characters": [
+   "dom",
+   "isabel"
+  ],
+  "film": "ff10",
+  "high": 4.0,
+  "id": "ev-ff10-07",
+  "low": 1.0,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 10,000",
+  "odds_low": "1 in 10",
+  "primary_category": "skill",
+  "title": "Dom flips Isabel's car to knock the bomb off"
+ },
+ {
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 0.0,
+   "skill": 2.5,
+   "survival": 0.0
+  },
+  "central": 2.5,
+  "characters": [
+   "dom",
+   "little_b"
+  ],
+  "film": "ff10",
+  "high": 3.5,
+  "id": "ev-ff10-08",
+  "low": 1.5,
+  "lower_bound": false,
+  "n_capped": 0,
+  "odds": "1 in 300",
+  "odds_high": "1 in 3,000",
+  "odds_low": "1 in 30",
+  "primary_category": "skill",
+  "title": "Little B leaps from Dante's moving car into Dom's Charger"
  },
  {
   "by_category": {

@@ -155,5 +155,6 @@ def film_totals(ds: Dataset, scope: str) -> list[dict]:
             "by_category": cat,
             "plot_armor": sum(p.level for p in ds.plot_armor if p.film == f.id),
             "n_rejected": sum(1 for x in ds.rejected if x.film == f.id),
+            "n_single_source": sum(1 for x in ds.rejected if x.film == f.id and x.reason == "insufficient_sources"),
         })
     return out

@@ -4,16 +4,16 @@ events:
     title: Steering a rolling bomb through Rome into the Tiber
     sequence: Rome
     depicted: >-
-      Dante releases a giant spherical bomb that rolls through Rome, crushing cars and bouncing down the Spanish
-      Steps. Dom uses his Charger to push it through the streets and into the Tiber, limiting the damage when it
-      detonates.
+      Dante releases a giant spherical bomb that rolls through Rome, crushing cars, splitting a bus and bouncing down
+      the Spanish Steps. Dom uses his Charger to push it through the streets, then drives into a crane that knocks it
+      into the Tiber, limiting the damage when it detonates.
     inferred: The bomb's in-story mass is unclear (the prop was one ton; one article calls it ten).
     post_credit: false
     in_universe_excuse: null
     visually_unverified: [how far Dom is from the blast]
     confidence: medium
     participants: [dom, dante, roman, tej, han, ramsey, letty]
-    plot_sources: [ff10-wiki, ff10-fandom, ff10-highonfilms]
+    plot_sources: [ff10-wiki, ff10-fandom, ff10-highonfilms, ff10-themoviespoiler, ff10-looper-overthetop]
     components:
       - id: c1
         category: skill
@@ -176,3 +176,205 @@ events:
         dependence: Conditional on c1.
         references: []
         credits: [{character: cipher, role: survivor}]
+  - id: ev-ff10-05
+    title: Escaping an airliner mid-flight in a small aircraft from the cargo hold
+    sequence: Airliner escape
+    depicted: >-
+      A flight attendant gives Jakob a key and three miniature bottles of vodka. He fights off the agents sent after
+      him and Little B, and the two leave the airliner mid-flight in a small aircraft stowed in the cargo hold, with the
+      alcohol used as fuel.
+    inferred: >-
+      Sources disagree on the aircraft: a glider in some recaps, a jet in others. Single sources give the key opening
+      the cargo hatch, a 747 and 36,000 ft; none of these is used as a fact.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [glider or jet, altitude, how the cargo hatch opens, where they land]
+    confidence: medium
+    participants: [jakob, little_b]
+    plot_sources: [owner-ff10-airliner, ff10-dexerto-meadow, ff10-looper-overthetop, ff10-thr-review, ff10-screenrant-ridiculous]
+    components:
+      - id: c1
+        category: physics
+        subtype: physics.aerodynamics
+        claim: A small aircraft leaves an airliner's cargo hold in flight and flies clear of the airliner
+        evidence: E4
+        mu: {low: 2, central: 3, high: 3}
+        capped: false
+        reasoning: >-
+          A cargo hatch opened in flight exposes the hold to an airstream moving at the airliner's speed, and a light
+          aircraft released into it must separate without striking the fuselage or tail. No source gives the altitude,
+          the speed or the hatch type, so no force comparison is possible and the component is held at the judgment
+          cap.
+        dependence: First component.
+        references: []
+        credits: [{character: jakob, role: controller}, {character: little_b, role: occupant}]
+      - id: c2
+        category: physics
+        subtype: physics.propulsion
+        claim: Three miniature bottles of vodka usefully fuel the aircraft
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          Three miniatures hold about 60 ml of ethanol, a tiny fraction of the fuel any powered aircraft carries. If the
+          aircraft is a glider the fuel matters less, which is why the range is wide. Judgment prior about 1 in 100.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: jakob, role: controller}, {character: little_b, role: occupant}]
+      - id: c3
+        category: survival
+        subtype: survival.environment
+        claim: A man and a child stay conscious and uninjured in a small open aircraft leaving cruise flight
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 2}
+        capped: false
+        reasoning: >-
+          At airliner cruise altitude the air is too thin to stay conscious for long and very cold. The altitude is not
+          established by two sources, so this is judged, about 1 in 10.
+        dependence: Conditional on c1; one component for both occupants.
+        references: []
+        credits: [{character: jakob, role: survivor}, {character: little_b, role: survivor}]
+  - id: ev-ff10-06
+    title: Two harpoon helicopters made to collide, then swung as flails
+    sequence: Portugal highway chase
+    depicted: >-
+      Two helicopters fire harpoons on cables into Dom's Charger to lift it off an elevated highway. Dom fires the
+      nitrous and jumps from the upper deck to the lower deck, and the tethered helicopters collide and crash. He then
+      spins the car and swings the burning wrecks, still attached by cable, into Dante's cars.
+    inferred: >-
+      No source names the helicopter model or gives the cable length, the deck height or the speed. The production
+      did not film a real collision or real cables.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [deck height, whether the collision is caused by the jump or by the speed burst]
+    confidence: medium
+    participants: [dom, dante]
+    plot_sources: [ff10-themoviespoiler, ff10-looper-overthetop, ff10-syfy-ending, ff10-bna-dneg, ff10-collider-heli]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: While harpooned from both sides, Dom drives so that the two helicopters collide with each other
+        evidence: E4
+        mu: {low: 1, central: 2, high: 3}
+        capped: false
+        reasoning: >-
+          The helicopters fly on opposite sides of the road, and one jump must pull both onto the same line at the
+          same moment. Judgment prior about 1 in 100.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: performer}]
+      - id: c2
+        category: survival
+        subtype: survival.crash
+        claim: Dom and the car survive the drop from the upper deck to the lower deck and keep driving
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          In production an empty Charger fired from the top deck onto the lower deck was wrecked beyond repair. A
+          driver walking away and the car still running is judged about 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: survivor}]
+      - id: c3
+        category: physics
+        subtype: physics.forces
+        claim: A car spinning donuts swings two tethered helicopter wrecks as flails
+        evidence: E4
+        mu: {low: 2, central: 3, high: 3}
+        capped: false
+        reasoning: >-
+          Each wreck is likely heavier than the car, so a spinning car would be dragged by the wrecks rather than swing
+          them. The helicopter model is not named, so no mass comparison is possible and the component is held at the
+          judgment cap.
+        dependence: Conditional on c2.
+        references: []
+        credits: [{character: dom, role: controller}]
+  - id: ev-ff10-07
+    title: "Dom flips Isabel's car to knock the bomb off"
+    sequence: Rio street race
+    depicted: >-
+      Dante has planted bombs on Isabel's and Diogo's cars. After Diogo's car explodes, Dante moves to detonate
+      Isabel's. Dom makes her car crash and roll, which knocks the bomb off, and he pulls her out of the wreck.
+    inferred: No source gives the race speed; only wiki pages say Dom rams her car.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [how Dom causes the roll, whether Isabel is injured]
+    confidence: medium
+    participants: [dom, isabel, dante]
+    plot_sources: [ff10-ladbible-spins, ff10-themoviespoiler]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.driving
+        claim: Dom makes a moving car roll in the one way that throws a bomb clear
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: >-
+          Rolling another car deliberately is uncontrolled, and the bomb must come off rather than stay attached.
+          Judgment prior about 1 in 10.
+        dependence: First component.
+        references: []
+        credits: [{character: dom, role: performer}]
+      - id: c2
+        category: coincidence
+        subtype: coincidence.timing
+        claim: The bomb comes free before Dante detonates it
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: Dante is already moving to detonate it, so the window is seconds long. Judgment prior about 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: beneficiary}, {character: isabel, role: beneficiary}]
+      - id: c3
+        category: survival
+        subtype: survival.crash
+        claim: Isabel survives a racing rollover
+        evidence: E4
+        mu: {low: 0, central: 0.5, high: 1}
+        capped: false
+        reasoning: Belted occupants usually survive rollovers, so this adds little.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: isabel, role: survivor}]
+  - id: ev-ff10-08
+    title: "Little B leaps from Dante's moving car into Dom's Charger"
+    sequence: Portugal highway chase
+    depicted: >-
+      Dante has grabbed Little B into his car. Dom pulls alongside at speed, and Little B jumps out of Dante's car and
+      in through the Charger's window.
+    inferred: The speed is not given. Little B is eight or about ten, depending on the source.
+    post_credit: false
+    in_universe_excuse: null
+    visually_unverified: [speed, gap between the cars]
+    confidence: medium
+    participants: [little_b, dom, dante]
+    plot_sources: [ff10-looper-overthetop, ff10-themoviespoiler]
+    components:
+      - id: c1
+        category: skill
+        subtype: skill.acrobatics
+        claim: A child jumps between two cars at highway speed and lands inside through a window
+        evidence: E4
+        mu: {low: 1, central: 1.5, high: 2}
+        capped: false
+        reasoning: >-
+          Professional stunt performers do car-to-car transfers with rigging and rehearsal. A child doing it unrigged,
+          through a window, is judged about 1 in 30.
+        dependence: First component.
+        references: []
+        credits: [{character: little_b, role: performer}]
+      - id: c2
+        category: skill
+        subtype: skill.driving
+        claim: Dom holds his car level with Dante's, close enough for the jump, under fire
+        evidence: E4
+        mu: {low: 0.5, central: 1, high: 1.5}
+        capped: false
+        reasoning: The gap and speed must match for the second the jump takes. Judgment prior about 1 in 10.
+        dependence: Conditional on c1.
+        references: []
+        credits: [{character: dom, role: performer}]

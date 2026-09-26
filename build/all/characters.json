@@ -2,21 +2,21 @@
  {
   "board_eligible": true,
   "by_category": {
-   "coincidence": 34.0,
-   "physics": 32.0,
-   "skill": 8.5,
-   "survival": 22.5
+   "coincidence": 35.0,
+   "physics": 35.0,
+   "skill": 12.5,
+   "survival": 23.5
   },
   "by_mode": {
-   "caused": 39.0,
-   "endured": 24.0,
-   "luck": 34.0
+   "caused": 46.0,
+   "endured": 25.0,
+   "luck": 35.0
   },
-  "central": 97.0,
-  "high": 137.5,
+  "central": 106.0,
+  "high": 149.5,
   "id": "dom",
   "ineligible_reason": "",
-  "low": 66.0,
+  "low": 71.0,
   "lower_bound": true,
   "minutes": {
    "central": 590.664,
@@ -24,14 +24,14 @@
    "high": 738.33,
    "low": 442.998
   },
-  "n_events": 23,
+  "n_events": 26,
   "n_films": 8,
   "name": "Dominic Toretto",
   "plot_armor": 20,
   "rate_per_100": {
-   "central": 16.422196037002422,
-   "high": 31.038514846568155,
-   "low": 8.939092275811628
+   "central": 17.94590494765213,
+   "high": 33.7473306877232,
+   "low": 9.61629623610039
   },
   "signature_event": "ev-ff05-03"
  },
@@ -470,6 +470,78 @@
  {
   "board_eligible": true,
   "by_category": {
+   "coincidence": 0.0,
+   "physics": 9.5,
+   "skill": 0.0,
+   "survival": 1.5
+  },
+  "by_mode": {
+   "caused": 7.5,
+   "endured": 3.5,
+   "luck": 0.0
+  },
+  "central": 11.0,
+  "high": 15.5,
+  "id": "jakob",
+  "ineligible_reason": "",
+  "low": 6.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 80.8,
+   "films": 2,
+   "high": 101.0,
+   "low": 60.6
+  },
+  "n_events": 3,
+  "n_films": 2,
+  "name": "Jakob Toretto",
+  "plot_armor": 2,
+  "rate_per_100": {
+   "central": 13.613861386138614,
+   "high": 25.577557755775576,
+   "low": 5.9405940594059405
+  },
+  "signature_event": "ev-ff10-05"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
+   "coincidence": 0.0,
+   "physics": 5.0,
+   "skill": 1.5,
+   "survival": 4.5
+  },
+  "by_mode": {
+   "caused": 1.5,
+   "endured": 9.5,
+   "luck": 0.0
+  },
+  "central": 11.0,
+  "high": 15.0,
+  "id": "little_b",
+  "ineligible_reason": "",
+  "low": 7.0,
+  "lower_bound": false,
+  "minutes": {
+   "central": 34.4,
+   "films": 1,
+   "high": 43.0,
+   "low": 25.8
+  },
+  "n_events": 3,
+  "n_films": 1,
+  "name": "Brian Marcos (Little B)",
+  "plot_armor": 0,
+  "rate_per_100": {
+   "central": 31.976744186046513,
+   "high": 58.139534883720934,
+   "low": 16.27906976744186
+  },
+  "signature_event": "ev-ff10-05"
+ },
+ {
+  "board_eligible": true,
+  "by_category": {
    "coincidence": 1.0,
    "physics": 2.5,
    "skill": 4.0,
@@ -506,42 +578,6 @@
  {
   "board_eligible": false,
   "by_category": {
-   "coincidence": 0.0,
-   "physics": 4.5,
-   "skill": 0.0,
-   "survival": 0.5
-  },
-  "by_mode": {
-   "caused": 2.5,
-   "endured": 2.5,
-   "luck": 0.0
-  },
-  "central": 5.0,
-  "high": 7.5,
-  "id": "jakob",
-  "ineligible_reason": "2 events < 3",
-  "low": 2.5,
-  "lower_bound": false,
-  "minutes": {
-   "central": 80.8,
-   "films": 2,
-   "high": 101.0,
-   "low": 60.6
-  },
-  "n_events": 2,
-  "n_films": 1,
-  "name": "Jakob Toretto",
-  "plot_armor": 2,
-  "rate_per_100": {
-   "central": 6.188118811881188,
-   "high": 12.376237623762377,
-   "low": 2.4752475247524752
-  },
-  "signature_event": "ev-ff09-05"
- },
- {
-  "board_eligible": false,
-  "by_category": {
    "coincidence": 2.0,
    "physics": 1.5,
    "skill": 0.0,
@@ -574,42 +610,6 @@
    "low": 6.25
   },
   "signature_event": "ev-ff05-04"
- },
- {
-  "board_eligible": false,
-  "by_category": {
-   "coincidence": 0.0,
-   "physics": 0.0,
-   "skill": 0.0,
-   "survival": 3.5
-  },
-  "by_mode": {
-   "caused": 0.0,
-   "endured": 3.5,
-   "luck": 0.0
-  },
-  "central": 3.5,
-  "high": 5.0,
-  "id": "little_b",
-  "ineligible_reason": "1 events < 3",
-  "low": 2.5,
-  "lower_bound": false,
-  "minutes": {
-   "central": 34.4,
-   "films": 1,
-   "high": 43.0,
-   "low": 25.8
-  },
-  "n_events": 1,
-  "n_films": 1,
-  "name": "Brian Marcos (Little B)",
-  "plot_armor": 0,
-  "rate_per_100": {
-   "central": 10.174418604651162,
-   "high": 19.37984496124031,
-   "low": 5.813953488372093
-  },
-  "signature_event": "ev-ff10-03"
  },
  {
   "board_eligible": false,
@@ -754,5 +754,41 @@
    "low": 1.36986301369863
   },
   "signature_event": "ev-ff01-01"
+ },
+ {
+  "board_eligible": false,
+  "by_category": {
+   "coincidence": 1.0,
+   "physics": 0.0,
+   "skill": 0.0,
+   "survival": 0.5
+  },
+  "by_mode": {
+   "caused": 0.0,
+   "endured": 0.5,
+   "luck": 1.0
+  },
+  "central": 1.5,
+  "high": 2.5,
+  "id": "isabel",
+  "ineligible_reason": "1 events < 3; 13 min < 30",
+  "low": 0.5,
+  "lower_bound": false,
+  "minutes": {
+   "central": 12.8,
+   "films": 1,
+   "high": 16.0,
+   "low": 9.6
+  },
+  "n_events": 1,
+  "n_films": 1,
+  "name": "Isabel Neves",
+  "plot_armor": 0,
+  "rate_per_100": {
+   "central": 11.71875,
+   "high": 26.041666666666668,
+   "low": 3.125
+  },
+  "signature_event": "ev-ff10-07"
  }
 ]

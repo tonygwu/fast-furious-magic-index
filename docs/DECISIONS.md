@@ -20,3 +20,16 @@
 - **2026-09-25 — The Fate torpedo and missile are two moments.** The owner confirmed on viewing that Hobbs
   redirecting the torpedo (ev-ff08-04) and Dom luring the missile into the submarine (ev-ff08-06) are separate
   on-screen moments (source `owner-ff08-arctic`). Both events stay scored; the "same beat" flags are removed.
+- **2026-09-25 — Fast X second sourcing pass.** A second research pass found independent second sources for four
+  Fast X candidates, and the owner confirmed the airliner escape on viewing (source `owner-ff10-airliner`). New events:
+  the airliner escape, the harpoon helicopters, Dom rolling Isabel's car, and Little B's car-to-car jump. The Rome truck
+  hack is merged into the rolling bomb, and Jakob's floor slam is now sourced but scores below the threshold. Fast X
+  rises from 15 to 32 MU. Where the airliner's aircraft type is disputed (glider or jet), the components are judged
+  and wide, and no single-source detail such as the altitude is used as a fact.
+- **2026-09-25 — Pages on one fan wiki count as one source.** Sub-pages of the Fast & Furious wiki, such as a
+  character page and a sequence page, share editors and often share wording, so they do not count as independent of
+  the wiki's film page. A copy of a wiki page on another wiki also does not count.
+- **2026-09-25 — Little B now leads the rate board, under the existing rules.** The new Fast X events give Little B
+  3 events and about 34 estimated minutes, which meets the board thresholds (3 events, 30 minutes). Little B leads in
+  about 63% of simulated draws, ahead of Tej. The thresholds were not changed after seeing this result; the page shows
+  the lead as a tie band, and the low end of Little B's screen-time estimate is under 30 minutes.

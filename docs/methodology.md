@@ -85,8 +85,9 @@ converted into Magic Units, because narrative convenience and physical improbabi
 
 - Screen time is estimated from scene-by-scene presence logs, not measured frame by frame, so the per-minute board
   is a band rather than a ranking.
-- A scene with only one source is not scored at all, which holds some films below their true total. Fast X is the
-  most affected.
+- A scene with only one source is not scored at all, which holds some films below their true total. Fast X and The
+  Fate of the Furious are the most affected. Other pages on the same fan wiki count as one source, not several,
+  because they share editors and often share wording.
 - Above the cap, scores are lower bounds, so a larger gap between two capped scenes is not a real difference.
 - The scores rest on written descriptions of the films, plus a few confirmations from the project owner's own
   viewing. Details that exist only on screen are flagged per event as "visually unverified".

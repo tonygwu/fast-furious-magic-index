@@ -142,7 +142,45 @@ Sources: [Stunts Unlimited: F8 stunt reveal (ice, torpedo grab, car blasts)](htt
 
 Sources: [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wiki/Furious_7), [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [Screen Rant: how the Furious 7 cargo-plane car drop was filmed](https://screenrant.com/fast-furious-7-cargo-plane-cars-stunt-filmed/)
 
-## 9. Dom catches Letty in mid-air over the highway — Fast & Furious 6 (2013)
+## 9. Escaping an airliner mid-flight in a small aircraft from the cargo hold — Fast X (2023)
+`ev-ff10-05` · 6 MU (envelope 3.5–8) · 1 in 10^6 · confidence medium
+
+**Depicted.** A flight attendant gives Jakob a key and three miniature bottles of vodka. He fights off the agents sent after him and Little B, and the two leave the airliner mid-flight in a small aircraft stowed in the cargo hold, with the alcohol used as fuel.
+**Inferred.** Sources disagree on the aircraft: a glider in some recaps, a jet in others. Single sources give the key opening the cargo hatch, a 747 and 36,000 ft; none of these is used as a fact.
+**Visually unverified:** glider or jet; altitude; how the cargo hatch opens; where they land
+
+| # | Category | Claim | Evidence | MU low / central / high | Credited |
+|---|---|---|---|---|---|
+| c1 | physics | A small aircraft leaves an airliner's cargo hold in flight and flies clear of the airliner | E4 | 2 / 3 / 3 | jakob (controller), little_b (occupant) |
+| c2 | physics | Three miniature bottles of vodka usefully fuel the aircraft | E4 | 1 / 2 / 3 | jakob (controller), little_b (occupant) |
+| c3 | survival | A man and a child stay conscious and uninjured in a small open aircraft leaving cruise flight | E4 | 0.5 / 1 / 2 | jakob (survivor), little_b (survivor) |
+
+- **c1** A cargo hatch opened in flight exposes the hold to an airstream moving at the airliner's speed, and a light aircraft released into it must separate without striking the fuselage or tail. No source gives the altitude, the speed or the hatch type, so no force comparison is possible and the component is held at the judgment cap. *Dependence:* First component.
+- **c2** Three miniatures hold about 60 ml of ethanol, a tiny fraction of the fuel any powered aircraft carries. If the aircraft is a glider the fuel matters less, which is why the range is wide. Judgment prior about 1 in 100. *Dependence:* Conditional on c1.
+- **c3** At airliner cruise altitude the air is too thin to stay conscious for long and very cold. The altitude is not established by two sources, so this is judged, about 1 in 10. *Dependence:* Conditional on c1; one component for both occupants.
+
+Sources: [Project owner's viewing confirmation (2026-09-25): in Fast X, Jakob and Little B escape a commercial airliner in a small aircraft stowed in the cargo hold](), [Dexerto: Meadow Walker's Fast X cameo explained](https://www.dexerto.com/tv-movies/fast-x-meadow-walker-cameo-in-fast-furious-10-explained-2149539/), [Looper: Fast X's most over-the-top moments, ranked](https://www.looper.com/1289180/fast-x-most-over-the-top-moments-ranked/), [The Hollywood Reporter: Fast X review](https://www.hollywoodreporter.com/movies/movie-reviews/fast-x-review-jason-momoa-1235492802/), [Screen Rant: Fast X's most ridiculous moments](https://screenrant.com/fast-x-most-ridiculous-moments-stunts/)
+
+## 10. Two harpoon helicopters made to collide, then swung as flails — Fast X (2023)
+`ev-ff10-06` · 6 MU (envelope 3.5–7.5) · 1 in 10^6 · confidence medium
+
+**Depicted.** Two helicopters fire harpoons on cables into Dom's Charger to lift it off an elevated highway. Dom fires the nitrous and jumps from the upper deck to the lower deck, and the tethered helicopters collide and crash. He then spins the car and swings the burning wrecks, still attached by cable, into Dante's cars.
+**Inferred.** No source names the helicopter model or gives the cable length, the deck height or the speed. The production did not film a real collision or real cables.
+**Visually unverified:** deck height; whether the collision is caused by the jump or by the speed burst
+
+| # | Category | Claim | Evidence | MU low / central / high | Credited |
+|---|---|---|---|---|---|
+| c1 | skill | While harpooned from both sides, Dom drives so that the two helicopters collide with each other | E4 | 1 / 2 / 3 | dom (performer) |
+| c2 | survival | Dom and the car survive the drop from the upper deck to the lower deck and keep driving | E4 | 0.5 / 1 / 1.5 | dom (survivor) |
+| c3 | physics | A car spinning donuts swings two tethered helicopter wrecks as flails | E4 | 2 / 3 / 3 | dom (controller) |
+
+- **c1** The helicopters fly on opposite sides of the road, and one jump must pull both onto the same line at the same moment. Judgment prior about 1 in 100. *Dependence:* First component.
+- **c2** In production an empty Charger fired from the top deck onto the lower deck was wrecked beyond repair. A driver walking away and the car still running is judged about 1 in 10. *Dependence:* Conditional on c1.
+- **c3** Each wreck is likely heavier than the car, so a spinning car would be dragged by the wrecks rather than swing them. The helicopter model is not named, so no mass comparison is possible and the component is held at the judgment cap. *Dependence:* Conditional on c2.
+
+Sources: [The Movie Spoiler: Fast X](https://themoviespoiler.com/movies/fast-x/), [Looper: Fast X's most over-the-top moments, ranked](https://www.looper.com/1289180/fast-x-most-over-the-top-moments-ranked/), [SYFY Wire: the ending of Fast X explained](https://www.syfy.com/syfy-wire/the-ending-of-fast-x-explained), [befores & afters: how the Fast X nunchuck helicopter sequence was done (DNEG VFX supervisors)](https://beforesandafters.com/2023/07/27/how-that-crazy-nunchuck-helicopter-sequence-in-fast-x-was-pulled-off/), [Collider: Fast X helicopter stunt featurette (stunt coordinator Jack Gill)](https://collider.com/fast-x-video-helicopter-stunt/)
+
+## 11. Dom catches Letty in mid-air over the highway — Fast & Furious 6 (2013)
 `ev-ff06-03` · 6 MU (envelope 4–7) · 1 in 10^6 · confidence medium
 
 **Depicted.** Letty is thrown from the overturning tank off the elevated highway. Dom drives off the edge, intercepts her in mid-air on his windshield, and the car lands on a parked vehicle below. Both survive and walk away.
@@ -159,7 +197,7 @@ Sources: [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wi
 
 Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia.org/wiki/Fast_%26_Furious_6), [Dan's Reality Check: Fast and Furious 6 (catch lethality, runway length)](https://supermarcey.com/2013/06/26/dans-reality-check-fast-and-furious-6/), [Spoilertown: Fast & Furious 6 recap](https://spoilertown.com/fast-furious-6-2013/)
 
-## 10. Lykan HyperSport jumps between the Etihad Towers — Furious 7 (2015)
+## 12. Lykan HyperSport jumps between the Etihad Towers — Furious 7 (2015)
 `ev-ff07-04` · 5.5 MU (envelope 3–9.5) · 1 in 300,000 · confidence medium
 
 **Depicted.** Dom and Brian drive the Lykan HyperSport out through the glass of one Etihad Tower around the 45th-50th floor, across open air into a second tower, fail to stop, crash out the far side into a third tower, and bail out before the car falls to the ground.
@@ -178,7 +216,7 @@ Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia
 
 Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [The National: Furious 7 Etihad Towers stunt, can it be done?](https://www.thenationalnews.com/arts/furious-7-etihad-towers-stunt-can-it-be-done-1.53542), [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wiki/Furious_7)
 
-## 11. Driving down the face of a 460 ft dam — Fast X (2023)
+## 13. Driving down the face of a 460 ft dam — Fast X (2023)
 `ev-ff10-03` · 4.5 MU (envelope 3–7) · 1 in 30,000 · confidence medium
 
 **Depicted.** Boxed in between two drone-driven tanker trucks on top of a dam, Dom drives off the edge with his son Little B, down the dam's face, and lands in the water below. Both are shown alive before Dante blows up the dam.
@@ -195,7 +233,7 @@ Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com
 
 Sources: [Wikipedia: Fast X, plot and production](https://en.wikipedia.org/wiki/Fast_X), [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wiki/Fast_X), [The Ringer: the Fast X dam stunt (Jack Gill, 460 ft Aldeadávila Dam)](https://www.theringer.com/2023/05/23/movies/fast-x-dam-stunt-dominic-toretto-louis-leterrier)
 
-## 12. Outrunning landmines at 80 mph — F9 (2021)
+## 14. Outrunning landmines at 80 mph — F9 (2021)
 `ev-ff09-01` · 4 MU (envelope 2.5–7) · 1 in 10,000 · confidence medium
 
 **Depicted.** Fleeing soldiers, the team drives into a minefield. Tej tells everyone to stay above 80 mph "to avoid being blown up"; they race through as mines detonate around them. Roman's car is destroyed and he barely escapes the blast.
@@ -211,7 +249,7 @@ Sources: [Wikipedia: Fast X, plot and production](https://en.wikipedia.org/wiki/
 
 Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfurious.fandom.com/wiki/Montequinto_Recovery_Mission), [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/)
 
-## 13. Dom leads a homing missile into the submarine — The Fate of the Furious (2017)
+## 15. Dom leads a homing missile into the submarine — The Fate of the Furious (2017)
 `ev-ff08-06` · 4 MU (envelope 2–6.5) · 1 in 10,000 · confidence medium
 
 **Depicted.** Cipher fires an infrared homing missile at Dom's Charger. Dom manoeuvres so it strikes the trailing submarine instead, destroying it; the team forms a wall of cars around him to shield him from the explosion.
@@ -228,10 +266,10 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 
 Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wikipedia.org/wiki/The_Fate_of_the_Furious), [Fast & Furious Wiki: The Fate of the Furious plot](https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious), [YouTube clip: The Fate of the Furious, Muscle Car vs. Nuclear Submarine](https://www.youtube.com/watch?v=rMLG6BcAdK0), [Project owner's viewing confirmation (2026-09-25): in The Fate of the Furious, Hobbs redirecting the torpedo and Dom luring the missile into the submarine are two separate on-screen moments]()
 
-## 14. Steering a rolling bomb through Rome into the Tiber — Fast X (2023)
+## 16. Steering a rolling bomb through Rome into the Tiber — Fast X (2023)
 `ev-ff10-01` · 4 MU (envelope 2–6.5) · 1 in 10,000 · confidence medium
 
-**Depicted.** Dante releases a giant spherical bomb that rolls through Rome, crushing cars and bouncing down the Spanish Steps. Dom uses his Charger to push it through the streets and into the Tiber, limiting the damage when it detonates.
+**Depicted.** Dante releases a giant spherical bomb that rolls through Rome, crushing cars, splitting a bus and bouncing down the Spanish Steps. Dom uses his Charger to push it through the streets, then drives into a crane that knocks it into the Tiber, limiting the damage when it detonates.
 **Inferred.** The bomb's in-story mass is unclear (the prop was one ton; one article calls it ten).
 **Visually unverified:** how far Dom is from the blast
 
@@ -245,9 +283,9 @@ Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wi
 - **c2** An armed device taking repeated heavy shocks. Judgment prior about 1 in 10. *Dependence:* Independent of c1.
 - **c3** He pushes the bomb in and drives away; a blast wave travels at the speed of sound or faster, far faster than a car, so survival depends only on the distance he reached. Judgment prior about 1 in 10. *Dependence:* Conditional on c1 (he is at the river when it goes in).
 
-Sources: [Wikipedia: Fast X, plot and production](https://en.wikipedia.org/wiki/Fast_X), [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wiki/Fast_X), [High On Films: how Fast X's giant rolling bomb was done (one-ton prop)](https://www.highonfilms.com/fast-x-giant-bomb-rolling-scene/)
+Sources: [Wikipedia: Fast X, plot and production](https://en.wikipedia.org/wiki/Fast_X), [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wiki/Fast_X), [High On Films: how Fast X's giant rolling bomb was done (one-ton prop)](https://www.highonfilms.com/fast-x-giant-bomb-rolling-scene/), [The Movie Spoiler: Fast X](https://themoviespoiler.com/movies/fast-x/), [Looper: Fast X's most over-the-top moments, ranked](https://www.looper.com/1289180/fast-x-most-over-the-top-moments-ranked/)
 
-## 15. Zero Day hack of a thousand cars and the raining cars — The Fate of the Furious (2017)
+## 17. Zero Day hack of a thousand cars and the raining cars — The Fate of the Furious (2017)
 `ev-ff08-02` · 4 MU (envelope 2.5–5) · 1 in 10,000 · confidence high
 
 **Depicted.** Cipher remotely takes over "over a thousand" cars across Manhattan, drives them into the Russian minister's motorcade, and sends cars off the upper floors of a parking garage onto the street.
@@ -263,7 +301,7 @@ Sources: [Wikipedia: Fast X, plot and production](https://en.wikipedia.org/wiki/
 
 Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wikipedia.org/wiki/The_Fate_of_the_Furious), [Fast & Furious Wiki: The Fate of the Furious plot](https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious), [Den of Geek: The Fate of the Furious review](https://www.denofgeek.com/movies/the-fate-of-the-furious-review/), [Springfield! Springfield!: The Fate of the Furious transcript](https://www.springfieldspringfield.co.uk/movie_script.php?movie=the-fate-of-the-furious)
 
-## 16. Charger launched off a collapsing garage at a helicopter — Furious 7 (2015)
+## 18. Charger launched off a collapsing garage at a helicopter — Furious 7 (2015)
 `ev-ff07-05` · 3.5 MU (envelope 2–6) · 1 in 3,000 · confidence medium
 
 **Depicted.** As the parking structure collapses, Dom drives his Charger off it at Jakande's helicopter. The car appears to miss and crashes into the rubble, leaving a belt of grenades hanging from the helicopter, which Hobbs detonates by gunfire. Dom is pulled from the wreck, revived by CPR, and wakes.
@@ -281,7 +319,7 @@ Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wi
 
 Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wiki/Furious_7)
 
-## 17. Charger dropped from a cargo plane onto the highway — Fast X (2023)
+## 19. Charger dropped from a cargo plane onto the highway — Fast X (2023)
 `ev-ff10-02` · 3.5 MU (envelope 1.5–6) · 1 in 3,000 · confidence medium
 
 **Depicted.** Dom arrives with Aimes aboard a plane and drops his Charger out of it onto the highway below, landing and driving straight into the chase.
@@ -298,7 +336,7 @@ Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com
 
 Sources: [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wiki/Fast_X), [Screen Rant: Fast X's most ridiculous moments](https://screenrant.com/fast-x-most-ridiculous-moments-stunts/)
 
-## 18. Vault swapped into a garbage truck mid-chase, unseen — Fast Five (2011)
+## 20. Vault swapped into a garbage truck mid-chase, unseen — Fast Five (2011)
 `ev-ff05-04` · 3.5 MU (envelope 2–5) · 1 in 3,000 · confidence low
 
 **Depicted.** During the chase the real vault is transferred into a disguised garbage truck and replaced by a decoy. Hobbs finds the vault at the bridge empty.
@@ -315,7 +353,7 @@ Sources: [Fast & Furious Wiki: Fast X plot](https://fastandfurious.fandom.com/wi
 
 Sources: [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wiki/Fast_Five), [Fast & Furious Wiki: Vault Heist](https://fastandfurious.fandom.com/wiki/Vault_Heist)
 
-## 19. Brian runs off a bus falling off a cliff, Letty drifts in to catch him — Furious 7 (2015)
+## 21. Brian runs off a bus falling off a cliff, Letty drifts in to catch him — Furious 7 (2015)
 `ev-ff07-03` · 3 MU (envelope 1.5–5) · 1 in 1,000 · confidence medium
 
 **Depicted.** After fighting Kiet, Brian is trapped on the bus as it slides off a cliff. He runs up the tilting bus and jumps off the end; Letty drifts her car along the cliff edge at that moment and Brian grabs onto it.
@@ -333,7 +371,7 @@ Sources: [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wi
 
 Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [Screen Rant: how the Furious 7 bus jump was filmed](https://screenrant.com/fast-furious-7-brian-bus-jump-stunt-filmed-how/), [Andrew Gats: Furious 7 recap and review](https://andrewgats.wordpress.com/2015/04/15/fast-furious-7-recap-review/)
 
-## 20. Hobbs descends the tower by leaping onto people — Hobbs & Shaw (2019)
+## 22. Hobbs descends the tower by leaping onto people — Hobbs & Shaw (2019)
 `ev-hs-03` · 3 MU (envelope 1.5–5) · 1 in 1,000 · confidence low
 
 **Depicted.** Hobbs jumps out of the same window after Brixton, descending the building by leaping from person to person, and tackles Brixton through plate glass.
@@ -350,7 +388,7 @@ Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com
 
 Sources: [CBR: Hobbs & Shaw's most ridiculous action moments](https://www.cbr.com/hobbs-shaw-most-ridiculous-action-moments/), [Plugged In: Hobbs & Shaw review](https://www.pluggedin.com/movie-reviews/hobbs-and-shaw/)
 
-## 21. Blast-thrown truck swats Cipher's drone — F9 (2021)
+## 23. Blast-thrown truck swats Cipher's drone — F9 (2021)
 `ev-ff09-07` · 3 MU (envelope 1.5–4.5) · 1 in 1,000 · confidence medium
 
 **Depicted.** Cipher fires at the armoured truck from a drone jet. Dom jumps out at the last moment, Otto dies, and the blast sends the truck into Cipher's drone, destroying it.
@@ -366,7 +404,7 @@ Sources: [CBR: Hobbs & Shaw's most ridiculous action moments](https://www.cbr.co
 
 Sources: [Fast & Furious Wiki: F9 plot](https://fastandfurious.fandom.com/wiki/F9), [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/), [Wikipedia: F9 (film), plot](https://en.wikipedia.org/wiki/F9_(film))
 
-## 22. Cipher rides a free-falling elevator down on a human cushion — Fast X (2023)
+## 24. Cipher rides a free-falling elevator down on a human cushion — Fast X (2023)
 `ev-ff10-04` · 3 MU (envelope 1.5–4.5) · 1 in 1,000 · confidence medium
 
 **Depicted.** Trapped in an elevator with a henchman Dante has turned against her, Cipher shoots out the car's cable. The car free-falls to the bottom of the shaft; she positions the henchman beneath her as a crash cushion. He dies; she survives and reaches Dom's house, wounded, that night.
@@ -383,7 +421,7 @@ Sources: [Fast & Furious Wiki: F9 plot](https://fastandfurious.fandom.com/wiki/F
 
 Sources: [Project owner's viewing confirmation (2026-09-19): in Fast X, Cipher survives an elevator free fall by landing on a henchman as a human cushion](), [Screen Rant: Fast X's most ridiculous moments](https://screenrant.com/fast-x-most-ridiculous-moments-stunts/)
 
-## 23. Corvette off a 300 ft canyon, both swim away — Fast Five (2011)
+## 25. Corvette off a 300 ft canyon, both swim away — Fast Five (2011)
 `ev-ff05-02` · 3 MU (envelope 2–4) · 1 in 1,000 · confidence medium
 
 **Depicted.** Cornered at a canyon edge, Dom drives the stolen Corvette off the cliff with Brian. The two separate from the falling car, fall into the river below, and swim to shore with no depicted injury.
@@ -398,7 +436,7 @@ Sources: [Project owner's viewing confirmation (2026-09-19): in Fast X, Cipher s
 
 Sources: [Screen Rant: how the Fast Five cliff freefall was filmed](https://screenrant.com/fast-5-dom-brian-cliff-freefall-filmed-how/), [Inverse: Fast Five freefall retrospective](https://www.inverse.com/article/28298-fast-furious-five-freefall-retrospective), [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wiki/Fast_Five)
 
-## 24. Camaro ramp-jumps onto a moving yacht — 2 Fast 2 Furious (2003)
+## 26. Camaro ramp-jumps onto a moving yacht — 2 Fast 2 Furious (2003)
 `ev-ff02-02` · 2.5 MU (envelope 1–4.5) · 1 in 300 · confidence medium
 
 **Depicted.** Verone flees by yacht. Brian drives the 1969 Camaro, with Roman aboard, off a ramp and lands it on the moving boat. Roman breaks an arm and Brian is banged up, but both subdue Verone's men minutes later.
@@ -417,7 +455,7 @@ Sources: [Screen Rant: how the Fast Five cliff freefall was filmed](https://scre
 
 Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fast_2_Furious), [Slick Dungeon: 2 Fast 2 Furious review (scene detail)](https://slickdungeon.blog/2023/05/11/2-fast-2-furious-movie-review/), [MovieSpoilers.io: 2 Fast 2 Furious](https://www.moviespoilers.io/movie/2-fast-2-furious), [PlotExplained: 2 Fast 2 Furious](https://www.plotexplained.com/movie/2-fast-2-furious)
 
-## 25. Jakob and his car snatched by a magnet aircraft — F9 (2021)
+## 27. Jakob and his car snatched by a magnet aircraft — F9 (2021)
 `ev-ff09-03` · 2.5 MU (envelope 1–4.5) · 1 in 300 · confidence low
 
 **Depicted.** Cornered at a cliff edge with the device, Jakob is picked up, car and all, by a large aircraft or drone with a magnet underneath.
@@ -434,7 +472,7 @@ Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fas
 
 Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfurious.fandom.com/wiki/Montequinto_Recovery_Mission), [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/)
 
-## 26. Dom drives out through the exploding plane's nose — Fast & Furious 6 (2013)
+## 28. Dom drives out through the exploding plane's nose — Fast & Furious 6 (2013)
 `ev-ff06-05` · 2.5 MU (envelope 1.5–4) · 1 in 300 · confidence medium
 
 **Depicted.** As the tethered plane breaks apart and burns, Dom drives his Charger out through the disintegrating nose section and walks away largely unharmed.
@@ -450,7 +488,7 @@ Sources: [Fast & Furious Wiki: Montequinto Recovery Mission](https://fastandfuri
 
 Sources: [fxguide: Fast & Furious 6, just plane crazy](https://www.fxguide.com/fxfeatured/fast-furious-6-just-plane-crazy/), [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia.org/wiki/Fast_%26_Furious_6)
 
-## 27. A nuclear submarine chases cars through the ice — The Fate of the Furious (2017)
+## 29. A nuclear submarine chases cars through the ice — The Fate of the Furious (2017)
 `ev-ff08-03` · 2.5 MU (envelope 1–4) · 1 in 300 · confidence medium
 
 **Depicted.** Cipher's hijacked Akula-class submarine pursues the team's cars across a frozen sea, breaking up through the ice beneath and around the moving cars.
@@ -466,7 +504,43 @@ Sources: [fxguide: Fast & Furious 6, just plane crazy](https://www.fxguide.com/f
 
 Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wikipedia.org/wiki/The_Fate_of_the_Furious), [Fast & Furious Wiki: The Fate of the Furious plot](https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious), [Art of VFX: The Fate of the Furious (Digital Domain)](https://www.artofvfx.com/the-fate-of-the-furious-jay-barton-vfx-supervisor-nikos-kalaitzidis-dfx-supervisor-digital-domain/), [vfxblog: ice, cars, fire and a submarine](https://vfxblog.com/2017/04/24/ice-cars-fire-and-a-submarine-just-another-day-on-the-fate-of-the-furious/)
 
-## 28. Brian and Roman overturn the tank — Fast & Furious 6 (2013)
+## 30. Dom flips Isabel's car to knock the bomb off — Fast X (2023)
+`ev-ff10-07` · 2.5 MU (envelope 1–4) · 1 in 300 · confidence medium
+
+**Depicted.** Dante has planted bombs on Isabel's and Diogo's cars. After Diogo's car explodes, Dante moves to detonate Isabel's. Dom makes her car crash and roll, which knocks the bomb off, and he pulls her out of the wreck.
+**Inferred.** No source gives the race speed; only wiki pages say Dom rams her car.
+**Visually unverified:** how Dom causes the roll; whether Isabel is injured
+
+| # | Category | Claim | Evidence | MU low / central / high | Credited |
+|---|---|---|---|---|---|
+| c1 | skill | Dom makes a moving car roll in the one way that throws a bomb clear | E4 | 0.5 / 1 / 1.5 | dom (performer) |
+| c2 | coincidence | The bomb comes free before Dante detonates it | E4 | 0.5 / 1 / 1.5 | dom (beneficiary), isabel (beneficiary) |
+| c3 | survival | Isabel survives a racing rollover | E4 | 0 / 0.5 / 1 | isabel (survivor) |
+
+- **c1** Rolling another car deliberately is uncontrolled, and the bomb must come off rather than stay attached. Judgment prior about 1 in 10. *Dependence:* First component.
+- **c2** Dante is already moving to detonate it, so the window is seconds long. Judgment prior about 1 in 10. *Dependence:* Conditional on c1.
+- **c3** Belted occupants usually survive rollovers, so this adds little. *Dependence:* Conditional on c1.
+
+Sources: [LADbible: Fast X filmed 360-degree car spins (Daniela Melchior and Alan Ritchson interview)](https://www.ladbible.com/entertainment/fast-x-filmed-360-degree-car-spins-968527-20230519), [The Movie Spoiler: Fast X](https://themoviespoiler.com/movies/fast-x/)
+
+## 31. Little B leaps from Dante's moving car into Dom's Charger — Fast X (2023)
+`ev-ff10-08` · 2.5 MU (envelope 1.5–3.5) · 1 in 300 · confidence medium
+
+**Depicted.** Dante has grabbed Little B into his car. Dom pulls alongside at speed, and Little B jumps out of Dante's car and in through the Charger's window.
+**Inferred.** The speed is not given. Little B is eight or about ten, depending on the source.
+**Visually unverified:** speed; gap between the cars
+
+| # | Category | Claim | Evidence | MU low / central / high | Credited |
+|---|---|---|---|---|---|
+| c1 | skill | A child jumps between two cars at highway speed and lands inside through a window | E4 | 1 / 1.5 / 2 | little_b (performer) |
+| c2 | skill | Dom holds his car level with Dante's, close enough for the jump, under fire | E4 | 0.5 / 1 / 1.5 | dom (performer) |
+
+- **c1** Professional stunt performers do car-to-car transfers with rigging and rehearsal. A child doing it unrigged, through a window, is judged about 1 in 30. *Dependence:* First component.
+- **c2** The gap and speed must match for the second the jump takes. Judgment prior about 1 in 10. *Dependence:* Conditional on c1.
+
+Sources: [Looper: Fast X's most over-the-top moments, ranked](https://www.looper.com/1289180/fast-x-most-over-the-top-moments-ranked/), [The Movie Spoiler: Fast X](https://themoviespoiler.com/movies/fast-x/)
+
+## 32. Brian and Roman overturn the tank — Fast & Furious 6 (2013)
 `ev-ff06-02` · 2.5 MU (envelope 1.5–3) · 1 in 300 · confidence low
 
 **Depicted.** Brian and Roman overturn Owen Shaw's tank, which ejects Letty from it.
@@ -481,7 +555,7 @@ Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wi
 
 Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia.org/wiki/Fast_%26_Furious_6), [Spoilertown: Fast & Furious 6 recap](https://spoilertown.com/fast-furious-6-2013/)
 
-## 29. Cars thrown 60 ft by torpedo blasts, everyone lives — The Fate of the Furious (2017)
+## 33. Cars thrown 60 ft by torpedo blasts, everyone lives — The Fate of the Furious (2017)
 `ev-ff08-05` · 2.5 MU (envelope 1.5–3) · 1 in 300 · confidence low
 
 **Depicted.** Torpedo strikes on the ice throw four cars and ice about 60 ft into the air; the occupants are shown surviving.
@@ -496,7 +570,7 @@ Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia
 
 Sources: [Stunts Unlimited: F8 stunt reveal (ice, torpedo grab, car blasts)](https://stuntsunlimited.com/f8_stunt_reveal/), [vfxblog: ice, cars, fire and a submarine](https://vfxblog.com/2017/04/24/ice-cars-fire-and-a-submarine-just-another-day-on-the-fate-of-the-furious/)
 
-## 30. Magnetised cars flip an armoured truck out of Tbilisi — F9 (2021)
+## 34. Magnetised cars flip an armoured truck out of Tbilisi — F9 (2021)
 `ev-ff09-05` · 2.5 MU (envelope 1.5–3) · 1 in 300 · confidence low
 
 **Depicted.** The team magnetises their cars to the front of Otto's armoured 16-wheeler, the "Armadillo", and with Jakob's help sends it flipping upwards, end over end, out of the city.
@@ -511,7 +585,7 @@ Sources: [Stunts Unlimited: F8 stunt reveal (ice, torpedo grab, car blasts)](htt
 
 Sources: [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/), [Fast & Furious Wiki: F9 plot](https://fastandfurious.fandom.com/wiki/F9)
 
-## 31. Cable boarding of a moving semi — The Fast and the Furious (2001)
+## 35. Cable boarding of a moving semi — The Fast and the Furious (2001)
 `ev-ff01-01` · 2 MU (envelope 1–3.5) · 1 in 100 · confidence medium
 
 **Depicted.** Three black Honda Civics chase a semi at night. Vince fires a grappling hook through the windshield, fires a second line into the cab, and pulls himself from his moving Civic into the moving cab at highway speed.
@@ -528,7 +602,7 @@ Sources: [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/), [Fast 
 
 Sources: [Wikipedia: The Fast and the Furious (2001 film), plot](https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)), [Fast & Furious Wiki: Assault on the Rodgers Truck (summary only; full page unavailable)](https://fastandfurious.fandom.com/wiki/Assault_on_the_Rodgers_Truck)
 
-## 32. Skyline jumps a rising drawbridge — 2 Fast 2 Furious (2003)
+## 36. Skyline jumps a rising drawbridge — 2 Fast 2 Furious (2003)
 `ev-ff02-01` · 2 MU (envelope 1–3.5) · 1 in 100 · confidence low
 
 **Depicted.** As a Miami drawbridge begins to open mid-race, Brian fires his nitrous, launches his R34 Skyline off the rising leaf, lands cleanly on all four wheels on the far side and goes on to win the race.
@@ -545,7 +619,7 @@ Sources: [Wikipedia: The Fast and the Furious (2001 film), plot](https://en.wiki
 
 Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fast_2_Furious), [Yahoo/Motorious: pulling off the crazy S2000 bridge jump (behind the scenes)](https://finance.yahoo.com/news/pulling-off-crazy-s2000-bridge-142200761.html)
 
-## 33. Havana race won on fire and in reverse — The Fate of the Furious (2017)
+## 37. Havana race won on fire and in reverse — The Fate of the Furious (2017)
 `ev-ff08-01` · 2 MU (envelope 1–3.5) · 1 in 100 · confidence medium
 
 **Depicted.** Dom races his cousin's stripped 1949 Chevrolet with "Cuban nitrous". A thug's motorcycle crashes into it; Dom rips off the throttle cable, the engine overheats and catches fire, the windshield breaks, and Dom turns the car around and crosses the line backwards to win.
@@ -561,7 +635,7 @@ Sources: [Wikipedia: 2 Fast 2 Furious, plot](https://en.wikipedia.org/wiki/2_Fas
 
 Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wikipedia.org/wiki/The_Fate_of_the_Furious), [Fast & Furious Wiki: The Fate of the Furious plot](https://fastandfurious.fandom.com/wiki/The_Fate_of_the_Furious)
 
-## 34. McLaren threads under two crossing lorries — Hobbs & Shaw (2019)
+## 38. McLaren threads under two crossing lorries — Hobbs & Shaw (2019)
 `ev-hs-04` · 2 MU (envelope 1–3.5) · 1 in 100 · confidence medium
 
 **Depicted.** Chased by Brixton's motorcycles, Shaw drives the McLaren 720S under two crossing articulated lorries with minimal clearance.
@@ -578,7 +652,7 @@ Sources: [Wikipedia: The Fate of the Furious, plot and production](https://en.wi
 
 Sources: [AWN: Rise FX Hobbs & Shaw motorcycle chase VFX breakdown](https://www.awn.com/news/rise-fxs-hobbs-shaw-crazy-motorcycle-chase-vfx-breakdown-reel), [BikeBound: the Hobbs & Shaw motorcycles](https://www.bikebound.com/2021/01/21/hobbes-and-shaw-motorcycle/)
 
-## 35. Dom's Charger hits a truck after the quarter mile — The Fast and the Furious (2001)
+## 39. Dom's Charger hits a truck after the quarter mile — The Fast and the Furious (2001)
 `ev-ff01-02` · 2 MU (envelope 1–3) · 1 in 100 · confidence medium
 
 **Depicted.** Straight after the drag race over the rail crossing, Dom's 1970 Charger collides with a passing truck, goes airborne and flips. Brian pulls him out; Dom then drives away in Brian's Supra before the police arrive.
@@ -593,7 +667,7 @@ Sources: [AWN: Rise FX Hobbs & Shaw motorcycle chase VFX breakdown](https://www.
 
 Sources: [Wikipedia: The Fast and the Furious (2001 film), plot](https://en.wikipedia.org/wiki/The_Fast_and_the_Furious_(2001_film)), [Wikipedia: Brian O'Conner](https://en.wikipedia.org/wiki/Brian_O%27Conner)
 
-## 36. Novice beats the Drift King on his own mountain — The Fast and the Furious: Tokyo Drift (2006)
+## 40. Novice beats the Drift King on his own mountain — The Fast and the Furious: Tokyo Drift (2006)
 `ev-ff03-01` · 2 MU (envelope 1–3) · 1 in 100 · confidence low
 
 **Depicted.** Weeks after first learning to drift (he wrecked a borrowed car on his first attempt), Sean beats Takashi, the local Drift King, in a downhill duel on a mountain road that only Takashi has completed. Takashi crashes off the road trying to force Sean off.
@@ -607,7 +681,7 @@ Sources: [Wikipedia: The Fast and the Furious (2001 film), plot](https://en.wiki
 
 Sources: [Wikipedia: The Fast and the Furious: Tokyo Drift, plot](https://en.wikipedia.org/wiki/The_Fast_and_the_Furious:_Tokyo_Drift), [Looper: The ending of Tokyo Drift explained](https://www.looper.com/353393/the-ending-of-fast-and-the-furious-tokyo-drift-explained/), [PlotExplained: Tokyo Drift](https://www.plotexplained.com/movie/the-fast-and-the-furious-tokyo-drift)
 
-## 37. Letty pulled off a runaway burning tanker — Fast & Furious (2009)
+## 41. Letty pulled off a runaway burning tanker — Fast & Furious (2009)
 `ev-ff04-01` · 2 MU (envelope 1–3) · 1 in 100 · confidence medium
 
 **Depicted.** After the crew uncouples a fuel trailer on a mountain road, Letty is left on the runaway trailer as it catches fire. Dom drives in reverse to match it and pulls her clear before it goes over the edge and explodes.
@@ -624,7 +698,7 @@ Sources: [Wikipedia: The Fast and the Furious: Tokyo Drift, plot](https://en.wik
 
 Sources: [HotCars: 20 sick stunts in Fast and Furious that weren't CGI](https://www.hotcars.com/20-sick-stunts-in-fast-and-furious-that-werent-cgi/), [Driving Line: 10 most unbelievable chase scenes from Fast and Furious](https://www.drivingline.com/articles/10-most-unbelievable-chase-scenes-from-fast-and-furious/), [Screen Rant: most ridiculous scene in each Fast & Furious movie](https://screenrant.com/fast-furious-most-ridiculous-scene-each-movie/)
 
-## 38. Outrun the tunnel collapse, arrive in time to save Brian — Fast & Furious (2009)
+## 42. Outrun the tunnel collapse, arrive in time to save Brian — Fast & Furious (2009)
 `ev-ff04-02` · 2 MU (envelope 1–3) · 1 in 100 · confidence low
 
 **Depicted.** Dom speeds out of the smuggling tunnel as it collapses behind him in an explosion, and reaches the exit just as Fenix, standing over the crashed Brian, is about to shoot him. Dom rams Fenix's car and kills him.
@@ -641,7 +715,7 @@ Sources: [HotCars: 20 sick stunts in Fast and Furious that weren't CGI](https://
 
 Sources: [Wikipedia: Fast & Furious (2009 film), plot](https://en.wikipedia.org/wiki/Fast_%26_Furious_(2009_film)), [Screen Rant: most ridiculous scene in each Fast & Furious movie](https://screenrant.com/fast-furious-most-ridiculous-scene-each-movie/)
 
-## 39. Prison bus flipped by a braking Charger — Fast Five (2011)
+## 43. Prison bus flipped by a braking Charger — Fast Five (2011)
 `ev-ff05-01` · 2 MU (envelope 0.5–3) · 1 in 100 · confidence low
 
 **Depicted.** Mia forces the prison bus to swerve and Brian brakes Dom's Charger in its path. The bus rear-ends the Charger, flips and rolls several times. Dom, shackled inside, walks away with no depicted injury.
@@ -658,7 +732,7 @@ Sources: [Wikipedia: Fast & Furious (2009 film), plot](https://en.wikipedia.org/
 
 Sources: [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wiki/Fast_Five), [Fast & Furious Wiki: MCI MC-9](https://fastandfurious.fandom.com/wiki/MCI_MC-9), [TopSpeed: Dom Toretto's Dodge Charger](https://www.topspeed.com/fast-and-furious-dom-toretto-dodge-charger/)
 
-## 40. A Chieftain tank chases sports cars down a highway — Fast & Furious 6 (2013)
+## 44. A Chieftain tank chases sports cars down a highway — Fast & Furious 6 (2013)
 `ev-ff06-01` · 2 MU (envelope 1–3) · 1 in 100 · confidence medium
 
 **Depicted.** Shaw's crew takes a tank from a NATO convoy and drives it down a highway at the pace of the pursuing cars, crushing about 250 vehicles.
@@ -673,7 +747,7 @@ Sources: [Wikipedia: Fast Five, plot and production](https://en.wikipedia.org/wi
 
 Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia.org/wiki/Fast_%26_Furious_6), [SlashFilm: the Fast & Furious 6 tank attack](https://www.slashfilm.com/1286125/tank-attack-fast-furious-6-best-action-scene-ever/)
 
-## 41. Charger driven off a cliff, rolls down the mountain — Furious 7 (2015)
+## 45. Charger driven off a cliff, rolls down the mountain — Furious 7 (2015)
 `ev-ff07-02` · 2 MU (envelope 1–3) · 1 in 100 · confidence low
 
 **Depicted.** Cornered by Jakande's second convoy, Dom drives his reinforced Charger off a cliff with Ramsey aboard; it tumbles down the mountainside and both survive.
@@ -689,7 +763,7 @@ Sources: [Wikipedia: Fast & Furious 6, plot and production](https://en.wikipedia
 
 Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com/wiki/Furious_7), [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wiki/Furious_7)
 
-## 42. Hobbs flexes his arm cast off — Furious 7 (2015)
+## 46. Hobbs flexes his arm cast off — Furious 7 (2015)
 `ev-ff07-06` · 2 MU (envelope 1–3) · 1 in 100 · confidence medium
 
 **Depicted.** In hospital with his arm in a full cast after the office bombing, Hobbs sees the attack on the city, flexes his arm until the cast cracks open, and leaves to join the fight.
@@ -704,7 +778,7 @@ Sources: [Fast & Furious Wiki: Furious 7 plot](https://fastandfurious.fandom.com
 
 Sources: [Project owner's viewing confirmation (2026-09-18): in Furious 7, Hobbs breaks his arm cast by flexing](), [Wikipedia: Furious 7, plot and production](https://en.wikipedia.org/wiki/Furious_7), [The National: the truth behind Furious 7's death-defying stunts](https://www.thenationalnews.com/arts/the-truth-behind-furious-7s-death-defying-stunts-1.128554)
 
-## 43. Truck electromagnet hauls in a car — F9 (2021)
+## 47. Truck electromagnet hauls in a car — F9 (2021)
 `ev-ff09-04` · 2 MU (envelope 1–3) · 1 in 100 · confidence medium
 
 **Depicted.** Ramsey, driving the villains' electromagnet truck, uses its magnet to pull Jakob's escaping car toward them.
@@ -719,7 +793,7 @@ Sources: [Project owner's viewing confirmation (2026-09-18): in Furious 7, Hobbs
 
 Sources: [Fast & Furious Wiki: F9 plot](https://fastandfurious.fandom.com/wiki/F9), [The Movie Spoiler: F9](https://themoviespoiler.com/movies/f9/), [Movie Manifesto: F9 review (magnets, Roman's invincibility gag)](https://moviemanifesto.com/2021/07/f9-the-fast-saga-love-motion-no-9-now-with-magnets.html)
 
-## 44. Brixton defeats an entire MI6 team alone — Hobbs & Shaw (2019)
+## 48. Brixton defeats an entire MI6 team alone — Hobbs & Shaw (2019)
 `ev-hs-01` · 2 MU (envelope 1–3) · 1 in 100 · confidence low
 
 **Depicted.** Brixton Lore, alone, kills or disables the whole armed MI6 extraction team; only Hattie escapes.

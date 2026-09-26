@@ -245,11 +245,14 @@
     box.innerHTML = "";
     const list = S().films;
     const max = Math.max.apply(null, list.map((f) => f.central));
-    const worst = list.reduce((a, b) => (b.n_rejected > a.n_rejected ? b : a));
+    const most = Math.max.apply(null, list.map((f) => f.n_single_source));
+    const worst = list.filter((f) => f.n_single_source === most).map((f) => f.title);
+    const several = worst.length > 1;
     document.getElementById("films-note").textContent =
       "Total Magic Units per film, in release order. The first four films sit near the ground. " +
-      "Coverage is not even: " + worst.title + " had " + worst.n_rejected +
-      " candidates screened out, most for want of a second source, so its total is a floor rather than a verdict.";
+      "Coverage is not even: " + worst.join(" and ") + (several ? " each had " : " had ") + most +
+      " candidates held back for want of a second source, so " + (several ? "their totals are floors" : "its total is a floor") +
+      " rather than a verdict.";
 
     list.forEach((f) => {
       const col = el("div", "fcol");

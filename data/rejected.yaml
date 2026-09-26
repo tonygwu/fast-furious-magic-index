@@ -104,14 +104,17 @@
 - {id: rj-ff09-07, film: ff09, title: Jakob thrown from the truck and caught, reason: below_threshold, merged_into: null, note: "Catch mechanism not described."}
 # --- ff10
 - {id: rj-ff10-01, film: ff10, title: "Dante's survival in the Fast Five flashback", reason: plot_armor, merged_into: null, note: "Three sources give three different mechanisms; scored as plot armor (retcon)."}
-- {id: rj-ff10-03, film: ff10, title: Dante hacks the convoy trucks, reason: insufficient_sources, merged_into: null, note: "One source."}
+- {id: rj-ff10-03, film: ff10, title: Dante hacks the convoy trucks, reason: merged, merged_into: ev-ff10-01, note: "Two sources now describe Dante remotely driving the bomb truck with Tej and Ramsey locked inside; no crash or collision is described, so it is the lead-in to the rolling bomb, not a separate feat."}
 - {id: rj-ff10-04, film: ff10, title: Jakob repels the Agency raid, reason: ordinary, merged_into: null, note: "Fight against a raid team; Mia also fights."}
-- {id: rj-ff10-05, film: ff10, title: Jakob slams a man through a floor, reason: insufficient_sources, merged_into: null, note: "One source."}
-- {id: rj-ff10-06, film: ff10, title: Escape from an airliner in a stowed mini-aircraft, reason: insufficient_sources, merged_into: null, note: "One readable source."}
-- {id: rj-ff10-07, film: ff10, title: "Dom flips Isabel's car to dislodge the bomb", reason: insufficient_sources, merged_into: null, note: "Outcome sourced; the flip mechanism is single-sourced."}
+- {id: rj-ff10-05, film: ff10, title: Jakob slams a man through a floor, reason: below_threshold, merged_into: null, note: "Now three sources. A body thrown through a second-storey floor that gunfire had already weakened is judged about 1 in 10 to 1 in 30 (1-1.5 MU)."}
 - {id: rj-ff10-08, film: ff10, title: Little B unharmed in the cannon-car fight, reason: ordinary, merged_into: null, note: "Riding in a car during a chase."}
-- {id: rj-ff10-09, film: ff10, title: Two helicopters made to collide, reason: insufficient_sources, merged_into: null, note: "A search-engine paraphrase only."}
 - {id: rj-ff10-10, film: ff10, title: "Jakob's suicide ram", reason: ordinary, merged_into: null, note: "Presumed dead; fate deliberately ambiguous."}
 - {id: rj-ff10-11, film: ff10, title: Agency plane shot down, reason: not_depicted, merged_into: null, note: "Cliffhanger; outcome not shown."}
 - {id: rj-ff10-12, film: ff10, title: Letty and Cipher fall 15-20 ft and keep fighting, reason: insufficient_sources, merged_into: null, note: "One reviewer's estimate; below threshold anyway."}
 - {id: rj-ff10-13, film: ff10, title: Antarctic trek and submarine rescue, reason: plot_armor, merged_into: null, note: "Gisele's return is plot armor."}
+- {id: rj-ff10-14, film: ff10, title: Dom shields Isabel from a helicopter sniper with a car door, reason: insufficient_sources, merged_into: null, note: "The door appears in one independent source; the other is a Fast & Furious wiki sub-page, which is not counted as independent of the wiki's Fast X page."}
+- {id: rj-ff10-15, film: ff10, title: Dom and Aimes survive their convoy car rolling in the Rio ambush, reason: insufficient_sources, merged_into: null, note: "The ambush has several sources; the roll is described only in an actor interview."}
+- {id: rj-ff10-16, film: ff10, title: "Dante shoves Dom's Charger off the upper highway deck", reason: insufficient_sources, merged_into: null, note: "One source (a VFX interview)."}
+- {id: rj-ff10-17, film: ff10, title: Letty jumps her motorcycle over debris in Rome, reason: insufficient_sources, merged_into: null, note: "One source; an ordinary motorcycle jump in any case."}
+- {id: rj-ff10-18, film: ff10, title: "Man inside Shaw's heavy bag survives being hit by a Hummer", reason: insufficient_sources, merged_into: null, note: "One source."}
+- {id: rj-ff10-19, film: ff10, title: Tess survives a sniper shot on the Rio bridge, reason: ordinary, merged_into: null, note: "A non-fatal shoulder wound."}

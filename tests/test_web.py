@@ -68,3 +68,37 @@ def test_rendered_dom_shows_the_built_numbers(tmp_path):
     assert top["title"] in dom, "top scene title missing from the rendered page"
     assert expected in dom, f"top scene value {expected} missing from the rendered page"
     assert f"{len(SITE['events'])} SCORED EVENTS" in dom
+
+
+def test_films_carry_their_single_source_count():
+    """The coverage note must count candidates held back for want of a second source, not every rejection."""
+    for f in SITE["scopes"]["all"]["films"]:
+        expected = sum(1 for r in SITE["rejected"] if r["film"] == f["id"] and r["reason"] == "insufficient_sources")
+        assert f.get("n_single_source") == expected, f"{f['id']}: n_single_source should be {expected}"
+
+
+@pytest.mark.skipif(not Path(CHROME).exists(), reason="Chrome not installed")
+def test_coverage_note_states_the_single_source_count():
+    port = "8792"
+    server = subprocess.Popen(
+        ["python3", "-m", "http.server", port, "--directory", str(ROOT / "web")],
+        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+    )
+    try:
+        dom = subprocess.run(
+            [CHROME, "--headless", "--disable-gpu", "--no-sandbox", "--virtual-time-budget=6000",
+             "--dump-dom", f"http://127.0.0.1:{port}/index.html"],
+            capture_output=True, text=True, timeout=120,
+        ).stdout
+    finally:
+        server.terminate()
+    note = re.search(r'id="films-note"[^>]*>(.*?)</p>', dom, re.S).group(1)
+    films = SITE["scopes"]["all"]["films"]
+    top = max(sum(1 for r in SITE["rejected"] if r["film"] == f["id"] and r["reason"] == "insufficient_sources")
+              for f in films)
+    worst = [f["title"] for f in films
+             if sum(1 for r in SITE["rejected"] if r["film"] == f["id"] and r["reason"] == "insufficient_sources") == top]
+    assert f"{top} candidates held back for want of a second source" in note, note
+    for t in worst:
+        assert t.replace("&", "&amp;") in note or t in note, f"{t} missing from: {note}"
+    assert "most for want" not in note
