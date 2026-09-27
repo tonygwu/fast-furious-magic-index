@@ -33,6 +33,112 @@
    "high": 33.7473306877232,
    "low": 9.61629623610039
   },
+  "scenes": [
+   {
+    "central": 16.0,
+    "id": "ev-ff05-03"
+   },
+   {
+    "central": 12.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 7.5,
+    "id": "ev-ff09-02"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff06-03"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff07-01"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff10-06"
+   },
+   {
+    "central": 5.5,
+    "id": "ev-ff07-04"
+   },
+   {
+    "central": 4.5,
+    "id": "ev-ff10-03"
+   },
+   {
+    "central": 4.0,
+    "id": "ev-ff08-06"
+   },
+   {
+    "central": 4.0,
+    "id": "ev-ff10-01"
+   },
+   {
+    "central": 3.5,
+    "id": "ev-ff10-02"
+   },
+   {
+    "central": 3.0,
+    "id": "ev-ff05-02"
+   },
+   {
+    "central": 3.0,
+    "id": "ev-ff09-01"
+   },
+   {
+    "central": 3.0,
+    "id": "ev-ff09-07"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff06-05"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff07-05"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff09-05"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff01-02"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff04-02"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff05-04"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff07-02"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff08-01"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff10-07"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff04-01"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff10-08"
+   },
+   {
+    "central": 0.5,
+    "id": "ev-ff05-01"
+   }
+  ],
   "signature_event": "ev-ff05-03"
  },
  {
@@ -69,6 +175,40 @@
    "high": 38.70162297128589,
    "low": 16.729088639201
   },
+  "scenes": [
+   {
+    "central": 35.0,
+    "id": "ev-ff09-06"
+   },
+   {
+    "central": 24.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff07-01"
+   },
+   {
+    "central": 4.0,
+    "id": "ev-ff09-01"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff02-02"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff06-02"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff08-05"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff08-06"
+   }
+  ],
   "signature_event": "ev-ff09-06"
  },
  {
@@ -105,6 +245,32 @@
    "high": 41.854636591478695,
    "low": 19.248120300751882
   },
+  "scenes": [
+   {
+    "central": 35.0,
+    "id": "ev-ff09-06"
+   },
+   {
+    "central": 24.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff07-01"
+   },
+   {
+    "central": 3.0,
+    "id": "ev-ff09-01"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff08-05"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff08-06"
+   }
+  ],
   "signature_event": "ev-ff09-06"
  },
  {
@@ -141,6 +307,56 @@
    "high": 26.72010688042752,
    "low": 10.210897986449089
   },
+  "scenes": [
+   {
+    "central": 24.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 15.0,
+    "id": "ev-ff05-03"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff07-01"
+   },
+   {
+    "central": 5.5,
+    "id": "ev-ff07-04"
+   },
+   {
+    "central": 3.0,
+    "id": "ev-ff05-02"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff02-02"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff06-02"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff02-01"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff05-04"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff07-03"
+   },
+   {
+    "central": 1.5,
+    "id": "ev-ff05-01"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff04-02"
+   }
+  ],
   "signature_event": "ev-ff06-04"
  },
  {
@@ -177,6 +393,52 @@
    "high": 26.57952069716776,
    "low": 8.49673202614379
   },
+  "scenes": [
+   {
+    "central": 12.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 7.5,
+    "id": "ev-ff09-02"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff06-03"
+   },
+   {
+    "central": 6.0,
+    "id": "ev-ff07-01"
+   },
+   {
+    "central": 3.0,
+    "id": "ev-ff09-01"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff08-05"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff09-05"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff06-01"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff07-03"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff04-01"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff08-06"
+   }
+  ],
   "signature_event": "ev-ff06-04"
  },
  {
@@ -213,6 +475,20 @@
    "high": 18.377693282636248,
    "low": 9.885931558935361
   },
+  "scenes": [
+   {
+    "central": 24.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff09-05"
+   },
+   {
+    "central": 1.5,
+    "id": "ev-ff05-01"
+   }
+  ],
   "signature_event": "ev-ff06-04"
  },
  {
@@ -249,6 +525,16 @@
    "high": 33.10502283105023,
    "low": 17.80821917808219
   },
+  "scenes": [
+   {
+    "central": 24.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 3.5,
+    "id": "ev-ff05-04"
+   }
+  ],
   "signature_event": "ev-ff06-04"
  },
  {
@@ -285,6 +571,16 @@
    "high": 18.75,
    "low": 10.625
   },
+  "scenes": [
+   {
+    "central": 24.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff09-05"
+   }
+  ],
   "signature_event": "ev-ff06-04"
  },
  {
@@ -321,6 +617,32 @@
    "high": 29.074529074529075,
    "low": 9.336609336609335
   },
+  "scenes": [
+   {
+    "central": 12.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 7.0,
+    "id": "ev-ff08-04"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff08-05"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff07-06"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff07-05"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff08-06"
+   }
+  ],
   "signature_event": "ev-ff06-04"
  },
  {
@@ -357,6 +679,16 @@
    "high": 47.16981132075472,
    "low": 24.528301886792452
   },
+  "scenes": [
+   {
+    "central": 12.0,
+    "id": "ev-ff06-04"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff06-01"
+   }
+  ],
   "signature_event": "ev-ff06-04"
  },
  {
@@ -393,6 +725,32 @@
    "high": 14.972419227738376,
    "low": 3.546099290780142
   },
+  "scenes": [
+   {
+    "central": 3.0,
+    "id": "ev-ff09-01"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff08-05"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff09-05"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff07-02"
+   },
+   {
+    "central": 2.0,
+    "id": "ev-ff09-04"
+   },
+   {
+    "central": 1.0,
+    "id": "ev-ff08-06"
+   }
+  ],
   "signature_event": "ev-ff09-01"
  },
  {
@@ -429,6 +787,20 @@
    "high": 25.577557755775576,
    "low": 5.9405940594059405
   },
+  "scenes": [
+   {
+    "central": 6.0,
+    "id": "ev-ff10-05"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff09-03"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff09-05"
+   }
+  ],
   "signature_event": "ev-ff10-05"
  },
  {
@@ -465,6 +837,20 @@
    "high": 58.139534883720934,
    "low": 16.27906976744186
   },
+  "scenes": [
+   {
+    "central": 6.0,
+    "id": "ev-ff10-05"
+   },
+   {
+    "central": 3.5,
+    "id": "ev-ff10-03"
+   },
+   {
+    "central": 1.5,
+    "id": "ev-ff10-08"
+   }
+  ],
   "signature_event": "ev-ff10-05"
  },
  {
@@ -501,6 +887,20 @@
    "high": 33.582089552238806,
    "low": 7.462686567164178
   },
+  "scenes": [
+   {
+    "central": 4.0,
+    "id": "ev-ff08-02"
+   },
+   {
+    "central": 3.0,
+    "id": "ev-ff10-04"
+   },
+   {
+    "central": 2.5,
+    "id": "ev-ff08-03"
+   }
+  ],
   "signature_event": "ev-ff08-02"
  },
  {
@@ -537,6 +937,12 @@
    "high": 26.041666666666668,
    "low": 6.25
   },
+  "scenes": [
+   {
+    "central": 3.5,
+    "id": "ev-ff05-04"
+   }
+  ],
   "signature_event": "ev-ff05-04"
  },
  {
@@ -573,6 +979,12 @@
    "high": 26.041666666666668,
    "low": 6.25
   },
+  "scenes": [
+   {
+    "central": 3.5,
+    "id": "ev-ff05-04"
+   }
+  ],
   "signature_event": "ev-ff05-04"
  },
  {
@@ -609,6 +1021,12 @@
    "high": 4.385964912280701,
    "low": 0.8771929824561403
   },
+  "scenes": [
+   {
+    "central": 2.0,
+    "id": "ev-ff03-01"
+   }
+  ],
   "signature_event": "ev-ff03-01"
  },
  {
@@ -645,6 +1063,12 @@
    "high": 7.990867579908676,
    "low": 1.36986301369863
   },
+  "scenes": [
+   {
+    "central": 2.0,
+    "id": "ev-ff01-01"
+   }
+  ],
   "signature_event": "ev-ff01-01"
  },
  {
@@ -681,6 +1105,12 @@
    "high": 26.041666666666668,
    "low": 3.125
   },
+  "scenes": [
+   {
+    "central": 1.5,
+    "id": "ev-ff10-07"
+   }
+  ],
   "signature_event": "ev-ff10-07"
  }
 ]

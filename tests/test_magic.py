@@ -2,7 +2,7 @@ import math
 
 import pytest
 
-from ff_magic.magic import mu_from_p, p_from_mu, on_grid, odds_label
+from ff_magic.magic import mu_from_p, p_from_mu, on_grid, odds_label, p_label
 
 
 def test_mu_definition():
@@ -34,3 +34,12 @@ def test_odds_label():
     assert odds_label(1) == "1 in 10"
     assert odds_label(2.5) == "1 in 300"
     assert odds_label(14, lower_bound=True) == "< 1 in 10^14"
+
+
+def test_p_label_is_scientific_with_one_significant_figure():
+    assert p_label(6) == "1×10⁻⁶"
+    assert p_label(7.5) == "3×10⁻⁸"   # 10^-7.5 = 3.2e-8
+    assert p_label(2.5) == "3×10⁻³"
+    assert p_label(2) == "1×10⁻²"
+    assert p_label(12) == "1×10⁻¹²"
+    assert p_label(35, lower_bound=True) == "≤1×10⁻³⁵"

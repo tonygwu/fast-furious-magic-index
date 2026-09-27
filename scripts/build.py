@@ -8,7 +8,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from ff_magic.aggregate import SCOPES, character_totals, event_totals, film_totals, screen_time  # noqa: E402
 from ff_magic.dataset import load_dataset  # noqa: E402
-from ff_magic.magic import odds_label  # noqa: E402
+from ff_magic.magic import odds_label, p_label  # noqa: E402
 from ff_magic.montecarlo import simulate  # noqa: E402
 from ff_magic.render_docs import scene_notes  # noqa: E402
 from ff_magic.validate import validate  # noqa: E402
@@ -47,6 +47,7 @@ def build(data_dir: Path, out_dir: Path, web_js: Path | None, notes: Path | None
         ev = event_totals(ds, scope)
         for e in ev:
             e["odds"] = odds_label(e["central"], lower_bound=e["lower_bound"])
+            e["p"] = p_label(e["central"], lower_bound=e["lower_bound"])
             e["odds_low"] = odds_label(e["low"], lower_bound=e["lower_bound"])
             e["odds_high"] = odds_label(e["high"], lower_bound=e["lower_bound"])
         mc = simulate(ds, scope)

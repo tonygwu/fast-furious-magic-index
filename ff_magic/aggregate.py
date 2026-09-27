@@ -124,6 +124,7 @@ def character_totals(ds: Dataset, scope: str) -> list[dict]:
             "by_category": a["by_category"], "by_mode": a["by_mode"],
             "n_events": n_events, "n_films": len(a["films"]),
             "signature_event": sig,
+            "scenes": [{"id": k, "central": v} for k, v in sorted(a["events"].items(), key=lambda kv: (-kv[1], kv[0]))],
             "minutes": t, "rate_per_100": rate,
             "plot_armor": pap.get(cid, 0),
             "board_eligible": not reasons,

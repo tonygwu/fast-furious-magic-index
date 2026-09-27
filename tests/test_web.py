@@ -102,3 +102,62 @@ def test_coverage_note_states_the_single_source_count():
     for t in worst:
         assert t.replace("&", "&amp;") in note or t in note, f"{t} missing from: {note}"
     assert "most for want" not in note
+
+
+def _dom(query=""):
+    port = "8793"
+    server = subprocess.Popen(
+        ["python3", "-m", "http.server", port, "--directory", str(ROOT / "web")],
+        stdout=subprocess.DEVNULL, stderr=subprocess.DEVNULL,
+    )
+    try:
+        return subprocess.run(
+            [CHROME, "--headless", "--disable-gpu", "--no-sandbox", "--virtual-time-budget=6000",
+             "--dump-dom", f"http://127.0.0.1:{port}/index.html{query}"],
+            capture_output=True, text=True, timeout=120,
+        ).stdout
+    finally:
+        server.terminate()
+
+
+@pytest.mark.skipif(not Path(CHROME).exists(), reason="Chrome not installed")
+def test_tabs_split_scenes_and_people():
+    dom = _dom()
+    for t in ["scenes", "people", "films", "method"]:
+        assert f'id="tab-{t}"' in dom, f"tab {t} missing"
+    assert re.search(r'id="panel-scenes"(?![^>]*hidden)', dom), "scenes panel should show by default"
+    assert re.search(r'id="panel-people"[^>]*hidden', dom), "people panel should start hidden"
+    dom = _dom("#people")
+    assert re.search(r'id="panel-people"(?![^>]*hidden)', dom), "#people should open the people tab"
+
+
+@pytest.mark.skipif(not Path(CHROME).exists(), reason="Chrome not installed")
+def test_scene_rows_show_probability_characters_and_mix():
+    dom = _dom()
+    top = SITE["scopes"]["all"]["scenes"][0]
+    assert top["p"] in dom, f"probability {top['p']} missing"
+    row = re.search(r'data-id="%s".*?</button>' % re.escape(top["id"]), dom, re.S).group(0)
+    for cid in top["characters"]:
+        assert SITE["characters"][cid]["aliases"][0] in row, f"{cid} missing from the top row"
+    for cat, v in top["by_category"].items():
+        if v > 0:
+            assert f'data-cat="{cat}"' in row, f"{cat} segment missing from the top row"
+
+
+@pytest.mark.skipif(not Path(CHROME).exists(), reason="Chrome not installed")
+def test_character_deep_link_lists_their_scenes():
+    dom = _dom("?who=dom#people")
+    assert 'id="who-dom"' in dom, "?who=dom should expand Dom's scene list"
+    box = dom.split('id="who-dom"', 1)[1].split('class="cbar', 1)[0]
+    dom_row = next(c for c in SITE["scopes"]["all"]["characters"] if c["id"] == "dom")
+    for p in dom_row["scenes"]:
+        title = SITE["events"][p["id"]]["title"].replace("&", "&amp;")
+        assert title in box, f"{title} missing from Dom's list"
+
+
+@pytest.mark.skipif(not Path(CHROME).exists(), reason="Chrome not installed")
+def test_film_chart_names_each_film():
+    dom = _dom("#films")
+    chart = re.search(r'id="films".*?</section>', dom, re.S).group(0)
+    for f in SITE["films"]:
+        assert f["short"].replace("&", "&amp;") in chart, f"{f['short']} missing from the film chart"

@@ -26,6 +26,30 @@
   const filmById = {};
   D.films.forEach((f) => (filmById[f.id] = f));
   const filmLabel = (id) => filmById[id].title + " · " + filmById[id].year;
+  const short = (cid) => D.characters[cid].aliases[0];
+
+  function legendInto(id) {
+    const legend = document.getElementById(id);
+    legend.innerHTML = "";
+    CATS.forEach((c) => {
+      const s = el("span");
+      const d = el("span", "dot");
+      d.style.background = CATCOLOR[c];
+      s.appendChild(d);
+      s.appendChild(document.createTextNode(c));
+      legend.appendChild(s);
+    });
+  }
+
+  // Credited MU per character per scene, from the build, used to order names and list scenes.
+  function creditMap() {
+    const m = {};
+    S().characters.forEach((c) => {
+      m[c.id] = {};
+      c.scenes.forEach((p) => (m[c.id][p.id] = p.central));
+    });
+    return m;
+  }
 
   let scope = "all";
   const S = () => D.scopes[scope];
@@ -124,24 +148,56 @@
     const openId = new URLSearchParams(location.search).get("open");
     const box = document.getElementById("scenes");
     box.innerHTML = "";
+    legendInto("scenes-legend");
     const list = S().scenes;
     const max = list[0].central;
+    const credit = creditMap();
     document.getElementById("scenes-note").textContent =
-      list.length + " scored events. Bar length is linear in Magic Units, and Magic Units are already a log scale, so each full step is another ten-fold drop in the odds. “≥” marks a capped lower bound: a component that breaks a hard physical limit is held at " +
+      list.length + " scored events. Bar length is linear in Magic Units, and Magic Units are already a log scale, so each full step is another ten-fold drop in the odds. The colours show how much of each score comes from physics, survival, skill and coincidence. “≥” marks a capped lower bound: a component that breaks a hard physical limit is held at " +
       fmt(D.config.record_horizon_mu) + " MU rather than given an invented number.";
+
+    const head = el("div", "rowhead");
+    head.setAttribute("aria-hidden", "true");
+    ["#", "Scene", "Probability", "Credited", "MU"].forEach((h) => head.appendChild(el("span", null, h)));
+    box.appendChild(head);
 
     list.forEach((s, i) => {
       const row = el("button", "row");
+      row.dataset.id = s.id;
       row.setAttribute("aria-expanded", "false");
       row.appendChild(el("span", "rank", String(i + 1).padStart(2, "0")));
       row.appendChild(el("span", "name", s.title));
+      const facts = el("span", "facts");
+      const p = el("span", "p", s.p);
+      p.title = "Estimated probability, range " + s.odds_low + " to " + s.odds_high;
+      facts.appendChild(p);
+      const names = s.characters.slice().sort((a, b) =>
+        (credit[b] ? credit[b][s.id] || 0 : 0) - (credit[a] ? credit[a][s.id] || 0 : 0) || short(a).localeCompare(short(b)));
+      const shown = names.slice(0, 5).map(short);
+      facts.appendChild(el("span", "who", shown.join(", ") + (names.length > 5 ? " +" + (names.length - 5) + " more" : "")));
+      row.appendChild(facts);
       row.appendChild(el("span", "value", mu(s.central, s.lower_bound)));
-      row.appendChild(el("span", "film", filmLabel(s.film) + " · " + s.odds));
+      row.appendChild(el("span", "film", filmLabel(s.film)));
       const track = el("span", "track");
-      const fill = el("span", "fill");
-      fill.style.width = Math.max(2, (s.central / max) * 100) + "%";
-      track.appendChild(fill);
+      const mix = el("span", "mix");
+      CATS.forEach((cat) => {
+        const v = s.by_category[cat];
+        if (v <= 0) return;
+        const seg = el("span", "seg");
+        seg.dataset.cat = cat;
+        seg.style.width = (v / max) * 100 + "%";
+        seg.style.background = CATCOLOR[cat];
+        seg.title = cat + " " + fmt(v) + " MU";
+        track.appendChild(seg);
+        const m = el("span", "mixitem");
+        const d = el("span", "dot");
+        d.style.background = CATCOLOR[cat];
+        m.appendChild(d);
+        m.appendChild(document.createTextNode(cat + " " + fmt(v)));
+        mix.appendChild(m);
+      });
       row.appendChild(track);
+      row.appendChild(mix);
       box.appendChild(row);
 
       let open = null;
@@ -161,29 +217,32 @@
     });
   }
 
+  function openScene(id, instant) {
+    selectTab("scenes");
+    const row = document.querySelector('.row[data-id="' + id + '"]');
+    if (!row) return;
+    if (row.getAttribute("aria-expanded") !== "true") row.click();
+    row.scrollIntoView({ block: "start", behavior: instant ? "auto" : "smooth" });
+  }
+
   /* ---------- characters ---------- */
   function characters() {
-    const legend = document.getElementById("legend");
-    legend.innerHTML = "";
-    CATS.forEach((c) => {
-      const s = el("span");
-      const d = el("span", "dot");
-      d.style.background = CATCOLOR[c];
-      s.appendChild(d);
-      s.appendChild(document.createTextNode(c));
-      legend.appendChild(s);
-    });
-
+    legendInto("legend");
+    const who = new URLSearchParams(location.search).get("who");
     const box = document.getElementById("chars");
     box.innerHTML = "";
     const eligible = S().characters.filter((c) => c.board_eligible);
     const max = Math.max.apply(null, eligible.map((c) => c.central));
+    const sceneById = {};
+    S().scenes.forEach((s) => (sceneById[s.id] = s));
     document.getElementById("chars-note").textContent =
       "Everyone in a stunt gets its full score, so these totals add up to more than the scene totals. They are an additive index of absurdity, not the probability of a life. A character needs " +
-      D.config.board_min_events + " scored events and " + fmt(D.config.board_min_minutes) + " estimated minutes to be ranked.";
+      D.config.board_min_events + " scored events and " + fmt(D.config.board_min_minutes) + " estimated minutes to be ranked. Tap a name to see their scenes.";
 
     eligible.forEach((c) => {
-      const r = el("div", "cbar");
+      const r = el("button", "cbar");
+      r.dataset.who = c.id;
+      r.setAttribute("aria-expanded", "false");
       r.appendChild(el("span", "cname", c.name));
       const stack = el("span", "stack");
       CATS.forEach((cat) => {
@@ -198,6 +257,32 @@
       r.appendChild(stack);
       r.appendChild(el("span", "ctot", mu(c.central, c.lower_bound)));
       box.appendChild(r);
+
+      let open = null;
+      const toggle = () => {
+        if (open) {
+          open.remove();
+          open = null;
+          r.setAttribute("aria-expanded", "false");
+          return;
+        }
+        open = el("div", "whobox");
+        open.id = "who-" + c.id;
+        open.appendChild(el("p", "whohead", c.name + " is credited in " + c.scenes.length + " scored scenes. The first number is their share; the second is the scene's full score."));
+        c.scenes.forEach((p) => {
+          const s = sceneById[p.id];
+          const item = el("button", "witem");
+          item.appendChild(el("span", "wname", s.title));
+          item.appendChild(el("span", "wfilm", filmLabel(s.film)));
+          item.appendChild(el("span", "wmu", fmt(p.central) + " of " + mu(s.central, s.lower_bound) + " MU"));
+          item.addEventListener("click", () => openScene(s.id));
+          open.appendChild(item);
+        });
+        r.after(open);
+        r.setAttribute("aria-expanded", "true");
+      };
+      r.addEventListener("click", toggle);
+      if (who === c.id) toggle();
     });
 
     const small = S().characters.filter((c) => !c.board_eligible).slice(0, 6);
@@ -258,10 +343,13 @@
       const col = el("div", "fcol");
       col.appendChild(el("div", "fval", mu(f.central, f.lower_bound)));
       const bar = el("div", "fbar" + (f.spinoff ? " spin" : ""));
-      bar.style.height = Math.max(3, (f.central / max) * 150) + "px";
+      bar.style.setProperty("--v", String(f.central / max));
       bar.title = f.title + ": " + fmt(f.central) + " MU across " + f.n_events + " events";
       col.appendChild(bar);
-      col.appendChild(el("div", "flab", f.year));
+      const lab = el("div", "flab");
+      lab.appendChild(el("span", "fname", filmById[f.id].short));
+      lab.appendChild(el("span", "fyear", String(f.year) + (f.spinoff ? " · spin-off" : "")));
+      col.appendChild(lab);
       box.appendChild(col);
     });
   }
@@ -383,6 +471,44 @@
     f.appendChild(foot);
   }
 
+  /* ---------- tabs ---------- */
+  const TABS = ["scenes", "people", "films", "method"];
+  function selectTab(name, focus) {
+    TABS.forEach((t) => {
+      const on = t === name;
+      const tab = document.getElementById("tab-" + t);
+      tab.setAttribute("aria-selected", String(on));
+      tab.tabIndex = on ? 0 : -1;
+      document.getElementById("panel-" + t).hidden = !on;
+      if (on && focus) tab.focus();
+    });
+    if (location.hash !== "#" + name) history.replaceState(null, "", location.pathname + location.search + "#" + name);
+  }
+  function initTabs() {
+    TABS.forEach((t, i) => {
+      const tab = document.getElementById("tab-" + t);
+      tab.addEventListener("click", () => selectTab(t));
+      tab.addEventListener("keydown", (e) => {
+        const step = e.key === "ArrowRight" ? 1 : e.key === "ArrowLeft" ? -1 : 0;
+        if (step) selectTab(TABS[(i + step + TABS.length) % TABS.length], true);
+      });
+    });
+    window.addEventListener("hashchange", () => {
+      const h = location.hash.slice(1);
+      if (TABS.includes(h)) selectTab(h);
+    });
+    const params = new URLSearchParams(location.search);
+    const h = location.hash.slice(1);
+    const start = params.get("open") ? "scenes" : params.get("who") ? "people" : TABS.includes(h) ? h : "scenes";
+    document.getElementById("panel-" + start).hidden = false;
+    TABS.forEach((t) => {
+      const on = t === start;
+      document.getElementById("tab-" + t).setAttribute("aria-selected", String(on));
+      document.getElementById("tab-" + t).tabIndex = on ? 0 : -1;
+      document.getElementById("panel-" + t).hidden = !on;
+    });
+  }
+
   /* ---------- controls ---------- */
   function renderAll() {
     ladder();
@@ -438,6 +564,10 @@
       label();
     });
     label();
+    initTabs();
     setScope(scope);
+    const target = new URLSearchParams(location.search).get("open");
+    // Scroll only once web fonts have loaded; a font swap after the scroll would push the row off screen.
+    if (target) (document.fonts ? document.fonts.ready : Promise.resolve()).then(() => openScene(target, true));
   }
 })();

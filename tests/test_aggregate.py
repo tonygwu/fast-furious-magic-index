@@ -74,3 +74,11 @@ def test_film_totals(ds):
     assert f["fa"]["median_event"] == pytest.approx(9.5)
     assert f["fb"]["central"] == 5
     assert f["fa"]["n_rejected"] == 1
+
+
+def test_character_scene_breakdown_sums_to_total(ds):
+    for c in character_totals(ds, scope="all"):
+        parts = c["scenes"]
+        assert [p["central"] for p in parts] == sorted((p["central"] for p in parts), reverse=True)
+        assert sum(p["central"] for p in parts) == pytest.approx(c["central"])
+        assert len(parts) == c["n_events"]

@@ -4371,6 +4371,7 @@
    "id": "ff01",
    "release_order": 1,
    "runtime_min": 106.83,
+   "short": "Fast & the Furious",
    "spinoff": false,
    "title": "The Fast and the Furious",
    "year": 2001
@@ -4379,6 +4380,7 @@
    "id": "ff02",
    "release_order": 2,
    "runtime_min": 107.0,
+   "short": "2 Fast 2 Furious",
    "spinoff": false,
    "title": "2 Fast 2 Furious",
    "year": 2003
@@ -4387,6 +4389,7 @@
    "id": "ff03",
    "release_order": 3,
    "runtime_min": 104.0,
+   "short": "Tokyo Drift",
    "spinoff": false,
    "title": "The Fast and the Furious: Tokyo Drift",
    "year": 2006
@@ -4395,6 +4398,7 @@
    "id": "ff04",
    "release_order": 4,
    "runtime_min": 107.0,
+   "short": "Fast & Furious",
    "spinoff": false,
    "title": "Fast & Furious",
    "year": 2009
@@ -4403,6 +4407,7 @@
    "id": "ff05",
    "release_order": 5,
    "runtime_min": 130.0,
+   "short": "Fast Five",
    "spinoff": false,
    "title": "Fast Five",
    "year": 2011
@@ -4411,6 +4416,7 @@
    "id": "ff06",
    "release_order": 6,
    "runtime_min": 130.0,
+   "short": "Fast & Furious 6",
    "spinoff": false,
    "title": "Fast & Furious 6",
    "year": 2013
@@ -4419,6 +4425,7 @@
    "id": "ff07",
    "release_order": 7,
    "runtime_min": 137.3,
+   "short": "Furious 7",
    "spinoff": false,
    "title": "Furious 7",
    "year": 2015
@@ -4427,6 +4434,7 @@
    "id": "ff08",
    "release_order": 8,
    "runtime_min": 136.0,
+   "short": "Fate of the Furious",
    "spinoff": false,
    "title": "The Fate of the Furious",
    "year": 2017
@@ -4435,6 +4443,7 @@
    "id": "hs",
    "release_order": 9,
    "runtime_min": 137.0,
+   "short": "Hobbs & Shaw",
    "spinoff": true,
    "title": "Hobbs & Shaw",
    "year": 2019
@@ -4443,6 +4452,7 @@
    "id": "ff09",
    "release_order": 10,
    "runtime_min": 143.0,
+   "short": "F9",
    "spinoff": false,
    "title": "F9",
    "year": 2021
@@ -4451,6 +4461,7 @@
    "id": "ff10",
    "release_order": 11,
    "runtime_min": 141.0,
+   "short": "Fast X",
    "spinoff": false,
    "title": "Fast X",
    "year": 2023
@@ -6334,6 +6345,112 @@
       "high": 33.7473306877232,
       "low": 9.61629623610039
      },
+     "scenes": [
+      {
+       "central": 16.0,
+       "id": "ev-ff05-03"
+      },
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 7.5,
+       "id": "ev-ff09-02"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff06-03"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff10-06"
+      },
+      {
+       "central": 5.5,
+       "id": "ev-ff07-04"
+      },
+      {
+       "central": 4.5,
+       "id": "ev-ff10-03"
+      },
+      {
+       "central": 4.0,
+       "id": "ev-ff08-06"
+      },
+      {
+       "central": 4.0,
+       "id": "ev-ff10-01"
+      },
+      {
+       "central": 3.5,
+       "id": "ev-ff10-02"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff05-02"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-07"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff06-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff07-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff01-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff04-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff05-04"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff08-01"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff10-07"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff04-01"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff10-08"
+      },
+      {
+       "central": 0.5,
+       "id": "ev-ff05-01"
+      }
+     ],
      "signature_event": "ev-ff05-03"
     },
     {
@@ -6370,6 +6487,40 @@
       "high": 38.70162297128589,
       "low": 16.729088639201
      },
+     "scenes": [
+      {
+       "central": 35.0,
+       "id": "ev-ff09-06"
+      },
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 4.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff02-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff06-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff09-06"
     },
     {
@@ -6406,6 +6557,32 @@
       "high": 41.854636591478695,
       "low": 19.248120300751882
      },
+     "scenes": [
+      {
+       "central": 35.0,
+       "id": "ev-ff09-06"
+      },
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff09-06"
     },
     {
@@ -6442,6 +6619,56 @@
       "high": 26.72010688042752,
       "low": 10.210897986449089
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 15.0,
+       "id": "ev-ff05-03"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 5.5,
+       "id": "ev-ff07-04"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff05-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff02-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff06-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff02-01"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff05-04"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-03"
+      },
+      {
+       "central": 1.5,
+       "id": "ev-ff05-01"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff04-02"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -6478,6 +6705,52 @@
       "high": 26.57952069716776,
       "low": 8.49673202614379
      },
+     "scenes": [
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 7.5,
+       "id": "ev-ff09-02"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff06-03"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff06-01"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-03"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff04-01"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -6514,6 +6787,44 @@
       "high": 29.75250131648236,
       "low": 10.584518167456556
      },
+     "scenes": [
+      {
+       "central": 13.0,
+       "id": "ev-hs-05"
+      },
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 7.0,
+       "id": "ev-ff08-04"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-hs-03"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-06"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff07-05"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-hs-04"
+      }
+     ],
      "signature_event": "ev-hs-05"
     },
     {
@@ -6550,6 +6861,20 @@
       "high": 18.377693282636248,
       "low": 9.885931558935361
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 1.5,
+       "id": "ev-ff05-01"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -6586,6 +6911,16 @@
       "high": 33.10502283105023,
       "low": 17.80821917808219
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 3.5,
+       "id": "ev-ff05-04"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -6622,6 +6957,16 @@
       "high": 18.75,
       "low": 10.625
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -6658,6 +7003,16 @@
       "high": 37.878787878787875,
       "low": 19.696969696969695
      },
+     "scenes": [
+      {
+       "central": 12.0,
+       "id": "ev-hs-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-hs-01"
+      }
+     ],
      "signature_event": "ev-hs-02"
     },
     {
@@ -6694,6 +7049,16 @@
       "high": 47.16981132075472,
       "low": 24.528301886792452
      },
+     "scenes": [
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff06-01"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -6730,6 +7095,16 @@
       "high": 23.80952380952381,
       "low": 12.755102040816327
      },
+     "scenes": [
+      {
+       "central": 12.0,
+       "id": "ev-hs-02"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-hs-04"
+      }
+     ],
      "signature_event": "ev-hs-02"
     },
     {
@@ -6766,6 +7141,32 @@
       "high": 14.972419227738376,
       "low": 3.546099290780142
      },
+     "scenes": [
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff09-04"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff09-01"
     },
     {
@@ -6802,6 +7203,20 @@
       "high": 25.577557755775576,
       "low": 5.9405940594059405
      },
+     "scenes": [
+      {
+       "central": 6.0,
+       "id": "ev-ff10-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-03"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      }
+     ],
      "signature_event": "ev-ff10-05"
     },
     {
@@ -6838,6 +7253,20 @@
       "high": 58.139534883720934,
       "low": 16.27906976744186
      },
+     "scenes": [
+      {
+       "central": 6.0,
+       "id": "ev-ff10-05"
+      },
+      {
+       "central": 3.5,
+       "id": "ev-ff10-03"
+      },
+      {
+       "central": 1.5,
+       "id": "ev-ff10-08"
+      }
+     ],
      "signature_event": "ev-ff10-05"
     },
     {
@@ -6874,6 +7303,20 @@
       "high": 33.582089552238806,
       "low": 7.462686567164178
      },
+     "scenes": [
+      {
+       "central": 4.0,
+       "id": "ev-ff08-02"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff10-04"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-03"
+      }
+     ],
      "signature_event": "ev-ff08-02"
     },
     {
@@ -6910,6 +7353,12 @@
       "high": 26.041666666666668,
       "low": 6.25
      },
+     "scenes": [
+      {
+       "central": 3.5,
+       "id": "ev-ff05-04"
+      }
+     ],
      "signature_event": "ev-ff05-04"
     },
     {
@@ -6946,6 +7395,12 @@
       "high": 26.041666666666668,
       "low": 6.25
      },
+     "scenes": [
+      {
+       "central": 3.5,
+       "id": "ev-ff05-04"
+      }
+     ],
      "signature_event": "ev-ff05-04"
     },
     {
@@ -6982,6 +7437,16 @@
       "high": 4.29352068696331,
       "low": 0.702576112412178
      },
+     "scenes": [
+      {
+       "central": 2.0,
+       "id": "ev-hs-04"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-hs-05"
+      }
+     ],
      "signature_event": "ev-hs-04"
     },
     {
@@ -7018,6 +7483,12 @@
       "high": 4.385964912280701,
       "low": 0.8771929824561403
      },
+     "scenes": [
+      {
+       "central": 2.0,
+       "id": "ev-ff03-01"
+      }
+     ],
      "signature_event": "ev-ff03-01"
     },
     {
@@ -7054,6 +7525,12 @@
       "high": 7.990867579908676,
       "low": 1.36986301369863
      },
+     "scenes": [
+      {
+       "central": 2.0,
+       "id": "ev-ff01-01"
+      }
+     ],
      "signature_event": "ev-ff01-01"
     },
     {
@@ -7090,6 +7567,12 @@
       "high": 26.041666666666668,
       "low": 3.125
      },
+     "scenes": [
+      {
+       "central": 1.5,
+       "id": "ev-ff10-07"
+      }
+     ],
      "signature_event": "ev-ff10-07"
     }
    ],
@@ -8615,6 +9098,7 @@
      "odds": "< 1 in 10^35",
      "odds_high": "< 1 in 10^41",
      "odds_low": "< 1 in 10^32",
+     "p": "≤1×10⁻³⁵",
      "primary_category": "coincidence",
      "title": "Pontiac Fiero goes to space"
     },
@@ -8647,6 +9131,7 @@
      "odds": "< 1 in 10^24",
      "odds_high": "< 1 in 10^24",
      "odds_low": "< 1 in 10^24",
+     "p": "≤1×10⁻²⁴",
      "primary_category": "physics",
      "title": "The endless runway"
     },
@@ -8671,6 +9156,7 @@
      "odds": "< 1 in 10^16",
      "odds_high": "< 1 in 10^19",
      "odds_low": "< 1 in 3×10^14",
+     "p": "≤1×10⁻¹⁶",
      "primary_category": "physics",
      "title": "Two Chargers drag a bank vault through Rio"
     },
@@ -8695,6 +9181,7 @@
      "odds": "< 1 in 10^13",
      "odds_high": "< 1 in 10^14",
      "odds_low": "< 1 in 3×10^12",
+     "p": "≤1×10⁻¹³",
      "primary_category": "physics",
      "title": "Hobbs holds a Black Hawk by its chain"
     },
@@ -8719,6 +9206,7 @@
      "odds": "< 1 in 10^12",
      "odds_high": "< 1 in 10^12",
      "odds_low": "< 1 in 10^12",
+     "p": "≤1×10⁻¹²",
      "primary_category": "physics",
      "title": "Brixton runs down a skyscraper's slanted face carrying Hattie"
     },
@@ -8743,6 +9231,7 @@
      "odds": "1 in 3×10^7",
      "odds_high": "1 in 3×10^12",
      "odds_low": "1 in 30,000",
+     "p": "3×10⁻⁸",
      "primary_category": "physics",
      "title": "Charger swings across the gorge on the bridge's rope"
     },
@@ -8766,6 +9255,7 @@
      "odds": "1 in 10^7",
      "odds_high": "1 in 10^14",
      "odds_low": "1 in 3,000",
+     "p": "1×10⁻⁷",
      "primary_category": "physics",
      "title": "Hobbs redirects a torpedo by hand"
     },
@@ -8793,6 +9283,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 3×10^8",
      "odds_low": "1 in 10,000",
+     "p": "1×10⁻⁶",
      "primary_category": "coincidence",
      "title": "Five cars parachuted onto a mountain road"
     },
@@ -8817,6 +9308,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 10^8",
      "odds_low": "1 in 3,000",
+     "p": "1×10⁻⁶",
      "primary_category": "physics",
      "title": "Escaping an airliner mid-flight in a small aircraft from the cargo hold"
     },
@@ -8840,6 +9332,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 3×10^7",
      "odds_low": "1 in 3,000",
+     "p": "1×10⁻⁶",
      "primary_category": "physics",
      "title": "Two harpoon helicopters made to collide, then swung as flails"
     },
@@ -8864,6 +9357,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 10^7",
      "odds_low": "1 in 10,000",
+     "p": "1×10⁻⁶",
      "primary_category": "survival",
      "title": "Dom catches Letty in mid-air over the highway"
     },
@@ -8888,6 +9382,7 @@
      "odds": "1 in 300,000",
      "odds_high": "1 in 3×10^9",
      "odds_low": "1 in 1,000",
+     "p": "3×10⁻⁶",
      "primary_category": "physics",
      "title": "Lykan HyperSport jumps between the Etihad Towers"
     },
@@ -8912,6 +9407,7 @@
      "odds": "1 in 30,000",
      "odds_high": "1 in 10^7",
      "odds_low": "1 in 1,000",
+     "p": "3×10⁻⁵",
      "primary_category": "survival",
      "title": "Driving down the face of a 460 ft dam"
     },
@@ -8939,6 +9435,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 10^7",
      "odds_low": "1 in 300",
+     "p": "1×10⁻⁴",
      "primary_category": "physics",
      "title": "Outrunning landmines at 80 mph"
     },
@@ -8967,6 +9464,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 3×10^6",
      "odds_low": "1 in 100",
+     "p": "1×10⁻⁴",
      "primary_category": "skill",
      "title": "Dom leads a homing missile into the submarine"
     },
@@ -8990,6 +9488,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 3×10^6",
      "odds_low": "1 in 100",
+     "p": "1×10⁻⁴",
      "primary_category": "skill",
      "title": "Steering a rolling bomb through Rome into the Tiber"
     },
@@ -9013,6 +9512,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 100,000",
      "odds_low": "1 in 300",
+     "p": "1×10⁻⁴",
      "primary_category": "skill",
      "title": "Zero Day hack of a thousand cars and the raining cars"
     },
@@ -9037,6 +9537,7 @@
      "odds": "1 in 3,000",
      "odds_high": "1 in 10^6",
      "odds_low": "1 in 100",
+     "p": "3×10⁻⁴",
      "primary_category": "coincidence",
      "title": "Charger launched off a collapsing garage at a helicopter"
     },
@@ -9060,6 +9561,7 @@
      "odds": "1 in 3,000",
      "odds_high": "1 in 10^6",
      "odds_low": "1 in 30",
+     "p": "3×10⁻⁴",
      "primary_category": "physics",
      "title": "Charger dropped from a cargo plane onto the highway"
     },
@@ -9087,6 +9589,7 @@
      "odds": "1 in 3,000",
      "odds_high": "1 in 100,000",
      "odds_low": "1 in 100",
+     "p": "3×10⁻⁴",
      "primary_category": "coincidence",
      "title": "Vault swapped into a garbage truck mid-chase, unseen"
     },
@@ -9111,6 +9614,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 100,000",
      "odds_low": "1 in 30",
+     "p": "1×10⁻³",
      "primary_category": "skill",
      "title": "Brian runs off a bus falling off a cliff, Letty drifts in to catch him"
     },
@@ -9134,6 +9638,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 100,000",
      "odds_low": "1 in 30",
+     "p": "1×10⁻³",
      "primary_category": "skill",
      "title": "Hobbs descends the tower by leaping onto people"
     },
@@ -9157,6 +9662,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 30",
+     "p": "1×10⁻³",
      "primary_category": "coincidence",
      "title": "Blast-thrown truck swats Cipher's drone"
     },
@@ -9180,6 +9686,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 30",
+     "p": "1×10⁻³",
      "primary_category": "survival",
      "title": "Cipher rides a free-falling elevator down on a human cushion"
     },
@@ -9204,6 +9711,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 100",
+     "p": "1×10⁻³",
      "primary_category": "survival",
      "title": "Corvette off a 300 ft canyon, both swim away"
     },
@@ -9228,6 +9736,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Camaro ramp-jumps onto a moving yacht"
     },
@@ -9251,6 +9760,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Jakob and his car snatched by a magnet aircraft"
     },
@@ -9274,6 +9784,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "coincidence",
      "title": "Dom drives out through the exploding plane's nose"
     },
@@ -9297,6 +9808,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "A nuclear submarine chases cars through the ice"
     },
@@ -9321,6 +9833,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "skill",
      "title": "Dom flips Isabel's car to knock the bomb off"
     },
@@ -9345,6 +9858,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "skill",
      "title": "Little B leaps from Dante's moving car into Dom's Charger"
     },
@@ -9369,6 +9883,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Brian and Roman overturn the tank"
     },
@@ -9396,6 +9911,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "survival",
      "title": "Cars thrown 60 ft by torpedo blasts, everyone lives"
     },
@@ -9424,6 +9940,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Magnetised cars flip an armoured truck out of Tbilisi"
     },
@@ -9447,6 +9964,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "Cable boarding of a moving semi"
     },
@@ -9470,6 +9988,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Skyline jumps a rising drawbridge"
     },
@@ -9493,6 +10012,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Havana race won on fire and in reverse"
     },
@@ -9518,6 +10038,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "McLaren threads under two crossing lorries"
     },
@@ -9541,6 +10062,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "survival",
      "title": "Dom's Charger hits a truck after the quarter mile"
     },
@@ -9564,6 +10086,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "Novice beats the Drift King on his own mountain"
     },
@@ -9588,6 +10111,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "Letty pulled off a runaway burning tanker"
     },
@@ -9612,6 +10136,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "coincidence",
      "title": "Outrun the tunnel collapse, arrive in time to save Brian"
     },
@@ -9637,6 +10162,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 3",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Prison bus flipped by a braking Charger"
     },
@@ -9661,6 +10187,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "A Chieftain tank chases sports cars down a highway"
     },
@@ -9685,6 +10212,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "survival",
      "title": "Charger driven off a cliff, rolls down the mountain"
     },
@@ -9708,6 +10236,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Hobbs flexes his arm cast off"
     },
@@ -9731,6 +10260,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Truck electromagnet hauls in a car"
     },
@@ -9754,6 +10284,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "Brixton defeats an entire MI6 team alone"
     }
@@ -10127,6 +10658,112 @@
       "high": 33.7473306877232,
       "low": 9.61629623610039
      },
+     "scenes": [
+      {
+       "central": 16.0,
+       "id": "ev-ff05-03"
+      },
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 7.5,
+       "id": "ev-ff09-02"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff06-03"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff10-06"
+      },
+      {
+       "central": 5.5,
+       "id": "ev-ff07-04"
+      },
+      {
+       "central": 4.5,
+       "id": "ev-ff10-03"
+      },
+      {
+       "central": 4.0,
+       "id": "ev-ff08-06"
+      },
+      {
+       "central": 4.0,
+       "id": "ev-ff10-01"
+      },
+      {
+       "central": 3.5,
+       "id": "ev-ff10-02"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff05-02"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-07"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff06-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff07-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff01-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff04-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff05-04"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff08-01"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff10-07"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff04-01"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff10-08"
+      },
+      {
+       "central": 0.5,
+       "id": "ev-ff05-01"
+      }
+     ],
      "signature_event": "ev-ff05-03"
     },
     {
@@ -10163,6 +10800,40 @@
       "high": 38.70162297128589,
       "low": 16.729088639201
      },
+     "scenes": [
+      {
+       "central": 35.0,
+       "id": "ev-ff09-06"
+      },
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 4.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff02-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff06-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff09-06"
     },
     {
@@ -10199,6 +10870,32 @@
       "high": 41.854636591478695,
       "low": 19.248120300751882
      },
+     "scenes": [
+      {
+       "central": 35.0,
+       "id": "ev-ff09-06"
+      },
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff09-06"
     },
     {
@@ -10235,6 +10932,56 @@
       "high": 26.72010688042752,
       "low": 10.210897986449089
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 15.0,
+       "id": "ev-ff05-03"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 5.5,
+       "id": "ev-ff07-04"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff05-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff02-02"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff06-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff02-01"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff05-04"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-03"
+      },
+      {
+       "central": 1.5,
+       "id": "ev-ff05-01"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff04-02"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -10271,6 +11018,52 @@
       "high": 26.57952069716776,
       "low": 8.49673202614379
      },
+     "scenes": [
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 7.5,
+       "id": "ev-ff09-02"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff06-03"
+      },
+      {
+       "central": 6.0,
+       "id": "ev-ff07-01"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff06-01"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-03"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff04-01"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -10307,6 +11100,20 @@
       "high": 18.377693282636248,
       "low": 9.885931558935361
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 1.5,
+       "id": "ev-ff05-01"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -10343,6 +11150,16 @@
       "high": 33.10502283105023,
       "low": 17.80821917808219
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 3.5,
+       "id": "ev-ff05-04"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -10379,6 +11196,16 @@
       "high": 18.75,
       "low": 10.625
      },
+     "scenes": [
+      {
+       "central": 24.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -10415,6 +11242,32 @@
       "high": 29.074529074529075,
       "low": 9.336609336609335
      },
+     "scenes": [
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 7.0,
+       "id": "ev-ff08-04"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-06"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff07-05"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -10451,6 +11304,16 @@
       "high": 47.16981132075472,
       "low": 24.528301886792452
      },
+     "scenes": [
+      {
+       "central": 12.0,
+       "id": "ev-ff06-04"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff06-01"
+      }
+     ],
      "signature_event": "ev-ff06-04"
     },
     {
@@ -10487,6 +11350,32 @@
       "high": 14.972419227738376,
       "low": 3.546099290780142
      },
+     "scenes": [
+      {
+       "central": 3.0,
+       "id": "ev-ff09-01"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff07-02"
+      },
+      {
+       "central": 2.0,
+       "id": "ev-ff09-04"
+      },
+      {
+       "central": 1.0,
+       "id": "ev-ff08-06"
+      }
+     ],
      "signature_event": "ev-ff09-01"
     },
     {
@@ -10523,6 +11412,20 @@
       "high": 25.577557755775576,
       "low": 5.9405940594059405
      },
+     "scenes": [
+      {
+       "central": 6.0,
+       "id": "ev-ff10-05"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-03"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff09-05"
+      }
+     ],
      "signature_event": "ev-ff10-05"
     },
     {
@@ -10559,6 +11462,20 @@
       "high": 58.139534883720934,
       "low": 16.27906976744186
      },
+     "scenes": [
+      {
+       "central": 6.0,
+       "id": "ev-ff10-05"
+      },
+      {
+       "central": 3.5,
+       "id": "ev-ff10-03"
+      },
+      {
+       "central": 1.5,
+       "id": "ev-ff10-08"
+      }
+     ],
      "signature_event": "ev-ff10-05"
     },
     {
@@ -10595,6 +11512,20 @@
       "high": 33.582089552238806,
       "low": 7.462686567164178
      },
+     "scenes": [
+      {
+       "central": 4.0,
+       "id": "ev-ff08-02"
+      },
+      {
+       "central": 3.0,
+       "id": "ev-ff10-04"
+      },
+      {
+       "central": 2.5,
+       "id": "ev-ff08-03"
+      }
+     ],
      "signature_event": "ev-ff08-02"
     },
     {
@@ -10631,6 +11562,12 @@
       "high": 26.041666666666668,
       "low": 6.25
      },
+     "scenes": [
+      {
+       "central": 3.5,
+       "id": "ev-ff05-04"
+      }
+     ],
      "signature_event": "ev-ff05-04"
     },
     {
@@ -10667,6 +11604,12 @@
       "high": 26.041666666666668,
       "low": 6.25
      },
+     "scenes": [
+      {
+       "central": 3.5,
+       "id": "ev-ff05-04"
+      }
+     ],
      "signature_event": "ev-ff05-04"
     },
     {
@@ -10703,6 +11646,12 @@
       "high": 4.385964912280701,
       "low": 0.8771929824561403
      },
+     "scenes": [
+      {
+       "central": 2.0,
+       "id": "ev-ff03-01"
+      }
+     ],
      "signature_event": "ev-ff03-01"
     },
     {
@@ -10739,6 +11688,12 @@
       "high": 7.990867579908676,
       "low": 1.36986301369863
      },
+     "scenes": [
+      {
+       "central": 2.0,
+       "id": "ev-ff01-01"
+      }
+     ],
      "signature_event": "ev-ff01-01"
     },
     {
@@ -10775,6 +11730,12 @@
       "high": 26.041666666666668,
       "low": 3.125
      },
+     "scenes": [
+      {
+       "central": 1.5,
+       "id": "ev-ff10-07"
+      }
+     ],
      "signature_event": "ev-ff10-07"
     }
    ],
@@ -12155,6 +13116,7 @@
      "odds": "< 1 in 10^35",
      "odds_high": "< 1 in 10^41",
      "odds_low": "< 1 in 10^32",
+     "p": "≤1×10⁻³⁵",
      "primary_category": "coincidence",
      "title": "Pontiac Fiero goes to space"
     },
@@ -12187,6 +13149,7 @@
      "odds": "< 1 in 10^24",
      "odds_high": "< 1 in 10^24",
      "odds_low": "< 1 in 10^24",
+     "p": "≤1×10⁻²⁴",
      "primary_category": "physics",
      "title": "The endless runway"
     },
@@ -12211,6 +13174,7 @@
      "odds": "< 1 in 10^16",
      "odds_high": "< 1 in 10^19",
      "odds_low": "< 1 in 3×10^14",
+     "p": "≤1×10⁻¹⁶",
      "primary_category": "physics",
      "title": "Two Chargers drag a bank vault through Rio"
     },
@@ -12235,6 +13199,7 @@
      "odds": "1 in 3×10^7",
      "odds_high": "1 in 3×10^12",
      "odds_low": "1 in 30,000",
+     "p": "3×10⁻⁸",
      "primary_category": "physics",
      "title": "Charger swings across the gorge on the bridge's rope"
     },
@@ -12258,6 +13223,7 @@
      "odds": "1 in 10^7",
      "odds_high": "1 in 10^14",
      "odds_low": "1 in 3,000",
+     "p": "1×10⁻⁷",
      "primary_category": "physics",
      "title": "Hobbs redirects a torpedo by hand"
     },
@@ -12285,6 +13251,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 3×10^8",
      "odds_low": "1 in 10,000",
+     "p": "1×10⁻⁶",
      "primary_category": "coincidence",
      "title": "Five cars parachuted onto a mountain road"
     },
@@ -12309,6 +13276,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 10^8",
      "odds_low": "1 in 3,000",
+     "p": "1×10⁻⁶",
      "primary_category": "physics",
      "title": "Escaping an airliner mid-flight in a small aircraft from the cargo hold"
     },
@@ -12332,6 +13300,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 3×10^7",
      "odds_low": "1 in 3,000",
+     "p": "1×10⁻⁶",
      "primary_category": "physics",
      "title": "Two harpoon helicopters made to collide, then swung as flails"
     },
@@ -12356,6 +13325,7 @@
      "odds": "1 in 10^6",
      "odds_high": "1 in 10^7",
      "odds_low": "1 in 10,000",
+     "p": "1×10⁻⁶",
      "primary_category": "survival",
      "title": "Dom catches Letty in mid-air over the highway"
     },
@@ -12380,6 +13350,7 @@
      "odds": "1 in 300,000",
      "odds_high": "1 in 3×10^9",
      "odds_low": "1 in 1,000",
+     "p": "3×10⁻⁶",
      "primary_category": "physics",
      "title": "Lykan HyperSport jumps between the Etihad Towers"
     },
@@ -12404,6 +13375,7 @@
      "odds": "1 in 30,000",
      "odds_high": "1 in 10^7",
      "odds_low": "1 in 1,000",
+     "p": "3×10⁻⁵",
      "primary_category": "survival",
      "title": "Driving down the face of a 460 ft dam"
     },
@@ -12431,6 +13403,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 10^7",
      "odds_low": "1 in 300",
+     "p": "1×10⁻⁴",
      "primary_category": "physics",
      "title": "Outrunning landmines at 80 mph"
     },
@@ -12459,6 +13432,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 3×10^6",
      "odds_low": "1 in 100",
+     "p": "1×10⁻⁴",
      "primary_category": "skill",
      "title": "Dom leads a homing missile into the submarine"
     },
@@ -12482,6 +13456,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 3×10^6",
      "odds_low": "1 in 100",
+     "p": "1×10⁻⁴",
      "primary_category": "skill",
      "title": "Steering a rolling bomb through Rome into the Tiber"
     },
@@ -12505,6 +13480,7 @@
      "odds": "1 in 10,000",
      "odds_high": "1 in 100,000",
      "odds_low": "1 in 300",
+     "p": "1×10⁻⁴",
      "primary_category": "skill",
      "title": "Zero Day hack of a thousand cars and the raining cars"
     },
@@ -12529,6 +13505,7 @@
      "odds": "1 in 3,000",
      "odds_high": "1 in 10^6",
      "odds_low": "1 in 100",
+     "p": "3×10⁻⁴",
      "primary_category": "coincidence",
      "title": "Charger launched off a collapsing garage at a helicopter"
     },
@@ -12552,6 +13529,7 @@
      "odds": "1 in 3,000",
      "odds_high": "1 in 10^6",
      "odds_low": "1 in 30",
+     "p": "3×10⁻⁴",
      "primary_category": "physics",
      "title": "Charger dropped from a cargo plane onto the highway"
     },
@@ -12579,6 +13557,7 @@
      "odds": "1 in 3,000",
      "odds_high": "1 in 100,000",
      "odds_low": "1 in 100",
+     "p": "3×10⁻⁴",
      "primary_category": "coincidence",
      "title": "Vault swapped into a garbage truck mid-chase, unseen"
     },
@@ -12603,6 +13582,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 100,000",
      "odds_low": "1 in 30",
+     "p": "1×10⁻³",
      "primary_category": "skill",
      "title": "Brian runs off a bus falling off a cliff, Letty drifts in to catch him"
     },
@@ -12626,6 +13606,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 30",
+     "p": "1×10⁻³",
      "primary_category": "coincidence",
      "title": "Blast-thrown truck swats Cipher's drone"
     },
@@ -12649,6 +13630,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 30",
+     "p": "1×10⁻³",
      "primary_category": "survival",
      "title": "Cipher rides a free-falling elevator down on a human cushion"
     },
@@ -12673,6 +13655,7 @@
      "odds": "1 in 1,000",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 100",
+     "p": "1×10⁻³",
      "primary_category": "survival",
      "title": "Corvette off a 300 ft canyon, both swim away"
     },
@@ -12697,6 +13680,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Camaro ramp-jumps onto a moving yacht"
     },
@@ -12720,6 +13704,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 30,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Jakob and his car snatched by a magnet aircraft"
     },
@@ -12743,6 +13728,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "coincidence",
      "title": "Dom drives out through the exploding plane's nose"
     },
@@ -12766,6 +13752,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "A nuclear submarine chases cars through the ice"
     },
@@ -12790,6 +13777,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 10,000",
      "odds_low": "1 in 10",
+     "p": "3×10⁻³",
      "primary_category": "skill",
      "title": "Dom flips Isabel's car to knock the bomb off"
     },
@@ -12814,6 +13802,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "skill",
      "title": "Little B leaps from Dante's moving car into Dom's Charger"
     },
@@ -12838,6 +13827,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Brian and Roman overturn the tank"
     },
@@ -12865,6 +13855,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "survival",
      "title": "Cars thrown 60 ft by torpedo blasts, everyone lives"
     },
@@ -12893,6 +13884,7 @@
      "odds": "1 in 300",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 30",
+     "p": "3×10⁻³",
      "primary_category": "physics",
      "title": "Magnetised cars flip an armoured truck out of Tbilisi"
     },
@@ -12916,6 +13908,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "Cable boarding of a moving semi"
     },
@@ -12939,6 +13932,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Skyline jumps a rising drawbridge"
     },
@@ -12962,6 +13956,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 3,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Havana race won on fire and in reverse"
     },
@@ -12985,6 +13980,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "survival",
      "title": "Dom's Charger hits a truck after the quarter mile"
     },
@@ -13008,6 +14004,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "Novice beats the Drift King on his own mountain"
     },
@@ -13032,6 +14029,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "skill",
      "title": "Letty pulled off a runaway burning tanker"
     },
@@ -13056,6 +14054,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "coincidence",
      "title": "Outrun the tunnel collapse, arrive in time to save Brian"
     },
@@ -13081,6 +14080,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 3",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Prison bus flipped by a braking Charger"
     },
@@ -13105,6 +14105,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "A Chieftain tank chases sports cars down a highway"
     },
@@ -13129,6 +14130,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "survival",
      "title": "Charger driven off a cliff, rolls down the mountain"
     },
@@ -13152,6 +14154,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Hobbs flexes his arm cast off"
     },
@@ -13175,6 +14178,7 @@
      "odds": "1 in 100",
      "odds_high": "1 in 1,000",
      "odds_low": "1 in 10",
+     "p": "1×10⁻²",
      "primary_category": "physics",
      "title": "Truck electromagnet hauls in a car"
     }

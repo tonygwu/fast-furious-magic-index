@@ -20,6 +20,7 @@
   "odds": "< 1 in 10^35",
   "odds_high": "< 1 in 10^41",
   "odds_low": "< 1 in 10^32",
+  "p": "≤1×10⁻³⁵",
   "primary_category": "coincidence",
   "title": "Pontiac Fiero goes to space"
  },
@@ -52,6 +53,7 @@
   "odds": "< 1 in 10^24",
   "odds_high": "< 1 in 10^24",
   "odds_low": "< 1 in 10^24",
+  "p": "≤1×10⁻²⁴",
   "primary_category": "physics",
   "title": "The endless runway"
  },
@@ -76,6 +78,7 @@
   "odds": "< 1 in 10^16",
   "odds_high": "< 1 in 10^19",
   "odds_low": "< 1 in 3×10^14",
+  "p": "≤1×10⁻¹⁶",
   "primary_category": "physics",
   "title": "Two Chargers drag a bank vault through Rio"
  },
@@ -100,6 +103,7 @@
   "odds": "1 in 3×10^7",
   "odds_high": "1 in 3×10^12",
   "odds_low": "1 in 30,000",
+  "p": "3×10⁻⁸",
   "primary_category": "physics",
   "title": "Charger swings across the gorge on the bridge's rope"
  },
@@ -123,6 +127,7 @@
   "odds": "1 in 10^7",
   "odds_high": "1 in 10^14",
   "odds_low": "1 in 3,000",
+  "p": "1×10⁻⁷",
   "primary_category": "physics",
   "title": "Hobbs redirects a torpedo by hand"
  },
@@ -150,6 +155,7 @@
   "odds": "1 in 10^6",
   "odds_high": "1 in 3×10^8",
   "odds_low": "1 in 10,000",
+  "p": "1×10⁻⁶",
   "primary_category": "coincidence",
   "title": "Five cars parachuted onto a mountain road"
  },
@@ -174,6 +180,7 @@
   "odds": "1 in 10^6",
   "odds_high": "1 in 10^8",
   "odds_low": "1 in 3,000",
+  "p": "1×10⁻⁶",
   "primary_category": "physics",
   "title": "Escaping an airliner mid-flight in a small aircraft from the cargo hold"
  },
@@ -197,6 +204,7 @@
   "odds": "1 in 10^6",
   "odds_high": "1 in 3×10^7",
   "odds_low": "1 in 3,000",
+  "p": "1×10⁻⁶",
   "primary_category": "physics",
   "title": "Two harpoon helicopters made to collide, then swung as flails"
  },
@@ -221,6 +229,7 @@
   "odds": "1 in 10^6",
   "odds_high": "1 in 10^7",
   "odds_low": "1 in 10,000",
+  "p": "1×10⁻⁶",
   "primary_category": "survival",
   "title": "Dom catches Letty in mid-air over the highway"
  },
@@ -245,6 +254,7 @@
   "odds": "1 in 300,000",
   "odds_high": "1 in 3×10^9",
   "odds_low": "1 in 1,000",
+  "p": "3×10⁻⁶",
   "primary_category": "physics",
   "title": "Lykan HyperSport jumps between the Etihad Towers"
  },
@@ -269,6 +279,7 @@
   "odds": "1 in 30,000",
   "odds_high": "1 in 10^7",
   "odds_low": "1 in 1,000",
+  "p": "3×10⁻⁵",
   "primary_category": "survival",
   "title": "Driving down the face of a 460 ft dam"
  },
@@ -296,6 +307,7 @@
   "odds": "1 in 10,000",
   "odds_high": "1 in 10^7",
   "odds_low": "1 in 300",
+  "p": "1×10⁻⁴",
   "primary_category": "physics",
   "title": "Outrunning landmines at 80 mph"
  },
@@ -324,6 +336,7 @@
   "odds": "1 in 10,000",
   "odds_high": "1 in 3×10^6",
   "odds_low": "1 in 100",
+  "p": "1×10⁻⁴",
   "primary_category": "skill",
   "title": "Dom leads a homing missile into the submarine"
  },
@@ -347,6 +360,7 @@
   "odds": "1 in 10,000",
   "odds_high": "1 in 3×10^6",
   "odds_low": "1 in 100",
+  "p": "1×10⁻⁴",
   "primary_category": "skill",
   "title": "Steering a rolling bomb through Rome into the Tiber"
  },
@@ -370,6 +384,7 @@
   "odds": "1 in 10,000",
   "odds_high": "1 in 100,000",
   "odds_low": "1 in 300",
+  "p": "1×10⁻⁴",
   "primary_category": "skill",
   "title": "Zero Day hack of a thousand cars and the raining cars"
  },
@@ -394,6 +409,7 @@
   "odds": "1 in 3,000",
   "odds_high": "1 in 10^6",
   "odds_low": "1 in 100",
+  "p": "3×10⁻⁴",
   "primary_category": "coincidence",
   "title": "Charger launched off a collapsing garage at a helicopter"
  },
@@ -417,6 +433,7 @@
   "odds": "1 in 3,000",
   "odds_high": "1 in 10^6",
   "odds_low": "1 in 30",
+  "p": "3×10⁻⁴",
   "primary_category": "physics",
   "title": "Charger dropped from a cargo plane onto the highway"
  },
@@ -444,6 +461,7 @@
   "odds": "1 in 3,000",
   "odds_high": "1 in 100,000",
   "odds_low": "1 in 100",
+  "p": "3×10⁻⁴",
   "primary_category": "coincidence",
   "title": "Vault swapped into a garbage truck mid-chase, unseen"
  },
@@ -468,6 +486,7 @@
   "odds": "1 in 1,000",
   "odds_high": "1 in 100,000",
   "odds_low": "1 in 30",
+  "p": "1×10⁻³",
   "primary_category": "skill",
   "title": "Brian runs off a bus falling off a cliff, Letty drifts in to catch him"
  },
@@ -491,6 +510,7 @@
   "odds": "1 in 1,000",
   "odds_high": "1 in 30,000",
   "odds_low": "1 in 30",
+  "p": "1×10⁻³",
   "primary_category": "coincidence",
   "title": "Blast-thrown truck swats Cipher's drone"
  },
@@ -514,6 +534,7 @@
   "odds": "1 in 1,000",
   "odds_high": "1 in 30,000",
   "odds_low": "1 in 30",
+  "p": "1×10⁻³",
   "primary_category": "survival",
   "title": "Cipher rides a free-falling elevator down on a human cushion"
  },
@@ -538,6 +559,7 @@
   "odds": "1 in 1,000",
   "odds_high": "1 in 10,000",
   "odds_low": "1 in 100",
+  "p": "1×10⁻³",
   "primary_category": "survival",
   "title": "Corvette off a 300 ft canyon, both swim away"
  },
@@ -562,6 +584,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 30,000",
   "odds_low": "1 in 10",
+  "p": "3×10⁻³",
   "primary_category": "physics",
   "title": "Camaro ramp-jumps onto a moving yacht"
  },
@@ -585,6 +608,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 30,000",
   "odds_low": "1 in 10",
+  "p": "3×10⁻³",
   "primary_category": "physics",
   "title": "Jakob and his car snatched by a magnet aircraft"
  },
@@ -608,6 +632,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 10,000",
   "odds_low": "1 in 30",
+  "p": "3×10⁻³",
   "primary_category": "coincidence",
   "title": "Dom drives out through the exploding plane's nose"
  },
@@ -631,6 +656,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 10,000",
   "odds_low": "1 in 10",
+  "p": "3×10⁻³",
   "primary_category": "physics",
   "title": "A nuclear submarine chases cars through the ice"
  },
@@ -655,6 +681,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 10,000",
   "odds_low": "1 in 10",
+  "p": "3×10⁻³",
   "primary_category": "skill",
   "title": "Dom flips Isabel's car to knock the bomb off"
  },
@@ -679,6 +706,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 3,000",
   "odds_low": "1 in 30",
+  "p": "3×10⁻³",
   "primary_category": "skill",
   "title": "Little B leaps from Dante's moving car into Dom's Charger"
  },
@@ -703,6 +731,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 30",
+  "p": "3×10⁻³",
   "primary_category": "physics",
   "title": "Brian and Roman overturn the tank"
  },
@@ -730,6 +759,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 30",
+  "p": "3×10⁻³",
   "primary_category": "survival",
   "title": "Cars thrown 60 ft by torpedo blasts, everyone lives"
  },
@@ -758,6 +788,7 @@
   "odds": "1 in 300",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 30",
+  "p": "3×10⁻³",
   "primary_category": "physics",
   "title": "Magnetised cars flip an armoured truck out of Tbilisi"
  },
@@ -781,6 +812,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 3,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "skill",
   "title": "Cable boarding of a moving semi"
  },
@@ -804,6 +836,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 3,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "physics",
   "title": "Skyline jumps a rising drawbridge"
  },
@@ -827,6 +860,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 3,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "physics",
   "title": "Havana race won on fire and in reverse"
  },
@@ -850,6 +884,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "survival",
   "title": "Dom's Charger hits a truck after the quarter mile"
  },
@@ -873,6 +908,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "skill",
   "title": "Novice beats the Drift King on his own mountain"
  },
@@ -897,6 +933,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "skill",
   "title": "Letty pulled off a runaway burning tanker"
  },
@@ -921,6 +958,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "coincidence",
   "title": "Outrun the tunnel collapse, arrive in time to save Brian"
  },
@@ -946,6 +984,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 3",
+  "p": "1×10⁻²",
   "primary_category": "physics",
   "title": "Prison bus flipped by a braking Charger"
  },
@@ -970,6 +1009,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "physics",
   "title": "A Chieftain tank chases sports cars down a highway"
  },
@@ -994,6 +1034,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "survival",
   "title": "Charger driven off a cliff, rolls down the mountain"
  },
@@ -1017,6 +1058,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "physics",
   "title": "Hobbs flexes his arm cast off"
  },
@@ -1040,6 +1082,7 @@
   "odds": "1 in 100",
   "odds_high": "1 in 1,000",
   "odds_low": "1 in 10",
+  "p": "1×10⁻²",
   "primary_category": "physics",
   "title": "Truck electromagnet hauls in a car"
  }

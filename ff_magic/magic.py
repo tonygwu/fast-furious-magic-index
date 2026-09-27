@@ -33,3 +33,15 @@ def odds_label(mu: float, lower_bound: bool = False) -> str:
     else:
         body = f"1 in {lead}×10^{whole}"
     return ("< " if lower_bound else "") + body
+
+
+_SUP = str.maketrans("-0123456789", "⁻⁰¹²³⁴⁵⁶⁷⁸⁹")
+
+
+def p_label(mu: float, lower_bound: bool = False) -> str:
+    """Probability in scientific notation, one significant figure. 7.5 MU -> '3×10⁻⁸'."""
+    exp = math.ceil(mu - 1e-9)       # 10^-7.5 = 3.2 x 10^-8, so the exponent rounds up
+    lead = round(10 ** (exp - mu))   # 1 for integer MU, 3 for a half step
+    if lead == 10:
+        lead, exp = 1, exp - 1
+    return ("≤" if lower_bound else "") + f"{lead}×10" + str(-exp).translate(_SUP)

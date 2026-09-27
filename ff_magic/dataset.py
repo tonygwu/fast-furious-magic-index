@@ -24,6 +24,7 @@ Role = Literal["controller", "occupant", "performer", "survivor", "beneficiary"]
 class Film(Strict):
     id: str
     title: str
+    short: str
     year: int
     runtime_min: float
     release_order: int
