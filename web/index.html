@@ -50,13 +50,13 @@
   <div class="ladder" id="ladder"></div>
 
   <nav class="tabs" role="tablist" aria-label="Sections">
-    <button role="tab" id="tab-scenes" aria-controls="panel-scenes" aria-selected="true">Scenes</button>
-    <button role="tab" id="tab-people" aria-controls="panel-people" aria-selected="false" tabindex="-1">People</button>
+    <button role="tab" id="tab-people" aria-controls="panel-people" aria-selected="true">People</button>
+    <button role="tab" id="tab-scenes" aria-controls="panel-scenes" aria-selected="false" tabindex="-1">Scenes</button>
     <button role="tab" id="tab-films" aria-controls="panel-films" aria-selected="false" tabindex="-1">Films</button>
     <button role="tab" id="tab-method" aria-controls="panel-method" aria-selected="false" tabindex="-1">Method</button>
   </nav>
 
-  <section id="panel-scenes" role="tabpanel" aria-labelledby="tab-scenes">
+  <section id="panel-scenes" role="tabpanel" aria-labelledby="tab-scenes" hidden>
     <h2>The most impossible scenes</h2>
     <p class="note" id="scenes-note"></p>
     <div class="legend" id="scenes-legend"></div>
@@ -64,7 +64,7 @@
     <p class="note">Tap any scene to open its worksheet: every component, its evidence type, the reasoning, and the sources.</p>
   </section>
 
-  <section id="panel-people" role="tabpanel" aria-labelledby="tab-people" hidden>
+  <section id="panel-people" role="tabpanel" aria-labelledby="tab-people">
     <h2>Who has logged the most impossibility</h2>
     <p class="note" id="chars-note"></p>
     <div class="legend" id="legend"></div>

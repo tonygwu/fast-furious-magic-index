@@ -125,10 +125,13 @@ def test_tabs_split_scenes_and_people():
     dom = _dom()
     for t in ["scenes", "people", "films", "method"]:
         assert f'id="tab-{t}"' in dom, f"tab {t} missing"
-    assert re.search(r'id="panel-scenes"(?![^>]*hidden)', dom), "scenes panel should show by default"
-    assert re.search(r'id="panel-people"[^>]*hidden', dom), "people panel should start hidden"
-    dom = _dom("#people")
-    assert re.search(r'id="panel-people"(?![^>]*hidden)', dom), "#people should open the people tab"
+    order = re.findall(r'role="tab" id="tab-(\w+)"', dom)
+    assert order == ["people", "scenes", "films", "method"], f"tab order is {order}"
+    assert re.search(r'id="panel-people"(?![^>]*hidden)', dom), "people panel should show by default"
+    assert re.search(r'id="tab-people"[^>]*aria-selected="true"', dom), "people tab should start selected"
+    assert re.search(r'id="panel-scenes"[^>]*hidden', dom), "scenes panel should start hidden"
+    dom = _dom("#scenes")
+    assert re.search(r'id="panel-scenes"(?![^>]*hidden)', dom), "#scenes should open the scenes tab"
 
 
 @pytest.mark.skipif(not Path(CHROME).exists(), reason="Chrome not installed")

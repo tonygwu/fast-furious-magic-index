@@ -472,7 +472,7 @@
   }
 
   /* ---------- tabs ---------- */
-  const TABS = ["scenes", "people", "films", "method"];
+  const TABS = ["people", "scenes", "films", "method"];
   function selectTab(name, focus) {
     TABS.forEach((t) => {
       const on = t === name;
@@ -499,7 +499,7 @@
     });
     const params = new URLSearchParams(location.search);
     const h = location.hash.slice(1);
-    const start = params.get("open") ? "scenes" : params.get("who") ? "people" : TABS.includes(h) ? h : "scenes";
+    const start = params.get("open") ? "scenes" : params.get("who") ? "people" : TABS.includes(h) ? h : "people";
     document.getElementById("panel-" + start).hidden = false;
     TABS.forEach((t) => {
       const on = t === start;

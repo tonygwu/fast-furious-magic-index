@@ -202,8 +202,8 @@ h2 + .note { margin-top: 0; }
   border: 0;
   border-bottom: 3px solid transparent;
   border-radius: 0;
-  padding: 10px 14px 9px;
-  font-size: 13px;
+  padding: 12px clamp(8px, 2vw, 16px) 10px;
+  font-size: clamp(16px, 4.2vw, 21px);
   color: var(--ffmu-text-muted);
   margin-bottom: -2px;
 }
