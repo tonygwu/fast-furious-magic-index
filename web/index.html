@@ -35,9 +35,16 @@
   </p>
 
   <div class="controls">
-    <button id="scope-all" aria-pressed="true">Saga + Hobbs &amp; Shaw</button>
-    <button id="scope-saga" aria-pressed="false">Saga only</button>
-    <button id="theme" aria-pressed="false" title="Theme follows your system setting until you press this">Theme: auto</button>
+    <div class="toggle">
+      <span class="toggle-label" data-side="off">Saga + Hobbs &amp; Shaw</span>
+      <button class="switch" id="scope-switch" role="switch" aria-checked="false" aria-label="Saga only"><span class="knob"></span></button>
+      <span class="toggle-label" data-side="on">Saga only</span>
+    </div>
+    <div class="toggle">
+      <span class="toggle-label" data-side="off">Light</span>
+      <button class="switch" id="theme-switch" role="switch" aria-checked="false" aria-label="Dark theme" title="Follows your system setting until you flip it"><span class="knob"></span></button>
+      <span class="toggle-label" data-side="on">Dark</span>
+    </div>
   </div>
 
   <div class="ladder" id="ladder"></div>

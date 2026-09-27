@@ -161,3 +161,19 @@ def test_film_chart_names_each_film():
     chart = re.search(r'id="films".*?</section>', dom, re.S).group(0)
     for f in SITE["films"]:
         assert f["short"].replace("&", "&amp;") in chart, f"{f['short']} missing from the film chart"
+
+
+@pytest.mark.skipif(not Path(CHROME).exists(), reason="Chrome not installed")
+def test_scope_and_theme_are_two_state_switches():
+    """Each control is one role=switch whose aria-checked follows the scope or theme in force."""
+    def switch(dom, sid):
+        return re.search(r'<button[^>]*id="%s"[^>]*>' % sid, dom).group(0)
+    dom = _dom("?theme=light")
+    for sid in ["scope-switch", "theme-switch"]:
+        assert 'role="switch"' in switch(dom, sid), f"{sid} is not a switch"
+    assert 'aria-checked="false"' in switch(dom, "scope-switch"), "default scope should be saga + H&S"
+    assert 'aria-checked="false"' in switch(dom, "theme-switch"), "?theme=light should leave the switch off"
+    assert 'id="scope-all"' not in dom and 'id="theme"' not in dom, "old buttons still present"
+    dom = _dom("?scope=saga&theme=dark")
+    assert 'aria-checked="true"' in switch(dom, "scope-switch"), "?scope=saga should turn the scope switch on"
+    assert 'aria-checked="true"' in switch(dom, "theme-switch"), "?theme=dark should turn the theme switch on"

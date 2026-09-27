@@ -124,11 +124,41 @@ button {
   padding: 7px 12px;
   cursor: pointer;
 }
-button[aria-pressed="true"] {
-  background: var(--ffmu-accent-default);
-  border-color: var(--ffmu-accent-default);
-  color: var(--ffmu-text-on-accent);
+
+.controls .toggle { display: inline-flex; align-items: center; gap: 10px; margin-right: 16px; }
+.toggle-label {
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  color: var(--ffmu-text-muted);
 }
+.toggle:has(.switch[aria-checked="false"]) .toggle-label[data-side="off"],
+.toggle:has(.switch[aria-checked="true"]) .toggle-label[data-side="on"] { color: var(--ffmu-text-primary); }
+button.switch {
+  position: relative;
+  width: 40px;
+  height: 22px;
+  padding: 0;
+  border-radius: 11px;
+  border: 1px solid var(--ffmu-border-strong);
+  background: var(--ffmu-surface-track);
+  flex: none;
+}
+.switch .knob {
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  width: 16px;
+  height: 16px;
+  border-radius: 50%;
+  background: var(--ffmu-surface-card);
+  border: 1px solid var(--ffmu-border-strong);
+  transition: transform 0.15s ease;
+}
+.switch[aria-checked="true"] { background: var(--ffmu-accent-default); border-color: var(--ffmu-accent-default); }
+.switch[aria-checked="true"] .knob { transform: translateX(18px); border-color: var(--ffmu-accent-default); }
+@media (prefers-reduced-motion: reduce) { .switch .knob { transition: none; } }
 
 hr { border: 0; border-top: 2px solid var(--ffmu-border-strong); margin: 32px 0 24px; }
 

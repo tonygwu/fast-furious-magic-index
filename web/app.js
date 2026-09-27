@@ -521,8 +521,7 @@
 
   function setScope(next) {
     scope = next;
-    document.getElementById("scope-all").setAttribute("aria-pressed", String(next === "all"));
-    document.getElementById("scope-saga").setAttribute("aria-pressed", String(next === "saga"));
+    document.getElementById("scope-switch").setAttribute("aria-checked", String(next === "saga"));
     renderAll();
   }
 
@@ -548,21 +547,22 @@
   } else {
     document.getElementById("doccode").textContent =
       "FF-MU-1 · REV A · " + Object.keys(D.events).length + " SCORED EVENTS · " + D.films.length + " FILMS";
-    document.getElementById("scope-all").addEventListener("click", () => setScope("all"));
-    document.getElementById("scope-saga").addEventListener("click", () => setScope("saga"));
-    const tbtn = document.getElementById("theme");
-    const label = () => {
+    document.getElementById("scope-switch").addEventListener("click", () => setScope(scope === "saga" ? "all" : "saga"));
+    const tsw = document.getElementById("theme-switch");
+    const systemDark = window.matchMedia("(prefers-color-scheme: dark)");
+    // With no saved choice the switch shows the system theme; flipping it saves an explicit one.
+    const isDark = () => {
       const t = document.documentElement.getAttribute("data-theme");
-      tbtn.textContent = "Theme: " + (t ? t : "auto");
-      tbtn.setAttribute("aria-pressed", String(!!t));
+      return t ? t === "dark" : systemDark.matches;
     };
-    tbtn.addEventListener("click", () => {
-      const cur = document.documentElement.getAttribute("data-theme");
-      const next = cur === "dark" ? "light" : cur === "light" ? "" : "dark";
+    const label = () => tsw.setAttribute("aria-checked", String(isDark()));
+    tsw.addEventListener("click", () => {
+      const next = isDark() ? "light" : "dark";
       document.documentElement.setAttribute("data-theme", next);
-      try { next ? localStorage.setItem("ffmu-theme", next) : localStorage.removeItem("ffmu-theme"); } catch (e) { /* ignore */ }
+      try { localStorage.setItem("ffmu-theme", next); } catch (e) { /* ignore */ }
       label();
     });
+    systemDark.addEventListener("change", label);
     label();
     initTabs();
     setScope(scope);
